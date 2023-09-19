@@ -15,8 +15,7 @@ up. The police often arrest the wrong person. Defendants\' lawyers are
 often incompetent. And prosecutors are often motivated more by publicity
 than justice.
 
-In the real world, [about
-4%](http://time.com/79572/more-innocent-people-on-%20death-row-than-estimated-study/)
+In the real world, [about 4%](http://time.com/79572/more-innocent-people-on-%20death-row-than-estimated-study/)
 of people sentenced to death are innocent. So this is not about whether
 it\'s ok to kill killers. This is about whether it\'s ok to kill
 innocent people.
@@ -30,13 +29,13 @@ yes on 62, no on 66.
 
 It\'s time.
 
-------------------------------------------------------------------------
+---
 
 # 002 Programming Bottom-Up
 
 1993
 
-*(This essay is from the introduction to*[On Lisp](onlisp.html)\_ *.)*
+_(This essay is from the introduction to [On Lisp](onlisp.html)\_.)_
 
 It\'s a long-standing principle of programming style that the functional
 elements of a program should not be too large. If some component of a
@@ -47,8 +46,8 @@ test, and hard to debug.
 
 In accordance with this principle, a large program must be divided into
 pieces, and the larger the program, the more it must be divided. How do
-you divide a program? The traditional approach is called *top-down
-design:* you say \"the purpose of the program is to do these seven
+you divide a program? The traditional approach is called _top-down
+design:_ you say \"the purpose of the program is to do these seven
 things, so I divide it into seven major subroutines. The first
 subroutine has to do these four things, so it in turn will have four of
 its own subroutines,\" and so on. This process continues until the whole
@@ -58,7 +57,7 @@ unit.
 
 Experienced Lisp programmers divide up their programs differently. As
 well as top-down design, they follow a principle which could be called
-*bottom-up design* \-- changing the language to suit the problem. In
+_bottom-up design_ \-- changing the language to suit the problem. In
 Lisp, you don\'t just write your program down toward the language, you
 also build the language up toward your program. As you\'re writing a
 program you may think \"I wish Lisp had such-and-such an operator.\" So
@@ -122,8 +121,8 @@ whole different way of programming.
 
 It\'s true that this style of development is better suited to programs
 which can be written by small groups. However, at the same time, it
-extends the limits of what can be done by a small group. In *The
-Mythical Man-Month* , Frederick Brooks proposed that the productivity of
+extends the limits of what can be done by a small group. In _The
+Mythical Man-Month_ , Frederick Brooks proposed that the productivity of
 a group of programmers does not grow linearly with its size. As the size
 of the group increases, the productivity of individual programmers goes
 down. The experience of Lisp programming suggests a more cheerful way to
@@ -135,13 +134,7 @@ outright](avg.html).
 
 **New:** [Download On Lisp for Free](onlisptext.html).
 
-------------------------------------------------------------------------
-
-`<a name=programming_bottomup_note1>`{=html}\[1\]`</a>`{=html} \"But no
-one can read the program without understanding all your new utilities.\"
-To see why such statements are usually mistaken, see Section 4.8.
-
-------------------------------------------------------------------------
+---
 
 # 005 Lisp for Web-Based Applications
 
@@ -154,7 +147,7 @@ BBN Labs in Cambridge, MA.
 [BBN Talk Excerpts
 (ASCII)](https://sep.turbifycdn.com/ty/cdn/paulgraham/bbnexcerpts.txt?t=1688221954&)
 
-------------------------------------------------------------------------
+---
 
 # 006 Beating the Averages
 
@@ -163,8 +156,8 @@ Combinator](http://ycombinator.com/apply.html).
 
 April 2001, rev. April 2003
 
-*(This article is derived from a talk given at the 2001 Franz Developer
-Symposium.)*
+_(This article is derived from a talk given at the 2001 Franz Developer
+Symposium.)_
 
 In the summer of 1995, my friend Robert Morris and I started a startup
 called [Viaweb](http://docs.yahoo.com/docs/pr/release184.html). Our plan
@@ -313,8 +306,8 @@ fact we did have a secret weapon, but it was simpler than they realized.
 No one was leaking news of their features to us. We were just able to
 develop software faster than anyone thought possible.
 
-When I was about nine I happened to get hold of a copy of *The Day of
-the Jackal,* by Frederick Forsyth. The main character is an assassin who
+When I was about nine I happened to get hold of a copy of _The Day of
+the Jackal,_ by Frederick Forsyth. The main character is an assassin who
 is hired to kill the president of France. The assassin has to get past
 the police to get up to an apartment that overlooks the president\'s
 route. He walks right by them, dressed up as an old man on crutches, and
@@ -649,10 +642,10 @@ Hacker](http://www.catb.org/~esr/faqs/hacker-howto.html)
 
 [Italian Translation](https://marcotrombetti.com/media)
 
-------------------------------------------------------------------------
+---
 
-You\'ll find this essay and 14 others in [***Hackers &
-Painters***](http://www.amazon.com/gp/product/0596006624).
+You\'ll find this essay and 14 others in [**_Hackers &
+Painters_**](http://www.amazon.com/gp/product/0596006624).
 
 # 007 Java\'s Cover
 
@@ -673,7 +666,7 @@ understand. So, just in case it does any good, let me clarify that I\'m
 not writing here about Java (which I have never used) but about
 hacker\'s radar (which I have thought about a lot).
 
-------------------------------------------------------------------------
+---
 
 The aphorism \"you can\'t tell a book by its cover\" originated in the
 times when books were sold in plain cardboard covers, to be bound by
@@ -814,30 +807,30 @@ Agrees](http://www.businessweek.com/technology/content/dec2005/tc20051213_042973
 
 [Japanese Translation](http://d.hatena.ne.jp/lionfan/20070211)
 
-------------------------------------------------------------------------
+---
 
 # 008 Being Popular
 
 May 2001
 
-*(This article was written as a kind of business plan for a[new
+_(This article was written as a kind of business plan for a[new
 language](arc.html). So it is missing (because it takes for granted) the
 most important feature of a good programming language: very powerful
-abstractions.)*
+abstractions.)_
 
 A friend of mine once told an eminent operating systems expert that he
 wanted to design a really good programming language. The expert told him
 that it would be a waste of time, that programming languages don\'t
 become popular or unpopular based on their merits, and so no matter how
 good his language was, no one would use it. At least, that was what had
-happened to the language *he* had designed.
+happened to the language _he_ had designed.
 
 What does make a language popular? Do popular languages deserve their
 popularity? Is it worth trying to define a good programming language?
 How would you do it?
 
 I think the answers to these questions can be found by looking at
-hackers, and learning what they want. Programming languages are *for*
+hackers, and learning what they want. Programming languages are _for_
 hackers, and a programming language is good as a programming language
 (rather than, say, an exercise in denotational semantics or compiler
 design) if and only if hackers like it.
@@ -1038,7 +1031,7 @@ representation of some high-level abstraction, for example. Hackers like
 to hack, and hacking means getting inside things and second guessing the
 original designer.
 
-*Let yourself be second guessed.* When you make any tool, people use it
+_Let yourself be second guessed._ When you make any tool, people use it
 in ways you didn\'t intend, and this is especially true of a highly
 articulated tool like a programming language. Many a hacker will want to
 tweak your semantic model in a way that you never imagined. I say, let
@@ -1458,7 +1451,7 @@ won\'t even dare to take on ambitious projects.
 Anything you can do to keep the redesign cycle going is good. Prose can
 be rewritten over and over until you\'re happy with it. But software, as
 a rule, doesn\'t get redesigned enough. Prose has readers, but software
-has *users.* If a writer rewrites an essay, people who read the old
+has _users._ If a writer rewrites an essay, people who read the old
 version are unlikely to complain that their thoughts have been broken by
 some newly introduced incompatibility.
 
@@ -1621,8 +1614,8 @@ years after Lisp 1.5 was released. What was missing, initially, were
 ways to avoid variable capture and multiple evaluation; Hart\'s examples
 are subject to both.
 
-`<a name=being_popular_note2>`{=html}\[2\]`</a>`{=html} In *When the Air
-Hits Your Brain,* neurosurgeon Frank Vertosick recounts a conversation
+`<a name=being_popular_note2>`{=html}\[2\]`</a>`{=html} In _When the Air
+Hits Your Brain,_ neurosurgeon Frank Vertosick recounts a conversation
 in which his chief resident, Gary, talks about the difference between
 surgeons and internists (\"fleas\"):
 
@@ -1654,14 +1647,14 @@ Hacker](http://www.catb.org/~esr/faqs/hacker-howto.html)
 [Japanese
 Translation](http://www.shiro.dreamhost.com/scheme/trans/being-%20popular-j.html)
 
-------------------------------------------------------------------------
+---
 
 # 009 Five Questions about Language Design
 
 May 2001
 
-*(These are some notes I made for a panel discussion on programming
-language design at MIT on May 10, 2001.)*
+_(These are some notes I made for a panel discussion on programming
+language design at MIT on May 10, 2001.)_
 
 **1. Programming Languages Are for People.**
 
@@ -1886,7 +1879,7 @@ for writing compilers.\]
 You know what a throwaway program is: something you write quickly for
 some limited task. I think if you looked around you\'d find that a lot
 of big, serious programs started as throwaway programs. I would not be
-surprised if *most* programs started as throwaway programs. And so if
+surprised if _most_ programs started as throwaway programs. And so if
 you want to make a language that\'s good for writing software in
 general, it has to be good for writing throwaway programs, because that
 is the larval stage of most software.
@@ -2004,7 +1997,7 @@ should language design be any different?
 
 [Japanese Translation](http://d.hatena.ne.jp/lionfan/20070215)
 
-------------------------------------------------------------------------
+---
 
 # 010 The Roots of Lisp
 
@@ -2012,12 +2005,12 @@ should language design be any different?
 
 May 2001
 
-*(I wrote this article to help myself understand exactly what McCarthy
+_(I wrote this article to help myself understand exactly what McCarthy
 discovered. You don\'t need to know this stuff to program in Lisp, but
 it should be helpful to anyone who wants to understand the essence of
 Lisp  both in the sense of its origins and its semantic core. The fact
 that it has such a core is one of Lisp\'s distinguishing features, and
-the reason why, unlike other languages, Lisp has dialects.)*
+the reason why, unlike other languages, Lisp has dialects.)_
 
 In 1960, [John McCarthy](http://www-formal.stanford.edu/jmc/index.html)
 published a remarkable paper in which he did for programming something
@@ -2025,7 +2018,7 @@ like what Euclid did for geometry. He showed how, given a handful of
 simple operators and a notation for functions, you can build a whole
 programming language. He called this language Lisp, for \"List
 Processing,\" because one of his key ideas was to use a simple data
-structure called a *list* for both code and data.
+structure called a _list_ for both code and data.
 
 It\'s worth understanding what McCarthy discovered, not just as a
 landmark in the history of computers, but as a model for what
@@ -2065,16 +2058,16 @@ Translation](http://daiyuwen.freeshell.org/gb/rol/roots_of_lisp.html)
 
 [Korean Translation](http://blog.java2game.com/270)
 
-------------------------------------------------------------------------
+---
 
 # 011 The Other Road Ahead
 
 September 2001
 
-*(This article explains why much of the next generation of software may
+_(This article explains why much of the next generation of software may
 be server-based, what that will mean for programmers, and why this new
 kind of software is a great opportunity for startups. It\'s derived from
-a talk at BBN Labs.)*
+a talk at BBN Labs.)_
 
 In the summer of 1995, my friend Robert Morris and I decided to start a
 startup. The PR campaign leading up to Netscape\'s IPO was running full
@@ -2244,7 +2237,7 @@ running viruses, and no data locally to damage. And a program that
 attacked the servers themselves should find them very well defended.
 [2](#the_other_road_ahead_note2)
 
-For users, Web-based software will be *less stressful.* I think if you
+For users, Web-based software will be _less stressful._ I think if you
 looked inside the average Windows user you\'d find a huge and pretty
 much untapped desire for software meeting that description. Unleashed,
 it could be a powerful force.
@@ -2601,7 +2594,7 @@ programmers. (Solution: we hired more, but created new projects for
 them.)
 
 When you can write software with fewer programmers, it saves you more
-than money. As Fred Brooks pointed out in *The Mythical Man-Month,*
+than money. As Fred Brooks pointed out in _The Mythical Man-Month,_
 adding people to a project tends to slow it down. The number of possible
 connections between developers grows exponentially with the size of the
 group. The larger the group, the more time they\'ll spend in meetings
@@ -3054,7 +3047,7 @@ more.
 
 One thing that might deter you from writing Web-based applications is
 the lameness of Web pages as a UI. That is a problem, I admit. There
-were a few things we would have *really* liked to add to HTML and HTTP.
+were a few things we would have _really_ liked to add to HTML and HTTP.
 What matters, though, is that Web pages are just good enough.
 
 There is a parallel here with the first microcomputers. The processors
@@ -3257,8 +3250,8 @@ claim that their buying power meant lower prices for you?) that I was
 surprised to find it was outlawed in the U.S. by the Robinson-Patman Act
 of 1936. This law does not appear to be vigorously enforced.
 
-`<a name=the_other_road_ahead_note9>`{=html}\[9\]`</a>`{=html} In *No
-Logo,* Naomi Klein says that clothing brands favored by \"urban youth\"
+`<a name=the_other_road_ahead_note9>`{=html}\[9\]`</a>`{=html} In _No
+Logo,_ Naomi Klein says that clothing brands favored by \"urban youth\"
 do not try too hard to prevent shoplifting because in their target
 market the shoplifters are also the fashion leaders.
 
@@ -3335,8 +3328,8 @@ Raymond, Ken Anderson, and Dan Giffin for reading drafts of this paper;
 to Dan Bricklin and Bob Frankston for information about VisiCalc; and
 again to Ken Anderson for inviting me to speak at BBN.
 
-You\'ll find this essay and 14 others in [***Hackers &
-Painters***](hackpaint.html).
+You\'ll find this essay and 14 others in [**_Hackers &
+Painters_**](hackpaint.html).
 
 [Some Technical Details](lwba.html)
 
@@ -3348,15 +3341,15 @@ agrees](http://www.informationweek.com/story/showArticle.jhtml?articleID=1729006
 
 [Gates Email](gatesemail.html)
 
-------------------------------------------------------------------------
+---
 
 # 012 What Made Lisp Different
 
 December 2001 (rev. May 2002)
 
-*(This article came about in response to some questions on
+_(This article came about in response to some questions on
 the[LL1](http://ll1.mit.edu) mailing list. It is now incorporated in
-[Revenge of the Nerds](icad.html).)*
+[Revenge of the Nerds](icad.html).)_
 
 When McCarthy designed Lisp in the late 1950s, it was a radical
 departure from existing languages, the most important of which was
@@ -3364,7 +3357,7 @@ departure from existing languages, the most important of which was
 
 Lisp embodied nine new ideas:
 
-------------------------------------------------------------------------
+---
 
 **1. Conditionals.** A conditional is an if-then-else construct. We take
 these for granted now. They were
@@ -3434,7 +3427,7 @@ basis of Lisp\'s use as an extension language in programs like Emacs;
 and reading at runtime enables programs to communicate using
 s-expressions, an idea recently reinvented as XML.
 
-------------------------------------------------------------------------
+---
 
 When Lisp was first invented, all these ideas were far removed from
 ordinary programming practice, which was dictated largely by the
@@ -3459,7 +3452,7 @@ computation](rootsoflisp.html).
 
 [Japanese Translation](http://d.hatena.ne.jp/lionfan/20070217)
 
-------------------------------------------------------------------------
+---
 
 # 013 Why Arc Isn\'t Especially Object-Oriented
 
@@ -3526,7 +3519,7 @@ in that you\'ve never needed because it\'s thought to be a good idea.
 [Spanish
 Translation](http://www.cibercalli.com/erick/hackingnews/porque-arc-%20no-es-especialmente-orientado-a-objetos)
 
-------------------------------------------------------------------------
+---
 
 # 014 Taste for Makers
 
@@ -3537,18 +3530,18 @@ February 2002
 \"\...Copernicus\' aesthetic objections to \[equants\] provided one
 essential motive for his rejection of the Ptolemaic system\....\"
 
-\- Thomas Kuhn, *The Copernican Revolution*
+\- Thomas Kuhn, _The Copernican Revolution_
 
 \"All of us had been trained by Kelly Johnson and believed fanatically
 in his insistence that an airplane that looked beautiful would fly the
 same way.\"
 
-\- Ben Rich, *Skunk Works*
+\- Ben Rich, _Skunk Works_
 
 \"Beauty is the first test: there is no permanent place in this world
 for ugly mathematics.\"
 
-\- G. H. Hardy, *A Mathematician\'s Apology*
+\- G. H. Hardy, _A Mathematician\'s Apology_
 
 I was talking recently to a friend who teaches at MIT. His field is hot
 now and every year he is inundated by applications from would-be
@@ -3572,7 +3565,7 @@ questions. If there is such a thing as beauty, we need to be able to
 recognize it. We need good taste to make good things. Instead of
 treating beauty as an airy abstraction, to be either blathered about or
 avoided depending on how one feels about airy abstractions, let\'s try
-considering it as a practical question: *how do you make good stuff?*
+considering it as a practical question: _how do you make good stuff?_
 
 If you mention taste nowadays, a lot of people will tell you that
 \"taste is subjective.\" They believe this because it really feels that
@@ -3597,7 +3590,7 @@ that you should pay attention because Leonardo is a great artist.
 What goes through the kid\'s head at this point? What does he think
 \"great artist\" means? After having been told for years that everyone
 just likes to do things their own way, he is unlikely to head straight
-for the conclusion that a great artist is someone whose work is *better*
+for the conclusion that a great artist is someone whose work is _better_
 than the others\'. A far more likely theory, in his Ptolemaic model of
 the universe, is that a great artist is something that\'s good for you,
 like broccoli, because someone said so in a book.
@@ -3610,7 +3603,7 @@ Whatever job people do, they naturally want to do better. Football
 players like to win games. CEOs like to increase earnings. It\'s a
 matter of pride, and a real pleasure, to get better at your job. But if
 your job is to design things, and there is no such thing as beauty, then
-there is *no way to get better at your job.* If taste is just personal
+there is _no way to get better at your job._ If taste is just personal
 preference, then everyone\'s is already perfect: you like whatever you
 like, and that\'s it.
 
@@ -3691,7 +3684,7 @@ arrange the dials in a square like the burners.
 
 A lot of bad design is industrious, but misguided. In the mid twentieth
 century there was a vogue for setting text in sans-serif fonts. These
-fonts *are* closer to the pure, underlying letterforms. But in text
+fonts _are_ closer to the pure, underlying letterforms. But in text
 that\'s not the problem you\'re trying to solve. For legibility it\'s
 more important that letters be easy to tell apart. It may look
 Victorian, but a Times Roman lowercase g is easy to tell from a
@@ -3767,7 +3760,7 @@ the angle of a branch five degrees, no one will know. When you change
 the angle of someone\'s eye five degrees, people notice.
 
 When Bauhaus designers adopted Sullivan\'s \"form follows function,\"
-what they meant was, form *should* follow function. And if function is
+what they meant was, form _should_ follow function. And if function is
 hard enough, form is forced to follow it, because there is no effort to
 spare for error. Wild animals are beautiful because they have hard
 lives.
@@ -3783,7 +3776,7 @@ discoverer is entitled to reply, why didn\'t you?
 Some Leonardo heads are just a few lines. You look at them and you
 think, all you have to do is get eight or ten lines in the right place
 and you\'ve made this beautiful portrait. Well, yes, but you have to get
-them in *exactly* the right place. The slightest error will make the
+them in _exactly_ the right place. The slightest error will make the
 whole thing collapse.
 
 Line drawings are in fact the most difficult visual medium, because they
@@ -3824,8 +3817,8 @@ sentence to the plot of a novel. You find the same in music and art.
 Mosaics (and some Cezannes) get extra visual punch by making the whole
 picture out of the same atoms. Compositional symmetry yields some of the
 most memorable paintings, especially when two halves react to one
-another, as in the *[Creation of Adam](symptg.html)* or *[American
-Gothic](symptg.html).*
+another, as in the _[Creation of Adam](symptg.html)_ or _[American
+Gothic](symptg.html)._
 
 In math and engineering, recursion, especially, is a big win. Inductive
 proofs are wonderfully short. In software, a problem that can be solved
@@ -3865,7 +3858,7 @@ time. Experts expect to throw away some early work. They plan for plans
 to change.
 
 It takes confidence to throw work away. You have to be able to think,
-*there\'s more where that came from.* When people first start drawing,
+_there\'s more where that came from._ When people first start drawing,
 for example, they\'re often reluctant to redo parts that aren\'t right;
 they feel they\'ve been lucky to get that far, and if they try to redo
 something, it will turn out worse. Instead they convince themselves that
@@ -3915,7 +3908,7 @@ that their own vision will be lost in the process.
 **Good design is often strange.** Some of the very best work has an
 uncanny quality: [Euler\'s
 Formula](http://mathworld.wolfram.com/EulerFormula.html), Bruegel\'s
-*[Hunters in the Snow](hunters.html),* the [SR-71](sr71.html),
+_[Hunters in the Snow](hunters.html),_ the [SR-71](sr71.html),
 [Lisp](rootsoflisp.html). They\'re not just beautiful, but strangely
 beautiful.
 
@@ -3968,13 +3961,13 @@ related problems. Genes count for little by comparison: being a genetic
 Leonardo was not enough to compensate for having been born near Milan
 instead of Florence. Today we move around more, but great work still
 comes disproportionately from a few hotspots: the Bauhaus, the Manhattan
-Project, the *New Yorker,* Lockheed\'s Skunk Works, Xerox Parc.
+Project, the _New Yorker,_ Lockheed\'s Skunk Works, Xerox Parc.
 
 At any given time there are a few hot topics and a few groups doing
 great work on them, and it\'s nearly impossible to do good work yourself
 if you\'re too far removed from one of these centers. You can push or
 pull these trends to some extent, but you can\'t break away from them.
-(Maybe *you* can, but the Milanese Leonardo couldn\'t.)
+(Maybe _you_ can, but the Milanese Leonardo couldn\'t.)
 
 **Good design is often daring.** At every period of history, people have
 believed things that were just ridiculous, and believed them so strongly
@@ -3999,8 +3992,8 @@ pay particular attention to them.
 As a practical matter, I think it\'s easier to see ugliness than to
 imagine beauty. Most of the people who\'ve made beautiful things seem to
 have done it by fixing something that they thought ugly. Great work
-usually seems to happen because someone sees something and thinks, *I
-could do better than that.* Giotto saw traditional Byzantine madonnas
+usually seems to happen because someone sees something and thinks, _I
+could do better than that._ Giotto saw traditional Byzantine madonnas
 painted according to a formula that had satisfied everyone for
 centuries, and to him they looked wooden and unnatural. Copernicus was
 so troubled by a hack that all his contemporaries could tolerate that he
@@ -4009,8 +4002,8 @@ felt there must be a better solution.
 Intolerance for ugliness is not in itself enough. You have to understand
 a field well before you develop a good nose for what needs fixing. You
 have to do your homework. But as you become expert in a field, you\'ll
-start to hear little voices saying, *What a hack! There must be a better
-way.* Don\'t ignore those voices. Cultivate them. The recipe for great
+start to hear little voices saying, _What a hack! There must be a better
+way._ Don\'t ignore those voices. Cultivate them. The recipe for great
 work is: very exacting taste, plus the ability to gratify it.
 
 **Notes**
@@ -4036,10 +4029,10 @@ Glaser](http://www.believermag.com/issues/200309/?read=interview_glaser)
 
 [Russian Translation](http://pujib.livejournal.com/492.html)
 
-------------------------------------------------------------------------
+---
 
-You\'ll find this essay and 14 others in [***Hackers &
-Painters***](http://www.amazon.com/gp/product/0596006624).
+You\'ll find this essay and 14 others in [**_Hackers &
+Painters_**](http://www.amazon.com/gp/product/0596006624).
 
 # 015 What Languages Fix
 
@@ -4106,7 +4099,7 @@ Translation](http://jargonf.org/wiki/Document:Un_langage_veut_en_corriger_un_aut
 
 [Portuguese Translation](http://rudamoura.com/consertam.html)
 
-------------------------------------------------------------------------
+---
 
 # 016 Succinctness is Power
 
@@ -4130,7 +4123,7 @@ then substituting, we get
 
 > Python\'s goal is regularity and readability, not power.
 
-and this doesn\'t seem a tradeoff (if it *is* a tradeoff) that you\'d
+and this doesn\'t seem a tradeoff (if it _is_ a tradeoff) that you\'d
 want to make. It\'s not far from saying that Python\'s goal is not to be
 effective as a programming language.
 
@@ -4146,7 +4139,7 @@ My hypothesis is that succinctness is power, or is close enough that
 except in pathological examples you can treat them as identical.
 
 It seems to me that succinctness is what programming languages are
-*for.* Computers would be just as happy to be told what to do directly
+_for._ Computers would be just as happy to be told what to do directly
 in machine language. I think that the main reason we take the trouble to
 develop high- level languages is to get leverage, so that we can say
 (and more importantly, think) in 10 lines of a high-level language what
@@ -4196,7 +4189,7 @@ the amount of work you have to do to write or read it.
 
 This kind of metric would allow us to compare different languages, but
 that is not, at least for me, its main value. The main value of the
-succinctness test is as a guide in *designing* languages. The most
+succinctness test is as a guide in _designing_ languages. The most
 useful comparison between languages is between two potential variants of
 the same language. What can I do in the language to make programs
 shorter?
@@ -4209,7 +4202,7 @@ good language?
 
 (Incidentally, nothing makes it more patently obvious that the old
 chestnut \"all languages are equivalent\" is false than designing
-languages. When you are designing a new language, you\'re *constantly*
+languages. When you are designing a new language, you\'re _constantly_
 comparing two languages\-- the language if I did x, and if I didn\'t\--
 to decide which is better. If this were really a meaningless question,
 you might as well flip a coin.)
@@ -4225,7 +4218,7 @@ for new ideas: Forth, Joy, Icon.
 **Comparison**
 
 The first person to write about these issues, as far as I know, was Fred
-Brooks in the *Mythical Man Month*. He wrote that programmers seemed to
+Brooks in the _Mythical Man Month_. He wrote that programmers seemed to
 generate about the same amount of code per day regardless of the
 language. When I first read this in my early twenties, it was a big
 surprise to me and seemed to have huge implications. It meant that (a)
@@ -4296,7 +4289,7 @@ think, then choose/design the language that feels best. If some language
 feature is awkward or restricting, don\'t worry, you\'ll know about it.
 
 Such hypersensitivity will come at a cost. You\'ll find that you can\'t
-*stand* programming in clumsy languages. I find it unbearably
+_stand_ programming in clumsy languages. I find it unbearably
 restrictive to program in languages without macros, just as someone used
 to dynamic typing finds it unbearably restrictive to have to go back to
 programming in a language where you have to declare the type of every
@@ -4319,10 +4312,10 @@ is something you want to say, and the language won\'t let you.
 What\'s really going on here, I think, is that a restrictive language is
 one that isn\'t succinct enough. The problem is not simply that you
 can\'t say what you planned to. It\'s that the detour the language makes
-you take is *longer.* Try this thought experiment. Suppose there were
+you take is _longer._ Try this thought experiment. Suppose there were
 some program you wanted to write, and the language wouldn\'t let you
 express it the way you planned to, but instead forced you to write the
-program in some other way that was *shorter.* For me at least, that
+program in some other way that was _shorter._ For me at least, that
 wouldn\'t feel very restrictive. It would be like the street you wanted
 to take being blocked off, and the policeman at the intersection
 directing you to a shortcut instead of a detour. Great!
@@ -4360,15 +4353,15 @@ readability, not succinctness; it could be like saying the goal was
 readability, not readability.
 
 What readability-per-line does mean, to the user encountering the
-language for the first time, is that source code will *look
-unthreatening*. So readability- per-line could be a good marketing
+language for the first time, is that source code will _look
+unthreatening_. So readability- per-line could be a good marketing
 decision, even if it is a bad design decision. It\'s isomorphic to the
 very successful technique of letting people pay in installments: instead
 of frightening them with a high upfront price, you tell them the low
 monthly payment. Installment plans are a net lose for the buyer, though,
 as mere readability-per-line probably is for the programmer. The buyer
-is going to make a *lot* of those low, low payments; and the programmer
-is going to read a *lot* of those individually readable lines.
+is going to make a _lot_ of those low, low payments; and the programmer
+is going to read a _lot_ of those individually readable lines.
 
 This tradeoff predates programming languages. If you\'re used to reading
 novels and newspaper articles, your first experience of reading a math
@@ -4384,7 +4377,7 @@ size of a book.
 
 A number of people have rejected the idea that succinctness = power. I
 think it would be more useful, instead of simply arguing that they are
-the same or aren\'t, to ask: to what *extent* does succinctness = power?
+the same or aren\'t, to ask: to what _extent_ does succinctness = power?
 Because clearly succinctness is a large part of what higher-level
 languages are for. If it is not all they\'re for, then what else are
 they for, and how important, relatively, are these other functions?
@@ -4474,7 +4467,7 @@ Languages](http://www.ccs.neu.edu/scheme/pubs/scp91-felleisen.ps.gz)
 
 [K](http://www.cosy.com/language/k-lang.htm)
 
-------------------------------------------------------------------------
+---
 
 # 017 Revenge of the Nerds
 
@@ -4539,7 +4532,7 @@ brain to Java and then back through Java\'s history to its origins, you
 end up holding an idea that contradicts the assumption you started with.
 
 So, who\'s right? James Gosling, or the pointy-haired boss? Not
-surprisingly, Gosling is right. Some languages *are* better, for certain
+surprisingly, Gosling is right. Some languages _are_ better, for certain
 problems, than others. And you know, that raises some interesting
 questions. Java was designed to be better, for certain problems, than
 C++. What problems? When is Java better and when is C++? Are there
@@ -4562,7 +4555,7 @@ want to open it.
 The disadvantage of believing that all programming languages are
 equivalent is that it\'s not true. But the advantage is that it makes
 your life a lot simpler. And I think that\'s the main reason the idea is
-so widespread. It is a *comfortable* idea.
+so widespread. It is a _comfortable_ idea.
 
 We know that Java must be pretty good, because it is the cool, new
 programming language. Or is it? If you look at the world of programming
@@ -4607,26 +4600,25 @@ alternative to the Turing Machine. As McCarthy said later,
 > Another way to show that Lisp was neater than Turing machines was to
 > write a \> universal Lisp function and show that it is briefer and
 > more comprehensible \> than the description of a universal Turing
-> machine. This was the Lisp \> function \>
-> [*eval*](https://sep.turbifycdn.com/ty/cdn/paulgraham/jmc.lisp?t=1688221954&)\...,
-> \> which computes the value of a Lisp expression\.... Writing *eval*
+> machine. This was the Lisp \> function \> > [_eval_](https://sep.turbifycdn.com/ty/cdn/paulgraham/jmc.lisp?t=1688221954&)\...,
+> \> which computes the value of a Lisp expression\.... Writing _eval_
 > required \> inventing a notation representing Lisp functions as Lisp
 > data, and such a \> notation was devised for the purposes of the paper
 > with no thought that it \> would be used to express Lisp programs in
 > practice.
 
 What happened next was that, some time in late 1958, Steve Russell, one
-of McCarthy\'s grad students, looked at this definition of *eval* and
+of McCarthy\'s grad students, looked at this definition of _eval_ and
 realized that if he translated it into machine language, the result
 would be a Lisp interpreter.
 
 This was a big surprise at the time. Here is what McCarthy said about it
 later in an interview:
 
-> Steve Russell said, look, why don\'t I program this *eval*\..., and I
+> Steve Russell said, look, why don\'t I program this _eval_\..., and I
 > said to \> him, ho, ho, you\'re confusing theory with practice, this
-> *eval* is intended \> for reading, not for computing. But he went
-> ahead and did it. That is, he \> compiled the *eval* in my paper into
+> _eval_ is intended \> for reading, not for computing. But he went
+> ahead and did it. That is, he \> compiled the _eval_ in my paper into
 > \[IBM\] 704 machine code, fixing bugs, \> and then advertised this as
 > a Lisp interpreter, which it certainly was. So \> at that point Lisp
 > had essentially the form that it has today\....
@@ -4740,7 +4732,7 @@ Expressing the language in its own data structures turns out to be a
 very powerful feature. Ideas 8 and 9 together mean that you can write
 programs that write programs. That may sound like a bizarre idea, but
 it\'s an everyday thing in Lisp. The most common way to do it is with
-something called a *macro.*
+something called a _macro._
 
 The term \"macro\" does not mean in Lisp what it means in other
 languages. A Lisp macro can be anything from an abbreviation to a
@@ -4868,7 +4860,7 @@ that made them want to buy us. What seemed like an anomaly to them was
 in fact cause and effect.
 
 If you start a startup, don\'t design your product to please VCs or
-potential acquirers. *Design your product to please the users.* If you
+potential acquirers. _Design your product to please the users._ If you
 win the users, everything else will follow. And if you don\'t, no one
 will care how comfortingly orthodox your technology choices were.
 
@@ -4900,13 +4892,13 @@ depends mostly on its length. If your program would be three times as
 long in another language, it will take three times as long to write\--
 and you can\'t get around this by hiring more people, because beyond a
 certain size new hires are actually a net lose. Fred Brooks described
-this phenomenon in his famous book *The Mythical Man-Month,* and
+this phenomenon in his famous book _The Mythical Man-Month,_ and
 everything I\'ve seen has tended to confirm what he said.
 
 So how much shorter are your programs if you write them in Lisp? Most of
 the numbers I\'ve heard for Lisp versus C, for example, have been around
-7-10x. But a recent article about ITA in [*New
-Architect*](http://www.newarchitectmag.com/documents/s=2286/new1015626014044/)
+7-10x. But a recent article about ITA in [_New
+Architect_](http://www.newarchitectmag.com/documents/s=2286/new1015626014044/)
 magazine said that \"one line of Lisp can replace 20 lines of C,\" and
 since this article was full of quotes from ITA\'s president, I assume
 they got this number from ITA. If so then we can put some faith in it;
@@ -4922,7 +4914,7 @@ ITA and chose to write your software in C, they would be able to develop
 software twenty times faster than you. If you spent a year on a new
 feature, they\'d be able to duplicate it in less than three weeks.
 Whereas if they spent just three months developing something new, it
-would be *five years* before you had it too.
+would be _five years_ before you had it too.
 
 And you know what? That\'s the best-case scenario. When you talk about
 code- size ratios, you\'re implicitly assuming that you can actually
@@ -4958,13 +4950,13 @@ best practice,\" and the company loses, he can\'t be blamed. He didn\'t
 choose, the industry did.
 
 I believe this term was originally used to describe accounting methods
-and so on. What it means, roughly, is *don\'t do anything weird.* And in
+and so on. What it means, roughly, is _don\'t do anything weird._ And in
 accounting that\'s probably a good idea. The terms \"cutting-edge\" and
 \"accounting\" do not sound good together. But when you import this
 criterion into decisions about technology, you start to get the wrong
 answers.
 
-Technology often *should* be cutting-edge. In programming languages, as
+Technology often _should_ be cutting-edge. In programming languages, as
 Erann Gat has pointed out, what \"industry best practice\" actually gets
 you is not the best, but merely the average. When a decision causes you
 to develop software at a fraction of the rate of more aggressive
@@ -4979,7 +4971,7 @@ business, just take on the hardest problem you can find, use the most
 powerful language you can get, and wait for your competitors\'
 pointy-haired bosses to revert to the mean.
 
-------------------------------------------------------------------------
+---
 
 **Appendix: Power**
 
@@ -4989,7 +4981,7 @@ a function that generates accumulators\-- a function that takes a number
 n, and returns a function that takes another number i and returns n
 incremented by i.
 
-(That\'s *incremented by* , not plus. An accumulator has to accumulate.)
+(That\'s _incremented by_ , not plus. An accumulator has to accumulate.)
 
 In Common Lisp this would be (defun foo (n) (lambda (i) (incf n i))) and
 in Perl 5, sub foo { my (\$n) = \@\_; sub {\$n += shift} } which has
@@ -5095,33 +5087,33 @@ write.
 
 **Notes**
 
--   The IBM 704 CPU was about the size of a refrigerator, but a lot
-    heavier. The CPU weighed 3150 pounds, and the 4K of RAM was in a
-    separate box weighing another 4000 pounds. The Sub-Zero 690, one of
-    the largest household refrigerators, weighs 656 pounds.
+- The IBM 704 CPU was about the size of a refrigerator, but a lot
+  heavier. The CPU weighed 3150 pounds, and the 4K of RAM was in a
+  separate box weighing another 4000 pounds. The Sub-Zero 690, one of
+  the largest household refrigerators, weighs 656 pounds.
 
--   Steve Russell also wrote the first (digital) computer game,
-    Spacewar, in 1962.
+- Steve Russell also wrote the first (digital) computer game,
+  Spacewar, in 1962.
 
--   If you want to trick a pointy-haired boss into letting you write
-    software in Lisp, you could try telling him it\'s XML.
+- If you want to trick a pointy-haired boss into letting you write
+  software in Lisp, you could try telling him it\'s XML.
 
--   Here is the accumulator generator in other Lisp dialects: Scheme:
-    (define (foo n) (lambda (i) (set! n (+ n i)) n)) Goo: (df foo (n)
-    (op incf n \_))) Arc: (def foo (n) \[++ n \_\])
+- Here is the accumulator generator in other Lisp dialects: Scheme:
+  (define (foo n) (lambda (i) (set! n (+ n i)) n)) Goo: (df foo (n)
+  (op incf n \_))) Arc: (def foo (n) \[++ n \_\])
 
--   Erann Gat\'s sad tale about \"industry best practice\" at JPL
-    inspired me to address this generally misapplied phrase.
+- Erann Gat\'s sad tale about \"industry best practice\" at JPL
+  inspired me to address this generally misapplied phrase.
 
--   Peter Norvig found that 16 of the 23 patterns in *Design Patterns*
-    were \"[invisible or
-    simpler](http://www.norvig.com/design-patterns/)\" in Lisp.
+- Peter Norvig found that 16 of the 23 patterns in _Design Patterns_
+  were \"[invisible or
+  simpler](http://www.norvig.com/design-patterns/)\" in Lisp.
 
--   Thanks to the many people who answered my questions about various
-    languages and/or read drafts of this, including Ken Anderson, Trevor
-    Blackwell, Erann Gat, Dan Giffin, Sarah Harlin, Jeremy Hylton,
-    Robert Morris, Peter Norvig, Guy Steele, and Anton van Straaten.
-    They bear no blame for any opinions expressed.
+- Thanks to the many people who answered my questions about various
+  languages and/or read drafts of this, including Ken Anderson, Trevor
+  Blackwell, Erann Gat, Dan Giffin, Sarah Harlin, Jeremy Hylton,
+  Robert Morris, Peter Norvig, Guy Steele, and Anton van Straaten.
+  They bear no blame for any opinions expressed.
 
 **Related:**
 
@@ -5147,10 +5139,10 @@ Translation](http://kapcoweb.com/p/docs/translations/revenge_of_the_nerds/reveng
 [Chinese
 Translation](http://flyingapplet.spaces.live.com/blog/cns!F682AFBD82F7E261!375.entry)
 
-------------------------------------------------------------------------
+---
 
-You\'ll find this essay and 14 others in [***Hackers &
-Painters***](http://www.amazon.com/gp/product/0596006624).
+You\'ll find this essay and 14 others in [**_Hackers &
+Painters_**](http://www.amazon.com/gp/product/0596006624).
 
 # 018 A Plan for Spam
 
@@ -5159,10 +5151,10 @@ News](http://news.ycombinator.com).
 
 August 2002
 
-*(This article describes the spam-filtering techniques used in the
+_(This article describes the spam-filtering techniques used in the
 spamproof web-based mail reader we built to exercise[Arc](arc.html). An
 improved algorithm is described in [Better Bayesian
-Filtering](better.html).)*
+Filtering](better.html).)_
 
 I think it\'s possible to stop spam, and that content-based filters are
 the way to do it. The Achilles heel of the spammers is their message.
@@ -5171,7 +5163,7 @@ least. But they have to deliver their message, whatever it is. If we can
 write software that recognizes their messages, there is no way they can
 get around that.
 
-------------------------------------------------------------------------
+---
 
 To the recipient, spam is easily recognizable. If you hired someone to
 read your mail and discard the spam, they would have little trouble
@@ -5226,7 +5218,7 @@ indicators of spam. But it also discovered that \"per\" and \"FL\" and
 bright red) turns out to be as good an indicator of spam as any
 pornographic term.
 
-------------------------------------------------------------------------
+---
 
 Here\'s a sketch of how I do statistical filtering. I start with one
 corpus of spam and one of nonspam mail. At the moment each one has about
@@ -5292,7 +5284,7 @@ more than .9 of being spam. But in practice it would not matter much
 where I put this threshold, because few probabilities end up in the
 middle of the range.
 
-------------------------------------------------------------------------
+---
 
 One great advantage of the statistical approach is that you don\'t have
 to read so many spams. Over the past six months, I\'ve read literally
@@ -5308,7 +5300,7 @@ know what you\'re measuring. Feature-recognizing filters like
 SpamAssassin assign a spam \"score\" to email. The Bayesian approach
 assigns an actual probability. The problem with a \"score\" is that no
 one knows what it means. The user doesn\'t know what it means, but worse
-still, neither does the developer of the filter. How many *points*
+still, neither does the developer of the filter. How many _points_
 should an email get for having the word \"sex\" in it? A probability can
 of course be mistaken, but there is little ambiguity about what it
 means, or how evidence should be combined to calculate it. Based on my
@@ -5320,7 +5312,7 @@ chance of being a spam.
 
 Because it is measuring probabilities, the Bayesian approach considers
 all the evidence in the email, both good and bad. Words that occur
-disproportionately *rarely* in spam (like \"though\" or \"tonight\" or
+disproportionately _rarely_ in spam (like \"though\" or \"tonight\" or
 \"apparently\") contribute as much to decreasing the probability as bad
 words like \"unsubscribe\" and \"opt- in\" do to increasing it. So an
 otherwise innocent email that happens to include the word \"sex\" is not
@@ -5384,7 +5376,7 @@ senders and even the routes by which mail gets from them to me. And they
 know the same about spam, including the server names, mailer versions,
 and protocols.
 
-------------------------------------------------------------------------
+---
 
 If I thought that I could keep up current rates of spam filtering, I
 would consider this problem solved. But it doesn\'t mean much to be able
@@ -5438,12 +5430,12 @@ about why their spam is not spam, and how to cancel your
 
 (I used to think it was naive to believe that stricter laws would
 decrease spam. Now I think that while stricter laws may not decrease the
-amount of spam that spammers *send,* they can certainly help filters to
+amount of spam that spammers _send,_ they can certainly help filters to
 decrease the amount of spam that recipients actually see.)
 
 All along the spectrum, if you restrict the sales pitches spammers can
 make, you will inevitably tend to put them out of business. That word
-*business* is an important one to remember. The spammers are
+_business_ is an important one to remember. The spammers are
 businessmen. They send spam because it works. It works because although
 the response rate is abominably low (at best 15 per million, vs 3000 per
 million for a catalog mailing), the cost, to them, is practically
@@ -5461,7 +5453,7 @@ The reason the spammers use the kinds of [sales
 pitches](http://www.milliondollaremails.com) that they do is to increase
 response rates. This is possibly even more disgusting than getting
 inside the mind of a spammer, but let\'s take a quick look inside the
-mind of someone who *responds* to a spam. This person is either
+mind of someone who _responds_ to a spam. This person is either
 astonishingly credulous or deeply in denial about their sexual
 interests. In either case, repulsive or idiotic as the spam seems to us,
 it is exciting to them. The spammers wouldn\'t say these things if they
@@ -5476,7 +5468,7 @@ software because I didn\'t want have to look at the stuff anymore. But
 if we get good enough at filtering out spam, it will stop working, and
 the spammers will actually stop sending it.
 
-------------------------------------------------------------------------
+---
 
 Of all the approaches to fighting spam, from software to laws, I believe
 Bayesian filtering will be the single most effective. But I also think
@@ -5518,7 +5510,7 @@ still the case for guilt is stronger. If you combine these numbers
 according to Bayes\' Rule, the resulting probability is .9027.
 
 \"Madam\" is obviously from spams beginning \"Dear Sir or Madam.\"
-They\'re not very common, but the word \"madam\" *never* occurs in my
+They\'re not very common, but the word \"madam\" _never_ occurs in my
 legitimate email, and it\'s all about the ratio.
 
 \"Republic\" scores high because it often shows up in Nigerian scam
@@ -5674,7 +5666,7 @@ To start with, spam is not unsolicited commercial email. If someone in
 my neighborhood heard that I was looking for an old Raleigh three-speed
 in good condition, and sent me an email offering to sell me one, I\'d be
 delighted, and yet this email would be both commercial and unsolicited.
-The defining feature of spam (in fact, its *raison d\'etre* ) is not
+The defining feature of spam (in fact, its _raison d\'etre_ ) is not
 that it is unsolicited, but that it is automated.
 
 It is merely incidental, too, that spam is usually commercial. If
@@ -5734,8 +5726,8 @@ Morris, Trevor Blackwell and Erann Gat for many discussions about spam;
 Raph Levien for advice about trust metrics; and Chip Coldwell and Sam
 Steingold for advice about statistics.
 
-You\'ll find this essay and 14 others in [***Hackers &
-Painters***](http://www.amazon.com/gp/product/0596006624).
+You\'ll find this essay and 14 others in [**_Hackers &
+Painters_**](http://www.amazon.com/gp/product/0596006624).
 
 **More Info:**
 
@@ -5768,14 +5760,14 @@ Filter Comparison](http://lwn.net/Articles/9460/)
 
 [CRM114 gets 99.87%](wsy.html)
 
-------------------------------------------------------------------------
+---
 
 # 019 Design and Research
 
 January 2003
 
-*(This article is derived from a keynote talk at the fall 2002 meeting
-of NEPLS.)*
+_(This article is derived from a keynote talk at the fall 2002 meeting
+of NEPLS.)_
 
 Visitors to this country are often surprised to find that Americans like
 to begin a conversation by asking \"what do you do?\" I\'ve never liked
@@ -5818,7 +5810,7 @@ varies from field to field in the arts, but I don\'t think there is any
 field in which the best work is done by the people who just make exactly
 what the customers tell them to.
 
-The customer *is* always right in the sense that the measure of good
+The customer _is_ always right in the sense that the measure of good
 design is how well it works for the user. If you make a novel that bores
 everyone, or a chair that\'s horribly uncomfortable to sit in, then
 you\'ve done a bad job, period. It\'s no defense to say that the novel
@@ -5969,7 +5961,7 @@ scale in wood.
 
 What made oil paint so exciting, when it first became popular in the
 fifteenth century, was that you could actually make the finished work
-*from* the prototype. You could make a preliminary drawing if you wanted
+_from_ the prototype. You could make a preliminary drawing if you wanted
 to, but you weren\'t held to it; you could work out all the details, and
 even make major changes, as you finished the painting.
 
@@ -6060,16 +6052,16 @@ Translation](http://www.shiro.dreamhost.com/scheme/trans/desres-j.html)
 [Spanish
 Translation](http://www.cibercalli.com/erick/hackingnews/diseo-e-%20investigacion)
 
-------------------------------------------------------------------------
+---
 
 # 020 Better Bayesian Filtering
 
 January 2003
 
-*(This article was given as a talk at the 2003 Spam Conference. It
+_(This article was given as a talk at the 2003 Spam Conference. It
 describes the work I\'ve done to improve the performance of the
 algorithm described in[A Plan for Spam](spam.html), and what I plan to
-do in the future.)*
+do in the future.)_
 
 The first discovery I\'d like to present here is an algorithm for lazy
 evaluation of research papers. Just write whatever you want and don\'t
@@ -6197,7 +6189,7 @@ Here are some of the current probabilities
 
 \[code\]
 
-     Subject*FREE      0.9999     free!!            0.9999     To*free           0.9998     Subject*free      0.9782     free!             0.9199     Free              0.9198     Url*free          0.9091     FREE              0.8747     From*free         0.7636     free              0.6546 
+     Subject*FREE      0.9999     free!!            0.9999     To*free           0.9998     Subject*free      0.9782     free!             0.9199     Free              0.9198     Url*free          0.9091     FREE              0.8747     From*free         0.7636     free              0.6546
 
 \[/code\]
 
@@ -6226,12 +6218,12 @@ doesn\'t have a probability for it.
 
 \[code\]
 
-     Subject*Free!!!     Subject*free!!!     Subject*FREE!     Subject*Free!     Subject*free!     Subject*FREE     Subject*Free     Subject*free     FREE!!!     Free!!!     free!!!     FREE!     Free!     free! 
+     Subject*Free!!!     Subject*free!!!     Subject*FREE!     Subject*Free!     Subject*free!     Subject*FREE     Subject*Free     Subject*free     FREE!!!     Free!!!     free!!!     FREE!     Free!     free!
     FREE
 
     Free
 
-    free              
+    free
 
 \[/code\]
 
@@ -6331,7 +6323,7 @@ pay](wfks.html) for spammers to send it, and we won\'t have to work too
 hard on filtering it.
 
 Now for the really shocking news: during that same one-month period I
-got *three* false positives.
+got _three_ false positives.
 
 In a way it\'s a relief to get some false positives. When I wrote \`\`A
 Plan for Spam\'\' I hadn\'t had any, and I didn\'t know what they\'d be
@@ -6386,7 +6378,7 @@ optimization, and decreasing false positives as debugging.
 So these five false positives are my bug list. For example, the mail
 from Egypt got nailed because the uppercase text made it look to the
 filter like a Nigerian spam. This really is kind of a bug. As with html,
-the email being all uppercase is really conceptually *one* feature, not
+the email being all uppercase is really conceptually _one_ feature, not
 one for each word. I need to handle case in a more sophisticated way.
 
 So what to make of this .06%? Not much, I think. You could treat it as
@@ -6398,7 +6390,7 @@ intrinsic false positive rate of Bayesian filtering.
 
 What next? Filtering is an optimization problem, and the key to
 optimization is profiling. Don\'t try to guess where your code is slow,
-because you\'ll guess wrong. *Look* at where your code is slow, and fix
+because you\'ll guess wrong. _Look_ at where your code is slow, and fix
 that. In filtering, this translates to: look at the spams you miss, and
 figure out what you could have done to catch them.
 
@@ -6611,7 +6603,7 @@ Translation](http://people.brandeis.edu/~liji/_private/translation/better.htm)
 
 [Test of These Suggestions](http://www.bgl.nu/bogofilter/graham.html)
 
-------------------------------------------------------------------------
+---
 
 # 021 Why Nerds are Unpopular
 
@@ -6639,7 +6631,7 @@ newspaper. So I\'ve seen a good part of the popularity landscape.
 I know a lot of people who were nerds in school, and they all tell the
 same story: there is a strong correlation between being smart and being
 a nerd, and an even stronger inverse correlation between being a nerd
-and being popular. Being smart seems to *make* you unpopular.
+and being popular. Being smart seems to _make_ you unpopular.
 
 Why? To someone in school now, that may seem an odd question to ask. The
 mere fact is so overwhelming that it may seem strange to imagine that it
@@ -6771,7 +6763,7 @@ world they care about.
 
 The problem is, the world these kids create for themselves is at first a
 very crude one. If you leave a bunch of eleven-year-olds to their own
-devices, what you get is *Lord of the Flies.* Like a lot of American
+devices, what you get is _Lord of the Flies._ Like a lot of American
 kids, I read this book in school. Presumably it was not a coincidence.
 Presumably someone wanted to point out to us that we were savages, and
 that we had made ourselves a cruel and stupid world. This was too subtle
@@ -6916,7 +6908,7 @@ a corridor.
 
 As a thirteen-year-old kid, I didn\'t have much more experience of the
 world than what I saw immediately around me. The warped little world we
-lived in was, I thought, *the world.* The world seemed cruel and boring,
+lived in was, I thought, _the world._ The world seemed cruel and boring,
 and I\'m not sure which was worse.
 
 Because I didn\'t fit into this world, I thought that something must be
@@ -6973,7 +6965,7 @@ the nerds. Like any war, it\'s damaging even to the winners.
 Adults can\'t avoid seeing that teenage kids are tormented. So why
 don\'t they do something about it? Because they blame it on puberty. The
 reason kids are so unhappy, adults tell themselves, is that monstrous
-new chemicals, *hormones* , are now coursing through their bloodstream
+new chemicals, _hormones_ , are now coursing through their bloodstream
 and messing up everything. There\'s nothing wrong with the system; it\'s
 just inevitable that kids will be miserable at that age.
 
@@ -7065,8 +7057,8 @@ of teaching that the kids don\'t really take it seriously\-- not even
 the smart kids. Much of the time we were all, students and teachers
 both, just going through the motions.
 
-In my high school French class we were supposed to read Hugo\'s *Les
-Miserables.* I don\'t think any of us knew French well enough to make
+In my high school French class we were supposed to read Hugo\'s _Les
+Miserables._ I don\'t think any of us knew French well enough to make
 our way through this enormous book. Like the rest of the class, I just
 skimmed the Cliff\'s Notes. When we were given a test on the book, I
 noticed that the questions sounded odd. They were full of long words
@@ -7088,7 +7080,7 @@ so the kids make one out of nothing.
 
 We have a phrase to describe what happens when rankings have to be
 created without any meaningful criteria. We say that the situation
-*degenerates into a popularity contest.* And that\'s exactly what
+_degenerates into a popularity contest._ And that\'s exactly what
 happens in most American schools. Instead of depending on some real
 test, one\'s rank depends mostly on one\'s ability to increase one\'s
 rank. It\'s like the court of Louis XIV. There is no external opponent,
@@ -7098,13 +7090,13 @@ When there is some real external test of skill, it isn\'t painful to be
 at the bottom of the hierarchy. A rookie on a football team doesn\'t
 resent the skill of the veteran; he hopes to be like him one day and is
 happy to have the chance to learn from him. The veteran may in turn feel
-a sense of *noblesse oblige*. And most importantly, their status depends
+a sense of _noblesse oblige_. And most importantly, their status depends
 on how well they do against opponents, not on whether they can push the
 other down.
 
 Court hierarchies are another thing entirely. This type of society
 debases anyone who enters it. There is neither admiration at the bottom,
-nor *noblesse oblige* at the top. It\'s kill or be killed.
+nor _noblesse oblige_ at the top. It\'s kill or be killed.
 
 This is the sort of society that gets created in American secondary
 schools. And it happens because these schools have no real purpose
@@ -7159,7 +7151,7 @@ I\'m not claiming that bad schools are the whole reason kids get into
 trouble with drugs. After a while, drugs have their own momentum. No
 doubt some of the freaks ultimately used drugs to escape from other
 problems\-- trouble at home, for example. But, in my school at least,
-the reason most kids *started* using drugs was rebellion.
+the reason most kids _started_ using drugs was rebellion.
 Fourteen-year-olds didn\'t start smoking pot because they\'d heard it
 would help them forget their problems. They started because they wanted
 to join a different tribe.
@@ -7203,7 +7195,7 @@ If life seems awful to kids, it\'s neither because hormones are turning
 you all into monsters (as your parents believe), nor because life
 actually is awful (as you believe). It\'s because the adults, who no
 longer have any economic use for you, have abandoned you to spend years
-cooped up together with nothing real to do. *Any* society of that type
+cooped up together with nothing real to do. _Any_ society of that type
 is awful to live in. You don\'t have to look any further to explain why
 teenage kids are unhappy.
 
@@ -7234,7 +7226,7 @@ Translation](http://sirfraj.blogspot.com/2009/03/por-que-nerds-%20nao-sao-popula
 [Spanish
 Translation](http://historiasecretadelsistemaeducativo.weebly.com/uploads/2/3/8/3/2383384/nerds.html)
 
-------------------------------------------------------------------------
+---
 
 # 022 The Hundred-Year Language
 
@@ -7242,7 +7234,7 @@ Translation](http://historiasecretadelsistemaeducativo.weebly.com/uploads/2/3/8/
 
 April 2003
 
-*(This essay is derived from a keynote talk at PyCon 2003.)*
+_(This essay is derived from a keynote talk at PyCon 2003.)_
 
 It\'s hard to predict what life will be like in a hundred years. There
 are only a few things we can say with certainty. We know that everyone
@@ -7665,7 +7657,7 @@ assume unlimited resources. It seems like we ought to be able to imagine
 unlimited resources as well today as in a hundred years.
 
 What program would one like to write? Whatever is least work. Except not
-quite: whatever *would be* least work if your ideas about programming
+quite: whatever _would be_ least work if your ideas about programming
 weren\'t already influenced by the languages you\'re currently used to.
 Such influence can be so pervasive that it takes a great effort to
 overcome it. You\'d think it would be obvious to creatures as lazy as us
@@ -7750,10 +7742,10 @@ explicitly.
 reading drafts of this, and to Guido van Rossum, Jeremy Hylton, and the
 rest of the Python crew for inviting me to speak at PyCon.
 
-------------------------------------------------------------------------
+---
 
-You\'ll find this essay and 14 others in [***Hackers &
-Painters***](hackpaint.html).
+You\'ll find this essay and 14 others in [**_Hackers &
+Painters_**](hackpaint.html).
 
 # 023 If Lisp is So Great
 
@@ -7764,12 +7756,12 @@ question by a student in the audience at a talk I gave recently. Not for
 the first time, either.
 
 In languages, as in so many things, there\'s not much correlation
-between popularity and quality. Why does John Grisham ( *King of Torts*
-sales rank, 44) outsell Jane Austen ( *Pride and Prejudice* sales rank,
+between popularity and quality. Why does John Grisham ( _King of Torts_
+sales rank, 44) outsell Jane Austen ( _Pride and Prejudice_ sales rank,
 6191)? Would even Grisham claim that it\'s because he\'s a better
 writer?
 
-Here\'s the first sentence of *Pride and Prejudice:*
+Here\'s the first sentence of _Pride and Prejudice:_
 
 > It is a truth universally acknowledged, that a single man in
 > possession of a \> good fortune must be in want of a wife.
@@ -7822,14 +7814,14 @@ Translation](http://www.shiro.dreamhost.com/scheme/trans/iflisp-j.html)
 [Spanish
 Translation](http://cibercalli.com/erick/hackingnews/lispnews/si-%20lisp-es-tan-grandioso)
 
-------------------------------------------------------------------------
+---
 
 # 024 Hackers and Painters
 
 May 2003
 
-*(This essay is derived from a guest lecture at Harvard, which
-incorporated an earlier talk at Northeastern.)*
+_(This essay is derived from a guest lecture at Harvard, which
+incorporated an earlier talk at Northeastern.)_
 
 When I finished grad school in computer science I went to art school to
 study painting. A lot of people seemed surprised that someone interested
@@ -8321,7 +8313,7 @@ worked. [6](#hackers_and_painters_note6)
 
 Source code, too, should explain itself. If I could get people to
 remember just one quote about programming, it would be the one at the
-beginning of *Structure and Interpretation of Computer Programs.*
+beginning of _Structure and Interpretation of Computer Programs._
 
 > Programs should be written for people to read, and only incidentally
 > for \> machines to execute.
@@ -8442,10 +8434,10 @@ Design](http://www.uiweb.com/issues/issue08.htm)
 
 [Knuth: Computer Programming as an Art](knuth.html)
 
-------------------------------------------------------------------------
+---
 
-You\'ll find this essay and 14 others in [***Hackers &
-Painters***](http://www.amazon.com/gp/product/0596006624).
+You\'ll find this essay and 14 others in [**_Hackers &
+Painters_**](http://www.amazon.com/gp/product/0596006624).
 
 # 025 Filters that Fight Back
 
@@ -8476,7 +8468,7 @@ all the suggestions for fixing the problem seem to involve new
 protocols. This one wouldn\'t.
 
 If widely used, auto-retrieving spam filters would make the email system
-*rebound.* The huge volume of the spam, which has so far worked in the
+_rebound._ The huge volume of the spam, which has so far worked in the
 spammer\'s favor, would now work against him, like a branch snapping
 back in his face. Auto-retrieving spam filters would drive the
 spammer\'s [costs](http://www.bork.ca/pics/?path=incoming&img=bill.jpg)
@@ -8562,7 +8554,7 @@ Translation](http://www.shiro.dreamhost.com/scheme/trans/ffb-j.html)
 
 [Lycos DDoS@Home](http://news.bbc.co.uk/2/hi/technology/4051553.stm)
 
-------------------------------------------------------------------------
+---
 
 # 026 What You Can\'t Say
 
@@ -8571,7 +8563,7 @@ Translation](http://www.shiro.dreamhost.com/scheme/trans/ffb-j.html)
 January 2004
 
 Have you ever seen an old photo of yourself and been embarrassed at the
-way you looked? *Did we actually dress like that?* We did. And we had no
+way you looked? _Did we actually dress like that?_ We did. And we had no
 idea how silly we looked. It\'s the nature of fashion to be invisible,
 in the same way the movement of the earth is invisible to all of us
 riding on it.
@@ -8598,7 +8590,7 @@ the answer is almost certainly no. It would be a remarkable coincidence
 if ours were the first era to get everything just right.
 
 It\'s tantalizing to think we believe things that people in the future
-will find ridiculous. What *would* someone coming back to visit us in a
+will find ridiculous. What _would_ someone coming back to visit us in a
 time machine have to be careful not to say? That\'s what I want to study
 here. But I want to do more than just shock everyone with the heresy du
 jour. I want to find general recipes for discovering what you can\'t
@@ -8635,7 +8627,7 @@ Odds are you would have.
 Back in the era of terms like \"well-adjusted,\" the idea seemed to be
 that there was something wrong with you if you thought things you
 didn\'t dare say out loud. This seems backward. Almost certainly, there
-is something wrong with you if you *don\'t* think things you don\'t dare
+is something wrong with you if you _don\'t_ think things you don\'t dare
 say out loud.
 
 **Trouble**
@@ -8970,7 +8962,7 @@ will assume during the run. If you can think things so outside the box
 that they\'d make people\'s hair stand on end, you\'ll have no trouble
 with the small trips outside the box that people call innovative.
 
-\*\* *Pensieri Stretti*\*\*
+\*\* _Pensieri Stretti_\*\*
 
 When you find something you can\'t say, what do you do with it? My
 advice is, don\'t say it. Or at least, pick your battles.
@@ -8997,8 +8989,8 @@ should be told to outsiders. The first rule of Fight Club is, you do not
 talk about Fight Club.
 
 When Milton was going to visit Italy in the 1630s, Sir Henry Wootton,
-who had been ambassador to Venice, told him his motto should be *\"i
-pensieri stretti & il viso sciolto.\"* Closed thoughts and an open face.
+who had been ambassador to Venice, told him his motto should be _\"i
+pensieri stretti & il viso sciolto.\"_ Closed thoughts and an open face.
 Smile at everyone, and don\'t tell them what you\'re thinking. This was
 wise advice. Milton was an argumentative fellow, and the Inquisition was
 a bit restive at that time. But I think the difference between Milton\'s
@@ -9025,10 +9017,10 @@ ideas; it\'s also a good rule of thumb for choosing friends. The people
 you can say heretical things to without getting jumped on are also the
 most interesting to know.
 
-\*\* *Viso Sciolto?*\*\*
+\*\* _Viso Sciolto?_\*\*
 
-I don\'t think we need the *viso sciolto* so much as the *pensieri
-stretti.* Perhaps the best policy is to make it plain that you don\'t
+I don\'t think we need the _viso sciolto_ so much as the _pensieri
+stretti._ Perhaps the best policy is to make it plain that you don\'t
 agree with whatever zealotry is current in your time, but not to be too
 specific about what you disagree with. Zealots will try to draw you out,
 but you don\'t have to answer them. If they try to force you to treat a
@@ -9119,7 +9111,7 @@ and watch what it\'s doing. And pay especially close attention whenever
 an idea is being suppressed. Web filters for children and employees
 often ban sites containing pornography, violence, and hate speech. What
 counts as pornography and violence? And what, exactly, is \"hate
-speech?\" This sounds like a phrase out of *1984.*
+speech?\" This sounds like a phrase out of _1984._
 
 Labels like that are probably the biggest external clue. If a statement
 is false, that\'s the worst thing you can say about it. You don\'t need
@@ -9153,7 +9145,7 @@ That\'s the only defence. What can\'t you say? And why?
 Morris, Eric Raymond and Bob van der Zwaan for reading drafts of this
 essay, and to Lisa Randall, Jackie McDonough, Ryan Stanley and Joel
 Rainey for conversations about heresy. Needless to say they bear no
-blame for opinions expressed in it, and especially for opinions *not*
+blame for opinions expressed in it, and especially for opinions _not_
 expressed in it.
 
 [Re: What You Can\'t Say](resay.html)
@@ -9203,7 +9195,7 @@ Makers\"](http://www.fair.org/index.php?page=2598)
 
 [What You Can\'t Say Will Hurt You](http://www.archub.org/stone.txt)
 
-------------------------------------------------------------------------
+---
 
 # 027 The Word \"Hacker\"
 
@@ -9268,7 +9260,7 @@ hackers\' attitudes toward copyrights. They are a perennial topic of
 heated discussion on Slashdot. But why should people who program
 computers be so concerned about copyrights, of all things?
 
-Partly because some companies use *mechanisms* to prevent copying. Show
+Partly because some companies use _mechanisms_ to prevent copying. Show
 any hacker a lock and his first thought is how to pick it. But there is
 a deeper reason that hackers are alarmed by measures like copyrights and
 patents. They see increasingly aggressive measures to protect
@@ -9321,7 +9313,7 @@ Hackers are not stupid, and unanimity is very rare in this world. So if
 they\'re all squawking, perhaps there is something amiss.
 
 Could it be that such laws, though intended to protect America, will
-actually harm it? Think about it. There is something very *American*
+actually harm it? Think about it. There is something very _American_
 about Feynman breaking into safes during the Manhattan Project. It\'s
 hard to imagine the authorities having a sense of humor about such
 things over in Germany at that time. Maybe it\'s not a coincidence.
@@ -9346,7 +9338,7 @@ about our work that we use the same word for a brilliant or a horribly
 cheesy solution. When we cook one up we\'re not always 100% sure which
 kind it is. But as long as it has the right sort of wrongness, that\'s a
 promising sign. It\'s odd that people think of programming as precise
-and methodical. *Computers* are precise and methodical. Hacking is
+and methodical. _Computers_ are precise and methodical. Hacking is
 something you do with a gleeful laugh.
 
 In our world some of the most characteristic solutions are not far
@@ -9430,10 +9422,10 @@ Translation](http://www.sounerd.com.br/index.php?option=com_content&task=view&id
 
 [Romanian Translation](http://ro.goobix.com/pg/gba/)
 
-------------------------------------------------------------------------
+---
 
-You\'ll find this essay and 14 others in [***Hackers &
-Painters***](hackpaint.html).
+You\'ll find this essay and 14 others in [**_Hackers &
+Painters_**](hackpaint.html).
 
 # 028 How to Make Wealth
 
@@ -9442,9 +9434,10 @@ Combinator](http://ycombinator.com/apply.html).
 
 May 2004
 
-*(This essay was originally published in[Hackers &
+\*(This essay was originally published in[Hackers &
 Painters](http://www.amazon.com/gp/product/0596006624/104-0572701-7443937).)
-*
+
+-
 
 If you wanted to get rich, how would you do it? I think your best bet
 would be to start or join a startup. That\'s been a reliable way to get
@@ -9514,7 +9507,7 @@ would do it.
 **Millions, not Billions**
 
 If \$3 million a year seems high to some people, it will seem low to
-others. Three *million?* How do I get to be a billionaire, like Bill
+others. Three _million?_ How do I get to be a billionaire, like Bill
 Gates?
 
 So let\'s get Bill Gates out of the way right now. It\'s not a good idea
@@ -9525,7 +9518,7 @@ make as much money as he has. You also need to be very lucky.
 
 There is a large random factor in the success of any company. So the
 guys you end up reading about in the papers are the ones who are very
-smart, totally dedicated, *and* win the lottery. Certainly Bill is smart
+smart, totally dedicated, _and_ win the lottery. Certainly Bill is smart
 and dedicated, but Microsoft also happens to have been the beneficiary
 of one of the most spectacular blunders in the history of business: the
 licensing deal for DOS. No doubt Bill did everything he could to steer
@@ -9558,7 +9551,7 @@ of the greatest fortunes have probably involved several of these.
 
 The advantage of creating wealth, as a way to get rich, is not just that
 it\'s more legitimate (many of the other methods are now illegal) but
-that it\'s more *straightforward.* You just have to do something people
+that it\'s more _straightforward._ You just have to do something people
 want.
 
 **Money Is Not Wealth**
@@ -9580,7 +9573,7 @@ Wealth is what you want, not money. But if wealth is the important
 thing, why does everyone talk about making money? It is a kind of
 shorthand: money is a way of moving wealth, and in practice they are
 usually interchangeable. But they are not the same thing, and unless you
-plan to get rich by counterfeiting, talking about *making money* can
+plan to get rich by counterfeiting, talking about _making money_ can
 make it harder to understand how to make money.
 
 Money is a side effect of specialization. In a specialized society, most
@@ -9597,9 +9590,9 @@ The solution societies find, as they get more specialized, is to make
 the trade into a two-step process. Instead of trading violins directly
 for potatoes, you trade violins for, say, silver, which you can then
 trade again for anything else you need. The intermediate stuff\-- the
-*medium of exchange* \-- can be anything that\'s rare and portable.
+_medium of exchange_ \-- can be anything that\'s rare and portable.
 Historically metals have been the most common, but recently we\'ve been
-using a medium of exchange, called the *dollar* , that doesn\'t
+using a medium of exchange, called the _dollar_ , that doesn\'t
 physically exist. It works as a medium of exchange, however, because its
 rarity is guaranteed by the U.S. Government.
 
@@ -9614,7 +9607,7 @@ most businesses really do is make wealth. They do something people want.
 
 A surprising number of people retain from childhood the idea that there
 is a fixed amount of wealth in the world. There is, in any normal
-family, a fixed amount of *money* at any moment. But that\'s not the
+family, a fixed amount of _money_ at any moment. But that\'s not the
 same thing.
 
 When wealth is talked about in this context, it is often described as a
@@ -9635,8 +9628,8 @@ What leads people astray here is the abstraction of money. Money is not
 wealth. It\'s just something we use to move wealth around. So although
 there may be, in certain specific moments (like your family, this month)
 a fixed amount of money available to trade with other people for things
-you want, there is not a fixed amount of wealth in the world. *You can
-make more wealth.* Wealth has been getting created and destroyed (but on
+you want, there is not a fixed amount of wealth in the world. _You can
+make more wealth._ Wealth has been getting created and destroyed (but on
 balance, created) for all of human history.
 
 Suppose you own a beat-up old car. Instead of sitting on your butt next
@@ -9666,7 +9659,7 @@ become store-bought ones. But with the rise of industrialization there
 are fewer and fewer craftsmen. One of the biggest remaining groups is
 computer programmers.
 
-A programmer can sit down in front of a computer and *create wealth*. A
+A programmer can sit down in front of a computer and _create wealth_. A
 good piece of software is, in itself, a valuable thing. There is no
 manufacturing to confuse the issue. Those characters you type are a
 complete, finished product. If someone sat down and wrote a web browser
@@ -9694,8 +9687,8 @@ This is why so many of the best programmers are libertarians. In our
 world, you sink or swim, and there are no excuses. When those far
 removed from the creation of wealth\-- undergraduates, reporters,
 politicians\-- hear that the richest 5% of the people have half the
-total wealth, they tend to think *injustice!* An experienced programmer
-would be more likely to think *is that all?* The top 5% of programmers
+total wealth, they tend to think _injustice!_ An experienced programmer
+would be more likely to think _is that all?_ The top 5% of programmers
 probably write 99% of the good software.
 
 Wealth can be created without being sold. Scientists, till recently at
@@ -9908,7 +9901,7 @@ speed of the boat. And if someone was lazy, the others would be more
 likely to notice and complain.
 
 But the real advantage of the ten-man boat shows when you take the ten
-*best* rowers out of the big galley and put them in a boat together.
+_best_ rowers out of the big galley and put them in a boat together.
 They will have all the extra motivation that comes from being in a small
 group. But more importantly, by selecting that small a group you can get
 the best rowers. Each one will be in the top 1%. It\'s a much better
@@ -9944,7 +9937,7 @@ Startups offer anyone a way to be in a situation with measurement and
 leverage. They allow measurement because they\'re small, and they offer
 leverage because they make money by inventing new technology.
 
-What is technology? It\'s *technique*. It\'s the way we all do things.
+What is technology? It\'s _technique_. It\'s the way we all do things.
 And when you discover a new way to do things, its value is multiplied by
 all the people who use it. It is the proverbial fishing rod, rather than
 the fish. That\'s the difference between a startup and a restaurant or a
@@ -9988,7 +9981,7 @@ a new kind of store.
 
 Use difficulty as a guide not just in selecting the overall aim of your
 company, but also at decision points along the way. At Viaweb one of our
-rules of thumb was *run upstairs.* Suppose you are a little, nimble guy
+rules of thumb was _run upstairs._ Suppose you are a little, nimble guy
 being chased by a big, fat, bully. You open a door and find yourself in
 a staircase. Do you go up or down? I say up. The bully can probably run
 downstairs as fast as you can. Going upstairs his bulk will be more of a
@@ -9997,8 +9990,8 @@ disadvantage. Running upstairs is hard for you but even harder for him.
 What this meant in practice was that we deliberately sought hard
 problems. If there were two features we could add to our software, both
 equally valuable in proportion to their difficulty, we\'d always take
-the harder one. Not just because it was more valuable, but *because it
-was harder.* We delighted in forcing bigger, slower competitors to
+the harder one. Not just because it was more valuable, but _because it
+was harder._ We delighted in forcing bigger, slower competitors to
 follow us over difficult ground. Like guerillas, startups prefer the
 difficult terrain of the mountains, where the troops of the central
 government can\'t follow. I can remember times when we were just
@@ -10007,8 +10000,8 @@ And I\'d be delighted, because something that was hard for us would be
 impossible for our competitors.
 
 This is not just a good way to run a startup. It\'s what a startup is.
-Venture capitalists know about this and have a phrase for it: *barriers
-to entry.* If you go to a VC with a new idea and ask him to invest in
+Venture capitalists know about this and have a phrase for it: _barriers
+to entry._ If you go to a VC with a new idea and ask him to invest in
 it, one of the first things he\'ll ask is, how hard would this be for
 someone else to develop? That is, how much difficult ground have you put
 between yourself and potential pursuers? [7](#how_to_make_wealth_note7)
@@ -10142,7 +10135,7 @@ Venture capitalists have a list of danger signs to watch out for. Near
 the top is the company run by techno-weenies who are obsessed with
 solving interesting technical problems, instead of making users happy.
 In a startup, you\'re not just trying to solve problems. You\'re trying
-to solve problems *that users care about.*
+to solve problems _that users care about._
 
 So I think you should make users the test, just as acquirers do. Treat a
 startup as an optimization problem in which performance is measured by
@@ -10260,7 +10253,7 @@ nerds keep their lunch money, and you rule the world.
 **Notes**
 
 `<a name=how_to_make_wealth_note1>`{=html}\[1\]`</a>`{=html} One
-valuable thing you tend to get only in startups is *uninterruptability*.
+valuable thing you tend to get only in startups is _uninterruptability_.
 Different kinds of work have different time quanta. Someone proofreading
 a manuscript could probably be interrupted every fifteen minutes with
 little loss of productivity. But the time quantum for hacking is very
@@ -10295,7 +10288,7 @@ paid in proportion to the wealth they generate.
 
 `<a name=how_to_make_wealth_note3>`{=html}\[3\]`</a>`{=html} Until
 recently even governments sometimes didn\'t grasp the distinction
-between money and wealth. Adam Smith ( *Wealth of Nations* , v:i)
+between money and wealth. Adam Smith ( _Wealth of Nations_ , v:i)
 mentions several that tried to preserve their \"wealth\" by forbidding
 the export of gold or silver. But having more of the medium of exchange
 would not make a country richer; if you have more money chasing the same
@@ -10390,10 +10383,10 @@ Translation](https://tldrarabiccontents.blogspot.com/2020/01/blog-%20post_16.htm
 
 [Spanish Translation](http://www.liberalismo.org/articulo/359/)
 
-------------------------------------------------------------------------
+---
 
-You\'ll find this essay and 14 others in [***Hackers &
-Painters***](http://www.amazon.com/gp/product/0596006624).
+You\'ll find this essay and 14 others in [**_Hackers &
+Painters_**](http://www.amazon.com/gp/product/0596006624).
 
 # 029 Mind the Gap
 
@@ -10442,7 +10435,7 @@ In fact, wealth is not money. Money is just a convenient way of trading
 one form of wealth for another. Wealth is the underlying stuff\--the
 goods and services we buy. When you travel to a rich or poor country,
 you don\'t have to look at people\'s bank accounts to tell which kind
-you\'re in. You can *see* wealth\--in buildings and streets, in the
+you\'re in. You can _see_ wealth\--in buildings and streets, in the
 clothes and the health of the people.
 
 Where does wealth come from? People make it. This was easier to grasp
@@ -10492,7 +10485,7 @@ times as much as the average person. [3](#mind_the_gap_note3) Basketball
 players make about 128 times as much, and baseball players 72 times as
 much. Editorials quote this kind of statistic with horror. But I have no
 trouble imagining that one person could be 100 times as productive as
-another. In ancient Rome the price of *slaves* varied by a factor of 50
+another. In ancient Rome the price of _slaves_ varied by a factor of 50
 depending on their skills. [4](#mind_the_gap_note4) And that\'s without
 considering motivation, or the extra leverage in productivity that you
 can get from modern technology.
@@ -10518,7 +10511,7 @@ reflect supply and demand.
 
 It may seem unlikely in principle that one individual could really
 generate so much more wealth than another. The key to this mystery is to
-revisit that question, are they really worth 100 of us? *Would* a
+revisit that question, are they really worth 100 of us? _Would_ a
 basketball team trade one of their players for 100 random people? What
 would Apple\'s next product look like if you replaced Steve Jobs with a
 committee of 100 random people? [6](#mind_the_gap_note6) These things
@@ -10535,7 +10528,7 @@ underpaid is thus identical with saying that people want the wrong
 things.
 
 Well, of course people want the wrong things. It seems odd to be
-surprised by that. And it seems even odder to say that it\'s *unjust*
+surprised by that. And it seems even odder to say that it\'s _unjust_
 that certain kinds of work are underpaid. [7](#mind_the_gap_note7) Then
 you\'re saying that it\'s unjust that people want the wrong things.
 It\'s lamentable that people prefer reality TV and corndogs to
@@ -10663,7 +10656,7 @@ some of them will; the rest will still be scooping ice cream.
 I remember very vividly when in 1985 improved technology made it
 possible for me to buy a computer of my own. Within months I was using
 it to make money as a freelance programmer. A few years before, I
-couldn\'t have done this. A few years before, there was no such *thing*
+couldn\'t have done this. A few years before, there was no such _thing_
 as a freelance programmer. But Apple created wealth, in the form of
 powerful, inexpensive computers, and programmers immediately set to work
 using it to create more.
@@ -10675,7 +10668,7 @@ productivity as time goes on. Will that increase the gap between rich
 and the poor? Depends which gap you mean.
 
 Technology should increase the gap in income, but it seems to decrease
-other gaps. A hundred years ago, the rich led a different *kind* of life
+other gaps. A hundred years ago, the rich led a different _kind_ of life
 from ordinary people. They lived in houses full of servants, wore
 elaborately uncomfortable clothes, and travelled about in carriages
 drawn by teams of horses which themselves required their own houses and
@@ -10731,8 +10724,8 @@ lonely and demoralizing.
 Nor do we have the social distinctions there were a hundred years ago.
 The novels and etiquette manuals of that period read now like
 descriptions of some strange tribal society. \"With respect to the
-continuance of friendships\...\" hints *Mrs. Beeton\'s Book of Household
-Management* (1880), \"it may be found necessary, in some cases, for a
+continuance of friendships\...\" hints _Mrs. Beeton\'s Book of Household
+Management_ (1880), \"it may be found necessary, in some cases, for a
 mistress to relinquish, on assuming the responsibility of a household,
 many of those commenced in the earlier part of her life.\" A woman who
 married a rich man was expected to drop friends who didn\'t. You\'d seem
@@ -10759,7 +10752,7 @@ other gaps.
 One often hears a policy criticized on the grounds that it would
 increase the income gap between rich and poor. As if it were an axiom
 that this would be bad. It might be true that increased variation in
-income would be bad, but I don\'t see how we can say it\'s *axiomatic.*
+income would be bad, but I don\'t see how we can say it\'s _axiomatic._
 
 Indeed, it may even be false, in industrial democracies. In a society of
 serfs and warlords, certainly, variation in income is a sign of an
@@ -10832,7 +10825,7 @@ society, take relative poverty.
 
 You need rich people in your society not so much because in spending
 their money they create jobs, but because of what they have to do to
-*get* rich. I\'m not talking about the trickle-down effect here. I\'m
+_get_ rich. I\'m not talking about the trickle-down effect here. I\'m
 not saying that if you let Henry Ford get rich, he\'ll hire you as a
 waiter at his next party. I\'m saying that he\'ll make you a tractor to
 replace your horse.
@@ -10856,25 +10849,25 @@ half of the businesses they work for (the ad sales department). Many of
 these people never come face to face with the fact that the money they
 receive represents wealth\--wealth that, except in the case of
 journalists, someone else created earlier. They live in a world in which
-income *is* doled out by a central authority according to some abstract
+income _is_ doled out by a central authority according to some abstract
 notion of fairness (or randomly, in the case of heirs), rather than
 given by other people in return for something they wanted, so it may
 seem to them unfair that things don\'t work the same in the rest of the
 economy.
 
 (Some professors do create a great deal of wealth for society. But the
-money they\'re paid isn\'t a *quid pro quo*. It\'s more in the nature of
+money they\'re paid isn\'t a _quid pro quo_. It\'s more in the nature of
 an investment.)
 
 `<a name=mind_the_gap_note2>`{=html}\[2\]`</a>`{=html} When one reads
 about the origins of the Fabian Society, it sounds like something cooked
-up by the high-minded Edwardian child-heroes of Edith Nesbit\'s *The
-Wouldbegoods*.
+up by the high-minded Edwardian child-heroes of Edith Nesbit\'s _The
+Wouldbegoods_.
 
 `<a name=mind_the_gap_note3>`{=html}\[3\]`</a>`{=html} According to a
 study by the Corporate Library, the median total compensation, including
 salary, bonus, stock grants, and the exercise of stock options, of S&P;
-500 CEOs in 2002 was \$3.65 million. According to *Sports Illustrated* ,
+500 CEOs in 2002 was \$3.65 million. According to _Sports Illustrated_ ,
 the average NBA player\'s salary during the 2002-03 season was \$4.54
 million, and the average major league baseball player\'s salary at the
 start of the 2003 season was \$2.56 million. According to the Bureau of
@@ -10882,27 +10875,27 @@ Labor Statistics, the mean annual wage in the US in 2002 was \$35,560.
 
 `<a name=mind_the_gap_note4>`{=html}\[4\]`</a>`{=html} In the early
 empire the price of an ordinary adult slave seems to have been about
-2,000 sestertii (e.g. Horace, *Sat.* ii.7.43). A servant girl cost 600
+2,000 sestertii (e.g. Horace, _Sat._ ii.7.43). A servant girl cost 600
 (Martial vi.66), while Columella (iii.3.8) says that a skilled vine-
 dresser was worth 8,000. A doctor, P. Decimus Eros Merula, paid 50,000
-sestertii for his freedom (Dessau, *Inscriptiones* 7812). Seneca ( *Ep.*
+sestertii for his freedom (Dessau, _Inscriptiones_ 7812). Seneca ( _Ep._
 xxvii.7) reports that one Calvisius Sabinus paid 100,000 sestertii
-apiece for slaves learned in the Greek classics. Pliny ( *Hist. Nat.*
+apiece for slaves learned in the Greek classics. Pliny ( _Hist. Nat._
 vii.39) says that the highest price paid for a slave up to his time was
 700,000 sestertii, for the linguist (and presumably teacher) Daphnis,
 but that this had since been exceeded by actors buying their own
 freedom.
 
 Classical Athens saw a similar variation in prices. An ordinary laborer
-was worth about 125 to 150 drachmae. Xenophon ( *Mem.* ii.5) mentions
+was worth about 125 to 150 drachmae. Xenophon ( _Mem._ ii.5) mentions
 prices ranging from 50 to 6,000 drachmae (for the manager of a silver
 mine).
 
 For more on the economics of ancient slavery see:
 
-Jones, A. H. M., \"Slavery in the Ancient World,\" *Economic History
-Review* , 2:9 (1956), 185-199, reprinted in Finley, M. I. (ed.),
-*Slavery in Classical Antiquity* , Heffer, 1964.
+Jones, A. H. M., \"Slavery in the Ancient World,\" _Economic History
+Review_ , 2:9 (1956), 185-199, reprinted in Finley, M. I. (ed.),
+_Slavery in Classical Antiquity_ , Heffer, 1964.
 
 `<a name=mind_the_gap_note5>`{=html}\[5\]`</a>`{=html} Eratosthenes
 (276\--195 BC) used shadow lengths in different cities to estimate the
@@ -10933,7 +10926,7 @@ frequently, you can\'t help associating it with the other sense of the
 word (as in e.g. \"distribution of alms\"), and thereby subconsciously
 seeing wealth as something that flows from some central tap. The word
 \"regressive\" as applied to tax rates has a similar effect, at least on
-me; how can anything *regressive* be good?
+me; how can anything _regressive_ be good?
 
 `<a name=mind_the_gap_note9>`{=html}\[9\]`</a>`{=html} \"From the
 beginning of the reign Thomas Lord Roos was an assiduous courtier of the
@@ -10945,16 +10938,16 @@ of spectacular treason trials that punctuated Henry\'s erratic
 matrimonial progress made him an obvious candidate for grants of
 monastic property.\"
 
-Stone, Lawrence, *Family and Fortune: Studies in Aristocratic Finance in
-the Sixteenth and Seventeenth Centuries* , Oxford University Press,
+Stone, Lawrence, _Family and Fortune: Studies in Aristocratic Finance in
+the Sixteenth and Seventeenth Centuries_ , Oxford University Press,
 1973, p. 166.
 
 `<a name=mind_the_gap_note10>`{=html}\[10\]`</a>`{=html} There is
 archaeological evidence for large settlements earlier, but it\'s hard to
 say what was happening in them.
 
-Hodges, Richard and David Whitehouse, *Mohammed, Charlemagne and the
-Origins of Europe* , Cornell University Press, 1983.
+Hodges, Richard and David Whitehouse, _Mohammed, Charlemagne and the
+Origins of Europe_ , Cornell University Press, 1983.
 
 `<a name=mind_the_gap_note11>`{=html}\[11\]`</a>`{=html} William Cecil
 and his son Robert were each in turn the most powerful minister of the
@@ -10963,7 +10956,7 @@ of their times. Robert in particular took bribery to the point of
 treason. \"As Secretary of State and the leading advisor to King James
 on foreign policy, \[he\] was a special recipient of favour, being
 offered large bribes by the Dutch not to make peace with Spain, and
-large bribes by Spain to make peace.\" (Stone, *op. cit.* , p. 17.)
+large bribes by Spain to make peace.\" (Stone, _op. cit._ , p. 17.)
 
 `<a name=mind_the_gap_note12>`{=html}\[12\]`</a>`{=html} Though Balzac
 made a lot of money from writing, he was notoriously improvident and was
@@ -11023,7 +11016,7 @@ their system can\'t be hacked, measure the degree to which it is.
 
 [Spanish Translation](http://www.liberalismo.org/articulo/392/)
 
-------------------------------------------------------------------------
+---
 
 # 030 Great Hackers
 
@@ -11032,7 +11025,7 @@ Combinator](http://ycombinator.com/apply.html).
 
 July 2004
 
-*(This essay is derived from a talk at Oscon 2004.)*
+_(This essay is derived from a talk at Oscon 2004.)_
 
 A few months ago I finished a new
 [book](http://www.amazon.com/exec/obidos/tg/detail/-/0596006624), and in
@@ -11057,7 +11050,7 @@ thing\-- for example, that you\'re recovering consciousness after being
 hit on the head.
 
 Variation in wealth can be a sign of variation in productivity. (In a
-society of one, they\'re identical.) And *that* is almost certainly a
+society of one, they\'re identical.) And _that_ is almost certainly a
 good thing: if your society has no variation in productivity, it\'s
 probably not because everyone is Thomas Edison. It\'s probably because
 you have no Thomas Edisons.
@@ -11111,7 +11104,7 @@ delighted to find people will pay them for.
 Great programmers are sometimes said to be indifferent to money. This
 isn\'t quite true. It is true that all they really care about is doing
 interesting work. But if you make enough money, you get to work on
-whatever you want, and for that reason hackers *are* attracted by the
+whatever you want, and for that reason hackers _are_ attracted by the
 idea of making really large amounts of money. But as long as they still
 have to show up for work every day, they care more about what they do
 there than how much they get paid for it.
@@ -11196,7 +11189,7 @@ If you want to get real work done in an office with cubicles, you have
 two options: work at home, or come in early or late or on a weekend,
 when no one else is there. Don\'t companies realize this is a sign that
 something is broken? An office environment is supposed to be something
-that *helps* you work, not something you work despite.
+that _helps_ you work, not something you work despite.
 
 Companies like Cisco are proud that everyone there has a cubicle, even
 the CEO. But they\'re not so advanced as they think; obviously they
@@ -11282,7 +11275,7 @@ be condensed into two words: give up.
 The problem is not so much the day to day management. Really good
 hackers are practically self-managing. The problem is, if you\'re not a
 hacker, you can\'t tell who the good hackers are. A similar problem
-explains why American cars are so ugly. I call it the *design paradox.*
+explains why American cars are so ugly. I call it the _design paradox._
 You might think that you could make your products beautiful just by
 hiring a great designer to design them. But if you yourself don\'t have
 good [taste](taste.html), how are you going to recognize a good
@@ -11488,8 +11481,7 @@ it may be both.
 
 To do something well you have to [love](love.html) it. So to the extent
 you can preserve hacking as something you love, you\'re likely to do it
-well. Try to keep the sense of wonder you had about programming at age
-14. If you\'re worried that your current job is rotting your brain, it
+well. Try to keep the sense of wonder you had about programming at age 14. If you\'re worried that your current job is rotting your brain, it
 probably is.
 
 The best hackers tend to be smart, of course, but that\'s true in a lot
@@ -11606,10 +11598,10 @@ Translation](http://www.kill-9.it/blog/index.php/2004/09/01/grandi-%20hacker/)
 [Spanish
 Translation](http://www.fsl.org.mx/articulos/hackers3/grandes-%20hackers)
 
-------------------------------------------------------------------------
+---
 
-If you liked this, you may also like [***Hackers &
-Painters***](http://www.amazon.com/gp/product/0596006624).
+If you liked this, you may also like [**_Hackers &
+Painters_**](http://www.amazon.com/gp/product/0596006624).
 
 # 031 The Python Paradox
 
@@ -11680,10 +11672,10 @@ Translation](http://www.fduran.com/wordpress/?p=23)
 [French Translation](http://w2.syronex.com/jmr/python-paradox) [Telugu
 Translation](http://www.avilpage.com/2014/12/python-paradox.html)
 
-------------------------------------------------------------------------
+---
 
-If you liked this, you may also like [***Hackers &
-Painters***](http://www.amazon.com/gp/product/0596006624).
+If you liked this, you may also like [**_Hackers &
+Painters_**](http://www.amazon.com/gp/product/0596006624).
 
 # 032 The Age of the Essay
 
@@ -11693,7 +11685,7 @@ September 2004
 
 Remember the essays you had to write in high school? Topic sentence,
 introductory paragraph, supporting paragraphs, conclusion. The
-conclusion being, say, that Ahab in *Moby Dick* was a Christ-like
+conclusion being, say, that Ahab in _Moby Dick_ was a Christ-like
 figure.
 
 Oy. So I\'m going to try to give the other side of the story: what an
@@ -11848,7 +11840,7 @@ To understand what a real essay is, we have to reach back into history
 again, though this time not so far. To Michel de Montaigne, who in 1580
 published a book of what he called \"essais.\" He was doing something
 quite different from what lawyers do, and the difference is embodied in
-the name. *Essayer* is the French verb meaning \"to try\" and an *essai*
+the name. _Essayer_ is the French verb meaning \"to try\" and an _essai_
 is an attempt. An essay is something you write to try to figure
 something out.
 
@@ -11896,7 +11888,7 @@ and get nowhere. But those you don\'t publish. Those are like
 experiments that get inconclusive results. An essay you publish ought to
 tell the reader something he didn\'t already know.
 
-But *what* you tell him doesn\'t matter, so long as it\'s interesting.
+But _what_ you tell him doesn\'t matter, so long as it\'s interesting.
 I\'m sometimes accused of meandering. In defend-a-position writing that
 would be a flaw. There you\'re not concerned with truth. You already
 know where you\'re going, and you want to go straight there, blustering
@@ -12055,7 +12047,7 @@ what writing things down leaves in your head.
 
 People trying to be cool will find themselves at a disadvantage when
 collecting surprises. To be surprised is to be mistaken. And the essence
-of cool, as any fourteen year old could tell you, is *nil admirari.*
+of cool, as any fourteen year old could tell you, is _nil admirari._
 When you\'re mistaken, don\'t dwell on it; just act like nothing\'s
 wrong and maybe no one will notice.
 
@@ -12070,7 +12062,7 @@ preservation. And so were books and paintings.
 Whatever you study, include history\-- but social and economic history,
 not political history. History seems to me so important that it\'s
 misleading to treat it as a mere field of study. Another way to describe
-it is *all the data we have so far.*
+it is _all the data we have so far._
 
 Among other things, studying history gives one confidence that there are
 good ideas waiting to be discovered right under our noses. Swords
@@ -12096,12 +12088,12 @@ his own hair. Surely this is a lowly sort of thing to be interested
 in\-- the sort of superficial quizzing best left to teenage girls. And
 yet there is something underneath. The key question, I realized, is how
 does the comber-over not see how odd he looks? And the answer is that he
-got to look that way *incrementally.* What began as combing his hair a
+got to look that way _incrementally._ What began as combing his hair a
 little carefully over a thin patch has gradually, over 20 years, grown
 into a monstrosity. Gradualness is very powerful. And that power can be
 used for constructive purposes too: just as you can trick yourself into
 looking like a freak, you can trick yourself into creating something so
-grand that you would never have dared to *plan* such a thing. Indeed,
+grand that you would never have dared to _plan_ such a thing. Indeed,
 this is just how most good software gets created. You start by writing a
 stripped-down kernel (how hard can it be?) and gradually it grows into a
 complete operating system. Hence the next leap: could you do the same
@@ -12142,35 +12134,35 @@ assimilating classical science. The cause may have been the plague of
 1347; the trend in scientific progress matches the population curve.
 
 `<a name=the_age_of_the_essay_note2>`{=html}\[2\]`</a>`{=html} Parker,
-William R. \"Where Do College English Departments Come From?\" *College
-English* 28 (1966-67), pp. 339-351. Reprinted in Gray, Donald J. (ed).
-*The Department of English at Indiana University Bloomington 1868-1970.*
+William R. \"Where Do College English Departments Come From?\" _College
+English_ 28 (1966-67), pp. 339-351. Reprinted in Gray, Donald J. (ed).
+_The Department of English at Indiana University Bloomington 1868-1970._
 Indiana University Publications.
 
-Daniels, Robert V. *The University of Vermont: The First Two Hundred
-Years.* University of Vermont, 1991.
+Daniels, Robert V. _The University of Vermont: The First Two Hundred
+Years._ University of Vermont, 1991.
 
-Mueller, Friedrich M. Letter to the *Pall Mall Gazette.* 1886/87.
-Reprinted in Bacon, Alan (ed). *The Nineteenth-Century History of
-English Studies.* Ashgate, 1998.
+Mueller, Friedrich M. Letter to the _Pall Mall Gazette._ 1886/87.
+Reprinted in Bacon, Alan (ed). _The Nineteenth-Century History of
+English Studies._ Ashgate, 1998.
 
 `<a name=the_age_of_the_essay_note3>`{=html}\[3\]`</a>`{=html} I\'m
 compressing the story a bit. At first literature took a back seat to
 philology, which (a) seemed more serious and (b) was popular in Germany,
 where many of the leading scholars of that generation had been trained.
 
-In some cases the writing teachers were transformed *in situ* into
+In some cases the writing teachers were transformed _in situ_ into
 English professors. Francis James Child, who had been Boylston Professor
 of Rhetoric at Harvard since 1851, became in 1876 the university\'s
 first professor of English.
 
 `<a name=the_age_of_the_essay_note4>`{=html}\[4\]`</a>`{=html} Parker,
-*op. cit.* , p. 25.
+_op. cit._ , p. 25.
 
 `<a name=the_age_of_the_essay_note5>`{=html}\[5\]`</a>`{=html} The
-undergraduate curriculum or *trivium* (whence \"trivial\") consisted of
+undergraduate curriculum or _trivium_ (whence \"trivial\") consisted of
 Latin grammar, rhetoric, and logic. Candidates for masters\' degrees
-went on to study the *quadrivium* of arithmetic, geometry, music, and
+went on to study the _quadrivium_ of arithmetic, geometry, music, and
 astronomy. Together these were the seven liberal arts.
 
 The study of rhetoric was inherited directly from Rome, where it was
@@ -12199,10 +12191,10 @@ Translation](http://blog.livedoor.jp/simoom634/archives/50189369.html)
 
 [Traditional Chinese Translation](http://yowureport.com/?p=7345)
 
-------------------------------------------------------------------------
+---
 
-If you liked this, you may also like [***Hackers &
-Painters***](hackpaint.html).
+If you liked this, you may also like [**_Hackers &
+Painters_**](hackpaint.html).
 
 # 033 What the Bubble Got Right
 
@@ -12210,7 +12202,7 @@ Painters***](hackpaint.html).
 
 September 2004
 
-*(This essay is derived from an invited talk at ICFP 2004.)*
+_(This essay is derived from an invited talk at ICFP 2004.)_
 
 I had a front row seat for the Internet Bubble, because I worked at
 Yahoo during 1998 and 1999. One day, when the stock was trading around
@@ -12273,7 +12265,7 @@ invest in them. But investing in concepts isn\'t stupid; it\'s what VCs
 do, and the best of them are far from stupid.
 
 The stock of a company that doesn\'t yet have earnings is worth
-*something.* It may take a while for the market to learn how to value
+_something._ It may take a while for the market to learn how to value
 such companies, just as it had to learn to value common stocks in the
 early 20th century. But markets are good at solving that kind of
 problem. I wouldn\'t be surprised if the market ultimately did a better
@@ -12340,7 +12332,7 @@ Google ad? Something is going on here.
 Admittedly, Google is an extreme case. It\'s very easy for people to
 switch to a new search engine. It costs little effort and no money to
 try a new one, and it\'s easy to see if the results are better. And so
-Google doesn\'t *have* to advertise. In a business like theirs, being
+Google doesn\'t _have_ to advertise. In a business like theirs, being
 the best is enough.
 
 The exciting thing about the Internet is that it\'s shifting everything
@@ -12402,7 +12394,7 @@ clothes. A company that made programmers wear suits would have something
 deeply wrong with it.
 
 And what would be wrong would be that how one presented oneself counted
-more than the quality of one\'s ideas. *That\'s* the problem with
+more than the quality of one\'s ideas. _That\'s_ the problem with
 formality. Dressing up is not so much bad in itself. The problem is the
 receptor it binds to: dressing up is inevitably a substitute for good
 ideas. It is no coincidence that technically inept business types are
@@ -12457,7 +12449,7 @@ drives technical innovation.
 Options are a good idea because (a) they\'re fair, and (b) they work.
 Someone who goes to work for a company is (one hopes) adding to its
 value, and it\'s only fair to give them a share of it. And as a purely
-practical measure, people work a *lot* harder when they have options.
+practical measure, people work a _lot_ harder when they have options.
 I\'ve seen that first hand.
 
 The fact that a few crooks during the Bubble robbed their companies by
@@ -12478,7 +12470,7 @@ But that\'s not quite what you want. What you want is to increase the
 actual value of the company, not its market cap. Over time the two
 inevitably meet, but not always as quickly as options vest. Which means
 options tempt employees, if only unconsciously, to \"pump and
-dump\"\--to do things that will make the company *seem* valuable. I
+dump\"\--to do things that will make the company _seem_ valuable. I
 found that when I was at Yahoo, I couldn\'t help thinking, \"how will
 this sound to investors?\" when I should have been thinking \"is this a
 good idea?\"
@@ -12504,7 +12496,7 @@ As I wrote in [Hackers & Painters](hackpaint.html), employees seem to be
 most productive when they\'re paid in proportion to the wealth they
 generate. And the advantage of a startup\--indeed, almost its raison
 d\'etre\--is that it offers something otherwise impossible to obtain: a
-way of *measuring* that.
+way of _measuring_ that.
 
 In many businesses, it just makes more sense for companies to get
 technology by buying startups rather than developing it in house. You
@@ -12539,8 +12531,8 @@ wonder if this was a smart idea.)
 What makes the Bay Area superior is the attitude of the people. I notice
 that when I come home to Boston. The first thing I see when I walk out
 of the airline terminal is the fat, grumpy guy in charge of the taxi
-line. I brace myself for rudeness: *remember, you\'re back on the East
-Coast now.*
+line. I brace myself for rudeness: _remember, you\'re back on the East
+Coast now._
 
 The atmosphere varies from city to city, and fragile organisms like
 startups are exceedingly sensitive to such variation. If it hadn\'t
@@ -12623,7 +12615,7 @@ famous Internet stocks were almost certainly overvalued in 1999, it is
 still hard to say for sure whether, e.g., the Nasdaq index was.
 
 Siegel, Jeremy J. \"What Is an Asset Price Bubble? An Operational
-Definition.\" *European Financial Management,* 9:1, 2003.
+Definition.\" _European Financial Management,_ 9:1, 2003.
 
 `<a name=what_the_bubble_got_right_note2>`{=html}\[2\]`</a>`{=html} The
 number of users comes from a 6/03 Nielsen study quoted on Google\'s
@@ -12640,7 +12632,7 @@ Livingston, and Robert Morris for reading drafts of this.
 
 [Japanese Translation](http://d.hatena.ne.jp/lionfan/20070115)
 
-------------------------------------------------------------------------
+---
 
 # 034 A Version 1.0
 
@@ -12713,7 +12705,7 @@ color or baseball.
 How did things get this way? To answer that we have to go back almost a
 thousand years. Between about 500 and 1000, life was not very good in
 Europe. The term \"dark ages\" is presently out of fashion as too
-judgemental (the period wasn\'t dark; it was just *different* ), but if
+judgemental (the period wasn\'t dark; it was just _different_ ), but if
 this label didn\'t already exist, it would seem an inspired metaphor.
 What little original thought there was took place in lulls between
 constant wars and had something of the character of the thoughts of
@@ -12923,7 +12915,7 @@ write them.
 So there\'s another difference between essays and the things you have to
 write in school. In school you are, in theory, explaining yourself to
 someone else. In the best case\-\--if you\'re really
-organized\-\--you\'re just writing it *down.* In a real essay you\'re
+organized\-\--you\'re just writing it _down._ In a real essay you\'re
 writing for yourself. You\'re thinking out loud.
 
 But not quite. Just as inviting people over forces you to clean up your
@@ -12957,7 +12949,7 @@ and get nowhere. But those you don\'t publish. Those are like
 experiments that get inconclusive results. Something you publish ought
 to tell the reader something he didn\'t already know.
 
-But *what* you tell him doesn\'t matter, so long as it\'s interesting.
+But _what_ you tell him doesn\'t matter, so long as it\'s interesting.
 I\'m sometimes accused of meandering. In defend-a-position writing that
 would be a flaw. There you\'re not concerned with truth. You already
 know where you\'re going, and you want to go straight there, blustering
@@ -13079,7 +13071,7 @@ balked at this, on the one hand paying Milton the compliment of an
 extensive biography, and on the other writing of Paradise Lost that
 \"none who read it ever wished it longer.\"
 
-------------------------------------------------------------------------
+---
 
 # 035 Bradley\'s Ghost
 
@@ -13121,7 +13113,7 @@ their sample isn\'t random anymore. So what they do, apparently, is note
 down the age and race and sex of the person, and guess from that who
 they voted for.
 
-This works so long as there is no *correlation* between who people vote
+This works so long as there is no _correlation_ between who people vote
 for and whether they\'re willing to talk about it. But this year there
 may have been. It may be that a significant number of those who voted
 for Bush didn\'t want to say so.
@@ -13159,10 +13151,10 @@ President](http://www.rasmussenreports.com/2005/Woman%20President.htm)
 
 [Japanese Translation](http://d.hatena.ne.jp/lionfan/20070127)
 
-------------------------------------------------------------------------
+---
 
-If you liked this, you may also like [***Hackers &
-Painters***](http://www.amazon.com/gp/product/0596006624).
+If you liked this, you may also like [**_Hackers &
+Painters_**](http://www.amazon.com/gp/product/0596006624).
 
 # 036 It\'s Charisma, Stupid
 
@@ -13217,7 +13209,7 @@ pattern played out in 1964 and 1972. The most recent counterexample
 appears to be 1968, when Nixon beat the more charismatic Hubert
 Humphrey. But when you examine that election, it tends to support the
 charisma theory more than contradict it. As Joe McGinnis recounts in his
-famous book *The Selling of the President 1968* , Nixon knew he had less
+famous book _The Selling of the President 1968_ , Nixon knew he had less
 charisma than Humphrey, and thus simply refused to debate him on TV. He
 knew he couldn\'t afford to let the two of them be seen side by side.
 
@@ -13292,7 +13284,7 @@ it deserves attention, however implausible it seems.
 You can\'t believe voters are so superficial that they just choose the
 most charismatic guy? My theory doesn\'t require that. I\'m not
 proposing that charisma is the only factor, just that it\'s the only one
-*left* after the efforts of the two parties cancel one another out.
+_left_ after the efforts of the two parties cancel one another out.
 
 As for the theory being obvious, as far as I know, no one has proposed
 it before. Election forecasters are proud when they can achieve the same
@@ -13349,7 +13341,7 @@ Acting](http://www.neh.gov/whoweare/miller/lecture.html)
 
 [Japanese Translation](http://d.hatena.ne.jp/lionfan/20070212)
 
-------------------------------------------------------------------------
+---
 
 # 037 Made in USA
 
@@ -13357,14 +13349,14 @@ Acting](http://www.neh.gov/whoweare/miller/lecture.html)
 
 November 2004
 
-*(This is a new essay for the Japanese edition of[Hackers &
+_(This is a new essay for the Japanese edition of[Hackers &
 Painters](http://www.amazon.com/exec/obidos/tg/detail/-/0596006624). It
-tries to explain why Americans make some things well and others badly.)*
+tries to explain why Americans make some things well and others badly.)_
 
 A few years ago an Italian friend of mine travelled by train from Boston
 to Providence. She had only been in America for a couple weeks and
 hadn\'t seen much of the country yet. She arrived looking astonished.
-\"It\'s so *ugly!\"*
+\"It\'s so _ugly!\"_
 
 People from other rich countries can scarcely imagine the squalor of the
 man- made bits of America. In travel books they show you mostly natural
@@ -13383,7 +13375,7 @@ good at for the same reason we\'re bad at what we\'re bad at. We\'re
 impatient. In America, if you want to do something, you don\'t worry
 that it might come out badly, or upset delicate social balances, or that
 people might think you\'re getting above yourself. If you want to do
-something, as Nike says, *just do it.*
+something, as Nike says, _just do it._
 
 This works well in some fields and badly in others. I suspect it works
 in movies and software because they\'re both messy processes.
@@ -13475,7 +13467,7 @@ the whole culture cares about design.
 I think most Japanese executives would be horrified at the idea of
 making a bad car. Whereas American executives, in their hearts, still
 believe the most important thing about a car is the image it projects.
-Make a good car? What\'s \"good?\" It\'s so *subjective.* If you want to
+Make a good car? What\'s \"good?\" It\'s so _subjective._ If you want to
 know how to design a car, ask a focus group.
 
 Instead of relying on their own internal design compass (like Henry Ford
@@ -13500,7 +13492,7 @@ the consumer electronics business now, and unlike other American
 companies, they\'re obsessed with good design. Or more precisely, their
 CEO is.
 
-I just got an iPod, and it\'s not just nice. It\'s *surprisingly* nice.
+I just got an iPod, and it\'s not just nice. It\'s _surprisingly_ nice.
 For it to surprise me, it must be satisfying expectations I didn\'t know
 I had. No focus group is going to discover those. Only a great designer
 can.
@@ -13566,14 +13558,14 @@ for reading drafts of this.
 
 [The John Rain Books](http://www.barryeisler.com)
 
-------------------------------------------------------------------------
+---
 
 # 038 What You\'ll Wish You\'d Known
 
 January 2005
 
-*(I wrote this talk for a high school. I never actually gave it, because
-the school authorities vetoed the plan to invite me.)*
+_(I wrote this talk for a high school. I never actually gave it, because
+the school authorities vetoed the plan to invite me.)_
 
 When I said I was speaking at a high school, my friends were curious.
 What will you say to high school students? So I asked them, what do you
@@ -13639,7 +13631,7 @@ lazy, the other one is probably right.
 
 So far we\'ve cut the Standard Graduation Speech down from \"don\'t give
 up on your dreams\" to \"what someone else can do, you can do.\" But it
-needs to be cut still further. There is *some* variation in natural
+needs to be cut still further. There is _some_ variation in natural
 ability. Most people overestimate its role, but it does exist. If I were
 talking to a guy four feet tall whose ambition was to play in the NBA,
 I\'d feel pretty stupid saying, you can do anything if you really try.
@@ -13697,7 +13689,7 @@ papers unintelligible to outsiders. But while in some fields the papers
 are unintelligible because they\'re full of hard ideas, in others
 they\'re deliberately written in an obscure way to seem as if they\'re
 saying something important. This may seem a scandalous proposition, but
-it has been experimentally verified, in the famous *Social Text* affair.
+it has been experimentally verified, in the famous _Social Text_ affair.
 Suspecting that the papers published by literary theorists were often
 just intellectual- sounding nonsense, a physicist deliberately wrote a
 paper full of intellectual-sounding nonsense, and submitted it to a
@@ -13771,9 +13763,9 @@ one feels in high school is: mental queasiness.
 [5](#what_youll_wish_youd_known_note5)
 
 You may be thinking, we have to do more than get good grades. We have to
-have *extracurricular activities.* But you know perfectly well how bogus
+have _extracurricular activities._ But you know perfectly well how bogus
 most of these are. Collecting donations for a charity is an admirable
-thing to do, but it\'s not *hard.* It\'s not getting something done.
+thing to do, but it\'s not _hard._ It\'s not getting something done.
 What I mean by getting something done is learning how to write well, or
 how to program computers, or what life was really like in preindustrial
 societies, or how to draw the human face from life. This sort of thing
@@ -14028,7 +14020,7 @@ students to get good grades. If you treat your classes as a game, you
 won\'t be demoralized if they seem pointless.
 
 However bad your classes, you need to get good grades in them to get
-into a decent college. And that *is* worth doing, because universities
+into a decent college. And that _is_ worth doing, because universities
 are where a lot of the clumps of smart people are these days.
 
 `<a name=what_youll_wish_youd_known_note4>`{=html}\[4\]`</a>`{=html} The
@@ -14062,7 +14054,7 @@ superior education but had a tiny (.001) negative effect on college
 admissions. How many parents would still send their kids to them?
 
 It might also be argued that kids who went to prep schools, because
-they\'ve learned more, *are* better college candidates. But this seems
+they\'ve learned more, _are_ better college candidates. But this seems
 empirically false. What you learn in even the best high school is
 rounding error compared to what you learn in college. Public school kids
 arrive at college with a slight disadvantage, but they start to pull
@@ -14125,7 +14117,7 @@ Translation](http://www.livejournal.com/users/nixxbox/63008.html)
 
 [Georgian Translation](https://stopa.io/post/266)
 
-------------------------------------------------------------------------
+---
 
 # 039 How to Start a Startup
 
@@ -14134,7 +14126,7 @@ Combinator](http://ycombinator.com/apply.html).
 
 March 2005
 
-*(This essay is derived from a talk at the Harvard Computer Society.)*
+_(This essay is derived from a talk at the Harvard Computer Society.)_
 
 You need three things to create a successful startup: to start with good
 people, to make something customers actually want, and to spend as
@@ -14215,7 +14207,7 @@ professional and cross over into obsessive.
 What it means specifically depends on the job: a salesperson who just
 won\'t take no for an answer; a hacker who will stay up till 4:00 AM
 rather than go to bed leaving code with a bug in it; a PR person who
-will cold-call *New York Times* reporters on their cell phones; a
+will cold-call _New York Times_ reporters on their cell phones; a
 graphic designer who feels physical pain when something is two
 millimeters out of place.
 
@@ -14493,7 +14485,7 @@ mainframes, and Intel is doing it to Sun. Microsoft Word did it to
 desktop publishing software like Interleaf and Framemaker. Mass-market
 digital cameras are doing it to the expensive models made for
 professionals. Avid did it to the manufacturers of specialized video
-editing systems, and now Apple is doing it to Avid. *Henry Ford* did it
+editing systems, and now Apple is doing it to Avid. _Henry Ford_ did it
 to the car makers that preceded him. If you build the simple,
 inexpensive option, you\'ll not only find it easier to sell at first,
 but you\'ll also be in the best position to conquer the rest of the
@@ -14718,7 +14710,7 @@ or Mike Moritz, this is true. But such advice and connections can come
 very expensive. And as you go down the food chain the VCs get rapidly
 dumber. A few steps down from the top you\'re basically talking to
 bankers who\'ve picked up a few new vocabulary words from reading
-*Wired*. (Does your product use *XML?* ) So I\'d advise you to be
+_Wired_. (Does your product use _XML?_ ) So I\'d advise you to be
 skeptical about claims of experience and connections. Basically, a VC is
 a source of money. I\'d be inclined to go with whoever offered the most
 money the soonest with the least strings attached.
@@ -15148,7 +15140,7 @@ Translation](http://www.aoky.net/articles/paul_graham/start.htm)
 [Arabic
 Translation](https://chefrour.blogspot.com/2020/02/blog-post.html)
 
-------------------------------------------------------------------------
+---
 
 # 040 A Unified Theory of VC Suckage
 
@@ -15175,7 +15167,7 @@ It\'s not so much that the business attracts jerks, or even that the
 power they wield corrupts them. The real problem is the way they\'re
 paid.
 
-The problem with VC funds is that they\'re *funds*. Like the managers of
+The problem with VC funds is that they\'re _funds_. Like the managers of
 mutual funds or hedge funds, VCs get paid a percentage of the money they
 manage: about 2% a year in management fees, plus a percentage of the
 gains. So they want the fund to be huge\-- hundreds of millions of
@@ -15311,7 +15303,7 @@ attempting to probe our nonexistent database orifice.
 No, we don\'t use Oracle. We just store the data in files. Our secret is
 to use an OS that doesn\'t lose our data. Which OS? FreeBSD. Why do you
 use that instead of Windows NT? Because it\'s better and it doesn\'t
-cost anything. What, you\'re using a *freeware* OS?
+cost anything. What, you\'re using a _freeware_ OS?
 
 How many times that conversation was repeated. Then when we got to
 Yahoo, we found they used FreeBSD and stored their data in files too.
@@ -15321,7 +15313,7 @@ Translation](http://flyingapplet.spaces.live.com/blog/cns!F682AFBD82F7E261!374.e
 
 [Japanese Translation](http://d.hatena.ne.jp/lionfan/20070214)
 
-------------------------------------------------------------------------
+---
 
 # 041 Undergraduation
 
@@ -15332,8 +15324,8 @@ Combinator](http://ycombinator.com/apply.html).
 
 March 2005
 
-*(Parts of this essay began as replies to students who wrote to me with
-questions.)*
+_(Parts of this essay began as replies to students who wrote to me with
+questions.)_
 
 Recently I\'ve had several emails from computer science undergrads
 asking what to do in college. I might not be the best source of advice,
@@ -15502,7 +15494,7 @@ the word \'is\' is.\" I took about five classes in college on what the
 meaning of \"is\" is.
 
 Another way to figure out which fields are worth studying is to create
-the *dropout graph.* For example, I know many people who switched from
+the _dropout graph._ For example, I know many people who switched from
 math to computer science because they found math too hard, and no one
 who did the opposite. People don\'t do hard things gratuitously; no one
 will work on a harder problem unless it is proportionately (or at least
@@ -15643,7 +15635,7 @@ For example, the Honeywell thermostats in my house have the most
 atrocious UI. My mother, who has the same model, diligently spent a day
 reading the user\'s manual to learn how to operate hers. She assumed the
 problem was with her. But I can think to myself \"If someone with a PhD
-in computer science can\'t understand this thermostat, it *must* be
+in computer science can\'t understand this thermostat, it _must_ be
 badly designed.\"
 
 If you still want to go to grad school after this equivocal
@@ -15709,8 +15701,8 @@ majors. \"\'Math for engineers\' classes sucked mightily. In fact any
 visual design.\"
 
 `<a name=undergraduation_note4>`{=html}\[4\]`</a>`{=html} Other highly
-recommended books: *What is Mathematics?* , by Courant and Robbins;
-*Geometry and the Imagination* by Hilbert and Cohn-Vossen. And for those
+recommended books: _What is Mathematics?_ , by Courant and Robbins;
+_Geometry and the Imagination_ by Hilbert and Cohn-Vossen. And for those
 interested in graphic design, [Byrne\'s
 Euclid](http://www.math.ubc.ca/people/faculty/cass/Euclid/byrne.html).
 
@@ -15749,15 +15741,15 @@ Students](http://www.joelonsoftware.com/articles/CollegeAdvice.html)
 [Eric Raymond: How to Become a
 Hacker](http://www.catb.org/~esr/faqs/hacker-%20howto.html)
 
-------------------------------------------------------------------------
+---
 
 # 042 Writing, Briefly
 
 March 2005
 
-*(In the process of answering an email, I accidentally wrote a tiny
+_(In the process of answering an email, I accidentally wrote a tiny
 essay about writing. I usually spend weeks on an essay. This one took 67
-minutes\--23 of writing, and 44 of rewriting.)*
+minutes\--23 of writing, and 44 of rewriting.)_
 
 I think it\'s far more important to write well than most people realize.
 Writing doesn\'t just communicate ideas; it generates them. If you\'re
@@ -15820,7 +15812,7 @@ Translation](http://baltzersen.info/articles/writing_briefly.php)
 [Arabic
 Translation](https://tldrarabiccontents.blogspot.com/2020/01/blog-%20post_28.html)
 
-------------------------------------------------------------------------
+---
 
 # 043 Return of the Mac
 
@@ -15947,7 +15939,7 @@ Translation](http://anton.kovalyov.net/translations/return-of-the-%20mac.html)
 [Chinese
 Translation](http://flyingapplet.spaces.live.com/blog/cns!F682AFBD82F7E261!390.entry)
 
-------------------------------------------------------------------------
+---
 
 # 044 Why Smart People Have Bad Ideas
 
@@ -15992,7 +15984,7 @@ They didn\'t become art dealers after a difficult choice between that
 and a career in the hard sciences. Most of them had never seen the Web
 before we came to tell them why they should be on it. Some didn\'t even
 have computers. It doesn\'t do justice to the situation to describe it
-as a hard *sell* ; we soon sank to building sites for free, and it was
+as a hard _sell_ ; we soon sank to building sites for free, and it was
 hard to convince galleries even to do that.
 
 Gradually it dawned on us that instead of trying to make Web sites for
@@ -16045,7 +16037,7 @@ much time that it was too late to change.
 So the biggest cause of bad ideas is the still life effect: you come up
 with a random idea, plunge into it, and then at each point (a day, a
 week, a month) feel you\'ve put so much time into it that this must be
-*the* idea.
+_the_ idea.
 
 How do we fix that? I don\'t think we should discard plunging. Plunging
 into an idea is a good thing. The solution is at the other end: to
@@ -16053,7 +16045,7 @@ realize that having invested time in something doesn\'t make it good.
 
 This is clearest in the case of names. Viaweb was originally called
 Webgen, but we discovered someone else had a product called that. We
-were so attached to our name that we offered him *5% of the company* if
+were so attached to our name that we offered him _5% of the company_ if
 he\'d let us have it. But he wouldn\'t, so we had to think of another.
 [4](#why_smart_people_have_bad_ideas_note4) The best we could do was
 Viaweb, which we disliked at first. It was like having a new mother. But
@@ -16146,13 +16138,13 @@ impoverished market to avoid competition.
 Looking at the applications for the Summer Founders Program, I see signs
 of all three. But the first is by far the biggest problem. Most of the
 groups applying have not stopped to ask: of all the things we could do,
-is *this* the one with the best chance of making money?
+is _this_ the one with the best chance of making money?
 
 If they\'d already been through their Artix phase, they\'d have learned
 to ask that. After the reception we got from art dealers, we were ready
 to. This time, we thought, let\'s make something people want.
 
-Reading the *Wall Street Journal* for a week should give anyone ideas
+Reading the _Wall Street Journal_ for a week should give anyone ideas
 for two or three new startups. The articles are full of descriptions of
 problems that need to be solved. But most of the applicants don\'t seem
 to have looked far for ideas.
@@ -16194,7 +16186,7 @@ focus on what customers wanted. I\'ll probably alienate this guy forever
 by quoting him, but I have to risk it, because his email was such a
 perfect example of this view:
 
-> 80% of MIT spinoffs succeed *provided* they have at least one
+> 80% of MIT spinoffs succeed _provided_ they have at least one
 > management \> person in the team at the start. The business person
 > represents the \"voice \> of the customer\" and that\'s what keeps the
 > engineers and product development \> on track.
@@ -16216,7 +16208,7 @@ duck, it\'s hard not to see it.
 
 And compared to the sort of problems hackers are used to solving, giving
 customers what they want is easy. Anyone who can write an optimizing
-compiler can design a UI that doesn\'t confuse users, once they *choose*
+compiler can design a UI that doesn\'t confuse users, once they _choose_
 to focus on that problem. And once you apply that kind of brain power to
 petty but profitable questions, you can create wealth very rapidly.
 
@@ -16228,8 +16220,8 @@ them to work instead on problems of the most immediate and mundane sort.
 Think Einstein designing refrigerators.
 [7](#why_smart_people_have_bad_ideas_note7)
 
-If you want to learn what people want, read Dale Carnegie\'s *How to Win
-Friends and Influence People.*
+If you want to learn what people want, read Dale Carnegie\'s _How to Win
+Friends and Influence People._
 [8](#why_smart_people_have_bad_ideas_note8) When a friend recommended
 this book, I couldn\'t believe he was serious. But he insisted it was
 good, so I read it, and he was right. It deals with the most difficult
@@ -16327,17 +16319,17 @@ Translation](http://www.masternewmedia.org/it/business_online/idee_brillanti_ed_
 
 [Japanese Translation](http://d.hatena.ne.jp/lionfan/20060109)
 
-------------------------------------------------------------------------
+---
 
-If you liked this, you may also like [***Hackers &
-Painters***](http://www.amazon.com/gp/product/0596006624).
+If you liked this, you may also like [**_Hackers &
+Painters_**](http://www.amazon.com/gp/product/0596006624).
 
 # 045 The Submarine
 
 April 2005
 
-\"Suits make a corporate comeback,\" says the [*New York
-Times*](http://www.nytimes.com/2005/04/14/fashion/thursdaystyles/14peacock.html?ex=1271131200&en=e96f2670387e3636&ei=5090&partner=rssuserland).
+\"Suits make a corporate comeback,\" says the [_New York
+Times_](http://www.nytimes.com/2005/04/14/fashion/thursdaystyles/14peacock.html?ex=1271131200&en=e96f2670387e3636&ei=5090&partner=rssuserland).
 Why does this sound familiar? Maybe because the suit was also back in
 [February](http://www.cvbizlink.com/articles/2005/04/07/news/news/doc42406f05edf53293947237.prt),
 [September
@@ -16410,12 +16402,12 @@ make it look like a magazine. They\'re so desperate for \"content\" that
 some will print your press releases almost verbatim, if you take the
 trouble to write them to read like articles.
 
-At the other extreme are publications like the *New York Times* and the
-*Wall Street Journal*. Their reporters do go out and find their own
+At the other extreme are publications like the _New York Times_ and the
+_Wall Street Journal_. Their reporters do go out and find their own
 stories, at least some of the time. They\'ll listen to PR firms, but
 briefly and skeptically. We managed to get press hits in almost every
 publication we wanted, but we never managed to crack the print edition
-of the *Times*. [3](#the_submarine_note3)
+of the _Times_. [3](#the_submarine_note3)
 
 The weak point of the top reporters is not laziness, but vanity. You
 don\'t pitch stories to them. You have to approach them as if you were a
@@ -16487,13 +16479,13 @@ you\'ll turn up other variants of this story.
 
 [Casual fridays are out and dress codes are
 in](http://bostonworks.boston.com/globe/articles/091904_suit.html)
-writes Diane E. Lewis in *The Boston Globe*. In a remarkable
+writes Diane E. Lewis in _The Boston Globe_. In a remarkable
 coincidence, Ms. Lewis\'s industry contacts also include the creative
 director of GQ.
 
 [Ripped jeans and T-shirts are
 out,](http://www.usnews.com/usnews/biztech/articles/041108/8eedress.htm)
-writes Mary Kathleen Flynn in *US News & World Report*. And *she too*
+writes Mary Kathleen Flynn in _US News & World Report_. And _she too_
 knows the creative director of GQ.
 
 [Men\'s suits are back](http://www.sexbuzz.com/style/9,0004,00.shtml)
@@ -16502,7 +16494,7 @@ magazine\").
 
 [Dressing down loses appeal as men suit up at the
 office](http://www.detnews.com/2004/careers/0405/28/b01-149207.htm)
-writes Tenisha Mercer of *The Detroit News*.
+writes Tenisha Mercer of _The Detroit News_.
 
 Now that so many news articles are online, I suspect you could find a
 similar pattern for most trend stories placed by PR firms. I propose we
@@ -16520,15 +16512,15 @@ Remember the exercises in critical reading you did in school, where you
 had to look at a piece of writing and step back and ask whether the
 author was telling the whole truth? If you really want to be a critical
 reader, it turns out you have to step back one step further, and ask not
-just whether the author is telling the truth, but *why he\'s writing
-about this subject at all.*
+just whether the author is telling the truth, but _why he\'s writing
+about this subject at all._
 
 Online, the answer tends to be a lot simpler. Most people who publish
 online write what they write for the simple reason that they want to.
 You can\'t see the fingerprints of PR firms all over the articles, as
 you can in so many print publications\-- which is one of the reasons,
 though they may not consciously realize it, that readers trust bloggers
-more than *Business Week*.
+more than _Business Week_.
 
 I was talking recently to a friend who works for a big newspaper. He
 thought the print media were in serious trouble, and that they were
@@ -16538,7 +16530,7 @@ he said. \"Actually it\'s structural.\"
 In other words, the readers are leaving, and they\'re not coming back.
 
 Why? I think the main reason is that the writing online is more honest.
-Imagine how incongruous the *New York Times* article about suits would
+Imagine how incongruous the _New York Times_ article about suits would
 sound if you read it in a blog:
 
 > The urge to look corporate\-- sleek, commanding, prudent, yet with
@@ -16556,7 +16548,7 @@ writing what they think.
 
 I didn\'t realize, till there was an alternative, just how artificial
 most of the writing in the mainstream media was. I\'m not saying I used
-to believe what I read in *Time* and *Newsweek*. Since high school, at
+to believe what I read in _Time_ and _Newsweek_. Since high school, at
 least, I\'ve thought of magazines like that more as guides to what
 ordinary people were being [told](say.html) to think than as sources of
 information. But I didn\'t realize till the last few years that writing
@@ -16595,7 +16587,7 @@ nominally have a cover price and yet give away free subscriptions with
 such abandon.
 
 `<a name=the_submarine_note3>`{=html}\[3\]`</a>`{=html} Different
-sections of the *Times* vary so much in their standards that they\'re
+sections of the _Times_ vary so much in their standards that they\'re
 practically different papers. Whoever fed the style section reporter
 this story about suits coming back would have been sent packing by the
 regular news reporters.
@@ -16622,7 +16614,7 @@ vegetables to a can of soup.
 Livingston, Jackie McDonough, Robert Morris, and Aaron Swartz (who also
 found the PRSA article) for reading drafts of this.
 
-**Correction:** Earlier versions used a recent *Business Week* article
+**Correction:** Earlier versions used a recent _Business Week_ article
 mentioning del.icio.us as an example of a press hit, but Joshua
 Schachter tells me it was spontaneous.
 
@@ -16659,10 +16651,10 @@ Tie](http://www.guardian.co.uk/commentisfree/story/0,,1864095,00.html)
 
 [Japanese Translation](http://d.hatena.ne.jp/lionfan/20060114)
 
-------------------------------------------------------------------------
+---
 
-If you liked this, you may also like [***Hackers &
-Painters***](hackpaint.html).
+If you liked this, you may also like [**_Hackers &
+Painters_**](hackpaint.html).
 
 # 046 Hiring is Obsolete
 
@@ -16673,7 +16665,7 @@ Combinator](http://ycombinator.com/apply.html).
 
 May 2005
 
-*(This essay is derived from a talk at the Berkeley CSUA.)*
+_(This essay is derived from a talk at the Berkeley CSUA.)_
 
 The three big powers on the Internet now are Yahoo, Google, and
 Microsoft. Average age of their founders: 24. So it is pretty well
@@ -16733,7 +16725,7 @@ stream, but instead of pursuing this thought they tended to suppress it,
 in the belief that it was good for even the most promising kids to start
 at the bottom, so they didn\'t get swelled heads.
 
-The most productive young people will *always* be undervalued by large
+The most productive young people will _always_ be undervalued by large
 organizations, because the young have no performance to measure yet, and
 any error in guessing their ability will tend toward the mean.
 
@@ -17169,7 +17161,7 @@ company during that time too.
 The advice about going to work for someone else would get an even colder
 reception from the 19 year old Bill Gates. So I\'m supposed to finish
 college, then go work for another company for two years, and then I can
-start my own? I have to wait till I\'m 23? That\'s *four years*. That\'s
+start my own? I have to wait till I\'m 23? That\'s _four years_. That\'s
 more than twenty percent of my life so far. Plus in four years it will
 be way too late to make money writing a Basic interpreter for the
 Altair.
@@ -17212,16 +17204,16 @@ Translation](http://www.perevedem.ru/article/hiring_is_obsolete_full.htm)
 
 [Japanese Translation](http://d.hatena.ne.jp/lionfan/20060110)
 
-------------------------------------------------------------------------
+---
 
-If you liked this, you may also like [***Hackers &
-Painters***](http://www.amazon.com/gp/product/0596006624).
+If you liked this, you may also like [**_Hackers &
+Painters_**](http://www.amazon.com/gp/product/0596006624).
 
 # 047 What Business Can Learn from Open Source
 
 August 2005
 
-*(This essay is derived from a talk at Oscon 2005.)*
+_(This essay is derived from a talk at Oscon 2005.)_
 
 Lately companies have been paying more attention to open source. Ten
 years ago there seemed a real danger Microsoft would extend its monopoly
@@ -17230,7 +17222,7 @@ that. A recent survey found 52% of companies are replacing Windows
 servers with Linux servers.
 [1](#what_business_can_learn_from_open_source_note1)
 
-More significant, I think, is *which* 52% they are. At this point,
+More significant, I think, is _which_ 52% they are. At this point,
 anyone proposing to run Windows on servers should be prepared to explain
 what they know about servers that Google, Yahoo, and Amazon don\'t.
 
@@ -17264,7 +17256,7 @@ business doesn\'t know this, I mean the structure of business doesn\'t
 reflect it.
 
 Business still reflects an older model, exemplified by the French word
-for working: *travailler*. It has an English cousin, travail, and what
+for working: _travailler_. It has an English cousin, travail, and what
 it means is torture.
 [2](#what_business_can_learn_from_open_source_note2)
 
@@ -17327,7 +17319,7 @@ online. How about \"writer?\"
 
 Those in the print media who dismiss the writing online because of its
 low average quality are missing an important point: no one reads the
-*average* blog. In the old world of channels, it meant something to talk
+_average_ blog. In the old world of channels, it meant something to talk
 about average quality, because that\'s what you were getting whether you
 liked it or not. But now you can read any writer you want. So the
 average quality of writing online isn\'t what the print media are
@@ -17353,7 +17345,7 @@ notices that a majority of voters now think invading Iraq was a mistake,
 so he makes an address to the nation to drum up support. Where is the
 man bites dog in that? I didn\'t hear the speech, but I could probably
 tell you exactly what he said. A speech like that is, in the most
-literal sense, not news: there is nothing *new* in it.
+literal sense, not news: there is nothing _new_ in it.
 [3](#what_business_can_learn_from_open_source_note3)
 
 Nor is there anything new, except the names and places, in most \"news\"
@@ -17527,7 +17519,7 @@ for months, and in the meantime I\'d have to fight word-by-word to save
 it from being mangled by some twenty five year old copy editor.
 [5](#what_business_can_learn_from_open_source_note5)
 
-Many employees would *like* to build great things for the companies they
+Many employees would _like_ to build great things for the companies they
 work for, but more often than not management won\'t let them. How many
 of us have heard stories of employees going to management and saying,
 please let us build this thing to make money for you\-- and the company
@@ -17593,7 +17585,7 @@ relationship than companies being sued for firing people. In any purely
 economic relationship you\'re free to do what you want. If you want to
 stop buying steel pipe from one supplier and start buying it from
 another, you don\'t have to explain why. No one can accuse you of
-*unjustly* switching pipe suppliers. Justice implies some kind of
+_unjustly_ switching pipe suppliers. Justice implies some kind of
 paternal obligation that isn\'t there in transactions between equals.
 
 Most of the legal restrictions on employers are intended to protect
@@ -17653,7 +17645,7 @@ money from an investor than an employer.
 
 Hackers tend to think business is for MBAs. But business administration
 is not what you\'re doing in a startup. What you\'re doing is business
-*creation*. And the first phase of that is mostly product creation\--
+_creation_. And the first phase of that is mostly product creation\--
 that is, hacking. That\'s the hard part. It\'s a lot harder to create
 something people love than to take something people love and figure out
 how to make money from it.
@@ -17680,7 +17672,7 @@ Week, 31 Jan 2005. Apparently someone believed you have to replace the
 actual server in order to switch the operating system.
 
 `<a name=what_business_can_learn_from_open_source_note2>`{=html}\[2\]`</a>`{=html}
-It derives from the late Latin *tripalium* , a torture device so called
+It derives from the late Latin _tripalium_ , a torture device so called
 because it consisted of three stakes. I don\'t know how the stakes were
 used. \"Travel\" has the same root.
 
@@ -17698,7 +17690,7 @@ version that by the time I did the section of the magazine they\'d
 accepted it for had disappeared in a reorganization.
 
 `<a name=what_business_can_learn_from_open_source_note6>`{=html}\[6\]`</a>`{=html}
-The word \"boss\" is derived from the Dutch *baas* , meaning \"master.\"
+The word \"boss\" is derived from the Dutch _baas_ , meaning \"master.\"
 
 **Thanks** to Sarah Harlin, Jessica Livingston, and Robert Morris for
 reading drafts of this.
@@ -17717,7 +17709,7 @@ Translation](http://juanuruguay.blogspot.com/2008/12/lo-que-los-%20negocios-pued
 [Arabic
 Translation](http://academy.hsoub.com/entrepreneurship/general/%D9%85%D8%A7-%D9%8A%D9%85%D9%83%D9%86-%D8%A3%D9%86-%D9%8A%D8%AA%D8%B9%D9%84%D9%91%D9%8E%D9%85%D9%87-%D8%B9%D8%A7%D9%84%D9%85-%D8%A7%D9%84%D8%A3%D8%B9%D9%85%D8%A7%D9%84-%D9%85%D9%86-%D8%A7%D9%84%D9%85%D8%B5%D8%A7%D8%AF%D8%B1-%D8%A7%D9%84%D9%85%D9%81%D8%AA%D9%88%D8%AD%D8%A9-r54/)
 
-------------------------------------------------------------------------
+---
 
 # 048 After the Ladder
 
@@ -17762,7 +17754,7 @@ sell them for parts was that they hadn\'t formally acknowledged their
 implicit debt to employees who had done good work and expected to be
 rewarded with high-paying executive jobs when their time came.
 
-In the movie *Wall Street* , Gordon Gekko ridicules a company overloaded
+In the movie _Wall Street_ , Gordon Gekko ridicules a company overloaded
 with vice presidents. But the company may not be as corrupt as it seems;
 those VPs\' cushy jobs were probably payment for work done earlier.
 
@@ -17784,19 +17776,19 @@ reactors) disappeared that way.
 For better or worse, the idea of the corporate ladder is probably gone
 for good. The new model seems more liquid, and more efficient. But it is
 less of a change, financially, than one might think. Our fathers
-weren\'t *that* stupid.
+weren\'t _that_ stupid.
 
 [Romanian Translation](http://ro.goobix.com/pg/ladder/)
 
 [Japanese Translation](http://d.hatena.ne.jp/lionfan/20060111)
 
-------------------------------------------------------------------------
+---
 
 # 049 Inequality and Risk
 
 August 2005
 
-*(This essay is derived from a talk at Defcon 2005.)*
+_(This essay is derived from a talk at Defcon 2005.)_
 
 Suppose you wanted to get rid of economic inequality. There are two ways
 to do it: give money to the poor, or take it away from the rich. But
@@ -17968,7 +17960,7 @@ startups, pretty soon you won\'t have established companies either, just
 as, if you stop having kids, pretty soon you won\'t have any adults.
 
 It sounds benevolent to say we ought to reduce economic inequality. When
-you phrase it that way, who can argue with you? *Inequality* has to be
+you phrase it that way, who can argue with you? _Inequality_ has to be
 bad, right? It sounds a good deal less benevolent to say we ought to
 reduce the rate at which new companies are founded. And yet the one
 implies the other.
@@ -18029,7 +18021,7 @@ For example, construction firms that fund politicians\' campaigns in
 return for government contracts, or rich parents who get their children
 into good colleges by sending them to expensive schools designed for
 that purpose. But if you try to attack this type of wealth through
-*economic* policy, it\'s hard to hit without destroying startups as
+_economic_ policy, it\'s hard to hit without destroying startups as
 collateral damage.
 
 The problem here is not wealth, but corruption. So why not go after
@@ -18126,10 +18118,10 @@ Translation](http://www.csie.ntu.edu.tw/~p92005/paulgraham/inequality.html)
 
 [Hebrew Translation](http://www.capitalism.co.il/wordpress-he/?p=445)
 
-------------------------------------------------------------------------
+---
 
-If you liked this, you may also like [***Hackers &
-Painters***](http://www.amazon.com/gp/product/0596006624).
+If you liked this, you may also like [**_Hackers &
+Painters_**](http://www.amazon.com/gp/product/0596006624).
 
 # 050 What I Did this Summer
 
@@ -18397,7 +18389,7 @@ were allowed to?
 As with most nature/nurture questions, the answer is probably: some of
 each. But my main conclusion from the summer is that there\'s more
 environment in the mix than most people realize. I could see that from
-how the founders\' attitudes *changed* during the summer. Most were
+how the founders\' attitudes _changed_ during the summer. Most were
 emerging from twenty or so years of being told what to do. They seemed a
 little surprised at having total freedom. But they grew into it really
 quickly; some of these guys now seem about four inches taller
@@ -18444,7 +18436,7 @@ Stone, and Aaron Swartz for reading drafts of this.
 
 [Japanese Translation](http://d.hatena.ne.jp/lionfan/20060112)
 
-------------------------------------------------------------------------
+---
 
 # 051 Ideas for Startups
 
@@ -18453,8 +18445,8 @@ Combinator](http://ycombinator.com/apply.html).
 
 October 2005
 
-*(This essay is derived from a talk at the 2005[Startup
-School.](http://startupschool.org))*
+_(This essay is derived from a talk at the 2005[Startup
+School.](http://startupschool.org))_
 
 How do you get good ideas for [startups](start.html)? That\'s probably
 the number one question people ask me.
@@ -18462,8 +18454,8 @@ the number one question people ask me.
 I\'d like to reply with another question: why do people think it\'s hard
 to come up with ideas for startups?
 
-That might seem a stupid thing to ask. Why do they *think* it\'s hard?
-If people can\'t do it, then it *is* hard, at least for them. Right?
+That might seem a stupid thing to ask. Why do they _think_ it\'s hard?
+If people can\'t do it, then it _is_ hard, at least for them. Right?
 
 Well, maybe not. What people usually say is not that they can\'t think
 of ideas, but that they don\'t have any. That\'s not quite the same
@@ -18471,7 +18463,7 @@ thing. It could be the reason they don\'t have any is that they haven\'t
 tried to generate them.
 
 I think this is often the case. I think people believe that coming up
-with ideas for startups is very hard\-- that it *must* be very hard\--
+with ideas for startups is very hard\-- that it _must_ be very hard\--
 and so they don\'t try do to it. They assume ideas are like miracles:
 they either pop into your head or they don\'t.
 
@@ -18514,7 +18506,7 @@ wouldn\'t want to have their data on your servers, and so on.
 
 A question doesn\'t seem so challenging. It becomes: let\'s try making a
 web- based spreadsheet and see how far we get. And everyone knows that
-if you tried this you\'d be able to make *something* useful. Maybe what
+if you tried this you\'d be able to make _something_ useful. Maybe what
 you\'d end up with wouldn\'t even be a spreadsheet. Maybe it would be
 some kind of new spreasheet- like collaboration tool that doesn\'t even
 have a name yet. You wouldn\'t have thought of something like that
@@ -18595,7 +18587,7 @@ why the discrepancy?
 When you realize that successful startups tend to have multiple founders
 who were already friends, a possible explanation emerges. People\'s best
 friends are likely to be of the same sex, and if one group is a minority
-in some population, *pairs* of them will be a minority squared.
+in some population, _pairs_ of them will be a minority squared.
 [1](#ideas_for_startups_note1)
 
 **Doodling**
@@ -18644,7 +18636,7 @@ generate ideas, because you won\'t have any habits of mind to invoke.
 Of course the habits of mind you invoke on some field don\'t have to be
 derived from working in that field. In fact, it\'s often better if
 they\'re not. You\'re not just looking for good ideas, but for good
-*new* ideas, and you have a better chance of generating those if you
+_new_ ideas, and you have a better chance of generating those if you
 combine stuff from distant fields. As hackers, one of our habits of mind
 is to ask, could one open-source x? For example, what if you made an
 open-source operating system? A fine idea, but not very novel. Whereas
@@ -18794,7 +18786,7 @@ well, that\'s our motto.
 Making things cheaper is actually a subset of a more general technique:
 making things easier. For a long time it was most of making things
 easier, but now that the things we build are so complicated, there\'s
-another rapidly growing subset: making things easier to *use*.
+another rapidly growing subset: making things easier to _use_.
 
 This is an area where there\'s great room for improvement. What you want
 to be able to say about technology is: it just works. How often do you
@@ -18806,7 +18798,7 @@ the stove at my mother\'s house a couple weeks ago. It was a new one,
 and instead of physical knobs it had buttons and an LED display. I tried
 pressing some buttons I thought would cause it to get hot, and you know
 what it said? \"Err.\" Not even \"Error.\" \"Err.\" You can\'t just say
-\"Err\" to the user of a *stove*. You should design the UI so that
+\"Err\" to the user of a _stove_. You should design the UI so that
 errors are impossible. And the boneheads who designed this stove even
 had an example of such a UI to work from: the old one. You turn one knob
 to set the temperature and another to set the timer. What was wrong with
@@ -18909,7 +18901,7 @@ Translation](http://the-notebook.org/21/04/2006/idei-dlya-startapa/)
 [Arabic
 Translation](https://chefrour.blogspot.com/2020/03/blog-post.html)
 
-------------------------------------------------------------------------
+---
 
 # 052 The Venture Capital Squeeze
 
@@ -19095,10 +19087,10 @@ Translation](http://smallestbusiness.com/heb/venture-capital-squeeze-%20hebrew/)
 
 [Japanese Translation](http://d.hatena.ne.jp/lionfan/20070205)
 
-------------------------------------------------------------------------
+---
 
-If you liked this, you may also like [***Hackers &
-Painters***](http://www.amazon.com/gp/product/0596006624).
+If you liked this, you may also like [**_Hackers &
+Painters_**](http://www.amazon.com/gp/product/0596006624).
 
 # 053 How to Fund a Startup
 
@@ -19243,7 +19235,7 @@ not to need this crutch.
 
 **Angel Investors**
 
-*Angels* are individual rich people. The word was first used for backers
+_Angels_ are individual rich people. The word was first used for backers
 of Broadway plays, but now applies to individual investors generally.
 Angels who\'ve made money in technology are preferable, for two reasons:
 they understand your situation, and they\'re a source of contacts and
@@ -19257,7 +19249,7 @@ good to have him on your side.
 
 You can do whatever you want with money from consulting or friends and
 family. With angels we\'re now talking about venture funding proper, so
-it\'s time to introduce the concept of *exit strategy*. Younger would-be
+it\'s time to introduce the concept of _exit strategy_. Younger would-be
 founders are often surprised that investors expect them either to sell
 the company or go public. The reason is that investors need to get their
 capital back. They\'ll only consider companies that have an exit
@@ -19363,7 +19355,7 @@ round took months to pay us, and only did after repeated nagging from
 our lawyer, who was also, fortunately, his lawyer.
 
 It\'s obvious why investors delay. Investing in startups is risky! When
-a company is only two months old, every *day* you wait gives you 1.7%
+a company is only two months old, every _day_ you wait gives you 1.7%
 more data about their trajectory. But the investor is already being
 compensated for that risk in the low price of the stock, so it is unfair
 to delay.
@@ -19381,7 +19373,7 @@ you, and then everyone wants to buy you.
 
 The key to closing deals is never to stop pursuing alternatives. When an
 investor says he wants to invest in you, or an acquirer says they want
-to buy you, *don\'t believe it till you get the check.* Your natural
+to buy you, _don\'t believe it till you get the check._ Your natural
 tendency when an investor says yes will be to relax and go back to
 writing code. Alas, you can\'t; you have to keep looking for more
 investors, if only to get this one to act.
@@ -19488,7 +19480,7 @@ terms.
 
 The word \"venture capitalist\" is sometimes used loosely for any
 venture investor, but there is a sharp difference between VCs and other
-investors: VC firms are organized as *funds* , much like hedge funds or
+investors: VC firms are organized as _funds_ , much like hedge funds or
 mutual funds. The fund managers, who are called \"general partners,\"
 get about 2% of the fund annually as a management fee, plus about 20% of
 the fund\'s gains.
@@ -19570,7 +19562,7 @@ analysts. If you get a call from a VC firm, go to their web site and
 check whether the person you talked to is a partner. Odds are it will be
 a junior person; they scour the web looking for startups their bosses
 could invest in. The junior people will tend to seem very positive about
-your company. They\'re not pretending; they *want* to believe you\'re a
+your company. They\'re not pretending; they _want_ to believe you\'re a
 hot prospect, because it would be a huge coup for them if their firm
 invested in a company they discovered. Don\'t be misled by this
 optimism. It\'s the partners who decide, and they view things with a
@@ -19783,7 +19775,7 @@ problem that usually gets solved in some improvised way. Maybe the
 startup can find lawyers who will do it cheaply in the hope of future
 work if the startup succeeds. Maybe someone has a lawyer friend. Maybe
 the angel pays for his lawyer to represent both sides. (Make sure if you
-take the latter route that the lawyer is *representing* you rather than
+take the latter route that the lawyer is _representing_ you rather than
 merely advising you, or his only duty is to the investor.)
 
 An angel investing \$200k would probably expect a seat on the board of
@@ -20053,7 +20045,7 @@ could argue that the VCs should be deprived of their shares when the
 company goes public.
 
 `<a name=how_to_fund_a_startup_note10>`{=html}\[10\]`</a>`{=html} One
-new thing the company might encounter is a *down round* , or a funding
+new thing the company might encounter is a _down round_ , or a funding
 round at valuation lower than the previous round. Down rounds are bad
 news; it is generally the common stock holders who take the hit. Some of
 the most fearsome provisions in VC deal terms have to do with down
@@ -20074,7 +20066,7 @@ Aaron Swartz for reading drafts of this.
 [Arabic
 Translation](https://chefrour.blogspot.com/2020/03/blog-post_11.html)
 
-------------------------------------------------------------------------
+---
 
 # 054 Web 2.0
 
@@ -20113,7 +20105,7 @@ wanted to organize a conference about the web, and they were wondering
 what to call it.
 
 I don\'t think there was any deliberate plan to suggest there was a new
-*version* of the web. They just wanted to make the point that the web
+_version_ of the web. They just wanted to make the point that the web
 mattered again. It was a kind of semantic deficit spending: they knew
 new things were coming, and the \"2.0\" referred to whatever those might
 turn out to be.
@@ -20133,7 +20125,7 @@ go were VCs and people from big companies.
 
 And yet, oddly enough, Ryan Singel\'s
 [article](http://www.wired.com/news/technology/0,1282,69114,00.html)
-about the conference in *Wired News* spoke of \"throngs of geeks.\" When
+about the conference in _Wired News_ spoke of \"throngs of geeks.\" When
 a friend of mine asked Ryan about this, it was news to him. He said
 he\'d originally written something like \"throngs of VCs and biz dev
 guys\" but had later shortened it just to \"throngs,\" and that this
@@ -20288,7 +20280,7 @@ the point of economic sadism: site owners assumed that the more pain
 they caused the user, the more benefit it must be to them. The most
 dramatic remnant of this model may be at salon.com, where you can read
 the beginning of a story, but to get the rest you have sit through a
-*movie*.
+_movie_.
 
 At Y Combinator we advise all the startups we fund never to lord it over
 users. Never make users register, unless you need to in order to store
@@ -20398,7 +20390,7 @@ Here\'s a clue. Suppose you approached investors with the following idea
 for a Web 2.0 startup:
 
 > Sites like del.icio.us and flickr allow users to \"tag\" content with
-> \> descriptive tokens. But there is also huge source of *implicit*
+> \> descriptive tokens. But there is also huge source of _implicit_
 > tags that \> they ignore: the text within web links. Moreover, these
 > links represent a \> social network connecting the individuals and
 > organizations who created the \> pages, and by using graph theory we
@@ -20464,7 +20456,7 @@ virtual home directory spread across multiple servers. Or it may be to
 write it all yourself.
 
 `<a name=web_20_note6>`{=html}\[6\]`</a>`{=html} In Jessica
-Livingston\'s [*Founders at Work*](http://foundersatwork.com).
+Livingston\'s [_Founders at Work_](http://foundersatwork.com).
 
 `<a name=web_20_note7>`{=html}\[7\]`</a>`{=html} Microsoft didn\'t sue
 their customers directly, but they seem to have done all they could to
@@ -20485,10 +20477,10 @@ Translation](http://matblog.de/index.php?/archives/334-UEbersetzung-%20von-Paul-
 
 [Japanese Translation](http://d.hatena.ne.jp/lionfan/20060720)
 
-------------------------------------------------------------------------
+---
 
-If you liked this, you may also like [***Hackers &
-Painters***](http://www.amazon.com/gp/product/0596006624).
+If you liked this, you may also like [**_Hackers &
+Painters_**](http://www.amazon.com/gp/product/0596006624).
 
 # 055 Good and Bad Procrastination
 
@@ -20588,7 +20580,7 @@ were.)
 I\'ve used both these excuses at one time or another. I\'ve learned a
 lot of tricks for making myself work over the last 20 years, but even
 now I don\'t win consistently. Some days I get real work done. Other
-days are eaten up by errands. And I know it\'s usually my fault: I *let*
+days are eaten up by errands. And I know it\'s usually my fault: I _let_
 errands eat up the day, to avoid facing some hard problem.
 
 The most dangerous form of procrastination is unacknowledged type-B
@@ -20655,7 +20647,7 @@ projects almost always leads somewhere.)
 But the trouble with big problems can\'t be just that they promise no
 immediate reward and might cause you to waste a lot of time. If that
 were all, they\'d be no worse than going to visit your in-laws. There\'s
-more to it than that. Big problems are *terrifying*. There\'s an almost
+more to it than that. Big problems are _terrifying_. There\'s an almost
 physical pain in facing them. It\'s like having a vacuum cleaner hooked
 up to your imagination. All your initial ideas get sucked out
 immediately, and you don\'t have any more, and yet the vacuum cleaner is
@@ -20731,7 +20723,7 @@ and hurt yourself. But except for these few anomalous cases, work was
 pretty much defined as not- fun.
 
 And it did not seem to be an accident. School, it was implied, was
-tedious *because* it was preparation for grownup work.
+tedious _because_ it was preparation for grownup work.
 
 The world then was divided into two groups, grownups and kids. Grownups,
 like some kind of cursed race, had to work. Kids didn\'t, but they did
@@ -20756,7 +20748,7 @@ Once, when I was about 9 or 10, my father told me I could be whatever I
 wanted when I grew up, so long as I enjoyed it. I remember that
 precisely because it seemed so anomalous. It was like being told to use
 dry water. Whatever I thought he meant, I didn\'t think he meant work
-could *literally* be fun \-- fun like playing. It took me years to grasp
+could _literally_ be fun \-- fun like playing. It took me years to grasp
 that.
 
 **Jobs**
@@ -20823,20 +20815,20 @@ graduate school.
 
 **Bounds**
 
-*How much* are you supposed to like what you do? Unless you know that,
+_How much_ are you supposed to like what you do? Unless you know that,
 you don\'t know when to stop searching. And if, like most people, you
 underestimate it, you\'ll tend to stop searching too early. You\'ll end
 up doing something chosen for you by your parents, or the desire to make
 money, or prestige \-- or sheer inertia.
 
 Here\'s an upper bound: Do what you love doesn\'t mean, do what you
-would like to do most *this second*. Even Einstein probably had moments
+would like to do most _this second_. Even Einstein probably had moments
 when he wanted to have a cup of coffee, but told himself he ought to
 finish what he was working on first.
 
 It used to perplex me when I read about people who liked what they did
 so much that there was nothing they\'d rather do. There didn\'t seem to
-be any sort of work I liked *that* much. If I had a choice of (a)
+be any sort of work I liked _that_ much. If I had a choice of (a)
 spending the next hour working on something or (b) be teleported to Rome
 and spend the next hour wandering about, was there any sort of work I\'d
 prefer? Honestly, no.
@@ -20904,7 +20896,7 @@ actual work of novel-writing if you\'re going to be good at it; you have
 to like making up elaborate lies.
 
 Prestige is just fossilized inspiration. If you do anything well enough,
-you\'ll *make* it prestigious. Plenty of things we now consider
+you\'ll _make_ it prestigious. Plenty of things we now consider
 prestigious were anything but at first. Jazz comes to mind \-- though
 almost any established art form would do. So just do what you like, and
 let prestige take care of itself.
@@ -20983,7 +20975,7 @@ but probably.
 
 Although doing great work takes less discipline than people think \--
 because the way to do great work is to find something you like so much
-that you don\'t have to force yourself to do it \-- *finding* work you
+that you don\'t have to force yourself to do it \-- _finding_ work you
 love does usually require discipline. Some people are lucky enough to
 know what they want to do when they\'re 12, and just glide along as if
 they were on railroad tracks. But this seems the exception. More often
@@ -21185,7 +21177,7 @@ people you can help, the better. But friends should be your compass.
 `<a name=how_to_do_what_you_love_note5>`{=html}\[5\]`</a>`{=html} Donald
 Hall said young would-be poets were mistaken to be so obsessed with
 being published. But you can imagine what it would do for a 24 year old
-to get a poem published in *The New Yorker*. Now to people he meets at
+to get a poem published in _The New Yorker_. Now to people he meets at
 parties he\'s a real poet. Actually he\'s no better or worse than he was
 before, but to a clueless audience like that, the approval of an
 official authority makes all the difference. So it\'s a harder problem
@@ -21283,7 +21275,7 @@ with a tiny tweak he could make it run more efficiently. In this case,
 the device is the world\'s economy, which fortunately happens to be open
 source.
 
-------------------------------------------------------------------------
+---
 
 # 058 6,631,372
 
@@ -21307,7 +21299,7 @@ automatically detects which searches are shopping searches.
 If you just order the results in order of bids, you can make the search
 results useless, because the first results could be dominated by lame
 sites that had bid the most. But if you order results by bid multiplied
-by transactions, far from selling out, you\'re getting a *better*
+by transactions, far from selling out, you\'re getting a _better_
 measure of relevance. What could be a better sign that someone was
 satisfied with a search result than going to the site and buying
 something?
@@ -21334,7 +21326,7 @@ what has to be the optimal way of sorting product search results, and
 he\'s not even curious.\" I didn\'t realize till much later why he
 didn\'t care. In 1998, advertisers were overpaying enormously for ads on
 web sites. In 1998, if advertisers paid the maximum that traffic was
-worth to them, Yahoo\'s revenues would have *decreased.*
+worth to them, Yahoo\'s revenues would have _decreased._
 
 Things are different now, of course. Now this sort of thing is all the
 rage. So when I ran into the Yahoo exec I knew from the old days in the
@@ -21347,8 +21339,7 @@ not sure what happened to the application after I left.\"
 \"Really? That would be an important patent.\"
 
 So someone investigated, and sure enough, that patent application had
-continued in the pipeline for several years after, and finally issued in
-2003.
+continued in the pipeline for several years after, and finally issued in 2003.
 
 The main thing that struck me on reading it, actually, is that lawyers
 at some point messed up my nice clear writing. Some clever person with a
@@ -21367,13 +21358,13 @@ For the fine prose of the original, see the provisional application of
 February 1998, back when we were still Viaweb and couldn\'t afford to
 pay lawyers to turn every \"a lot of\" into \"considerable.\"
 
-------------------------------------------------------------------------
+---
 
 # 059 Are Software Patents Evil?
 
 March 2006
 
-*(This essay is derived from a talk at Google.)*
+_(This essay is derived from a talk at Google.)_
 
 A few weeks ago I found to my surprise that I\'d been granted four
 [patents](http://paulgraham.infogami.com/blog/morepatents). This was all
@@ -21428,7 +21419,7 @@ obvious. And this, especially, is where the USPTO has been dropping the
 ball. Slashdot has an icon that expresses the problem vividly: a knife
 and fork with the words \"patent pending\" superimposed.
 
-The scary thing is, this is the *only* icon they have for patent
+The scary thing is, this is the _only_ icon they have for patent
 stories. Slashdot readers now take it for granted that a story about a
 patent will be about a bogus patent. That\'s how bad the problem has
 become.
@@ -21510,7 +21501,7 @@ does.\" It\'s more like saying \"I\'m not going to use TCP/IP just
 because everyone else does.\" Oh yes you are.
 
 A closer comparison might be someone seeing a hockey game for the first
-time, realizing with shock that the players were *deliberately* bumping
+time, realizing with shock that the players were _deliberately_ bumping
 into one another, and deciding that one would on no account be so rude
 when playing hockey oneself.
 
@@ -21769,7 +21760,7 @@ for that purpose.
 
 Whether they encourage innovation or not, patents were at least intended
 to. You don\'t get a patent for nothing. In return for the exclusive
-right to use an idea, you have to *publish* it, and it was largely to
+right to use an idea, you have to _publish_ it, and it was largely to
 encourage such openness that patents were established.
 
 Before patents, people protected ideas by keeping them secret. With
@@ -21809,7 +21800,7 @@ efficiency that would accompany increased secrecy. As anyone who has
 dealt with organizations that operate on a \"need to know\" basis can
 attest, dividing information up into little cells is terribly
 inefficient. The flaw in the \"need to know\" principle is that you
-don\'t *know* who needs to know something. An idea from one area might
+don\'t _know_ who needs to know something. An idea from one area might
 spark a great discovery in another. But the discoverer doesn\'t know he
 needs to know it.
 
@@ -21894,7 +21885,7 @@ Pansari for inviting me to speak.
 
 [Japanese Translation](http://d.hatena.ne.jp/lionfan/20060805)
 
-------------------------------------------------------------------------
+---
 
 # 060 See Randomness
 
@@ -21940,7 +21931,7 @@ of its previous way of thinking the way Darwin\'s must have when it
 first appeared.
 
 (Few people can experience now what Darwin\'s contemporaries did when
-*The Origin of Species* was first published, because everyone now is
+_The Origin of Species_ was first published, because everyone now is
 raised either to take evolution for granted, or to regard it as a
 heresy. No one encounters the idea of natural selection for the first
 time as an adult.)
@@ -21958,7 +21949,7 @@ too. For example, suppose you\'re saving a piece of cake in the fridge,
 and you come home one day to find your housemate has eaten it. Two
 possible theories:
 
-> a\) Your housemate did it deliberately to upset you. He *knew* you
+> a\) Your housemate did it deliberately to upset you. He _knew_ you
 > were \> saving that piece of cake.
 >
 > b\) Your housemate was hungry.
@@ -21975,14 +21966,14 @@ Or better still, the positive version:
 
 [Korean Translation](http://owla.textcube.com/50)
 
-------------------------------------------------------------------------
+---
 
 # 061 The Hardest Lessons for Startups to Learn
 
 April 2006
 
-*(This essay is derived from a talk at the 2006[Startup
-School](http://startupschool.org).)*
+_(This essay is derived from a talk at the 2006[Startup
+School](http://startupschool.org).)_
 
 The startups we\'ve funded so far are pretty quick, but they seem
 quicker to learn some lessons than others. I think it\'s because some
@@ -21995,7 +21986,7 @@ counterintuitive ones: they\'re the ones I have to keep repeating.
 So I\'m going to number these points, and maybe with future startups
 I\'ll be able to pull off a form of Huffman coding. I\'ll make them all
 read this, and then instead of nagging them in detail, I\'ll just be
-able to say: *number four!*
+able to say: _number four!_
 
 **1. Release Early.**
 
@@ -22122,7 +22113,7 @@ The people who really care will find what they want by themselves.
 The median visitor will arrive with their finger poised on the Back
 button. Think about your own experience: most links you follow lead to
 something lame. Anyone who has used the web for more than a couple weeks
-has been *trained* to click on Back after following a link. So your site
+has been _trained_ to click on Back after following a link. So your site
 has to say \"Wait! Don\'t click on Back. This site isn\'t lame. Look at
 this, for example.\"
 
@@ -22154,7 +22145,7 @@ front, the more likely visitors are to explore further.
 [5](#the_hardest_lessons_for_startups_to_learn_note5)
 
 In the best case these two suggestions get combined: you tell visitors
-what your site is about by *showing* them. One of the standard pieces of
+what your site is about by _showing_ them. One of the standard pieces of
 advice in fiction writing is \"show, don\'t tell.\" Don\'t say that a
 character\'s angry; have him grind his teeth, or break his pencil in
 half. Nothing will explain what your site does so well as using it.
@@ -22192,7 +22183,7 @@ other startups you don\'t know exist yet. They\'re way more dangerous
 than Google because, like you, they\'re cornered animals.
 
 Looking just at existing competitors can give you a false sense of
-security. You should compete against what someone else *could* be doing,
+security. You should compete against what someone else _could_ be doing,
 not just what you can see people doing. A corollary is that you
 shouldn\'t relax just because you have no visible competitors yet. No
 matter what your idea, there\'s someone else out there working on the
@@ -22392,13 +22383,13 @@ your system in their whole company won\'t. Then if things work out you
 can be pleasantly surprised.
 
 The reason I warn startups not to get their hopes up is not to save them
-from being *disappointed* when things fall through. It\'s for a more
+from being _disappointed_ when things fall through. It\'s for a more
 practical reason: to prevent them from leaning their company against
 something that\'s going to fall over, taking them with it.
 
 For example, if someone says they want to invest in you, there\'s a
 natural tendency to stop looking for other investors. That\'s why people
-proposing deals seem so positive: they *want* you to stop looking. And
+proposing deals seem so positive: they _want_ you to stop looking. And
 you want to stop too, because doing deals is a pain. Raising money, in
 particular, is a huge time sink. So you have to consciously force
 yourself to keep looking.
@@ -22423,7 +22414,7 @@ don\'t believe in a deal, you\'ll be less likely to depend on it.
 So I want to plant a hypnotic suggestion in your heads: when you hear
 someone say the words \"we want to invest in you\" or \"we want to
 acquire you,\" I want the following phrase to appear automatically in
-your head: *don\'t get your hopes up.* Just continue running your
+your head: _don\'t get your hopes up._ Just continue running your
 company as if this deal didn\'t exist. Nothing is more likely to make it
 close.
 
@@ -22535,13 +22526,13 @@ Translation](http://omar.ouvaton.org/article/50/les-dures-lecons-des-%20startups
 
 [Japanese Translation](http://d.hatena.ne.jp/lionfan/20070130)
 
-------------------------------------------------------------------------
+---
 
 # 062 How to Be Silicon Valley
 
 May 2006
 
-*(This essay is derived from a keynote at Xtech.)*
+_(This essay is derived from a keynote at Xtech.)_
 
 Could you reproduce Silicon Valley elsewhere, or is there something
 unique about it?
@@ -22603,8 +22594,8 @@ outcome makes them really pay attention.
 
 Bureaucrats by their nature are the exact opposite sort of people from
 startup investors. The idea of them making startup investments is comic.
-It would be like mathematicians running *Vogue* \-- or perhaps more
-accurately, *Vogue* editors running a math journal.
+It would be like mathematicians running _Vogue_ \-- or perhaps more
+accurately, _Vogue_ editors running a math journal.
 [2](#how_to_be_silicon_valley_note2)
 
 Though indeed, most things bureaucrats do, they do badly. We just don\'t
@@ -22634,7 +22625,7 @@ before they want that kind of space. The key stage is when they\'re
 three guys operating out of an apartment. Wherever the startup is when
 it gets funded, it will stay. The defining quality of Silicon Valley is
 not that Intel or Apple or Google have offices there, but that they were
-*started* there.
+_started_ there.
 
 So if you want to reproduce Silicon Valley, what you need to reproduce
 is those two or three founders sitting around a kitchen table deciding
@@ -22642,7 +22633,7 @@ to start a company. And to reproduce that you need those people.
 
 **Universities**
 
-The exciting thing is, *all* you need are the people. If you could
+The exciting thing is, _all_ you need are the people. If you could
 attract a critical mass of nerds and investors to live somewhere, you
 could reproduce Silicon Valley. And both groups are highly mobile.
 They\'ll go where life is good. So what makes a place good to them?
@@ -22752,7 +22743,7 @@ noisy apartment in order to live in a town where the cool people are
 really cool. A nerd looks at that deal and sees only: pay a fortune for
 a small, dark, noisy apartment.
 
-Nerds *will* pay a premium to live in a town where the smart people are
+Nerds _will_ pay a premium to live in a town where the smart people are
 really smart, but you don\'t have to pay as much for that. It\'s supply
 and demand: glamour is popular, so you have to pay a lot for it.
 
@@ -22788,8 +22779,8 @@ exactly what you want in a startup hub, because economically that\'s
 what startups are. Most good startup ideas seem a little crazy; if they
 were obviously good ideas, someone would have done them already.
 
-(How many people are going to want computers in their *houses*? What,
-*another* search engine?)
+(How many people are going to want computers in their _houses_? What,
+_another_ search engine?)
 
 That\'s the connection between technology and liberalism. Without
 exception the high-tech cities in the US are also the most liberal. But
@@ -22992,16 +22983,16 @@ Translation](http://www.sounerd.com.br/index.php?option=com_content&view=article
 [Arabic
 Translation](https://chefrour.blogspot.com/2020/01/blog-post.html)
 
-------------------------------------------------------------------------
+---
 
-If you liked this, you may also like [***Hackers &
-Painters***](http://www.amazon.com/gp/product/0596006624).
+If you liked this, you may also like [**_Hackers &
+Painters_**](http://www.amazon.com/gp/product/0596006624).
 
 # 063 Why Startups Condense in America
 
 May 2006
 
-*(This essay is derived from a keynote at Xtech.)*
+_(This essay is derived from a keynote at Xtech.)_
 
 Startups happen in clusters. There are a lot of them in Silicon Valley
 and Boston, and few in Chicago or Miami. A country that wants startups
@@ -23160,7 +23151,7 @@ nearly impossible to fire. The trend is so clear that you\'d have to be
 willfully blind not to see it.
 
 Performance isn\'t everything, you say? Well, are auto workers,
-schoolteachers, and civil servants *happier* than actors, professors,
+schoolteachers, and civil servants _happier_ than actors, professors,
 and professional athletes?
 
 European public opinion will apparently tolerate people being fired in
@@ -23182,7 +23173,7 @@ age.
 Gradually employment has been shedding such paternalistic overtones and
 becoming simply an economic exchange. But the importance of the new
 model is not just that it makes it easier for startups to grow. More
-important, I think, is that it it makes it easier for people to *start*
+important, I think, is that it it makes it easier for people to _start_
 startups.
 
 Even in the US most kids graduating from college still think they\'re
@@ -23232,7 +23223,7 @@ stories of existing startups, and then try to simulate what would have
 happened in your country. When you hit something that would have killed
 Apple, prune it off.
 
-*Startups are[marginal](marginal.html).* They\'re started by the poor
+_Startups are[marginal](marginal.html)._ They\'re started by the poor
 and the timid; they begin in marginal space and spare time; they\'re
 started by people who are supposed to be doing something else; and
 though businesses, their founders often know nothing about business.
@@ -23276,7 +23267,7 @@ angel investors. Google might never have got to the point where they
 could raise millions from VC funds if they hadn\'t first raised a
 hundred thousand from Andy Bechtolsheim. And he could help them because
 he was one of the founders of Sun. This pattern is repeated constantly
-in startup hubs. It\'s this pattern that *makes* them startup hubs.
+in startup hubs. It\'s this pattern that _makes_ them startup hubs.
 
 The good news is, all you have to do to get the process rolling is get
 those first few startups successfully launched. If they stick around
@@ -23285,7 +23276,7 @@ encourage new startups.
 
 The bad news is that the cycle is slow. It probably takes five years, on
 average, before a startup founder can make angel investments. And while
-governments *might* be able to set up local VC funds by supplying the
+governments _might_ be able to set up local VC funds by supplying the
 money themselves and recruiting people from existing firms to run them,
 only organic growth can produce angel investors.
 
@@ -23419,7 +23410,7 @@ any American city can bring itself to do that.
 
 There are also a couple things you could do to beat America at the
 national level. One would be to have lower capital gains taxes. It
-doesn\'t seem critical to have the lowest *income* taxes, because to
+doesn\'t seem critical to have the lowest _income_ taxes, because to
 take advantage of those, people have to move.
 [7](#why_startups_condense_in_america_note7) But if capital gains rates
 vary, you move assets, not yourself, so changes are reflected at market
@@ -23503,7 +23494,7 @@ On the verge of the Industrial Revolution, England was already the
 richest country in the world. As far as such things can be compared, per
 capita income in England in 1750 was higher than India\'s in 1960.
 
-Deane, Phyllis, *The First Industrial Revolution* , Cambridge University
+Deane, Phyllis, _The First Industrial Revolution_ , Cambridge University
 Press, 1965.
 
 `<a name=why_startups_condense_in_america_note2>`{=html}\[2\]`</a>`{=html}
@@ -23531,7 +23522,7 @@ about .2%.)
 According to the World Bank, the initial capital requirement for German
 companies is 47.6% of the per capita income. Doh.
 
-World Bank, *Doing Business in 2006* , http://doingbusiness.org
+World Bank, _Doing Business in 2006_ , http://doingbusiness.org
 
 `<a name=why_startups_condense_in_america_note6>`{=html}\[6\]`</a>`{=html}
 For most of the twentieth century, Europeans looked back on the summer
@@ -23567,7 +23558,7 @@ Translation](http://penelope.jdsfriends.com/traduction_francaise.htm)
 [Arabic
 Translation](https://chefrour.blogspot.com/2020/01/page-size-8.html)
 
-------------------------------------------------------------------------
+---
 
 # 064 The Power of the Marginal
 
@@ -23576,7 +23567,7 @@ Combinator](http://ycombinator.com/apply.html).
 
 June 2006
 
-*(This essay is derived from talks at Usenix 2006 and Railsconf 2006.)*
+_(This essay is derived from talks at Usenix 2006 and Railsconf 2006.)_
 
 A couple years ago my friend Trevor and I went to look at the Apple
 garage. As we stood there, he said that as a kid growing up in
@@ -23669,12 +23660,12 @@ to be enticed to laugh, but if you kill people they feel obliged to take
 you seriously. As everyone knows, America plus tragedy equals the Civil
 War, so that\'s what it would have to be about. When finally completed
 twelve years later, the book would be a 900-page pastiche of existing
-popular novels \-- roughly *Gone with the Wind* plus *Roots*. But its
+popular novels \-- roughly _Gone with the Wind_ plus _Roots_. But its
 bulk and celebrity would make it a bestseller for a few months, until
 blown out of the water by a talk-show host\'s autobiography. The book
 would be made into a movie and thereupon forgotten, except by the more
 waspish sort of reviewers, among whom it would be a byword for bogusness
-like Milli Vanilli or *Battlefield Earth*.
+like Milli Vanilli or _Battlefield Earth_.
 
 Maybe I got a little carried away with this example. And yet is this not
 at each point the way such a project would play out? The government
@@ -23745,7 +23736,7 @@ not necessarily a problem.
 Where the method of selecting the elite is thoroughly corrupt, most of
 the good people will be outsiders. In art, for example, the image of the
 poor, misunderstood genius is not just one possible image of a great
-artist: it\'s the *standard* image. I\'m not saying it\'s correct,
+artist: it\'s the _standard_ image. I\'m not saying it\'s correct,
 incidentally, but it is telling how well this image has stuck. You
 couldn\'t make a rap like that stick to math or medicine.
 [2](#the_power_of_the_marginal_note2)
@@ -23850,7 +23841,7 @@ before they went public. In other words, he\'s now rich enough not to
 have to work. I asked him if he could still endure the annoyances of
 having a job, now that he didn\'t have to. And he said that there
 weren\'t really any annoyances, except \-- and he got a wistful look
-when he said this \-- that he got *so much email*.
+when he said this \-- that he got _so much email_.
 
 The eminent feel like everyone wants to take a bite out of them. The
 problem is so widespread that people pretending to be eminent do it by
@@ -24069,7 +24060,7 @@ A lot of outsiders make the mistake of doing the opposite; they admire
 the eminent so much that they copy even their flaws. Copying is a good
 way to learn, but copy the right things. When I was in college I
 imitated the pompous diction of famous professors. But this wasn\'t what
-*made* them eminent \-- it was more a flaw their eminence had allowed
+_made_ them eminent \-- it was more a flaw their eminence had allowed
 them to sink into. Imitating it was like pretending to have gout in
 order to seem rich.
 
@@ -24183,7 +24174,7 @@ something rather than sitting around, which is the first step. And if
 they\'re driven to such empty forms of complaint, that means you\'ve
 probably done something good.
 
-If you make something and people complain that it doesn\'t *work* ,
+If you make something and people complain that it doesn\'t _work_ ,
 that\'s a problem. But if the worst thing they can hit you with is your
 own status as an outsider, that implies that in every other respect
 you\'ve succeeded. Pointing out that someone is unqualified is as
@@ -24205,7 +24196,7 @@ they, incidentally, are busted.
 `<a name=the_power_of_the_marginal_note1>`{=html}\[1\]`</a>`{=html} The
 facts about Apple\'s early history are from an interview with [Steve
 Wozniak](http://foundersatwork.com/steve-wozniak.html) in Jessica
-Livingston\'s *Founders at Work*.
+Livingston\'s _Founders at Work_.
 
 `<a name=the_power_of_the_marginal_note2>`{=html}\[2\]`</a>`{=html} As
 usual the popular image is several decades behind reality. Now the
@@ -24231,7 +24222,7 @@ what you\'ve done than where you went to school.
 Managers are presumably wondering, how can I make this miracle happen?
 How can I make the people working for me do more with less?
 Unfortunately the constraint probably has to be self-imposed. If you\'re
-*expected* to do more with less, then you\'re being starved, not eating
+_expected_ to do more with less, then you\'re being starved, not eating
 virtuously.
 
 `<a name=the_power_of_the_marginal_note6>`{=html}\[6\]`</a>`{=html}
@@ -24250,7 +24241,7 @@ Fowler for inviting me to speak.
 [Chinese
 Translation](http://flyingapplet.spaces.live.com/blog/cns!F682AFBD82F7E261!399.entry)
 
-------------------------------------------------------------------------
+---
 
 # 065 The Island Test
 
@@ -24338,7 +24329,7 @@ going to have to pry the plugs out of my cold, dead ears, however.
 
 [Japanese Translation](http://d.hatena.ne.jp/lionfan/20060721)
 
-------------------------------------------------------------------------
+---
 
 # 066 Copy What You Like
 
@@ -24385,7 +24376,7 @@ them, and startups were selling them for a year\'s salary a copy. What
 an opportunity, I thought; these impressive things seem easy to me; I
 must be pretty sharp. Wrong. It was simply a fad. The books the
 professors wrote about expert systems are now ignored. They were not
-even on a *path* to anything interesting. And the customers paying so
+even on a _path_ to anything interesting. And the customers paying so
 much for them were largely the same government agencies that paid
 thousands for screwdrivers and toilet seats.
 
@@ -24406,8 +24397,8 @@ ignore this data point just because it\'s an outlier.
 Another way to figure out what you like is to look at what you enjoy as
 guilty pleasures. Many things people like, especially if they\'re young
 and ambitious, they like largely for the feeling of virtue in liking
-them. 99% of people reading *Ulysses* are thinking \"I\'m reading
-*Ulysses* \" as they do it. A guilty pleasure is at least a pure one.
+them. 99% of people reading _Ulysses_ are thinking \"I\'m reading
+_Ulysses_ \" as they do it. A guilty pleasure is at least a pure one.
 What do you read when you don\'t feel up to being virtuous? What kind of
 book do you read and feel sad that there\'s only half of it left,
 instead of being impressed that you\'re half way through? That\'s what
@@ -24448,7 +24439,7 @@ Translation](http://www.simpleoption.com/ensayo-copia-lo-que-te-%20gusta)
 
 [Russian Translation](http://ryba4.com/translations/copy)
 
-------------------------------------------------------------------------
+---
 
 # 067 How to Present to Investors
 
@@ -24528,10 +24519,10 @@ most hackers aren\'t, it\'s better to play it safe.
 
 **2. Get rapidly to demo.**
 
-*This section is now obsolete for YC founders presenting at Demo Day,
+_This section is now obsolete for YC founders presenting at Demo Day,
 because Demo Day presentations are now so short that they rarely include
 much if any demo. They seem to work just as well without, however, which
-makes me think I was wrong to emphasize demos so much before.*
+makes me think I was wrong to emphasize demos so much before._
 
 A demo explains what you\'ve made more effectively than any verbal
 description. The only thing worth talking about first is the problem
@@ -24688,7 +24679,7 @@ product is great.\" People just ignore that\--or worse, write you off as
 bullshitters. Such messages must be implicit.
 
 What you must not do is seem nervous and apologetic. If you\'ve truly
-made something good, you\'re doing investors a *favor* by telling them
+made something good, you\'re doing investors a _favor_ by telling them
 about it. If you don\'t genuinely believe that, perhaps you ought to
 change what your company is doing. If you don\'t believe your startup
 has such promise that you\'d be doing them a favor by letting them
@@ -24794,7 +24785,7 @@ Translation](http://www.simpleoption.com/ensayo-como-presentarte-%20inversores.h
 
 [Russian Translation](http://www.perevedem.ru/article/investors.htm)
 
-------------------------------------------------------------------------
+---
 
 Image: Casey Muller: Trevor Blackwell at Rehearsal Day, summer 2006
 
@@ -24805,7 +24796,7 @@ Combinator](http://ycombinator.com/apply.html).
 
 October 2006
 
-*(This essay is derived from a talk at MIT.)*
+_(This essay is derived from a talk at MIT.)_
 
 Till recently graduating seniors had two choices: get a job or go to
 grad school. I think there will increasingly be a third option: to start
@@ -24908,7 +24899,7 @@ give up, and the ones who are sufficiently determined think \"screw
 that, I\'ll succeed anyway.\"
 
 So our official policy now is only to fund undergrads we can\'t talk out
-of it. And frankly, if you\'re not certain, you *should* wait. It\'s not
+of it. And frankly, if you\'re not certain, you _should_ wait. It\'s not
 as if all the opportunities to start companies are going to be gone if
 you don\'t do it now. Maybe the window will close on some idea you\'re
 working on, but that won\'t be the last idea you\'ll have. For every
@@ -24967,7 +24958,7 @@ much more expensive life. Whereas a 25 year old has some work experience
 Robert Morris and I were 29 and 30 respectively when we started Viaweb,
 but fortunately we still lived like 23 year olds. We both had roughly
 zero assets. I would have loved to have a mortgage, since that would
-have meant I had a *house*. But in retrospect having nothing turned out
+have meant I had a _house_. But in retrospect having nothing turned out
 to be convenient. I wasn\'t tied down and I was used to living cheaply.
 
 Even more important than living cheaply, though, is thinking cheaply.
@@ -25107,7 +25098,7 @@ you\'re still employed. Or at least discard any code you wrote while
 still employed and start over. It\'s not so much that your employer will
 find out and sue you. It won\'t come to that; investors or acquirers or
 (if you\'re so lucky) underwriters will nail you first. Between t = 0
-and when you buy that yacht, *someone* is going to ask if any of your
+and when you buy that yacht, _someone_ is going to ask if any of your
 code legally belongs to anyone else, and you need to be able to say no.
 [3](#a_students_guide_to_startups_note3)
 
@@ -25458,7 +25449,7 @@ this essay.
 [Arabic
 Translation](https://chefrour.blogspot.com/2020/08/blog-post.html)
 
-------------------------------------------------------------------------
+---
 
 # 069 The 18 Mistakes That Kill Startups
 
@@ -25558,7 +25549,7 @@ I think this shrinking from big problems is mostly unconscious. It\'s
 not that people think of grand ideas but decide to pursue smaller ones
 because they seem safer. Your unconscious won\'t even let you think of
 grand ideas. So the solution may be to think about ideas without
-involving yourself. What would be a great idea for *someone else* to do
+involving yourself. What would be a great idea for _someone else_ to do
 as a startup?
 
 **4. Derivative Idea**
@@ -25691,7 +25682,7 @@ There\'s something that needs to happen first. Maybe. But if the
 software were 100% finished and ready to launch at the push of a button,
 would they still be waiting?
 
-One reason to launch quickly is that it forces you to actually *finish*
+One reason to launch quickly is that it forces you to actually _finish_
 some quantum of work. Nothing is truly finished till it\'s released; you
 can see that from the rush of work that\'s always involved in releasing
 anything, no matter how finished you thought it was. The other reason
@@ -25702,7 +25693,7 @@ Several distinct problems manifest themselves as delays in launching:
 working too slowly; not truly understanding the problem; fear of having
 to deal with users; fear of being judged; working on too many different
 things; excessive perfectionism. Fortunately you can combat all of them
-by the simple expedient of forcing yourself to launch *something* fairly
+by the simple expedient of forcing yourself to launch _something_ fairly
 quickly.
 
 **9. Launching Too Early**
@@ -25728,7 +25719,7 @@ what the rest should do.
 
 The early adopters you need to impress are fairly tolerant. They don\'t
 expect a newly launched product to do everything; it just has to do
-*something*.
+_something_.
 
 **10. Having No Specific User in Mind**
 
@@ -25922,7 +25913,7 @@ not to focus on the business model from the beginning. They\'re often
 encouraged in this by investors whose experience comes from less
 malleable industries.
 
-It *is* irresponsible not to think about business models. It\'s just ten
+It _is_ irresponsible not to think about business models. It\'s just ten
 times more irresponsible not to think about the product.
 
 **16. Not Wanting to Get Your Hands Dirty**
@@ -26071,7 +26062,7 @@ dollars. In practice it just feels like it takes forever.
 Though if you include the cases where VCs don\'t invest, it would
 literally take forever in the median case. And maybe we should, because
 the danger of chasing large investments is not just that they take a
-long time. That\'s the *best* case. The real danger is that you\'ll
+long time. That\'s the _best_ case. The real danger is that you\'ll
 expend a lot of time and get nothing.
 
 `<a name=the_18_mistakes_that_kill_startups_note8>`{=html}\[8\]`</a>`{=html}
@@ -26129,7 +26120,7 @@ Translation](http://www.aoky.net/articles/paul_graham/startupmistakes.htm)
 
 [Arabic Translation](https://chefrour.blogspot.com/2020/10/18.html)
 
-------------------------------------------------------------------------
+---
 
 # 070 How Art Can Be Good
 
@@ -26139,7 +26130,7 @@ December 2006
 
 I grew up believing that taste is just a matter of personal preference.
 Each person has things they like, but no one\'s preferences are any
-better than anyone else\'s. There is no such thing as *good* taste.
+better than anyone else\'s. There is no such thing as _good_ taste.
 
 Like a lot of things I grew up believing, this turns out to be false,
 and I\'m going to try to explain why.
@@ -26501,7 +26492,7 @@ always intellectual dishonesty that makes curators and dealers use
 neutral-sounding language.
 
 `<a name=how_art_can_be_good_note9>`{=html}\[9\]`</a>`{=html} What
-happens in practice is that everyone gets really good at *talking* about
+happens in practice is that everyone gets really good at _talking_ about
 art. As the art itself gets more random, the effort that would have gone
 into the work goes instead into the intellectual sounding theory behind
 it. \"My work represents an exploration of gender and sexuality in an
@@ -26528,14 +26519,14 @@ image at the top.
 [Simplified Chinese
 Translation](https://www.onekayakcoffee.com/post/howartcanbegood)
 
-------------------------------------------------------------------------
+---
 
 # 071 Learning from Founders
 
 January 2007
 
-*(Foreword to Jessica Livingston\'s[Founders at
-Work](http://www.amazon.com/gp/product/1590597141).)*
+_(Foreword to Jessica Livingston\'s[Founders at
+Work](http://www.amazon.com/gp/product/1590597141).)_
 
 Apparently sprinters reach their highest speed right out of the blocks,
 and spend the rest of the race slowing down. The winners slow down the
@@ -26560,7 +26551,7 @@ seeming impressive makes their actual performance worse. A few years ago
 I read an article in which a car magazine modified the \"sports\" model
 of some production car to get the fastest possible standing quarter
 mile. You know how they did it? They cut off all the crap the
-manufacturer had bolted onto the car to make it *look* fast.
+manufacturer had bolted onto the car to make it _look_ fast.
 
 Business is broken the same way that car was. The effort that goes into
 looking productive is not merely wasted, but actually makes
@@ -26615,7 +26606,7 @@ thing.
 [Japanese
 Translation](http://www.aoky.net/articles/paul_graham/foundersatwork.htm)
 
-------------------------------------------------------------------------
+---
 
 [](http://www.amazon.com/gp/product/1590597141)**Founders at Work**
 
@@ -26811,7 +26802,7 @@ Advising people and writing are fundamentally different types of work.
 When people come to you with a problem and you have to figure out the
 right thing to do, you don\'t (usually) have to invent anything. You
 just weigh the alternatives and try to judge which is the prudent
-choice. But *prudence* can\'t tell me what sentence to write next. The
+choice. But _prudence_ can\'t tell me what sentence to write next. The
 search space is too big.
 
 Someone like a judge or a military officer can in much of his work be
@@ -26970,7 +26961,7 @@ could just multiply 101 by 50 to get the answer, 5050.
 variant is that intelligence is the ability to solve problems, and
 wisdom the judgement to know how to use those solutions. But while this
 is certainly an important relationship between wisdom and intelligence,
-it\'s not the *distinction between* them. Wisdom is useful in solving
+it\'s not the _distinction between_ them. Wisdom is useful in solving
 problems too, and intelligence can help in deciding what to do with the
 solutions.
 
@@ -27025,7 +27016,7 @@ these names as we use the name \"Homer,\" to mean the hypothetical
 people who said the things attributed to them.
 
 `<a name=is_it_worth_being_wise_note7>`{=html}\[7\]`</a>`{=html}
-*Analects* VII:36, Fung trans.
+_Analects_ VII:36, Fung trans.
 
 Some translators use \"calm\" instead of \"happy.\" One source of
 difficulty here is that present-day English speakers have a different
@@ -27043,7 +27034,7 @@ interview, I\'d appreciate hearing from you.
 `<a name=is_it_worth_being_wise_note9>`{=html}\[9\]`</a>`{=html}
 Confucius claimed proudly that he had never invented anything\--that he
 had simply passed on an accurate account of ancient traditions. \[
-*Analects* VII:1\] It\'s hard for us now to appreciate how important a
+_Analects_ VII:1\] It\'s hard for us now to appreciate how important a
 duty it must have been in preliterate societies to remember and pass on
 the group\'s accumulated knowledge. Even in Confucius\'s time it still
 seems to have been the first duty of the scholar.
@@ -27069,7 +27060,7 @@ Translation](http://evilnero.blogspot.com/2008/08/blog-post.html)
 
 [Russian Translation](http://ryba4.com/translations/wisdom)
 
-------------------------------------------------------------------------
+---
 
 # 073 Why to Not Not Start a Startup
 
@@ -27078,8 +27069,8 @@ Combinator](http://ycombinator.com/apply.html).
 
 March 2007
 
-*(This essay is derived from talks at the 2007 Startup School and the
-Berkeley CSUA.)*
+_(This essay is derived from talks at the 2007 Startup School and the
+Berkeley CSUA.)_
 
 We\'ve now been doing Y Combinator long enough to have some data about
 success rates. Our first batch, in the summer of 2005, had eight
@@ -27645,7 +27636,7 @@ odds are it\'s not just because they want you to help the sick, but also
 because it\'s a prestigious and lucrative career.
 [4](#why_to_not_not_start_a_startup_note4) But not so lucrative or
 prestigious as it was when their opinions were formed. When I was a kid
-in the seventies, a doctor was *the* thing to be. There was a sort of
+in the seventies, a doctor was _the_ thing to be. There was a sort of
 golden triangle involving doctors, Mercedes 450SLs, and tennis. All
 three vertices now seem pretty dated.
 
@@ -27702,7 +27693,7 @@ in the same way. How grim it would be to commute every day to a cubicle
 in some soulless office complex, and be told what to do by someone you
 had to acknowledge as a boss\--someone who could call you into their
 office and say \"take a seat,\" and you\'d sit! Imagine having to ask
-*permission* to release software to users. Imagine being sad on Sunday
+_permission_ to release software to users. Imagine being sad on Sunday
 afternoons because the weekend was almost over, and tomorrow you\'d have
 to get up and go to work. How did they stand it?
 
@@ -27755,7 +27746,7 @@ Translation](http://www.aoky.net/articles/paul_graham/notnot.htm)
 [Korean
 Translation](http://blog.yangtheman.com/2009/08/28/%EC%99%9C-%EC%B0%BD%EC%97%85%EC%9D%84-%ED%95%98%EB%A9%B4-%EC%95%8A%EB%90%98%EB%82%98-why-%20to-not-not-start-a-startup/)
 
-------------------------------------------------------------------------
+---
 
 # 074 Microsoft is Dead
 
@@ -27912,7 +27903,7 @@ Translation](http://flyingapplet.spaces.live.com/blog/cns!F682AFBD82F7E261!555.e
 
 [Korean Translation](http://appledelhi.wordpress.com/2008/10/05/)
 
-------------------------------------------------------------------------
+---
 
 # 075 Two Kinds of Judgement
 
@@ -27966,7 +27957,7 @@ One thing that leads us astray here is that the selector seems to be in
 a position of power. That makes him seem like a judge. If you regard
 someone judging you as a customer instead of a judge, the expectation of
 fairness goes away. The author of a good novel wouldn\'t complain that
-readers were *unfair* for preferring a potboiler with a racy cover.
+readers were _unfair_ for preferring a potboiler with a racy cover.
 Stupid, perhaps, but not unfair.
 
 Our early training and our self-centeredness combine to make us believe
@@ -28005,14 +27996,14 @@ Translation](http://www.simpleoption.com/empresa/ensayo-dos-tipos-%20juicios)
 [Arabic
 Translation](https://tldrarabiccontents.blogspot.com/2020/02/blog-%20post_5.html)
 
-------------------------------------------------------------------------
+---
 
 # 076 The Hacker\'s Guide to Investors
 
 April 2007
 
-*(This essay is derived from a keynote talk at the 2007 ASES Summit at
-Stanford.)*
+_(This essay is derived from a keynote talk at the 2007 ASES Summit at
+Stanford.)_
 
 The world of investors is a foreign one to most hackers\--partly because
 investors are so unlike hackers, and partly because they tend to operate
@@ -28133,7 +28124,7 @@ move.
 
 This is how most venture investors operate. They don\'t try to look at
 something and predict whether it will take off. They win by noticing
-that something *is* taking off a little sooner than everyone else. That
+that something _is_ taking off a little sooner than everyone else. That
 generates almost as good returns as actually being able to pick winners.
 They may have to pay a little more than they would if they got in at the
 very beginning, but only a little.
@@ -28165,7 +28156,7 @@ the quality of their funding deals.
 Venture investors like companies that could go public. That\'s where the
 big returns are. They know the odds of any individual startup going
 public are small, but they want to invest in those that at least have a
-*chance* of going public.
+_chance_ of going public.
 
 Currently the way VCs seem to operate is to invest in a bunch of
 companies, most of which fail, and one of which is Google. Those few big
@@ -28278,7 +28269,7 @@ particularly angels, can give good advice about the product.
 
 In fact, I\'d say what separates the great investors from the mediocre
 ones is the quality of their advice. Most investors give advice, but the
-top ones give *good* advice.
+top ones give _good_ advice.
 
 Whatever help investors give a startup tends to be underestimated. It\'s
 to everyone\'s advantage to let the world think the founders thought of
@@ -28497,8 +28488,8 @@ Better to have resolution, one way or the other, as soon as possible.
 
 If a startup gets into real trouble, instead of trying to save it VCs
 may just sell it at a low price to another of their portfolio companies.
-Philip Greenspun said in [*Founders at
-Work*](http://www.amazon.com/gp/product/1590597141) that Ars Digita\'s
+Philip Greenspun said in [_Founders at
+Work_](http://www.amazon.com/gp/product/1590597141) that Ars Digita\'s
 VCs did this to them.
 
 **18. Investors have different risk profiles from founders.**
@@ -28568,7 +28559,7 @@ is successful in raising money from them, closing the deal after a
 comparatively short 8 weeks. Since demo day occurs after 10 weeks, the
 company is now 18 weeks old. Raising money, rather than working on the
 product, has been the company\'s main focus for 44% of its existence.
-And mind you, this an example where things turned out *well*.
+And mind you, this an example where things turned out _well_.
 
 When a startup does return to working on the product after a funding
 round finally closes, it\'s as if they were returning to work after a
@@ -28619,7 +28610,7 @@ to be: everyone who wants to succeed. Practically every successful
 startup takes outside investment at some point.
 
 Why? What the people who think they don\'t need investors forget is that
-they will have competitors. The question is not whether you *need*
+they will have competitors. The question is not whether you _need_
 outside investment, but whether it could help you at all. If the answer
 is yes, and you don\'t take investment, then competitors who do will
 have an advantage over you. And in the startup world a little advantage
@@ -28704,7 +28695,7 @@ inviting me to speak.
 
 [Comment](http://news.ycombinator.com/item?id=17947) on this essay.
 
-------------------------------------------------------------------------
+---
 
 # 077 An Alternative Theory of Unions
 
@@ -28771,7 +28762,7 @@ high-minded principles produced the high-paying union job. We simply
 live in a time when the fast-growing companies overspend on different
 things.
 
-------------------------------------------------------------------------
+---
 
 # 078 The Equity Equation
 
@@ -28818,7 +28809,7 @@ invests alone they like to take about 30% of a company. 1/.7 = 1.43,
 meaning that deal is worth taking if they can improve your outcome by
 more than 43%. For the average startup, that would be an extraordinary
 bargain. It would improve the average startup\'s prospects by more than
-43% just to be able to *say* they were funded by Sequoia, even if they
+43% just to be able to _say_ they were funded by Sequoia, even if they
 never actually got the money.
 
 The reason Sequoia is such a good deal is that the percentage of the
@@ -28827,8 +28818,7 @@ market price for their investment; they limit their holdings to leave
 the founders enough stock to feel the company is still theirs.
 
 The catch is that Sequoia gets about 6000 business plans a year and
-funds about 20 of them, so the odds of getting this great deal are 1 in
-300. The companies that make it through are not average startups.
+funds about 20 of them, so the odds of getting this great deal are 1 in 300. The companies that make it through are not average startups.
 
 Of course, there are other factors to consider in a VC deal. It\'s never
 just a straight trade of money for stock. But if it were, taking money
@@ -28903,7 +28893,7 @@ usually reflects some other contribution by the investors.
 Fishman, David Hornik, Paul Kedrosky, Jessica Livingston, Gary Sabot,
 and Joshua Schachter for reading drafts of this.
 
-------------------------------------------------------------------------
+---
 
 # 079 Stuff
 
@@ -29010,7 +29000,7 @@ careful not to break it.
 
 Another way to resist acquiring stuff is to think of the overall cost of
 owning it. The purchase price is just the beginning. You\'re going to
-have to *think* about that thing for years\--perhaps for the rest of
+have to _think_ about that thing for years\--perhaps for the rest of
 your life. Every thing you own takes energy away from you. Some give
 more than they take. Those are the only things worth having.
 
@@ -29196,11 +29186,11 @@ components and give each to one person.
     allowed to work on it. Even if there is a group, they couldn\'t have
     multiple people editing the same code, because it changes too fast
     for that to be possible. And the project starts small because the
-    idea *is* small at first; he just has some cool hack he wants to try
+    idea _is_ small at first; he just has some cool hack he wants to try
     out.
 
 Even more striking are the number of officially sanctioned projects that
-manage to do *all eight things wrong*. In fact, if you look at the way
+manage to do _all eight things wrong_. In fact, if you look at the way
 software gets written in most organizations, it\'s almost as if they
 were deliberately trying to do things wrong. In a sense, they are. One
 of the defining qualities of organizations since there have been such a
@@ -29268,7 +29258,7 @@ Translation](http://www.matematika.bg/wiki/%D0%9A%D0%B0%D0%BA_%D0%B4%D0%B0_%D0%B
 
 [Russian Translation](http://ryba4.com/translations/head)
 
-------------------------------------------------------------------------
+---
 
 # 081 How Not to Die
 
@@ -29277,13 +29267,13 @@ Combinator](http://ycombinator.com/apply.html).
 
 August 2007
 
-*(This is a talk I gave at the last Y Combinator dinner of the summer.
+_(This is a talk I gave at the last Y Combinator dinner of the summer.
 Usually we don\'t have a speaker at the last dinner; it\'s more of a
 party. But it seemed worth spoiling the atmosphere if I could save some
 of the startups from preventable deaths. So at the last minute I cooked
 up this rather grim talk. I didn\'t mean this as an essay; I wrote it
 down because I only had two hours before dinner and think fastest while
-writing.)*
+writing.)_
 
 A couple days ago I told a reporter that we expected about a third of
 the companies we funded to succeed. Actually I was being conservative.
@@ -29480,7 +29470,7 @@ was talking about. What did he say to do? Oh, yeah. Don\'t give up.
 [Arabic
 Translation](http://academy.hsoub.com/entrepreneurship/general/%D9%83%D9%8A%D9%81-%D8%AA%D9%82%D8%A7%D9%88%D9%85-%D8%A7%D9%84%D8%B4%D9%91%D8%B1%D9%83%D8%A7%D8%AA-%D8%A7%D9%84%D9%86%D9%91%D8%A7%D8%B4%D8%A6%D8%A9-%D8%A7%D9%84%D9%85%D9%88%D8%AA%D8%9Fhow-%20not-to-die-r62/)
 
-------------------------------------------------------------------------
+---
 
 # 082 News from the Front
 
@@ -29546,7 +29536,7 @@ like going to grad school at Harvard to cure you of any illusions you
 might have about the average Harvard undergrad. And yet Y Combinator
 showed us we were still overestimating people who\'d been to elite
 colleges. We\'d interview people from MIT or Harvard or Stanford and
-sometimes find ourselves thinking: they *must* be smarter than they
+sometimes find ourselves thinking: they _must_ be smarter than they
 seem. It took us a few iterations to learn to trust our senses.
 
 Practically everyone thinks that someone who went to MIT or Harvard or
@@ -29623,7 +29613,7 @@ wouldn\'t learn at lesser places?
 Apparently not. Obviously you can\'t prove this in the case of a single
 individual, but you can tell from aggregate evidence: you can\'t,
 without asking them, distinguish people who went to one school from
-those who went to another three times as far down the *US News* list.
+those who went to another three times as far down the _US News_ list.
 [3](#news_from_the_front_note3) Try it and see.
 
 How can this be? Because how much you learn in college depends a lot
@@ -29679,7 +29669,7 @@ measures, but that you can focus instead on what really matters. What
 matters is what you make of yourself. I think that\'s what we should
 tell kids. Their job isn\'t to get good grades so they can get into a
 good college, but to learn and do. And not just because that\'s more
-rewarding than worldly success. That will increasingly *be* the route to
+rewarding than worldly success. That will increasingly _be_ the route to
 worldly success.
 
 **Notes**
@@ -29700,15 +29690,15 @@ an experiment she sent their recruiters the resumes of the first 40
 employees, with identifying details changed. These were the people who
 had made Lotus into the star it was. Not one got an interview.
 
-`<a name=news_from_the_front_note3>`{=html}\[3\]`</a>`{=html} The *US
-News* list? Surely no one trusts that. Even if the statistics they
+`<a name=news_from_the_front_note3>`{=html}\[3\]`</a>`{=html} The _US
+News_ list? Surely no one trusts that. Even if the statistics they
 consider are useful, how do they decide on the relative weights? The
-reason the *US News* list is meaningful is precisely because they are so
+reason the _US News_ list is meaningful is precisely because they are so
 intellectually dishonest in that respect. There is no external source
 they can use to calibrate the weighting of the statistics they use; if
 there were, we could just use that instead. What they must do is adjust
 the weights till the top schools are the usual suspects in about the
-right order. So in effect what the *US News* list tells us is what the
+right order. So in effect what the _US News_ list tells us is what the
 editors think the top schools are, which is probably not far from the
 conventional wisdom on the matter. The amusing thing is, because some
 schools work hard to game the system, the editors will have to keep
@@ -29725,7 +29715,7 @@ McDonough, Peter Norvig, and Robert Morris for reading drafts of this.
 [French
 Translation](http://penelope.jdsfriends.com/pg_from_the_front_francais.html)
 
-------------------------------------------------------------------------
+---
 
 # 083 How to Do Philosophy
 
@@ -29756,7 +29746,7 @@ The summer before senior year I took some college classes. I learned a
 lot in the calculus class, but I didn\'t learn much in Philosophy 101.
 And yet my plan to study philosophy remained intact. It was my fault I
 hadn\'t learned anything. I hadn\'t read the books we were assigned
-carefully enough. I\'d give Berkeley\'s *Principles of Human Knowledge*
+carefully enough. I\'d give Berkeley\'s _Principles of Human Knowledge_
 another shot in college. Anything so admired and so difficult to read
 must have something in it, if one could only figure out what.
 
@@ -29793,7 +29783,7 @@ There are things I know I learned from studying philosophy. The most
 dramatic I learned immediately, in the first semester of freshman year,
 in a class taught by Sydney Shoemaker. I learned that I don\'t exist. I
 am (and you are) a collection of cells that lurches around driven by
-various forces, and calls itself *I*. But there\'s no central,
+various forces, and calls itself _I_. But there\'s no central,
 indivisible thing that your identity goes with. You could conceivably
 lose half your brain and live. Which means your brain could conceivably
 be split into two halves and each transplanted into different bodies.
@@ -29802,7 +29792,7 @@ people.
 
 The real lesson here is that the concepts we use in everyday life are
 fuzzy, and break down if pushed too hard. Even a concept as dear to us
-as *I*. It took me a while to grasp this, but when I did it was fairly
+as _I_. It took me a while to grasp this, but when I did it was fairly
 sudden, like someone in the nineteenth century grasping evolution and
 realizing the story of creation they\'d been told as a child was all
 wrong. [2](#how_to_do_philosophy_note2) Outside of math there\'s a limit
@@ -29887,7 +29877,7 @@ They were in effect arguing about artifacts induced by sampling at too
 low a resolution.
 
 The proof of how useless some of their answers turned out to be is how
-little effect they have. No one after reading Aristotle\'s *Metaphysics*
+little effect they have. No one after reading Aristotle\'s _Metaphysics_
 does anything differently as a result. [7](#how_to_do_philosophy_note7)
 
 Surely I\'m not claiming that ideas have to have practical applications
@@ -29895,7 +29885,7 @@ to be interesting? No, they may not have to. Hardy\'s boast that number
 theory had no use whatsoever wouldn\'t disqualify it. But he turned out
 to be mistaken. In fact, it\'s suspiciously hard to find a field of math
 that truly has no practical use. And Aristotle\'s explanation of the
-ultimate goal of philosophy in Book A of the *Metaphysics* implies that
+ultimate goal of philosophy in Book A of the _Metaphysics_ implies that
 philosophy should be useful too.
 
 **Theoretical Knowledge**
@@ -29911,7 +29901,7 @@ for its own sake, out of curiosity, rather than for any practical need.
 So he proposes there are two kinds of theoretical knowledge: some
 that\'s useful in practical matters and some that isn\'t. Since people
 interested in the latter are interested in it for its own sake, it must
-be more noble. So he sets as his goal in the *Metaphysics* the
+be more noble. So he sets as his goal in the _Metaphysics_ the
 exploration of knowledge that has no practical use. Which means no
 alarms go off when he takes on grand but vaguely understood questions
 and ends up getting lost in a sea of words.
@@ -29932,7 +29922,7 @@ So while ideas don\'t have to have immediate practical applications to
 be interesting, the kinds of things we find interesting will
 surprisingly often turn out to have practical applications.
 
-The reason Aristotle didn\'t get anywhere in the *Metaphysics* was
+The reason Aristotle didn\'t get anywhere in the _Metaphysics_ was
 partly that he set off with contradictory aims: to explore the most
 abstract ideas, guided by the assumption that they were useless. He was
 like an explorer looking for a territory to the north of him, starting
@@ -29945,15 +29935,15 @@ from both the criticism of outsiders and the promptings of their own
 inner compass by establishing the principle that the most noble sort of
 theoretical knowledge had to be useless.
 
-The *Metaphysics* is mostly a failed experiment. A few ideas from it
+The _Metaphysics_ is mostly a failed experiment. A few ideas from it
 turned out to be worth keeping; the bulk of it has had no effect at all.
-The *Metaphysics* is among the least read of all famous books. It\'s not
-hard to understand the way Newton\'s *Principia* is, but the way a
+The _Metaphysics_ is among the least read of all famous books. It\'s not
+hard to understand the way Newton\'s _Principia_ is, but the way a
 garbled message is.
 
 Arguably it\'s an interesting failed experiment. But unfortunately that
 was not the conclusion Aristotle\'s successors derived from works like
-the *Metaphysics*. [9](#how_to_do_philosophy_note9) Soon after, the
+the _Metaphysics_. [9](#how_to_do_philosophy_note9) Soon after, the
 western world fell on intellectual hard times. Instead of version 1s to
 be superseded, the works of Plato and Aristotle became revered texts to
 be mastered and discussed. And so things remained for a shockingly long
@@ -29967,7 +29957,7 @@ progress there was in math between Hellenistic times and the
 Renaissance.
 
 In the intervening years an unfortunate idea took hold: that it was not
-only acceptable to produce works like the *Metaphysics* , but that it
+only acceptable to produce works like the _Metaphysics_ , but that it
 was a particularly prestigious line of work, done by a class of people
 called philosophers. No one thought to go back and debug Aristotle\'s
 motivating argument. And so instead of correcting the problem Aristotle
@@ -30046,7 +30036,7 @@ territory, there will always be others ready to occupy it.
 
 We may be able to do better. Here\'s an intriguing possibility. Perhaps
 we should do what Aristotle meant to do, instead of what he did. The
-goal he announces in the *Metaphysics* seems one worth pursuing: to
+goal he announces in the _Metaphysics_ seems one worth pursuing: to
 discover the most general truths. That sounds good. But instead of
 trying to discover them because they\'re useless, let\'s try to discover
 them because they\'re useful.
@@ -30188,7 +30178,7 @@ Math is the precise half of the most abstract ideas, and philosophy the
 imprecise half. It\'s probably inevitable that philosophy will suffer by
 comparison, because there\'s no lower bound to its precision. Bad math
 is merely boring, whereas bad philosophy is nonsense. And yet there are
-*some* good ideas in the imprecise half.
+_some_ good ideas in the imprecise half.
 
 `<a name=how_to_do_philosophy_note5>`{=html}\[5\]`</a>`{=html}
 Aristotle\'s best work was in logic and zoology, both of which he can be
@@ -30197,7 +30187,7 @@ predecessors was a new, much more analytical style of thinking. He was
 arguably the first scientist.
 
 `<a name=how_to_do_philosophy_note6>`{=html}\[6\]`</a>`{=html} Brooks,
-Rodney, *Programming in Common Lisp* , Wiley, 1985, p. 94.
+Rodney, _Programming in Common Lisp_ , Wiley, 1985, p. 94.
 
 `<a name=how_to_do_philosophy_note7>`{=html}\[7\]`</a>`{=html} Some
 would say we depend on Aristotle more than we realize, because his ideas
@@ -30221,8 +30211,8 @@ core of the subject today is still what seemed to Aristotle the core:
 the attempt to discover the most general truths.
 
 Aristotle didn\'t call this \"metaphysics.\" That name got assigned to
-it because the books we now call the *Metaphysics* came after (meta =
-after) the *Physics* in the standard edition of Aristotle\'s works
+it because the books we now call the _Metaphysics_ came after (meta =
+after) the _Physics_ in the standard edition of Aristotle\'s works
 compiled by Andronicus of Rhodes three centuries later. What we call
 \"metaphysics\" Aristotle called \"first philosophy.\"
 
@@ -30232,7 +30222,7 @@ to say because most of their works are lost.
 
 `<a name=how_to_do_philosophy_note10>`{=html}\[10\]`</a>`{=html} Sokal,
 Alan, \"Transgressing the Boundaries: Toward a Transformative
-Hermeneutics of Quantum Gravity,\" *Social Text* 46/47, pp. 217-252.
+Hermeneutics of Quantum Gravity,\" _Social Text_ 46/47, pp. 217-252.
 
 Abstract-sounding nonsense seems to be most attractive when it\'s
 aligned with some axe the audience already has to grind. If this is so
@@ -30242,8 +30232,7 @@ The powerful don\'t need its reassurance.
 `<a name=how_to_do_philosophy_note11>`{=html}\[11\]`</a>`{=html} Letter
 to Ottoline Morrell, December 1912. Quoted in:
 
-Monk, Ray, *Ludwig Wittgenstein: The Duty of Genius* , Penguin, 1991, p.
-75.
+Monk, Ray, _Ludwig Wittgenstein: The Duty of Genius_ , Penguin, 1991, p. 75.
 
 `<a name=how_to_do_philosophy_note12>`{=html}\[12\]`</a>`{=html} A
 preliminary result, that all metaphysics between Aristotle and 1783 had
@@ -30260,14 +30249,14 @@ no natural immunity to messianic figures, just as European politics then
 had no natural immunity to dictators.
 
 `<a name=how_to_do_philosophy_note14>`{=html}\[14\]`</a>`{=html} This is
-actually from the *Ordinatio* of Duns Scotus (ca. 1300), with \"number\"
+actually from the _Ordinatio_ of Duns Scotus (ca. 1300), with \"number\"
 replaced by \"gender.\" Plus ca change.
 
-Wolter, Allan (trans), *Duns Scotus: Philosophical Writings* , Nelson,
+Wolter, Allan (trans), _Duns Scotus: Philosophical Writings_ , Nelson,
 1963, p. 92.
 
 `<a name=how_to_do_philosophy_note15>`{=html}\[15\]`</a>`{=html}
-Frankfurt, Harry, *On Bullshit* , Princeton University Press, 2005.
+Frankfurt, Harry, _On Bullshit_ , Princeton University Press, 2005.
 
 `<a name=how_to_do_philosophy_note16>`{=html}\[16\]`</a>`{=html} Some
 introductions to philosophy now take the line that philosophy is worth
@@ -30290,7 +30279,7 @@ this.
 [French
 Translation](http://versionfrancaise.blogspot.com/2008/08/comment-%20faire-de-la-philosophie.html)
 
-------------------------------------------------------------------------
+---
 
 # 084 The Future of Web Startups
 
@@ -30299,7 +30288,7 @@ Combinator](http://ycombinator.com/apply.html).
 
 October 2007
 
-*(This essay is derived from a keynote at FOWA in October 2007.)*
+_(This essay is derived from a keynote at FOWA in October 2007.)_
 
 There\'s something interesting happening right now. Startups are
 undergoing the same transformation that technology does when it becomes
@@ -30321,7 +30310,7 @@ generating the wealth that later brought about the Renaissance.
 Agriculture itself was an instance of this pattern.
 
 Now as well as being produced by startups, this pattern is happening
-*to* startups. It\'s so cheap to start web startups that orders of
+_to_ startups. It\'s so cheap to start web startups that orders of
 magnitudes more will be started. If the pattern holds true, that should
 cause dramatic changes.
 
@@ -30411,7 +30400,7 @@ times as many.
 One reason Google doesn\'t have a problem with acquisitions is that they
 know first-hand the quality of the people they can get that way. Larry
 and Sergey only started Google after making the rounds of the search
-engines trying to sell their idea and finding no takers. They\'ve *been*
+engines trying to sell their idea and finding no takers. They\'ve _been_
 the guys coming in to visit the big company, so they know who might be
 sitting across that conference table from them.
 
@@ -30469,7 +30458,7 @@ of startup hubs like Silicon Valley. If all you need to start a startup
 is rent money, you should be able to do it anywhere.
 
 This is kind of true and kind of false. It\'s true that you can now
-*start* a startup anywhere. But you have to do more with a startup than
+_start_ a startup anywhere. But you have to do more with a startup than
 just start it. You have to make it succeed. And that is more likely to
 happen in a startup hub.
 
@@ -30485,7 +30474,7 @@ their investors.
 
 The question of whether to be in a startup hub is like the question of
 whether to take outside investment. The question is not whether you
-*need* it, but whether it brings any advantage at all. Because anything
+_need_ it, but whether it brings any advantage at all. Because anything
 that brings an advantage will give your competitors an advantage over
 you if they do it and you don\'t. So if you hear someone saying \"we
 don\'t need to be in Silicon Valley,\" that use of the word \"need\" is
@@ -30689,7 +30678,7 @@ smoothly.
 [Japanese
 Translation](http://www.aoky.net/articles/paul_graham/webstartups.htm)
 
-------------------------------------------------------------------------
+---
 
 # 085 Why to Move to a Startup Hub
 
@@ -30864,7 +30853,7 @@ Kulveer Taggar for reading drafts of this.
 [Japanese
 Translation](http://www.aoky.net/articles/paul_graham/startuphubs.htm)
 
-------------------------------------------------------------------------
+---
 
 # 086 Six Principles for Making New Things
 
@@ -30992,7 +30981,7 @@ So when you look at something like Reddit and think \"I wish I could
 think of an idea like that,\" remember: ideas like that are all around
 you. But you ignore them because they look wrong.
 
-------------------------------------------------------------------------
+---
 
 # 087 Trolls
 
@@ -31048,7 +31037,7 @@ make their mark on the world, but have no other way to do it than
 literally making a mark on the world. [2](#trolls_note2)
 
 The final contributing factor is the culture of the forum. Trolls are
-like children (many *are* children) in that they\'re capable of a wide
+like children (many _are_ children) in that they\'re capable of a wide
 range of behavior depending on what they think will be tolerated. In a
 place where rudeness isn\'t tolerated, most can be polite. But vice
 versa as well.
@@ -31103,7 +31092,7 @@ art if you do it well enough) but the median tag is just visual spam.
 [Russian
 Translation](http://spring.jumpidea.com/2008/08/paul-graham-%20trolls.html)
 
-------------------------------------------------------------------------
+---
 
 # 088 A New Venture Animal
 
@@ -31111,9 +31100,9 @@ Translation](http://spring.jumpidea.com/2008/08/paul-graham-%20trolls.html)
 
 March 2008, rev May 2013
 
-*(This essay grew out of something I wrote for myself to figure out what
+_(This essay grew out of something I wrote for myself to figure out what
 we do. Even though Y Combinator is now 3 years old, we\'re still trying
-to understand its implications.)*
+to understand its implications.)_
 
 I was annoyed recently to read a description of Y Combinator that said
 \"Y Combinator does seed funding for startups.\" What was especially
@@ -31310,7 +31299,7 @@ for reading drafts of this.
 
 [Comment](http://news.ycombinator.com/item?id=133430) on this essay.
 
-------------------------------------------------------------------------
+---
 
 # 089 You Weren\'t Meant to Have a Boss
 
@@ -31607,7 +31596,7 @@ Translation](http://versionfrancaise.blogspot.com/2008/08/personne-%20nest-fait-
 
 [Russian Translation](http://akaishi.livejournal.com/39133.html)
 
-------------------------------------------------------------------------
+---
 
 # 090 How to Disagree
 
@@ -31776,7 +31765,7 @@ upon.
 **What It Means**
 
 Now we have a way of classifying forms of disagreement. What good is it?
-One thing the disagreement hierarchy *doesn\'t* give us is a way of
+One thing the disagreement hierarchy _doesn\'t_ give us is a way of
 picking a winner. DH levels merely describe the form of a statement, not
 whether it\'s correct. A DH6 response could still be completely
 mistaken.
@@ -31840,7 +31829,7 @@ Translation](https://medium.com/brandin-kirjasto/miten-olla-eri-%20mielt%C3%A4-a
 [Italian Translation](https://marcotrombetti.com/disaccordo) [Turkish
 Translation](https://muhammedkilic.medium.com/ayn%C4%B1-g%C3%B6r%C3%BC%C5%9Fte-%20olamay%C4%B1%C5%9F-246eba701bb9)
 
-------------------------------------------------------------------------
+---
 
 # 091 Some Heroes
 
@@ -31849,7 +31838,7 @@ April 2008
 There are some topics I save up because they\'ll be so much fun to write
 about. This is one of them: a list of my heroes.
 
-I\'m not claiming this is a list of the *n* most admirable people. Who
+I\'m not claiming this is a list of the _n_ most admirable people. Who
 could make such a list, even if they wanted to?
 
 Einstein isn\'t on the list, for example, even though he probably
@@ -31887,7 +31876,7 @@ Other players were more famous: Terry Bradshaw, Franco Harris, Lynn
 Swann. But they played offense, and you always get more attention for
 that. It seemed to me as a twelve year old football expert that the best
 of them all was [Jack
-Lambert](http://en.wikipedia.org/wiki/Jack_Lambert_(American_football_player)).
+Lambert](<http://en.wikipedia.org/wiki/Jack_Lambert_(American_football_player)>).
 And what made him so good was that he was utterly relentless. He didn\'t
 just care about playing well; he cared almost too much. He seemed to
 regard it as a personal insult when someone from the other team had
@@ -31908,8 +31897,8 @@ intellectually, but the way one anticipates a delicious dinner.
 
 What really makes him stand out, though, is the quality of his ideas.
 His style is deceptively casual, but there is more in his books than in
-a library of art monographs. Reading [*The
-Nude*](http://www.amazon.com/Nude-Study-%20Ideal-Form/dp/0691017883) is
+a library of art monographs. Reading [_The
+Nude_](http://www.amazon.com/Nude-Study-%20Ideal-Form/dp/0691017883) is
 like a ride in a Ferrari. Just as you\'re getting settled, you\'re
 slammed back in your seat by the acceleration. Before you can adjust,
 you\'re thrown sideways as the car screeches into the first turn. His
@@ -31918,12 +31907,11 @@ of the chapter you come to a halt, with your eyes wide and a big smile
 on your face.
 
 Kenneth Clark was a star in his day, thanks to the documentary series
-[*Civilisation*](http://www.amazon.com/dp/B000F0UUKA). And if you read
+[_Civilisation_](http://www.amazon.com/dp/B000F0UUKA). And if you read
 only one book about art history,
-[*Civilisation*](http://www.abebooks.com/servlet/SearchResults?an=clark&sts=t&tn=civilisation)
+[_Civilisation_](http://www.abebooks.com/servlet/SearchResults?an=clark&sts=t&tn=civilisation)
 is the one I\'d recommend. It\'s much better than the drab Sears
-Catalogs of art that undergraduates are forced to buy for Art History
-101.
+Catalogs of art that undergraduates are forced to buy for Art History 101.
 
 **Larry Mihalko**
 
@@ -32162,7 +32150,7 @@ for reading drafts of this.
 [Japanese
 Translation](http://www.aoky.net/articles/paul_graham/heroes.htm)
 
-------------------------------------------------------------------------
+---
 
 # 092 Why There Aren\'t More Googles
 
@@ -32329,7 +32317,7 @@ Livingston, Robert Morris, and Fred Wilson for reading drafts of this.
 [Russian
 Translation](http://spring.jumpidea.com/2008/08/paul-graham-%20googles.html)
 
-------------------------------------------------------------------------
+---
 
 # 093 Be Good
 
@@ -32337,7 +32325,7 @@ Translation](http://spring.jumpidea.com/2008/08/paul-graham-%20googles.html)
 
 April 2008
 
-*(This essay is derived from a talk at the 2008 Startup School.)*
+_(This essay is derived from a talk at the 2008 Startup School.)_
 
 About a month after we started Y Combinator we came up with the phrase
 that became our motto: Make something people want. We\'ve learned a lot
@@ -32485,7 +32473,7 @@ alone is almost enough to determine success. Startups are often
 described as emotional roller-coasters. One minute you\'re going to take
 over the world, and the next you\'re doomed. The problem with feeling
 you\'re doomed is not just that it makes you unhappy, but that it makes
-you *stop working*. So the downhills of the roller-coaster are more of a
+you _stop working_. So the downhills of the roller-coaster are more of a
 self fulfilling prophecy than the uphills. If feeling you\'re going to
 succeed makes you work harder, that probably improves your chances of
 succeeding, but if feeling you\'re going to fail makes you stop working,
@@ -32611,7 +32599,7 @@ bad. The way adults used the word good, it seemed to be synonymous with
 quiet, so I grew up very suspicious of it.
 
 You know how there are some people whose names come up in conversation
-and everyone says \"He\'s *such* a great guy?\" People never say that
+and everyone says \"He\'s _such_ a great guy?\" People never say that
 about me. The best I get is \"he means well.\" I am not claiming to be
 good. At best I speak good as a second language.
 
@@ -32670,7 +32658,7 @@ Translation](http://spring.jumpidea.com/2008/08/paul-graham-%20good.html)
 
 [German Translation](http://www.flocutus.de/ubersetzungen/sei-gut/)
 
-------------------------------------------------------------------------
+---
 
 # 094 Lies We Tell Kids
 
@@ -32718,7 +32706,7 @@ happened to Einstein:
 > [2](#lies_we_tell_kids_note2)
 
 I remember that feeling. By 15 I was convinced the world was corrupt
-from end to end. That\'s why movies like *The Matrix* have such
+from end to end. That\'s why movies like _The Matrix_ have such
 resonance. Every kid grows up in a fake world. In a way it would be
 easier if the forces behind it were as clearly differentiated as a bunch
 of evil machines, and one could make a clean break just by taking a
@@ -32866,7 +32854,7 @@ children to swear, and yet no two of them have the same justification.
 It\'s clear most start with not wanting kids to swear, then make up the
 reason afterward.
 
-So my theory about what\'s going on is that the *function* of swearwords
+So my theory about what\'s going on is that the _function_ of swearwords
 is to mark the speaker as an adult. There\'s no difference in the
 meaning of \"shit\" and \"poopoo.\" So why should one be ok for kids to
 say and one forbidden? The only explanation is: by definition.
@@ -33012,7 +33000,7 @@ tarnish himself in their eyes.
 
 If you want to learn what lies are told to kids, read almost any book
 written to teach them about \"issues.\" [7](#lies_we_tell_kids_note7)
-Peter Mayle wrote one called *Why Are We Getting a Divorce?* It begins
+Peter Mayle wrote one called _Why Are We Getting a Divorce?_ It begins
 with the three most important things to remember about divorce, one of
 which is:
 
@@ -33045,7 +33033,7 @@ When I protested that the teacher had said the opposite, my father
 replied that the guy had no idea what he was talking about\--that he was
 just an elementary school teacher, after all.
 
-*Just* a teacher? The phrase seemed almost grammatically ill-formed.
+_Just_ a teacher? The phrase seemed almost grammatically ill-formed.
 Didn\'t teachers know everything about the subjects they taught? And if
 not, why were they the ones teaching us?
 
@@ -33094,7 +33082,7 @@ people.)
 
 I doubt you could teach kids recent history without teaching them lies,
 because practically everyone who has anything to say about it has some
-kind of spin to put on it. Much recent history *consists* of spin. It
+kind of spin to put on it. Much recent history _consists_ of spin. It
 would probably be better just to teach them metafacts like that.
 
 Probably the biggest lie told in schools, though, is that the way to
@@ -33197,7 +33185,7 @@ There\'s not much to say about these: I wouldn\'t want the first type to
 go away, and wouldn\'t expect the second type to.)
 
 `<a name=lies_we_tell_kids_note2>`{=html}\[2\]`</a>`{=html} Calaprice,
-Alice (ed.), *The Quotable Einstein* , Princeton University Press, 1996.
+Alice (ed.), _The Quotable Einstein_ , Princeton University Press, 1996.
 
 `<a name=lies_we_tell_kids_note3>`{=html}\[3\]`</a>`{=html} If you ask
 parents why kids shouldn\'t swear, the less educated ones usually reply
@@ -33237,7 +33225,7 @@ context, \"issues\" basically means \"things we\'re going to lie to them
 about.\" That\'s why there\'s a special name for these topics.
 
 `<a name=lies_we_tell_kids_note8>`{=html}\[8\]`</a>`{=html} Mayle,
-Peter, *Why Are We Getting a Divorce?* , Harmony, 1988.
+Peter, _Why Are We Getting a Divorce?_ , Harmony, 1988.
 
 `<a name=lies_we_tell_kids_note9>`{=html}\[9\]`</a>`{=html} The ironic
 thing is, this is also the main reason kids lie to adults. If you freak
@@ -33260,15 +33248,15 @@ Translation](http://versionfrancaise.blogspot.com/2008/07/les-%20mensonges-que-n
 [Russian
 Translation](http://spring.jumpidea.com/2008/08/paul-graham-lies-we-%20tell-kids.html)
 
-------------------------------------------------------------------------
+---
 
 # 095 Disconnecting Distraction
 
-*Note: The strategy described at the end of this essay didn\'t work. It
+_Note: The strategy described at the end of this essay didn\'t work. It
 would work for a while, and then I\'d gradually find myself using the
 Internet on my work computer. I\'m trying other strategies now, but I
 think this time I\'ll wait till I\'m sure they work before writing about
-them.*
+them._
 
 May 2008
 
@@ -33333,7 +33321,7 @@ Eventually, though, it became clear that the Internet had become so much
 more distracting that I had to start treating it differently. Basically,
 I had to add a new application to my list of known time sinks: Firefox.
 
-------------------------------------------------------------------------
+---
 
 The problem is a hard one to solve because most people still need the
 Internet for some things. If you drink too much, you can solve that
@@ -33353,7 +33341,7 @@ stop doing. If you leave a path to it, he\'ll find it.
 
 The key seems to be visibility. The biggest ingredient in most bad
 habits is denial. So you have to make it so that you can\'t merely
-*slip* into doing the thing you\'re trying to avoid. It has to set off
+_slip_ into doing the thing you\'re trying to avoid. It has to set off
 alarms.
 
 Maybe in the long term the right answer for dealing with Internet
@@ -33381,7 +33369,7 @@ is disconnected from the Internet. It was alarming to me how foreign it
 felt to sit in front of a computer that could only be used for work,
 because that showed how much time I must have been wasting.
 
-*Wow. All I can do at this computer is work. Ok, I better work then.*
+_Wow. All I can do at this computer is work. Ok, I better work then._
 
 That\'s the good part. Your old bad habits now help you to work. You\'re
 used to sitting in front of that computer for hours at a time. But you
@@ -33399,7 +33387,7 @@ Translation](http://capalfar.wordpress.com/2008/05/20/traduccions-de-%20paul-gra
 [Spanish
 Translation](http://www.internazionale.it/interblog/index.php?itemid=2579)
 
-------------------------------------------------------------------------
+---
 
 # 096 Cities and Ambition
 
@@ -33430,7 +33418,7 @@ how much effect you have on the world. The reason people there care
 about Larry and Sergey is not their wealth but the fact that they
 control Google, which affects practically everyone.
 
-------------------------------------------------------------------------
+---
 
 How much does it matter what message a city sends? Empirically, the
 answer seems to be: a lot. You might think that if you had enough
@@ -33485,7 +33473,7 @@ and they\'re surrounded by about 20 other colleges and universities.
 Cambridge as a result feels like a town whose main industry is ideas,
 while New York\'s is finance and Silicon Valley\'s is startups.
 
-------------------------------------------------------------------------
+---
 
 When you talk about cities in the sense we are, what you\'re really
 talking about is collections of people. For a long time cities were the
@@ -33527,7 +33515,7 @@ important that it would affect where you chose to live? Now I understand
 what she meant. The conversations you overhear tell you what sort of
 people you\'re among.
 
-------------------------------------------------------------------------
+---
 
 No matter how determined you are, it\'s hard not to be influenced by the
 people around you. It\'s not so much that you do whatever a city expects
@@ -33545,7 +33533,7 @@ on something no one around them cares about.
 Because ambitions are to some extent incompatible and admiration is a
 zero-sum game, each city tends to focus on one type of ambition. The
 reason Cambridge is the intellectual capital is not just that there\'s a
-concentration of smart people there, but that there\'s nothing *else*
+concentration of smart people there, but that there\'s nothing _else_
 people there care about more. Professors in New York and the Bay area
 are second class citizens \-- till they start hedge funds or startups
 respectively.
@@ -33566,7 +33554,7 @@ Silicon Valley at its own game: the ratio of New York to California
 residents in the Forbes 400 has decreased from 1.45 (81:56) when the
 list was first published in 1982 to .83 (73:88) in 2007.
 
-------------------------------------------------------------------------
+---
 
 Not all cities send a message. Only those that are centers for some type
 of ambition do. And it can be hard to tell exactly what message a city
@@ -33619,7 +33607,7 @@ years ago, but now I probably wouldn\'t have picked it up at all if I
 hadn\'t deliberately tuned in to that wavelength to see if there was any
 signal left.
 
-------------------------------------------------------------------------
+---
 
 So far the complete list of messages I\'ve picked up from cities is:
 wealth, style, hipness, physical attractiveness, fame, political power,
@@ -33664,7 +33652,7 @@ wealth, and social class are just names for the same thing at different
 stages in its life: economic power converts to wealth, and wealth to
 social class. So the focus of admiration is simply shifting upstream.
 
-------------------------------------------------------------------------
+---
 
 Does anyone who wants to do great work have to live in a great city? No;
 all great cities inspire some sort of ambition, but they aren\'t the
@@ -33705,7 +33693,7 @@ Impressionists show the typical pattern: they were born all over France
 (Pissarro was born in the Carribbean) and died all over France, but what
 defined them were the years they spent together in Paris.
 
-------------------------------------------------------------------------
+---
 
 Unless you\'re sure what you want to do and where the leading center for
 it is, your best bet is probably to try living in several places when
@@ -33797,7 +33785,7 @@ Translation](http://traducoes.pbworks.com/Cidades-e-%20ambi%C3%A7%C3%A3o#)
 [Chinese Translation](http://select.yeeyan.org/view/11304/9681) [Korean
 Translation](https://blog.naver.com/happy_alpaca/221347038144)
 
-------------------------------------------------------------------------
+---
 
 # 097 The Pooled-Risk Company Management Company
 
@@ -33844,7 +33832,7 @@ demands of this powerful, external force?
 Sure, running your own company can be fairly interesting. Viaweb was
 more interesting than any job I\'d had before. And since I made much
 more money from it, it offered the highest ratio of income to boringness
-of anything I\'d done, by orders of magnitude. But was it *the* most
+of anything I\'d done, by orders of magnitude. But was it _the_ most
 interesting work I could imagine doing? No.
 
 Whether the number of founders in the same position is asymptotic or
@@ -33852,7 +33840,7 @@ merely large, there are certainly a lot of them. For them the right
 approach would be to hand the company over to a professional manager
 eventually, if they could find one who was good enough.
 
-------------------------------------------------------------------------
+---
 
 So far so good. But what if your manager was hit by a bus? What you
 really want is a management company to run your company for you. Then
@@ -33903,7 +33891,7 @@ David advocated.
 Good news: they do exist. What I\'ve just described is an acquisition by
 a public company.
 
-------------------------------------------------------------------------
+---
 
 Unfortunately, though public acquirers are structurally identical to
 pooled- risk company management companies, they don\'t think of
@@ -33950,7 +33938,7 @@ Robert Morris, and Fred Wilson for reading drafts of this.
 [Russian
 Translation](http://spring.jumpidea.com/2008/08/paul-graham-%20prcmc.html)
 
-------------------------------------------------------------------------
+---
 
 # 098 A Fundraising Survival Guide
 
@@ -34082,7 +34070,7 @@ technology is usually more valuable now than later.
 But although for most startups raising money will be the lesser evil,
 it\'s still a pretty big evil\--so big that it can easily kill you. Not
 merely in the obvious sense that if you fail to raise money you might
-have to shut the company down, but because the *process* of raising
+have to shut the company down, but because the _process_ of raising
 money itself can kill you.
 
 To survive it you need a set of techniques mostly orthogonal to the ones
@@ -34179,7 +34167,7 @@ bullets were in the gun they were playing Russian roulette with?
 
 Corollary: if an investor seems interested, don\'t just let them sit.
 You can\'t assume someone interested in investing will stay interested.
-In fact, you can\'t even tell ( *they* can\'t even tell) if they\'re
+In fact, you can\'t even tell ( _they_ can\'t even tell) if they\'re
 really interested till you try to convert that interest into money. So
 if you have hot prospect, either close them now or write them off. And
 unless you already have enough funding, that reduces to: close them now.
@@ -34196,7 +34184,7 @@ VCs don\'t expect you to answer the first question. They ask it just in
 case. [4](#a_fundraising_survival_guide_note4) They do seem to expect an
 answer to the second. But I don\'t think you should just tell them a
 number. Not as a way to play games with them, but because you shouldn\'t
-*have* a fixed amount you need to raise.
+_have_ a fixed amount you need to raise.
 
 The custom of a startup needing a fixed amount of funding is an obsolete
 one left over from the days when startups were more expensive. A company
@@ -34468,8 +34456,8 @@ figure out yet whether you\'ll succeed.\"
 `<a name=a_fundraising_survival_guide_note2>`{=html}\[2\]`</a>`{=html}
 Investors influence one another both directly and indirectly. They
 influence one another directly through the \"buzz\" that surrounds a hot
-startup. But they also influence one another indirectly *through the
-founders.* When a lot of investors are interested in you, it increases
+startup. But they also influence one another indirectly _through the
+founders._ When a lot of investors are interested in you, it increases
 your confidence in a way that makes you much more attractive to
 investors.
 
@@ -34512,7 +34500,7 @@ Morris, and Fred Wilson for reading drafts of this.
 [Russian
 Translation](http://spring.jumpidea.com/2008/08/paul-graham-%20fundraising.html)
 
-------------------------------------------------------------------------
+---
 
 # 099 Why to Start a Startup in a Bad Economy
 
@@ -34645,7 +34633,7 @@ Translation](https://medium.com/@Yangsupertramp/%E4%B8%BA%E5%95%A5%E8%A6%81%E5%9
 [Japanese
 Translation](https://twitter.com/jackzhang904/status/1238388462887137285)
 
-------------------------------------------------------------------------
+---
 
 # 100 The Other Half of \"Artists Ship\"
 
@@ -34671,7 +34659,7 @@ It\'s natural for organizations to learn from mistakes. The problem is,
 people who propose new checks almost never consider that the check
 itself has a cost.
 
-*Every check has a cost.* For example, consider the case of making
+_Every check has a cost._ For example, consider the case of making
 suppliers verify their solvency. Surely that\'s mere prudence? But in
 fact it could have substantial costs. There\'s obviously the direct cost
 in time of the people on both sides who supply and check proofs of the
@@ -34685,7 +34673,7 @@ since there is no apparent cost of increasing it.
 Whenever someone in an organization proposes to add a new check, they
 should have to explain not just the benefit but the cost. No matter how
 bad a job they did of analyzing it, this meta-check would at least
-remind everyone there had to *be* a cost, and send them looking for it.
+remind everyone there had to _be_ a cost, and send them looking for it.
 
 If companies started doing that, they\'d find some surprises. Joel
 Spolsky recently spoke at Y Combinator about selling software to
@@ -34766,7 +34754,7 @@ This didn\'t merely make them less productive. It made them hate working
 for the acquirer.
 
 Here\'s a sign of how much programmers like to be able to work hard:
-these guys would have *paid* to be able to release code immediately, the
+these guys would have _paid_ to be able to release code immediately, the
 way they used to. I asked them if they\'d trade 10% of the acquisition
 price for the ability to release code immediately, and all three
 instantly said yes. Then I asked what was the maximum percentage of the
@@ -34792,7 +34780,7 @@ Steve Jobs\'s famous maxim \"artists ship\" works both ways. Artists
 aren\'t merely capable of shipping. They insist on it. So if you don\'t
 let people ship, you won\'t have any artists.
 
-------------------------------------------------------------------------
+---
 
 # 101 The High-Res Society
 
@@ -34822,8 +34810,7 @@ economies of scale were not the only force at work. Particularly in
 technology, the increase in speed one could get from smaller groups
 started to trump the advantages of size.
 
-The future turned out to be different from the one we were expecting in
-1970. The domed cities and flying cars we expected have failed to
+The future turned out to be different from the one we were expecting in 1970. The domed cities and flying cars we expected have failed to
 materialize. But fortunately so have the jumpsuits with badges
 indicating our specialty and rank. Instead of being dominated by a few,
 giant tree-structured organizations, it\'s now looking like the economy
@@ -34839,7 +34826,7 @@ disciplined organizations win\" needs to have a qualification appended:
 \"at games that change slowly.\" No one knew till change reached a
 sufficient speed.
 
-Large organizations *will* start to do worse now, though, because for
+Large organizations _will_ start to do worse now, though, because for
 the first time in history they\'re no longer getting the best people. An
 ambitious kid graduating from college now doesn\'t want to work for a
 big company. They want to work for the hot startup that\'s rapidly
@@ -34970,20 +34957,20 @@ without growing big in people, but we are not very far along that trend
 yet.
 
 `<a name=the_highres_society_note4>`{=html}\[4\]`</a>`{=html} Lecuyer,
-Christophe, *Making Silicon Valley* , MIT Press, 2006.
+Christophe, _Making Silicon Valley_ , MIT Press, 2006.
 
 **Thanks** to Trevor Blackwell, Paul Buchheit, Jessica Livingston, and
 Robert Morris for reading drafts of this.
 
-------------------------------------------------------------------------
+---
 
 # 102 Could VC be a Casualty of the Recession?
 
 December 2008
 
-*(I originally wrote this at the request of a company producing a report
+_(I originally wrote this at the request of a company producing a report
 about entrepreneurship. Unfortunately after reading it they decided it
-was too controversial to include.)*
+was too controversial to include.)_
 
 VC funding will probably dry up somewhat during the present recession,
 like it usually does in bad times. But this time the result may be
@@ -35009,7 +34996,7 @@ that were profitable on revenues of \$3000 a month.
 
 \$3000 is insignificant as revenues go. Why should anyone care about a
 startup making \$3000 a month? Because, although insignificant as
-*revenue* , this amount of money can change a startup\'s *funding*
+_revenue_ , this amount of money can change a startup\'s _funding_
 situation completely.
 
 Someone running a startup is always calculating in the back of their
@@ -35119,7 +35106,7 @@ Livingston, Robert Morris, and Fred Wilson for reading drafts of this.
 [Russian
 Translation](http://www.web30.ru/2008/12/07/mogut-li-venchurnye-%20kapitalisty-stat-zhertvami-krizisa/)
 
-------------------------------------------------------------------------
+---
 
 # 103 After Credentials
 
@@ -35127,7 +35114,7 @@ Translation](http://www.web30.ru/2008/12/07/mogut-li-venchurnye-%20kapitalisty-s
 
 December 2008
 
-A few months ago I read a *New York Times* article on South Korean cram
+A few months ago I read a _New York Times_ article on South Korean cram
 schools that said
 
 > Admission to the right university can make or break an ambitious young
@@ -35148,7 +35135,7 @@ you go to college still matters, but not like it used to.
 
 What happened?
 
-------------------------------------------------------------------------
+---
 
 Judging people by their academic credentials was in its time an advance.
 The practice seems to have begun in China, where starting in 587
@@ -35185,7 +35172,7 @@ imperial civil service exams took years, as prep school does today. But
 the raison d\'etre of all these institutions has been the same: to beat
 the system. [2](#after_credentials_note2)
 
-------------------------------------------------------------------------
+---
 
 History suggests that, all other things being equal, a society prospers
 in proportion to its ability to prevent parents from influencing their
@@ -35211,7 +35198,7 @@ the most powerful forces in human nature. We shouldn\'t expect naive
 solutions to work, any more than we\'d expect naive solutions for
 keeping heroin out of a prison to work.
 
-------------------------------------------------------------------------
+---
 
 The obvious way to solve the problem is to make credentials better. If
 the tests a society uses are currently hackable, we can study the way
@@ -35235,7 +35222,7 @@ probably make them more airtight. But what a long fight it would be.
 Especially when the institutions administering the tests don\'t really
 want them to be airtight.
 
-------------------------------------------------------------------------
+---
 
 Fortunately there\'s a better way to prevent the direct transmission of
 power between generations. Instead of trying to make credentials harder
@@ -35261,7 +35248,7 @@ every person and keeping just the good ones. So all other things being
 equal, a society consisting of more, smaller organizations will care
 less about credentials.
 
-------------------------------------------------------------------------
+---
 
 That\'s what\'s been happening in the US. That\'s why those quotes from
 Korea sound so old fashioned. They\'re talking about an economy like
@@ -35296,7 +35283,7 @@ ambitious person to choose to be judged directly by the market. You had
 to go through bosses, and they were influenced by where you\'d been to
 college.
 
-------------------------------------------------------------------------
+---
 
 What made it possible for small organizations to succeed in America?
 I\'m still not entirely sure. Startups are certainly a large part of it.
@@ -35324,7 +35311,7 @@ broke ranks and started to pay young employees large amounts. This was
 particularly true in consulting, law, and finance, where it led to the
 phenomenon of yuppies. The word is rarely used today because it\'s no
 longer surprising to see a 25 year old with money, but in 1985 the sight
-of a 25 year old *professional* able to afford a new BMW was so novel
+of a 25 year old _professional_ able to afford a new BMW was so novel
 that it called forth a new word.
 
 The classic yuppie worked for a small organization. He didn\'t work for
@@ -35347,7 +35334,7 @@ had afflicted it for most of the 1970s. Was there a connection? I don\'t
 know enough to say, but it felt like it at the time. There was a lot of
 energy released.
 
-------------------------------------------------------------------------
+---
 
 Countries worried about their competitiveness are right to be concerned
 about the number of startups started within them. But they would do even
@@ -35373,7 +35360,7 @@ former gatekeepers can hope for. Once credential granting institutions
 are no longer in the self- fullfilling prophecy business, they\'ll have
 to work harder to predict the future.
 
-------------------------------------------------------------------------
+---
 
 Credentials are a step beyond bribery and influence. But they\'re not
 the final step. There\'s an even better way to block the transmission of
@@ -35395,9 +35382,8 @@ shows no sign of slowing.
 **Notes**
 
 `<a name=after_credentials_note1>`{=html}\[1\]`</a>`{=html} Miyazaki,
-Ichisada (Conrad Schirokauer trans.), *China\'s Examination Hell: The
-Civil Service Examinations of Imperial China,* Yale University Press,
-1981.
+Ichisada (Conrad Schirokauer trans.), _China\'s Examination Hell: The
+Civil Service Examinations of Imperial China,_ Yale University Press, 1981.
 
 Scribes in ancient Egypt took exams, but they were more the type of
 proficiency test any apprentice might have to pass.
@@ -35415,7 +35401,7 @@ difference between good and bad measurers.
 **Thanks** to Trevor Blackwell, Sarah Harlin, Jessica Livingston, and
 David Sloo for reading drafts of this.
 
-------------------------------------------------------------------------
+---
 
 # 104 Keep Your Identity Small
 
@@ -35531,7 +35517,7 @@ Morris for reading drafts of this.
 
 [Romanian Translation](http://ro.goobix.com/pg/identity/)
 
-------------------------------------------------------------------------
+---
 
 # 105 Startups in 13 Sentences
 
@@ -35721,7 +35707,7 @@ Translation](http://www.entrepreneur.bg/7301/dobriyat-%20startap-v-13-izrecheniy
 [Persian
 Translation](https://virgool.io/@mahdikhashan/%D9%BE%D8%A7%D9%88%D9%84-%DA%AF%D8%B1%D8%A7%D9%87%D8%A7%D9%85-%D8%A7%D8%B3%D8%AA%D8%A7%D8%B1%D8%AA%D8%A7%D9%BE-%D8%AF%D8%B1-%D8%B3%DB%8C%D8%B2%D8%AF%D9%87-%D8%AC%D9%85%D9%84%D9%87-gduckqxgkoe6)
 
-------------------------------------------------------------------------
+---
 
 # 106 What I\'ve Learned from Hacker News
 
@@ -36061,7 +36047,7 @@ Ohanian, Emmet Shear, and Fred Wilson for reading drafts of this.
 
 [Comment](http://news.ycombinator.com/item?id=495053) on this essay.
 
-------------------------------------------------------------------------
+---
 
 # 107 Can You Buy a Silicon Valley? Maybe.
 
@@ -36104,7 +36090,7 @@ they won\'t do is agree not to move the next time they need funding. So
 the only way to get them to stay is to give them enough that they never
 need to leave.
 
-------------------------------------------------------------------------
+---
 
 How much would that take? If you want to keep startups from leaving your
 town, you have to give them enough that they\'re not tempted by an offer
@@ -36141,7 +36127,7 @@ Silicon Valley; instead they\'d be opening local offices. Then you\'d
 really be in good shape. You\'d have started a self-sustaining chain
 reaction like the one that drives the Valley.
 
-------------------------------------------------------------------------
+---
 
 But now comes the hard part. You have to pick the startups. How do you
 do that? Picking startups is a rare and valuable skill, and the handful
@@ -36151,7 +36137,7 @@ they\'d almost certainly get the wrong ones.
 
 For example, a city could give money to a VC fund to establish a local
 branch, and let them make the choices. But only a bad VC fund would take
-that deal. They wouldn\'t *seem* bad to the city officials. They\'d seem
+that deal. They wouldn\'t _seem_ bad to the city officials. They\'d seem
 very impressive. But they\'d be bad at picking startups. That\'s the
 characteristic failure mode of VCs. All VCs look impressive to limited
 partners. The difference between the good ones and the bad ones only
@@ -36180,7 +36166,7 @@ It would hurt the startups somewhat to be separated from their original
 investors. On the other hand, the extra million dollars would give them
 a lot more runway.
 
-------------------------------------------------------------------------
+---
 
 Would the transplanted startups survive? Quite possibly. The only way to
 find out would be to try it. It would be a pretty cheap experiment, as
@@ -36211,7 +36197,7 @@ Interestingly, the 30-startup experiment could be done by any
 sufficiently rich private citizen. And what pressure it would put on the
 city if it worked. [4](#can_you_buy_a_silicon_valley__maybe_note4)
 
-------------------------------------------------------------------------
+---
 
 Should the city take stock in return for the money? In principle
 they\'re entitled to, but how would they choose valuations for the
@@ -36239,7 +36225,7 @@ the money, though. So the best plan would be to make it convertible
 debt, but which didn\'t convert except in a really big round, like \$20
 million.
 
-------------------------------------------------------------------------
+---
 
 How well this scheme worked would depend on the [city](cities.html).
 There are some towns, like Portland, that would be easy to turn into
@@ -36290,7 +36276,7 @@ Thanks to Michael Keenan for pointing this out.
 **Thanks** to Trevor Blackwell, Jessica Livingston, Robert Morris, and
 Fred Wilson for reading drafts of this.
 
-------------------------------------------------------------------------
+---
 
 # 108 Why TV Lost
 
@@ -36345,7 +36331,7 @@ connect with one another.
 Facebook killed TV. That is wildly oversimplified, of course, but
 probably as close to the truth as you can get in three words.
 
-------------------------------------------------------------------------
+---
 
 The TV networks already seem, grudgingly, to see where things are going,
 and have responded by putting their stuff, grudgingly, online. But
@@ -36386,7 +36372,7 @@ Inevitably, the people running the networks will take the easy route and
 try to keep the old model running for a couple more years, just as the
 record labels have done.
 
-A recent article in the *Wall Street Journal* described how TV networks
+A recent article in the _Wall Street Journal_ described how TV networks
 were trying to add more live shows, partly as a way to make viewers
 watch TV synchronously instead of watching recorded shows when it suited
 them. Instead of delivering what viewers want, they\'re trying to force
@@ -36403,7 +36389,7 @@ seeing this whole line of reasoning because they still think of
 themselves as being in the broadcast business\--as sending one signal to
 everyone. [4](#why_tv_lost_note4)
 
-------------------------------------------------------------------------
+---
 
 [Now](badeconomy.html) would be a good time to start any company that
 competes with TV networks. That\'s what a lot of Internet startups are,
@@ -36474,14 +36460,14 @@ Emmett Shear, and Fred Wilson for reading drafts of this.
 [Japanese
 Translation](http://www.turnyourideasintoreality.com/2015/03/2009_why_tv_lost/)
 
-------------------------------------------------------------------------
+---
 
 # 109 How to Be an Angel Investor
 
 March 2009
 
-*(This essay is derived from a talk
-at[AngelConf](http://angelconf.org).)*
+_(This essay is derived from a talk
+at[AngelConf](http://angelconf.org).)_
 
 When we sold our startup in 1998 I thought one day I\'d do some angel
 investing. Seven years later I still hadn\'t started. I put it off
@@ -36918,7 +36904,7 @@ Morris, and Fred Wilson for reading drafts of this.
 
 [Comment](http://news.ycombinator.com/item?id=506671) on this essay.
 
-------------------------------------------------------------------------
+---
 
 # 110 Relentlessly Resourceful
 
@@ -37043,13 +37029,13 @@ ability to change.
 **Thanks** to Trevor Blackwell and Jessica Livingston for reading drafts
 of this.
 
-------------------------------------------------------------------------
+---
 
 # 111 Five Founders
 
 April 2009
 
-*Inc* recently asked me who I thought were the 5 most interesting
+_Inc_ recently asked me who I thought were the 5 most interesting
 startup founders of the last 30 years. How do you decide who\'s the most
 interesting? The best test seemed to be influence: who are the 5 who\'ve
 influenced me most? Who do I use as examples when I\'m talking to
@@ -37098,7 +37084,7 @@ collaboration.
 Before Google, companies in Silicon Valley already knew it was important
 to have the best hackers. So they claimed, at least. But Google pushed
 this idea further than anyone had before. Their hypothesis seems to have
-been that, in the initial stages at least, *all* you need is good
+been that, in the initial stages at least, _all_ you need is good
 hackers: if you hire all the smartest people and put them to work on a
 problem where their success can be measured, you win. All the other
 stuff\--which includes all the stuff that business schools think
@@ -37142,7 +37128,7 @@ investing does not consist of trying to pick winners the way you might
 in a horse race. But there are a few people with such force of will that
 they\'re going to get whatever they want.
 
-------------------------------------------------------------------------
+---
 
 # 112 The Founder Visa
 
@@ -37160,8 +37146,8 @@ that we won\'t let the people who want to start them into the country.
 
 Letting just 10,000 startup founders into the country each year could
 have a visible effect on the economy. If we assume 4 people per startup,
-which is probably an overestimate, that\'s 2500 new companies. *Each
-year.* They wouldn\'t all grow as big as Google, but out of 2500 some
+which is probably an overestimate, that\'s 2500 new companies. _Each
+year._ They wouldn\'t all grow as big as Google, but out of 2500 some
 would come close.
 
 By definition these 10,000 founders wouldn\'t be taking jobs from
@@ -37198,7 +37184,7 @@ Entrepreneurs](http://www.economist.com/surveys/displaystory.cfm?story_id=132160
 [About Half of VC-Backed Company Founders are
 Immigrants](http://venturebeat.com/2006/11/15/note-to-washington-about-half-%20of-vc-backed-company-founders-are-immigrants)
 
-------------------------------------------------------------------------
+---
 
 # 113 Why Twitter is a Big Deal
 
@@ -37221,7 +37207,7 @@ haven\'t tried to control it too much, Twitter feels to everyone like
 previous protocols. One forgets it\'s owned by a private company. That
 must have made it easier for Twitter to spread.
 
-------------------------------------------------------------------------
+---
 
 # 114 A Local Revolution?
 
@@ -37379,7 +37365,7 @@ success of Skype.
 **Thanks** to Patrick Collison, Jessica Livingston, and Fred Wilson for
 reading drafts of this.
 
-------------------------------------------------------------------------
+---
 
 # 115 Maker\'s Schedule, Manager\'s Schedule
 
@@ -37523,7 +37509,7 @@ Translation](http://justinchronicles.net/ko/2014/02/07/makers-%20schedule-manage
 [German
 Translation](https://blog.robertsj.com/makers-schedule-managers-%20schedule/)
 
-------------------------------------------------------------------------
+---
 
 # 116 Ramen Profitable
 
@@ -37568,7 +37554,7 @@ eventually you\'ll either have to raise more or shut down. Once you\'re
 ramen profitable this painful choice goes away. You can still raise
 money, but you don\'t have to do it now.
 
-------------------------------------------------------------------------
+---
 
 The most obvious advantage of not needing money is that you can get
 better terms. If investors know you need money, they\'ll sometimes take
@@ -37643,7 +37629,7 @@ you\'re not in the middle of something else, and you can probably also
 insist that the round close fast. You may even be able to avoid having
 the round occupy your thoughts, if you don\'t care whether it closes.
 
-------------------------------------------------------------------------
+---
 
 Ramen profitable means no more than the definition implies. It does not,
 for example, imply that you\'re \"bootstrapping\" the startup\--that
@@ -37704,7 +37690,7 @@ Rice and Beans for 2n
 
 \[code\]
 
-       olive oil or butter       n yellow onions       other fresh vegetables; experiment       3n cloves garlic       n 12-oz cans white, kidney, or black beans       n cubes Knorr beef or vegetable bouillon       n teaspoons freshly ground black pepper       3n teaspoons ground cumin       n cups dry rice, preferably brown 
+       olive oil or butter       n yellow onions       other fresh vegetables; experiment       3n cloves garlic       n 12-oz cans white, kidney, or black beans       n cubes Knorr beef or vegetable bouillon       n teaspoons freshly ground black pepper       3n teaspoons ground cumin       n cups dry rice, preferably brown
 
 \[/code\]
 
@@ -37745,7 +37731,7 @@ product company.
 
 [Japanese Translation](https://note.com/tokyojack/n/n612e835ac15c)
 
-------------------------------------------------------------------------
+---
 
 # 117 The Trouble with the Segway
 
@@ -37765,7 +37751,7 @@ he rides the Segwell, they shout abuse from their cars: \"Too lazy to
 walk, ya fuckin homo?\"
 
 Why do Segways provoke this reaction? The reason you look like a dork
-riding a Segway is that you look *smug*. You don\'t seem to be working
+riding a Segway is that you look _smug_. You don\'t seem to be working
 hard enough.
 
 Someone riding a motorcycle isn\'t working any harder. But because he\'s
@@ -37793,7 +37779,7 @@ aplenty, I\'m sure, but they didn\'t have the people yelling insults out
 of cars. So they never realized they were zooming confidently down a
 blind alley.
 
-------------------------------------------------------------------------
+---
 
 # 118 What Kate Saw in Silicon Valley
 
@@ -37906,7 +37892,7 @@ subculture to be, but a leading indicator.
 
 [Japanese Translation](https://note.com/tokyojack/n/n00714ac4042a)
 
-------------------------------------------------------------------------
+---
 
 # 119 The Anatomy of Determination
 
@@ -38101,13 +38087,13 @@ Translation](http://traducoes.pbworks.com/A-Anatomia-da-%20Determina%C3%A7%C3%A3
 [Russian
 Translation](http://iggant.blogspot.com/2009/09/paul-grehem-anatomy-%20of-determination.html)
 
-------------------------------------------------------------------------
+---
 
 # 120 The List of N Things
 
 September 2009
 
-I bet you the current issue of *Cosmopolitan* has an article whose title
+I bet you the current issue of _Cosmopolitan_ has an article whose title
 begins with a number. \"7 Things He Won\'t Tell You about Sex,\" or
 something like that. Some popular magazines feature articles of this
 type on the cover of every issue. That can\'t be happening by accident.
@@ -38192,7 +38178,7 @@ Because the list of n things is the easiest essay form, it should be a
 good one for beginning writers. And in fact it is what most beginning
 writers are taught. The classic 5 paragraph essay is really a list of n
 things for n = 3. But the students writing them don\'t realize they\'re
-using the same structure as the articles they read in *Cosmopolitan*.
+using the same structure as the articles they read in _Cosmopolitan_.
 They\'re not allowed to include the numbers, and they\'re expected to
 spackle over the gaps with gratuitous transitions (\"Furthermore\...\")
 and cap the thing at either end with introductory and concluding
@@ -38207,7 +38193,7 @@ no transitions or \"conclusion.\"
 There is one case where the list of n things is a dishonest format: when
 you use it to attract attention by falsely claiming the list is an
 exhaustive one. I.e. if you write an article that purports to be about
-*the* 7 secrets of success. That kind of title is the same sort of
+_the_ 7 secrets of success. That kind of title is the same sort of
 reflexive challenge as a whodunit. You have to at least look at the
 article to check whether they\'re the same 7 you\'d list. Are you
 overlooking one of the secrets of success? Better check.
@@ -38258,7 +38244,7 @@ memorized.
 [Russian
 Translation](http://iggant.blogspot.com/2009/09/n-paul-graham-list-%20of-n-things.html)
 
-------------------------------------------------------------------------
+---
 
 # 121 Post-Medium Publishing
 
@@ -38273,8 +38259,8 @@ selling, why has the price of books or music or movies always depended
 mostly on the format? Why didn\'t better content cost more?
 [1](#postmedium_publishing_note1)
 
-A copy of *Time* costs \$5 for 58 pages, or 8.6 cents a page. *The
-Economist* costs \$7 for 86 pages, or 8.1 cents a page. Better
+A copy of _Time_ costs \$5 for 58 pages, or 8.6 cents a page. _The
+Economist_ costs \$7 for 86 pages, or 8.1 cents a page. Better
 journalism is actually slightly cheaper.
 
 Almost every form of publishing has been organized as if the medium was
@@ -38289,8 +38275,8 @@ will sell a lot of papers!\" Cross out that final S and you\'re
 describing their business model. The reason they make less money now is
 that people don\'t need as much paper.
 
-A few months ago I ran into a friend in a cafe. I had a copy of the *New
-York Times* , which I still occasionally buy on weekends. As I was
+A few months ago I ran into a friend in a cafe. I had a copy of the _New
+York Times_ , which I still occasionally buy on weekends. As I was
 leaving I offered it to him, as I\'ve done countless times before in the
 same situation. But this time something new happened. I felt that
 sheepish feeling you get when you offer someone something worthless.
@@ -38435,7 +38421,7 @@ things as it kills. Indeed, the really interesting question is not what
 will happen to existing forms, but what new forms will appear.
 
 The reason I\'ve been writing about existing forms is that I don\'t
-*know* what new forms will appear. But though I can\'t predict specific
+_know_ what new forms will appear. But though I can\'t predict specific
 winners, I can offer a recipe for recognizing them. When you see
 something that\'s taking advantage of new technology to give people
 something they want that they couldn\'t have before, you\'re probably
@@ -38474,7 +38460,7 @@ autographed copies, or editions with the buyer\'s picture on the cover.
 **Thanks** to Michael Arrington, Trevor Blackwell, Steven Levy, Robert
 Morris, and Geoff Ralston for reading drafts of this.
 
-------------------------------------------------------------------------
+---
 
 # 122 Persuade xor Discover
 
@@ -38629,7 +38615,7 @@ people dislike Michael Arrington. I now believe that was mistaken, and
 that most people don\'t dislike him for the same reason I did when I
 first met him, but simply because he writes about controversial things.
 
-------------------------------------------------------------------------
+---
 
 # 123 What Startups Are Really Like
 
@@ -38638,7 +38624,7 @@ Combinator](http://ycombinator.com/apply.html).
 
 October 2009
 
-*(This essay is derived from a talk at the 2009 Startup School.)*
+_(This essay is derived from a talk at the 2009 Startup School.)_
 
 I wasn\'t sure what to talk about at Startup School, so I decided to ask
 the founders of the startups we\'d funded. What hadn\'t I written about
@@ -38790,7 +38776,7 @@ What they like most is the freedom:
 Frankly, though, if I\'ve misled people here, I\'m not eager to fix
 that. I\'d rather have everyone think starting a startup is grim and
 hard than have founders go into it expecting it to be fun, and a few
-months later saying \"This is supposed to be *fun*? Are you kidding?\"
+months later saying \"This is supposed to be _fun_? Are you kidding?\"
 
 The truth is, it wouldn\'t be fun for most people. A lot of what we try
 to do in the application process is to weed out the people who wouldn\'t
@@ -38853,7 +38839,7 @@ Maybe they\'ll listen to one of the more successful founders:
 
 > The top thing I didn\'t understand before going into it is that
 > persistence \> is the name of the game. For the vast majority of
-> startups that become \> successful, it\'s going to be a *really* long
+> startups that become \> successful, it\'s going to be a _really_ long
 > journey, at least 3 years and \> probably 5+.
 
 There is a positive side to thinking longer-term. It\'s not just that
@@ -39002,7 +38988,7 @@ it will work, but it seems like a decent hypothesis.
 
 When you think you\'ve got a great idea, it\'s sort of like having a
 guilty conscience about something. All someone has to do is look at you
-funny, and you think \"Oh my God, *they know.* \"
+funny, and you think \"Oh my God, _they know._ \"
 
 These alarms are almost always false:
 
@@ -39127,7 +39113,7 @@ surprised him most was
 
 > The degree to which feigning certitude impressed investors.
 
-This is the thing that has surprised *me* most about YC founders\'
+This is the thing that has surprised _me_ most about YC founders\'
 experiences. This summer we invited some of the alumni to talk to the
 new startups about fundraising, and pretty much 100% of their advice was
 about investor psychology. I thought I was cynical about VCs, but the
@@ -39164,7 +39150,7 @@ you deserve.
 > being lucky is the \> critical ingredient.
 
 Actually the best model would be to say that the outcome is the
-*product* of skill, determination, and luck. No matter how much skill
+_product_ of skill, determination, and luck. No matter how much skill
 and determination you have, if you roll a zero for luck, the outcome is
 zero.
 
@@ -39277,7 +39263,7 @@ What is going on here?
 When I look at the responses, the common theme is that starting a
 startup was like I said, but way more so. People just don\'t seem to get
 how different it is till they do it. Why? The key to that mystery is to
-ask, how different *from what?* Once you phrase it that way, the answer
+ask, how different _from what?_ Once you phrase it that way, the answer
 is obvious: from a job. Everyone\'s model of work is a job. It\'s
 completely pervasive. Even if you\'ve never had a job, your parents
 probably did, along with practically every other adult you\'ve met.
@@ -39356,7 +39342,7 @@ Translation](http://design-play.textcube.com/entry/strartups-really-%20like)
 [Hebrew
 Translation](http://eranback.quora.com/What-startups-are-really-like-%20hebrew)
 
-------------------------------------------------------------------------
+---
 
 # 124 Apple\'s Mistake
 
@@ -39380,7 +39366,7 @@ How much of the goodwill Apple once had with programmers have they lost
 over the App Store? A third? Half? And that\'s just so far. The App
 Store is an ongoing karma leak.
 
-------------------------------------------------------------------------
+---
 
 How did Apple get into this mess? Their fundamental problem is that they
 don\'t understand software.
@@ -39462,7 +39448,7 @@ Apple it was an unalloyed pleasure. Oh boy! They make such great stuff.
 This time it felt like a Faustian bargain. They make such great stuff,
 but they\'re such assholes. Do I really want to support this company?
 
-------------------------------------------------------------------------
+---
 
 Should Apple care what people like me think? What difference does it
 make if they alienate a small minority of their users?
@@ -39544,7 +39530,7 @@ Android is an orphan; Google doesn\'t really care about it, not the way
 Apple cares about the iPhone. Apple cares about the iPhone the way
 Google cares about search.
 
-------------------------------------------------------------------------
+---
 
 Is the future of handheld devices one locked down by Apple? It\'s a
 worrying prospect. It would be a bummer to have another grim monoculture
@@ -39601,7 +39587,7 @@ more frightening in those days, but they were friendlier to developers
 than Apple is now.
 
 `<a name=apples_mistake_note3>`{=html}\[3\]`</a>`{=html} He couldn\'t
-even afford a *monitor*. That\'s why the Apple I used a TV as a monitor.
+even afford a _monitor_. That\'s why the Apple I used a TV as a monitor.
 
 `<a name=apples_mistake_note4>`{=html}\[4\]`</a>`{=html} Several people
 I talked to mentioned how much they liked the iPhone SDK. The problem is
@@ -39617,7 +39603,7 @@ Singh, and Jared Tame for reading drafts of this.
 [Russian
 Translation](http://www.mroodles.com/hacking/apple_mistake_ru.php)
 
-------------------------------------------------------------------------
+---
 
 # 125 Organic Startup Ideas
 
@@ -39723,7 +39709,7 @@ suggests a way to predict areas where Apple will be weak: things Steve
 Jobs doesn\'t use. E.g. I doubt he is much into gaming.
 
 `<a name=organic_startup_ideas_note2>`{=html}\[2\]`</a>`{=html} In
-retrospect, we should have *become* direct marketers. If I were doing
+retrospect, we should have _become_ direct marketers. If I were doing
 Viaweb again, I\'d open our own online store. If we had, we\'d have
 understood users a lot better. I\'d encourage anyone starting a startup
 to become one of its users, however unnatural it seems.
@@ -39736,7 +39722,7 @@ charge for.
 **Thanks** to Sam Altman, Trevor Blackwell, and Jessica Livingston for
 reading drafts of this.
 
-------------------------------------------------------------------------
+---
 
 # 126 How to Lose Time and Money
 
@@ -39808,7 +39794,7 @@ the worst thing is, they\'re not even fun.
 **Thanks** to Sam Altman, Trevor Blackwell, Patrick Collison, Jessica
 Livingston, and Robert Morris for reading drafts of this.
 
-------------------------------------------------------------------------
+---
 
 # 127 The Top Idea in Your Mind
 
@@ -39943,13 +39929,13 @@ Corollary: Avoid becoming an administrator, or your job will consist of
 dealing with money and disputes.
 
 `<a name=the_top_idea_in_your_mind_note4>`{=html}\[4\]`</a>`{=html}
-Letter to Oldenburg, quoted in Westfall, Richard, *Life of Isaac Newton*
+Letter to Oldenburg, quoted in Westfall, Richard, _Life of Isaac Newton_
 , p. 107.
 
 **Thanks** to Sam Altman, Patrick Collison, Jessica Livingston, and
 Robert Morris for reading drafts of this.
 
-------------------------------------------------------------------------
+---
 
 # 128 The Acceleration of Addictiveness
 
@@ -40102,7 +40088,7 @@ reads as a phone, and everyone\'s used to those.)
 **Thanks** to Sam Altman, Patrick Collison, Jessica Livingston, and
 Robert Morris for reading drafts of this.
 
-------------------------------------------------------------------------
+---
 
 # 129 The Future of Startup Funding
 
@@ -40237,7 +40223,7 @@ investor will no longer be the lead in the old sense of managing the
 round. The startup will now do that themselves.
 
 There will continue to be lead investors in the sense of investors who
-take the lead in *advising* a startup. They may also make the biggest
+take the lead in _advising_ a startup. They may also make the biggest
 investment. But they won\'t always have to be the one terms are
 negotiated with, or be the first money in, as they have in the past.
 Standardized paperwork will do away with the need to negotiate anything
@@ -40248,7 +40234,7 @@ startup can get from the first one to write a check, limited by their
 guess at whether this will make later investors balk. But there may not
 have to be just one valuation. Startups are increasingly raising money
 on convertible notes, and convertible notes have not valuations but at
-most valuation *caps* : caps on what the effective valuation will be
+most valuation _caps_ : caps on what the effective valuation will be
 when the debt converts to equity (in a later round, or upon acquisition
 if that happens first). That\'s an important difference because it means
 a startup could do multiple notes at once with different caps. This is
@@ -40555,7 +40541,7 @@ Dixon, Mitch Kapor, Josh Kopelman, Pete Koomen, Carolynn Levy, Jessica
 Livingston, Ariel Poler, Geoff Ralston, Naval Ravikant, Dan Siroker,
 Harj Taggar, and Fred Wilson for reading drafts of this.
 
-------------------------------------------------------------------------
+---
 
 # 130 What Happened to Yahoo
 
@@ -40790,7 +40776,7 @@ to.
 **Thanks** to Trevor Blackwell, Jessica Livingston, and Geoff Ralston
 for reading drafts of this.
 
-------------------------------------------------------------------------
+---
 
 # 131 High Resolution Fundraising
 
@@ -40876,7 +40862,7 @@ but may not be able to get into the best deals at all.
 Jessica Livingston, Dan Siroker, Harj Taggar, and Fred Wilson for
 reading drafts of this.
 
-------------------------------------------------------------------------
+---
 
 # 132 Where to See Silicon Valley
 
@@ -41021,7 +41007,7 @@ on a map.
 **Thanks** to Sam Altman, Paul Buchheit, Patrick Collison, and Jessica
 Livingston for reading drafts of this.
 
-------------------------------------------------------------------------
+---
 
 # 133 The New Funding Landscape
 
@@ -41272,7 +41258,7 @@ acquired quickly, that would explain why they\'d care about valuations.
 But why would they be looking for those? Because depending on the
 meaning of \"quickly,\" it could actually be very profitable. A company
 that gets acquired for 30 million is a failure to a VC, but it could be
-a 10x return for an angel, and moreover, a *quick* 10x return. Rate of
+a 10x return for an angel, and moreover, a _quick_ 10x return. Rate of
 return is what matters in investing\--not the multiple you get, but the
 multiple per year. If a super- angel gets 10x in one year, that\'s a
 higher rate of return than a VC could ever hope to get from a company
@@ -41409,7 +41395,7 @@ raise more money. But startups are often mistaken about that.
 Lindenbaum, Reid Hoffman, Jessica Livingston and Harj Taggar for reading
 drafts of this.
 
-------------------------------------------------------------------------
+---
 
 # 134 What We Look for in Founders
 
@@ -41418,9 +41404,9 @@ Combinator](http://ycombinator.com/apply.html).
 
 October 2010
 
-*(I wrote this for Forbes, who asked me to write something about the
+_(I wrote this for Forbes, who asked me to write something about the
 qualities we look for in founders. In print they had to cut the last
-item because they didn\'t have room.)*
+item because they didn\'t have room.)_
 
 **1. Determination**
 
@@ -41512,7 +41498,7 @@ sensed any unresolved tension between them.
 **Thanks** to Jessica Livingston and Chris Steiner for reading drafts of
 this.
 
-------------------------------------------------------------------------
+---
 
 # 135 Tablets
 
@@ -41578,7 +41564,7 @@ access to? Give hackers an inch and they\'ll take you a mile.
 **Thanks** to Sam Altman, Paul Buchheit, Jessica Livingston, and Robert
 Morris for reading drafts of this.
 
-------------------------------------------------------------------------
+---
 
 # 136 Founder Control
 
@@ -41669,7 +41655,7 @@ Buchheit, Brian Chesky, Bill Clerico, Patrick Collison, Adam Goldstein,
 James Lindenbaum, Jessica Livingston, and Fred Wilson for reading drafts
 of this.
 
-------------------------------------------------------------------------
+---
 
 # 137 Subject: Airbnb
 
@@ -41702,250 +41688,250 @@ such a large number of companies, and we invest so early that investors
 sometimes need a lot of convincing to see their merits. I don\'t always
 try as hard as this though. Fred must have found me quite annoying.
 
-------------------------------------------------------------------------
+---
 
 \[code\]
 
-     from: Paul Graham     to: Fred Wilson, AirBedAndBreakfast Founders     date: Fri, Jan 23, 2009 at 11:42 AM     subject: meet the airbeds   
-      
-     One of the startups from the batch that just started, AirbedAndBreakfast,     is in NYC right now meeting their users.  (NYC is their biggest     market.) I'd recommend meeting them if your schedule allows.   
-      
-     I'd been thinking to myself that though these guys were going to     do really well, I should introduce them to angels, because VCs would     never go for it.  But then I thought maybe I should give you more     credit.  You'll certainly like meeting them.  Be sure to ask about     how they funded themselves with breakfast cereal.   
-      
-     There's no reason this couldn't be as big as Ebay.  And this team     is the right one to do it.   
-      
+     from: Paul Graham     to: Fred Wilson, AirBedAndBreakfast Founders     date: Fri, Jan 23, 2009 at 11:42 AM     subject: meet the airbeds
 
-    --pg  
+     One of the startups from the batch that just started, AirbedAndBreakfast,     is in NYC right now meeting their users.  (NYC is their biggest     market.) I'd recommend meeting them if your schedule allows.
 
+     I'd been thinking to myself that though these guys were going to     do really well, I should introduce them to angels, because VCs would     never go for it.  But then I thought maybe I should give you more     credit.  You'll certainly like meeting them.  Be sure to ask about     how they funded themselves with breakfast cereal.
 
+     There's no reason this couldn't be as big as Ebay.  And this team     is the right one to do it.
 
 
+    --pg
 
 
-     from: Brian Chesky     to: Paul Graham     cc: Nathan Blecharczyk, Joe Gebbia     date: Fri, Jan 23, 2009 at 11:40 AM     subject: Re: meet the airbeds   
-      
 
-    PG,  
 
 
-     Thanks for the intro!   
-      
-     Brian   
-      
 
+     from: Brian Chesky     to: Paul Graham     cc: Nathan Blecharczyk, Joe Gebbia     date: Fri, Jan 23, 2009 at 11:40 AM     subject: Re: meet the airbeds
 
 
+    PG,
 
-     from: Paul Graham     to: Brian Chesky     cc: Nathan Blecharczyk, Joe Gebbia     date: Fri, Jan 23, 2009 at 12:38 PM     subject: Re: meet the airbeds   
-      
-     It's a longshot, at this stage, but if there was any VC who'd get     you guys, it would be Fred.  He is the least suburban-golf-playing     VC I know.   
-      
-     He likes to observe startups for a while before acting, so don't     be bummed if he seems ambivalent.   
-      
 
-    --pg  
+     Thanks for the intro!
 
+     Brian
 
 
 
 
 
-     from: Fred Wilson     to: Paul Graham,     date: Sun, Jan 25, 2009 at 5:28 PM     subject: Re: meet the airbeds   
-      
-     Thanks Paul   
-      
-     We are having a bit of a debate inside our partnership about the     airbed concept. We'll finish that debate tomorrow in our weekly     meeting and get back to you with our thoughts   
-      
-     Thanks   
-      
+     from: Paul Graham     to: Brian Chesky     cc: Nathan Blecharczyk, Joe Gebbia     date: Fri, Jan 23, 2009 at 12:38 PM     subject: Re: meet the airbeds
 
-    Fred  
+     It's a longshot, at this stage, but if there was any VC who'd get     you guys, it would be Fred.  He is the least suburban-golf-playing     VC I know.
 
+     He likes to observe startups for a while before acting, so don't     be bummed if he seems ambivalent.
 
 
+    --pg
 
 
 
-     from: Paul Graham     to: Fred Wilson     date: Sun, Jan 25, 2009 at 10:48 PM     subject: Re: meet the airbeds   
-      
-     I'd recommend having the debate after meeting them instead of before.     We had big doubts about this idea, but they vanished on meeting the     guys.   
-      
 
 
 
+     from: Fred Wilson     to: Paul Graham,     date: Sun, Jan 25, 2009 at 5:28 PM     subject: Re: meet the airbeds
 
-     from: Fred Wilson     to: Paul Graham     date: Mon, Jan 26, 2009 at 11:08 AM     subject: RE: meet the airbeds   
-      
-     We are still very suspect of this idea but will take a meeting as     you suggest   
-      
-     Thanks   
-      
+     Thanks Paul
 
-    fred  
+     We are having a bit of a debate inside our partnership about the     airbed concept. We'll finish that debate tomorrow in our weekly     meeting and get back to you with our thoughts
 
+     Thanks
 
 
+    Fred
 
 
 
-     from: Fred Wilson     to: Paul Graham, AirBedAndBreakfast Founders     date: Mon, Jan 26, 2009 at 11:09 AM     subject: RE: meet the airbeds   
-      
-     Airbed team -   
-      
-     Are you still in NYC?   
-      
-     We'd like to meet if you are   
-      
-     Thanks   
-      
 
-    fred  
 
 
+     from: Paul Graham     to: Fred Wilson     date: Sun, Jan 25, 2009 at 10:48 PM     subject: Re: meet the airbeds
 
+     I'd recommend having the debate after meeting them instead of before.     We had big doubts about this idea, but they vanished on meeting the     guys.
 
 
 
-     from: Paul Graham     to: Fred Wilson     date: Mon, Jan 26, 2009 at 1:42 PM     subject: Re: meet the airbeds   
-      
-     Ideas can morph.  Practically every really big startup could say,     five years later, "believe it or not, we started out doing ___."     It just seemed a very good sign to me that these guys were actually     on the ground in NYC hunting down (and understanding) their users.     On top of several previous good signs.   
-      
 
-    --pg  
 
+     from: Fred Wilson     to: Paul Graham     date: Mon, Jan 26, 2009 at 11:08 AM     subject: RE: meet the airbeds
 
+     We are still very suspect of this idea but will take a meeting as     you suggest
 
+     Thanks
 
 
+    fred
 
-     from: Fred Wilson     to: Paul Graham     date: Sun, Feb 1, 2009 at 7:15 AM     subject: Re: meet the airbeds   
-      
-     It's interesting   
-      
-     Our two junior team members were enthusiastic   
-      
-     The three "old guys" didn't get it   
-      
 
 
 
 
-     from: Paul Graham     to: Fred Wilson     date: Mon, Feb 9, 2009 at 5:58 PM     subject: airbnb   
-      
-     The Airbeds just won the first poll among all the YC startups in     their batch by a landslide.  In the past this has not been a 100%     indicator of success (if only anything were) but much better than     random.   
-      
 
-    --pg  
+     from: Fred Wilson     to: Paul Graham, AirBedAndBreakfast Founders     date: Mon, Jan 26, 2009 at 11:09 AM     subject: RE: meet the airbeds
 
+     Airbed team -
 
+     Are you still in NYC?
 
+     We'd like to meet if you are
 
+     Thanks
 
 
-     from: Fred Wilson     to: Paul Graham     date: Fri, Feb 13, 2009 at 5:29 PM     subject: Re: airbnb   
-      
-     I met them today   
-      
-     They have an interesting business   
-      
-     I'm just not sure how big it's going to be   
-      
+    fred
 
-    fred  
 
 
 
 
 
+     from: Paul Graham     to: Fred Wilson     date: Mon, Jan 26, 2009 at 1:42 PM     subject: Re: meet the airbeds
 
-     from: Paul Graham     to: Fred Wilson     date: Sat, Feb 14, 2009 at 9:50 AM     subject: Re: airbnb   
-      
-     Did they explain the long-term goal of being the market in accommodation     the way eBay is in stuff?  That seems like it would be huge.  Hotels     now are like airlines in the 1970s before they figured out how to     increase their load factors.   
-      
+     Ideas can morph.  Practically every really big startup could say,     five years later, "believe it or not, we started out doing ___."     It just seemed a very good sign to me that these guys were actually     on the ground in NYC hunting down (and understanding) their users.     On top of several previous good signs.
 
 
+    --pg
 
 
-     from: Fred Wilson     to: Paul Graham     date: Tue, Feb 17, 2009 at 2:05 PM     subject: Re: airbnb   
-      
-     They did but I am not sure I buy that   
-      
-     ABNB reminds me of Etsy in that it facilitates real commerce in a     marketplace model directly between two people   
-      
-     So I think it can scale all the way to the bed and breakfast market   
-      
-     But I am not sure they can take on the hotel market   
-      
-     I could be wrong   
-      
-     But even so, if you include short term room rental, second home     rental, bed and breakfast, and other similar classes of accommodations,     you get to a pretty big opportunity   
-      
 
-    fred  
 
 
 
+     from: Fred Wilson     to: Paul Graham     date: Sun, Feb 1, 2009 at 7:15 AM     subject: Re: meet the airbeds
 
+     It's interesting
 
+     Our two junior team members were enthusiastic
 
-     from: Paul Graham     to: Fred Wilson     date: Wed, Feb 18, 2009 at 12:21 AM     subject: Re: airbnb   
-      
-     So invest in them!  They're very capital efficient.  They would     make an investor's money go a long way.   
-      
-     It's also counter-cyclical.  They just arrived back from NYC, and     when I asked them what was the most significant thing they'd observed,     it was how many of their users actually needed to do these rentals     to pay their rents.   
-      
+     The three "old guys" didn't get it
 
-    --pg  
 
 
 
 
+     from: Paul Graham     to: Fred Wilson     date: Mon, Feb 9, 2009 at 5:58 PM     subject: airbnb
 
+     The Airbeds just won the first poll among all the YC startups in     their batch by a landslide.  In the past this has not been a 100%     indicator of success (if only anything were) but much better than     random.
 
-     from: Fred Wilson     to: Paul Graham     date: Wed, Feb 18, 2009 at 2:21 AM     subject: Re: airbnb   
-      
-     There's a lot to like   
-      
-     I've done a few things, like intro it to my friends at Foundry who     were investors in Service Metrics and understand this model   
-      
-     I am also talking to my friend Mark Pincus who had an idea like     this a few years ago.   
-      
-     So we are working on it   
-      
-     Thanks for the lead   
-      
 
-    Fred  
+    --pg
 
 
 
 
 
 
-     from: Paul Graham     to: Fred Wilson     date: Fri, Feb 20, 2009 at 10:00 PM     subject: airbnb already spreading to pros   
-      
-     I know you're skeptical they'll ever get hotels, but there's a     continuum between private sofas and hotel rooms, and they just moved     one step further along it.   
-      
-     [link to an airbnb user]   
-      
-     This is after only a few months.  I bet you they will get hotels     eventually.  It will start with small ones.  Just wait till all the     10-room pensiones in Rome discover this site.  And once it spreads     to hotels, where is the point (in size of chain) at which it stops?     Once something becomes a big marketplace, you ignore it at your     peril.   
-      
+     from: Fred Wilson     to: Paul Graham     date: Fri, Feb 13, 2009 at 5:29 PM     subject: Re: airbnb
 
-    --pg  
+     I met them today
 
+     They have an interesting business
 
+     I'm just not sure how big it's going to be
 
 
+    fred
 
 
-     from: Fred Wilson     to: Paul Graham     date: Sat, Feb 21, 2009 at 4:26 AM     subject: Re: airbnb already spreading to pros   
-      
-     That's true. It's also true that there are quite a few marketplaces     out there that serve this same market   
-      
-     If you look at many of the people who list at ABNB, they list     elsewhere too   
-      
-     I am not negative on this one, I am interested, but we are still     in the gathering data phase.   
-      
+
+
+
+
+     from: Paul Graham     to: Fred Wilson     date: Sat, Feb 14, 2009 at 9:50 AM     subject: Re: airbnb
+
+     Did they explain the long-term goal of being the market in accommodation     the way eBay is in stuff?  That seems like it would be huge.  Hotels     now are like airlines in the 1970s before they figured out how to     increase their load factors.
+
+
+
+
+
+     from: Fred Wilson     to: Paul Graham     date: Tue, Feb 17, 2009 at 2:05 PM     subject: Re: airbnb
+
+     They did but I am not sure I buy that
+
+     ABNB reminds me of Etsy in that it facilitates real commerce in a     marketplace model directly between two people
+
+     So I think it can scale all the way to the bed and breakfast market
+
+     But I am not sure they can take on the hotel market
+
+     I could be wrong
+
+     But even so, if you include short term room rental, second home     rental, bed and breakfast, and other similar classes of accommodations,     you get to a pretty big opportunity
+
+
+    fred
+
+
+
+
+
+
+     from: Paul Graham     to: Fred Wilson     date: Wed, Feb 18, 2009 at 12:21 AM     subject: Re: airbnb
+
+     So invest in them!  They're very capital efficient.  They would     make an investor's money go a long way.
+
+     It's also counter-cyclical.  They just arrived back from NYC, and     when I asked them what was the most significant thing they'd observed,     it was how many of their users actually needed to do these rentals     to pay their rents.
+
+
+    --pg
+
+
+
+
+
+
+     from: Fred Wilson     to: Paul Graham     date: Wed, Feb 18, 2009 at 2:21 AM     subject: Re: airbnb
+
+     There's a lot to like
+
+     I've done a few things, like intro it to my friends at Foundry who     were investors in Service Metrics and understand this model
+
+     I am also talking to my friend Mark Pincus who had an idea like     this a few years ago.
+
+     So we are working on it
+
+     Thanks for the lead
+
+
+    Fred
+
+
+
+
+
+
+     from: Paul Graham     to: Fred Wilson     date: Fri, Feb 20, 2009 at 10:00 PM     subject: airbnb already spreading to pros
+
+     I know you're skeptical they'll ever get hotels, but there's a     continuum between private sofas and hotel rooms, and they just moved     one step further along it.
+
+     [link to an airbnb user]
+
+     This is after only a few months.  I bet you they will get hotels     eventually.  It will start with small ones.  Just wait till all the     10-room pensiones in Rome discover this site.  And once it spreads     to hotels, where is the point (in size of chain) at which it stops?     Once something becomes a big marketplace, you ignore it at your     peril.
+
+
+    --pg
+
+
+
+
+
+
+     from: Fred Wilson     to: Paul Graham     date: Sat, Feb 21, 2009 at 4:26 AM     subject: Re: airbnb already spreading to pros
+
+     That's true. It's also true that there are quite a few marketplaces     out there that serve this same market
+
+     If you look at many of the people who list at ABNB, they list     elsewhere too
+
+     I am not negative on this one, I am interested, but we are still     in the gathering data phase.
+
 
     fred
 
@@ -41953,7 +41939,7 @@ try as hard as this though. Fred must have found me quite annoying.
 
 \`
 
-------------------------------------------------------------------------
+---
 
 # 138 The Patent Pledge
 
@@ -42044,7 +42030,7 @@ pledge, it\'s probably still a dick move.
 [The Investment That Didn\'t
 Happen](http://k9ventures.com/blog/2011/04/27/modista/)
 
-------------------------------------------------------------------------
+---
 
 # 139 Why Startup Hubs Work
 
@@ -42071,7 +42057,7 @@ startupicide, it\'s more accurate to think of startups as all being
 poisoned, and a few places being sprayed with the antidote.
 
 Startups in other places are just doing what startups naturally do:
-fail. The real question is, what\'s *saving* startups in places like
+fail. The real question is, what\'s _saving_ startups in places like
 Silicon Valley? [2](#why_startup_hubs_work_note2)
 
 **Environment**
@@ -42189,7 +42175,7 @@ amplified.
 Both components of the antidote\--an environment that encourages
 startups, and chance meetings with people who help you\--are driven by
 the same underlying cause: the number of startup people around you. To
-make a startup hub, you need a *lot* of people interested in startups.
+make a startup hub, you need a _lot_ of people interested in startups.
 
 There are three reasons. The first, obviously, is that if you don\'t
 have enough density, the chance meetings don\'t happen.
@@ -42255,7 +42241,7 @@ Ron Conway had been with us he would have met 30 people he knew.
 **Thanks** to Sam Altman, Paul Buchheit, Jessica Livingston, and Harj
 Taggar for reading drafts of this.
 
-------------------------------------------------------------------------
+---
 
 # 140 Snapshot: Viaweb, June 1998
 
@@ -42364,7 +42350,7 @@ called [Shopfind](http://ycombinator.com/viaweb/shoprel.html). It was
 pretty advanced for the time. It had a programmable crawler that could
 crawl most of the different stores online and pick out the products.
 
-------------------------------------------------------------------------
+---
 
 # 141 Schlep Blindness
 
@@ -42374,8 +42360,8 @@ Combinator](http://ycombinator.com/apply.html).
 January 2012
 
 There are great startup ideas lying around unexploited right under our
-noses. One reason we don\'t see them is a phenomenon I call *schlep
-blindness*. Schlep was originally a Yiddish word but has passed into
+noses. One reason we don\'t see them is a phenomenon I call _schlep
+blindness_. Schlep was originally a Yiddish word but has passed into
 general use in the US. It means a tedious, unpleasant task.
 
 No one likes schleps, but hackers especially dislike them. Most hackers
@@ -42464,7 +42450,7 @@ world, if you know how to see it.
 Jessica Livingston, Emmett Shear, and Harj Taggar for reading drafts of
 this.
 
-------------------------------------------------------------------------
+---
 
 # 142 A Word to the Resourceful
 
@@ -42559,7 +42545,7 @@ that glazed over look.
 Livingston, Robert Morris, Harj Taggar, and Garry Tan for reading drafts
 of this.
 
-------------------------------------------------------------------------
+---
 
 # 143 Frighteningly Ambitious Startup Ideas
 
@@ -42581,7 +42567,7 @@ they\'d be a lot of work. The biggest ideas seem to threaten your
 identity: you wonder if you\'d have enough ambition to carry them
 through.
 
-There\'s a scene in *Being John Malkovich* where the nerdy hero
+There\'s a scene in _Being John Malkovich_ where the nerdy hero
 encounters a very attractive, sophisticated woman. She says to him:
 
 > Here\'s the thing: If you ever got me, you wouldn\'t have a clue what
@@ -42802,8 +42788,8 @@ Moore\'s Law back, by writing software that could make a large number of
 CPUs look to the developer like one very fast CPU. There are several
 ways to approach this problem. The most ambitious is to try to do it
 automatically: to write a compiler that will parallelize our code for
-us. There\'s a name for this compiler, *the sufficiently smart
-compiler,* and it is a byword for impossibility. But is it really
+us. There\'s a name for this compiler, _the sufficiently smart
+compiler,_ and it is a byword for impossibility. But is it really
 impossible? Is there no configuration of the bits in memory of a present
 day computer that is this compiler? If you really think so, you should
 try to prove it, because that would be an interesting result. And if
@@ -42920,7 +42906,7 @@ email. If you do that you raise too many expectations. Your employees
 and investors will constantly be asking \"are we there yet?\" and
 you\'ll have an army of haters waiting to see you fail. Just say you\'re
 building todo-list software. That sounds harmless. People can notice
-you\'ve replaced email when it\'s a *fait accompli*.
+you\'ve replaced email when it\'s a _fait accompli_.
 [4](#frighteningly_ambitious_startup_ideas_note4)
 
 Empirically, the way to do really big things seems to be to start with
@@ -42977,7 +42963,7 @@ headset or router. All you need is a bridgehead.
 Collison, Aaron Iba, Jessica Livingston, Robert Morris, Harj Taggar and
 Garry Tan for reading drafts of this.
 
-------------------------------------------------------------------------
+---
 
 # 144 Defining Property
 
@@ -43074,10 +43060,10 @@ upgrade.
 
 `<a name=defining_property_note1>`{=html}\[1\]`</a>`{=html} If you want
 to learn more about hunter gatherers I strongly recommend Elizabeth
-Marshall Thomas\'s [*The Harmless
-People*](http://www.amazon.com/Harmless-People-Elizabeth-Marshall-%20Thomas/dp/0394427793)
-and [*The Old
-Way*](http://www.amazon.com/Old-Way-Story-%20First-People/dp/0374225524).
+Marshall Thomas\'s [_The Harmless
+People_](http://www.amazon.com/Harmless-People-Elizabeth-Marshall-%20Thomas/dp/0394427793)
+and [_The Old
+Way_](http://www.amazon.com/Old-Way-Story-%20First-People/dp/0374225524).
 
 `<a name=defining_property_note2>`{=html}\[2\]`</a>`{=html} Change in
 the definition of property is driven mostly by technological progress,
@@ -43102,7 +43088,7 @@ of that.
 [Japanese
 Translation](http://christhurston.com.au/japanese/paul-graham-%20defining-property/)
 
-------------------------------------------------------------------------
+---
 
 # 145 How Y Combinator Started
 
@@ -43164,7 +43150,7 @@ started Viaweb. We started Viaweb with \$10k we got from our friend
 [Julian Weber](julian.html), the husband of Idelle Weber, whose painting
 class I took as a grad student at Harvard. Julian knew about business,
 but you would not describe him as a suit. Among other things he\'d been
-president of the *National Lampoon*. He was also a lawyer, and got all
+president of the _National Lampoon_. He was also a lawyer, and got all
 our paperwork set up properly. In return for \$10k, getting us set up as
 a company, teaching us what business was about, and remaining calm in
 times of crisis, Julian got 10% of Viaweb. I remember thinking once what
@@ -43247,7 +43233,7 @@ like YC. But even then we barely made it. The first dinner in
 California, we had to warn all the founders not to touch the walls,
 because the paint was still wet.
 
-------------------------------------------------------------------------
+---
 
 # 146 Writing and Speaking
 
@@ -43287,7 +43273,7 @@ ideas, but in many ways pushes you in the opposite direction. For
 example, when I give a talk, I usually write it out beforehand. I know
 that\'s a mistake; I know delivering a prewritten talk makes it harder
 to engage with an audience. The way to get the attention of an audience
-is to give them *your* full attention, and when you\'re delivering a
+is to give them _your_ full attention, and when you\'re delivering a
 prewritten talk, your attention is always divided between the audience
 and the talk \-- even if you\'ve memorized it. If you want to engage an
 audience, it\'s better to start with no more than an outline of what you
@@ -43373,7 +43359,7 @@ around 10 people.
 
 **Thanks** to Sam Altman and Robert Morris for reading drafts of this.
 
-------------------------------------------------------------------------
+---
 
 # 147 The Top of My Todo List
 
@@ -43381,7 +43367,7 @@ April 2012
 
 A palliative care nurse called Bronnie Ware made a list of the biggest
 [regrets of the dying](http://bronnieware.com/regrets-of-the-dying/).
-Her list seems plausible. I could see myself \-- *can* see myself \--
+Her list seems plausible. I could see myself \-- _can_ see myself \--
 making at least 4 of these 5 mistakes.
 
 If you had to compress them into a single piece of advice, it might be:
@@ -43409,7 +43395,7 @@ which I then put at the top of the file I use as a todo list.
 
 [Japanese Translation](https://note.com/tokyojack/n/n2e6a78d2e1e3)
 
-------------------------------------------------------------------------
+---
 
 # 148 Black Swan Farming
 
@@ -43515,7 +43501,7 @@ Wait, it gets worse. You not only have to solve this hard problem, but
 you have to do it with no indication of whether you\'re succeeding. When
 you pick a big winner, you won\'t know it for two years.
 
-Meanwhile, the one thing you *can* measure is dangerously misleading.
+Meanwhile, the one thing you _can_ measure is dangerously misleading.
 The one thing we can track precisely is how well the startups in each
 batch do at fundraising after Demo Day. But we know that\'s the wrong
 metric. There\'s no correlation between the percentage of startups that
@@ -43646,7 +43632,7 @@ the old days it was raise after Demo Day or die.
 **Thanks** to Sam Altman, Paul Buchheit, Patrick Collison, Jessica
 Livingston, Geoff Ralston, and Harj Taggar for reading drafts of this.
 
-------------------------------------------------------------------------
+---
 
 # 149 Startup = Growth
 
@@ -44036,7 +44022,7 @@ you think it will later be worth, but it\'s no more foolish than buying
 insurance. Fundamentally that\'s how the most successful startups view
 fundraising. They could grow the company on its own revenues, but the
 extra money and help supplied by VCs will let them grow even faster.
-Raising money lets you *choose* your growth rate.
+Raising money lets you _choose_ your growth rate.
 
 Money to grow faster is always at the command of the most successful
 startups, because the VCs need them more than they need the VCs. A
@@ -44101,7 +44087,7 @@ fast-growing company is not merely valuable but dangerous too.
 
 It\'s not just that if you want to succeed in some domain, you have to
 understand the forces driving it. Understanding growth is what starting
-a startup *consists* of. What you\'re really doing (and to the dismay of
+a startup _consists_ of. What you\'re really doing (and to the dismay of
 some observers, all you\'re really doing) when you start a startup is
 committing to solve a harder type of problem than ordinary businesses
 do. You\'re committing to search for one of the rare ideas that
@@ -44246,7 +44232,7 @@ Translation](https://leht.postimees.ee/6821400/paul-graham-idufirma-%20kasv)
 [Portuguese Translation](https://danielscocco.com/startups-crescimento/)
 [Italian Translation](https://marcotrombetti.com/crescita)
 
-------------------------------------------------------------------------
+---
 
 # 150 The Hardware Renaissance
 
@@ -44310,7 +44296,7 @@ drafts of this.
 [A Hardware Renaissance while Software Eats the
 World?](http://mantellavp.com/a-hardware-renaissance-while-software-eats-the-%20world/)
 
-------------------------------------------------------------------------
+---
 
 # 151 How to Get Startup Ideas
 
@@ -44366,7 +44352,7 @@ and maybe charge for premium features.
 [1](#how_to_get_startup_ideas_note1)
 
 The danger of an idea like this is that when you run it by your friends
-with pets, they don\'t say \"I would *never* use this.\" They say
+with pets, they don\'t say \"I would _never_ use this.\" They say
 \"Yeah, maybe I could see using something like that.\" Even when the
 startup launches, it will sound plausible to a lot of people. They
 don\'t want to use it themselves, at least not right now, but they could
@@ -44458,7 +44444,7 @@ you\'re at the leading edge of a field that\'s changing fast, when you
 have a hunch that something is worth doing, you\'re more likely to be
 right.
 
-In *Zen and the Art of Motorcycle Maintenance* , Robert Pirsig says:
+In _Zen and the Art of Motorcycle Maintenance_ , Robert Pirsig says:
 
 > You want to know how to paint a perfect painting? It\'s easy. Make
 > yourself \> perfect and then just paint naturally.
@@ -44549,7 +44535,7 @@ you to focus on bad ones.
 Most things that are missing will take some time to see. You almost have
 to trick yourself into seeing the ideas around you.
 
-But you *know* the ideas are out there. This is not one of those
+But you _know_ the ideas are out there. This is not one of those
 problems where there might not be an answer. It\'s impossibly unlikely
 that this is the exact moment when technological progress stops. You can
 be sure people are going to build things in the next few years that will
@@ -44581,7 +44567,7 @@ machine. When something annoys you, it could be because you\'re living
 in the future.
 
 When you find the right sort of problem, you should probably be able to
-describe it as *obvious* , at least to you. When we started Viaweb, all
+describe it as _obvious_ , at least to you. When we started Viaweb, all
 the online stores were built by hand, by web designers making individual
 HTML pages. It was obvious to us as programmers that these sites would
 have to be generated by software. [5](#how_to_get_startup_ideas_note5)
@@ -44837,7 +44823,7 @@ because your expertise raises your standards. Your ideas about chat apps
 are just as bad, but you\'re giving yourself a Dunning-Kruger pass in
 that domain.
 
-The place to start looking for ideas is things you need. There *must* be
+The place to start looking for ideas is things you need. There _must_ be
 things you need. [14](#how_to_get_startup_ideas_note14)
 
 One good trick is to ask yourself whether in your previous job you ever
@@ -44993,7 +44979,7 @@ assume it\'s bad.
 precisely, the users\' need has to give them sufficient activation
 energy to start using whatever you make, which can vary a lot. For
 example, the activation energy for enterprise software sold through
-traditional channels is very high, so you\'d have to be a *lot* better
+traditional channels is very high, so you\'d have to be a _lot_ better
 to get users to switch. Whereas the activation energy required to switch
 to a new search engine is low. Which in turn is why search engines are
 so much better than enterprise software.
@@ -45103,13 +45089,13 @@ and Kevin Systrom for answering my questions about startup history.
 [Spanish
 Translation](https://www.edufernandez.com/blog/como-tener-ideas-para-%20tu-startup)
 
-------------------------------------------------------------------------
+---
 
 # 152 Startup Investing Trends
 
 June 2013
 
-*(This talk was written for an audience of investors.)*
+_(This talk was written for an audience of investors.)_
 
 Y Combinator has now funded 564 startups including the current batch,
 which has 53. The total valuation of the 287 that have valuations
@@ -45424,7 +45410,7 @@ would be unfortunate.
 Collison, Jessica Livingston, Andrew Mason, Geoff Ralston, and Garry Tan
 for reading drafts of this.
 
-------------------------------------------------------------------------
+---
 
 # 153 Do Things that Don\'t Scale
 
@@ -45806,7 +45792,7 @@ expected, and we ended up getting practically nothing out of it.
 [11](#do_things_that_dont_scale_note11)
 
 It\'s not enough just to do something extraordinary initially. You have
-to make an extraordinary *effort* initially. Any strategy that omits the
+to make an extraordinary _effort_ initially. Any strategy that omits the
 effort \-- whether it\'s expecting a big launch to get you users, or a
 big partner \-- is ipso facto suspect.
 
@@ -45929,7 +45915,7 @@ Translation](http://academy.hsoub.com/entrepreneurship/general/%D8%A7%D9%81%D8%B
 [Italian Translation](https://marcotrombetti.com/nonscalabili) [Korean
 Translation](https://medium.com/delightroom/do-things-that-dont-%20scale-6876c5682a75)
 
-------------------------------------------------------------------------
+---
 
 # 154 How to Convince Investors
 
@@ -46344,7 +46330,7 @@ Livingston, Greg Mcadoo, Andrew Mason, Geoff Ralston, Yuri Sagalov,
 Emmett Shear, Rajat Suri, Garry Tan, Albert Wenger, Fred Wilson, and
 Qasar Younis for reading drafts of this.
 
-------------------------------------------------------------------------
+---
 
 # 155 Investor Herd Dynamics
 
@@ -46475,7 +46461,7 @@ Garry Tan for reading drafts of this.
 [Russian
 Translation](http://blog.perevedem.ru/2013/08/26/investor-herd-%20dynamics/)
 
-------------------------------------------------------------------------
+---
 
 # 156 How to Raise Money
 
@@ -46786,7 +46772,7 @@ But I\'ve heard of cases of even top-tier VC firms welching on deals.
 Since getting the first offer is most of the difficulty of fundraising,
 that should be part of your calculation of expected value when you
 start. You have to estimate not just the probability that an investor
-will say yes, but the probability that they\'d be the *first* to say
+will say yes, but the probability that they\'d be the _first_ to say
 yes, and the latter is not simply a constant fraction of the former.
 Some investors are known for deciding quickly, and those are extra
 valuable early on.
@@ -46931,7 +46917,7 @@ money will help us do it faster.\"
 
 There are many analogies between fundraising and dating, and this is one
 of the strongest. No one wants you if you seem desperate. And the best
-way not to seem desperate is not to *be* desperate. That\'s one reason
+way not to seem desperate is not to _be_ desperate. That\'s one reason
 we urge startups during YC to keep expenses low and to try to make it to
 [ramen profitability](ramenprofitable.html) before Demo Day. Though it
 sounds slightly paradoxical, if you want to raise money, the best thing
@@ -47417,7 +47403,7 @@ what will make you successful \-- making things and talking to users \--
 and the path I\'ve described will for most startups be the surest way to
 that destination.
 
-Be good, take care of yourselves, and *don\'t leave the path*.
+Be good, take care of yourselves, and _don\'t leave the path_.
 
 **Notes**
 
@@ -47656,7 +47642,7 @@ reading drafts of this.
 [Russian
 Translation](http://alef-null.blogspot.ru/2014/03/blog-post_26.html)
 
-------------------------------------------------------------------------
+---
 
 # 157 Before the Startup
 
@@ -47665,10 +47651,10 @@ Combinator](http://ycombinator.com/apply.html).
 
 October 2014
 
-*(This essay is derived from a guest lecture in Sam Altman\'s[startup
+_(This essay is derived from a guest lecture in Sam Altman\'s[startup
 class](http://startupclass.samaltman.com/) at Stanford. It\'s intended
 for college students, but much of it is applicable to potential founders
-at other ages.)*
+at other ages.)_
 
 One of the advantages of having kids is that when you have to give
 advice, you can ask yourself \"what would I tell my own kids?\" My kids
@@ -48027,7 +48013,7 @@ of examples of parents who thought their kids were wasting their time
 and who were right. So how do you know when you\'re working on real
 stuff? [8](#before_the_startup_note8)
 
-I know how *I* know. Real problems are interesting, and I am
+I know how _I_ know. Real problems are interesting, and I am
 self-indulgent in the sense that I always want to work on interesting
 things, even if no one else cares about them (in fact, especially if no
 one else cares about them), and find it very hard to make myself work on
@@ -48159,7 +48145,7 @@ Wilson for reading drafts of this.
 [Arabic
 Translation](https://caramel.la/yousefales/DyfU-w5hH/qbl-almshrwa-%20alryady)
 
-------------------------------------------------------------------------
+---
 
 # 158 Mean People Fail
 
@@ -48306,7 +48292,7 @@ Translation](http://hackpedia.com.br/por-que-pessoas-mas-%20fracassam/)
 [Arabic
 Translation](http://academy.hsoub.com/entrepreneurship/general/%D8%A7%D9%84%D8%A3%D9%86%D8%B0%D8%A7%D9%84-%D9%85%D8%AD%D9%83%D9%88%D9%85-%D8%B9%D9%84%D9%8A%D9%87%D9%85-%D8%A8%D8%A7%D9%84%D9%81%D8%B4%D9%84-mean-%20people-fail-r61/)
 
-------------------------------------------------------------------------
+---
 
 # 159 The Fatal Pinch
 
@@ -48365,7 +48351,7 @@ matter what you do. Then at least you can give back the money you have
 left, and save yourself however many months you would have spent riding
 it down.
 
-Companies rarely *have* to fail though. What I\'m really doing here is
+Companies rarely _have_ to fail though. What I\'m really doing here is
 giving you the option of admitting you\'ve already given up.
 
 If you don\'t want to shut down the company, that leaves increasing
@@ -48496,7 +48482,7 @@ Ralston for reading drafts of this.
 [Arabic
 Translation](http://academy.hsoub.com/entrepreneurship/general/%D8%A7%D9%84%D9%82%D8%B1%D8%B5%D8%A9-%D8%A7%D9%84%D9%85%D9%8F%D9%85%D9%8A%D8%AA%D8%A9-the-%20fatal-pinch%E2%80%9D-r58/)
 
-------------------------------------------------------------------------
+---
 
 # 160 How You Know
 
@@ -48574,7 +48560,7 @@ reading drafts of this.
 
 [Japanese Translation](http://postd.cc/how-you-know/)
 
-------------------------------------------------------------------------
+---
 
 # 161 How to Be an Expert in a Changing World
 
@@ -48713,7 +48699,7 @@ Translation](http://nrike.svbtle.com/cmo-ser-un-experto-en-un-mundo-%20cambiante
 [Arabic
 Translation](https://tldrarabiccontents.blogspot.com/2020/01/blog-%20post_31.html)
 
-------------------------------------------------------------------------
+---
 
 # 162 Let the Other 95% of Great Programmers In
 
@@ -48729,8 +48715,8 @@ The technology companies are right. What the anti-immigration people
 don\'t understand is that there is a huge variation in ability between
 competent programmers and exceptional ones, and while you can train
 people to be competent, you can\'t train them to be exceptional.
-Exceptional programmers have an aptitude for and [*interest
-in*](genius.html) programming that is not merely the product of
+Exceptional programmers have an aptitude for and [_interest
+in_](genius.html) programming that is not merely the product of
 training. [1](#let_the_other_95_of_great_programmers_in_note1)
 
 The US has less than 5% of the world\'s population. Which means if the
@@ -48829,7 +48815,7 @@ drafts of this.
 
 [Spanish Translation](http://www.garron.me/es/bitacora/95.html)
 
-------------------------------------------------------------------------
+---
 
 # 163 Don\'t Talk to Corp Dev
 
@@ -48978,7 +48964,7 @@ dishonesty by the time it filters down to you.
 **Thanks** to Marc Andreessen, Jessica Livingston, Geoff Ralston, and
 Qasar Younis for reading drafts of this.
 
-------------------------------------------------------------------------
+---
 
 # 164 What Doesn\'t Seem Like Work?
 
@@ -49040,7 +49026,7 @@ Morris, and my father for reading drafts of this.
 [French
 Translation](https://corrigan2.blogspot.com/2020/09/quest-ce-qui-ne-%20semble-pas-etre-du.html)
 
-------------------------------------------------------------------------
+---
 
 # 165 The Ronco Principle
 
@@ -49127,7 +49113,7 @@ this.
 
 [Japanese Translation](https://note.com/tokyojack/n/nad5412419026)
 
-------------------------------------------------------------------------
+---
 
 # 166 What Microsoft Is this the Altair Basic of?
 
@@ -49173,7 +49159,7 @@ predict how big a Microsoft is going to be, so in cases like that I
 encourage founders to follow whichever path is most immediately exciting
 to them. Their instincts got them this far. Why stop now?
 
-------------------------------------------------------------------------
+---
 
 # 167 Change Your Name
 
@@ -49193,7 +49179,7 @@ strength even if it has no relation to what you do.
 Even good founders can be in denial about this. Their denial derives
 from two very powerful forces: identity, and lack of imagination.
 
-X is what we *are* , founders think. There\'s no other name as good.
+X is what we _are_ , founders think. There\'s no other name as good.
 Both of which are false.
 
 You can fix the first by stepping back from the problem. Imagine you\'d
@@ -49271,7 +49257,7 @@ price.
 **Thanks** to Sam Altman, Jessica Livingston, and Geoff Ralston for
 reading drafts of this.
 
-------------------------------------------------------------------------
+---
 
 # 168 Why It\'s Safe for Founders to Be Nice
 
@@ -49369,7 +49355,7 @@ from existing customers.
 Ralston for reading drafts of this, and to Randall Bennett for being
 such a nice guy.
 
-------------------------------------------------------------------------
+---
 
 # 169 Default Alive or Default Dead?
 
@@ -49387,7 +49373,7 @@ Half the founders I talk to don\'t know whether they\'re default alive
 or default dead.
 
 If you\'re among that number, Trevor Blackwell has made a handy
-[*calculator*](http://growth.tlb.org/#) you can use to find out.
+[_calculator_](http://growth.tlb.org/#) you can use to find out.
 
 The reason I want to know first whether a startup is default alive or
 default dead is that the rest of the conversation depends on the answer.
@@ -49494,7 +49480,7 @@ and that\'s usually easier with fewer people.
 Asking whether you\'re default alive or default dead may save you from
 this. Maybe the alarm bells it sets off will counteract the forces that
 push you to overhire. Instead you\'ll be compelled to seek growth in
-other ways. For example, by [*doing things that don\'t scale*](ds.html),
+other ways. For example, by [_doing things that don\'t scale_](ds.html),
 or by redesigning the product in the way only founders can. And for many
 if not most startups, these paths to growth will be the ones that
 actually work.
@@ -49545,7 +49531,7 @@ fast.\"
 **Thanks** to Sam Altman, Paul Buchheit, Joe Gebbia, Jessica Livingston,
 and Geoff Ralston for reading drafts of this.
 
-------------------------------------------------------------------------
+---
 
 # 170 Write Like You Talk
 
@@ -49565,7 +49551,7 @@ The last straw for me was a sentence I read a couple days ago:
 > The mercurial Spaniard himself declared: \"After Altamira, all is
 > decadence.\"
 
-It\'s from Neil Oliver\'s *A History of Ancient Britain*. I feel bad
+It\'s from Neil Oliver\'s _A History of Ancient Britain_. I feel bad
 making an example of this book, because it\'s no worse than lots of
 others. But just imagine calling Picasso \"the mercurial Spaniard\" when
 talking to a friend. Even one sentence of this would raise eyebrows in
@@ -49599,7 +49585,7 @@ And there are a handful of writers who can get away with using fancy
 language in prose. And then of course there are cases where writers
 don\'t want to make it easy to understand what they\'re saying\--in
 corporate announcements of bad news, for example, or at the more
-[*bogus*](https://scholar.google.com/scholar?hl=en&as_sdt=1,5&q=transgression+narrative+postmodern+gender)
+[_bogus_](https://scholar.google.com/scholar?hl=en&as_sdt=1,5&q=transgression+narrative+postmodern+gender)
 end of the humanities. But for nearly everyone else, spoken language is
 better.
 
@@ -49637,7 +49623,7 @@ of this.
 [Arabic
 Translation](https://tldrarabiccontents.blogspot.com/2020/01/blog-%20post_30.html)
 
-------------------------------------------------------------------------
+---
 
 # 171 A Way to Detect Bias
 
@@ -49677,7 +49663,7 @@ companies, do startups with female founders outperform those without? A
 couple months ago, one VC firm (almost certainly unintentionally)
 published a study showing bias of this type. First Round Capital found
 that among its portfolio companies, startups with female founders
-[*outperformed*](http://10years.firstround.com/#one) those without by
+[_outperformed_](http://10years.firstround.com/#one) those without by
 63%. [2](#a_way_to_detect_bias_note2)
 
 The reason I began by saying that this technique would come as a
@@ -49715,7 +49701,7 @@ Translation](https://tldrarabiccontents.blogspot.com/2020/01/blog-%20post_29.htm
 [Swedish
 Translation](http://www.jensbackbom.se/2020/09/10/ett-satt-att-%20upptacka-bias/)
 
-------------------------------------------------------------------------
+---
 
 # 172 Jessica Livingston
 
@@ -49812,7 +49798,7 @@ of such size. And Jessica is the main reason why.
 
 (As we later learned, it probably cost us little to reject people whose
 characters we had doubts about, because how good founders are and how
-well they do are [*not orthogonal*](mean.html). If bad founders succeed
+well they do are [_not orthogonal_](mean.html). If bad founders succeed
 at all, they tend to sell early. The most successful founders are almost
 all good.)
 
@@ -49848,7 +49834,7 @@ were attacking us for not funding more female founders (than exist),
 they all treated YC as identical with PG. It would have spoiled the
 narrative to acknowledge Jessica\'s central role at YC.
 
-Jessica was boiling mad that people were accusing *her* company of
+Jessica was boiling mad that people were accusing _her_ company of
 sexism. I\'ve never seen her angrier about anything. But she did not
 contradict them. Not publicly. In private there was a great deal of
 profanity. And she wrote three separate essays about the question of
@@ -49931,7 +49917,7 @@ Gackle, Carolynn Levy, Jon Levy, Kirsty Nathoo, Robert Morris, Geoff
 Ralston, and Harj Taggar for reading drafts of this. And yes, Jessica
 Livingston, who made me cut surprisingly little.
 
-------------------------------------------------------------------------
+---
 
 # 173 The Refragmentation
 
@@ -50064,13 +50050,13 @@ different labels stuck on to indicate how prestigious they were meant to
 be, the balloon-frame houses with fake \"colonial\" skins, the cars with
 several feet of gratuitous metal on each end that started to fall apart
 after a couple years, the \"red delicious\" apples that were red but
-only nominally apples. And in retrospect, it *was* crap.
+only nominally apples. And in retrospect, it _was_ crap.
 [8](#the_refragmentation_note8)
 
 But when I went looking for alternatives to fill this void, I found
 practically nothing. There was no Internet then. The only place to look
 was in the chain bookstore in our local shopping mall.
-[9](#the_refragmentation_note9) There I found a copy of *The Atlantic*.
+[9](#the_refragmentation_note9) There I found a copy of _The Atlantic_.
 I wish I could say it became a gateway into a wider world, but in fact I
 found it boring and incomprehensible. Like a kid tasting whisky for the
 first time and pretending to like it, I preserved that magazine as
@@ -50136,7 +50122,7 @@ as you could. You needed to take care of the company so it could take
 care of you. Especially when you\'d been working with the same group of
 people for decades. If you tried to squeeze the company for more money,
 you were squeezing the organization that was going to take care of
-*them*. Plus if you didn\'t put the company first you wouldn\'t be
+_them_. Plus if you didn\'t put the company first you wouldn\'t be
 promoted, and if you couldn\'t switch ladders, promotion on this one was
 the only way up. [14](#the_refragmentation_note14)
 
@@ -50158,7 +50144,7 @@ and then join some other prestigious institution and work one\'s way up
 the hierarchy. Your prestige was the prestige of the institution you
 belonged to. People did start their own businesses of course, but
 educated people rarely did, because in those days there was practically
-zero concept of starting what we now call a [*startup*](growth.html): a
+zero concept of starting what we now call a [_startup_](growth.html): a
 business that starts small and grows big. That was much harder to do in
 the mid 20th century. Starting one\'s own business meant starting a
 business that would start small and stay small. Which in those days of
@@ -50402,7 +50388,7 @@ been net good or bad? I don\'t know; the question may be unanswerable.
 Not entirely bad though. We take for granted the forms of fragmentation
 we like, and worry only about the ones we don\'t. But as someone who
 caught the tail end of mid-century
-[*conformism*](https://books.google.com/ngrams/graph?content=well-%20adjusted&year_start=1800&year_end=2000&corpus=15&smoothing=3),
+[_conformism_](https://books.google.com/ngrams/graph?content=well-%20adjusted&year_start=1800&year_end=2000&corpus=15&smoothing=3),
 I can tell you it was no utopia. [21](#the_refragmentation_note21)
 
 My goal here is not to say whether fragmentation has been good or bad,
@@ -50424,8 +50410,8 @@ to induce it deliberately. And it\'s not obvious how. I suspect the best
 we\'ll be able to do is address the symptoms of fragmentation. But that
 may be enough.
 
-The form of fragmentation people worry most about lately is [*economic
-inequality*](ineq.html), and if you want to eliminate that you\'re up
+The form of fragmentation people worry most about lately is [_economic
+inequality_](ineq.html), and if you want to eliminate that you\'re up
 against a truly formidable headwind that has been in operation since the
 stone age. Technology.
 
@@ -50540,7 +50526,7 @@ compete on tailfins.
 
 `<a name=the_refragmentation_note9>`{=html}\[9\]`</a>`{=html}
 Monroeville Mall was at the time of its completion in 1969 the largest
-in the country. In the late 1970s the movie *Dawn of the Dead* was shot
+in the country. In the late 1970s the movie _Dawn of the Dead_ was shot
 there. Apparently the mall was not just the location of the movie, but
 its inspiration; the crowds of shoppers drifting through this huge mall
 reminded George Romero of zombies. My first job was scooping ice cream
@@ -50566,7 +50552,7 @@ companies.
 `<a name=the_refragmentation_note12>`{=html}\[12\]`</a>`{=html}
 Galbraith was clearly puzzled that corporate executives would work so
 hard to make money for other people (the shareholders) instead of
-themselves. He devoted much of *The New Industrial State* to trying to
+themselves. He devoted much of _The New Industrial State_ to trying to
 figure this out.
 
 His theory was that professionalism had replaced money as a motive, and
@@ -50591,8 +50577,7 @@ hired hands.
 Companies didn\'t start to finance themselves with retained earnings
 till the 1920s. Till then they had to pay out their earnings in
 dividends, and so depended on banks for capital for expansion. Bankers
-continued to sit on corporate boards till the Glass-Steagall act in
-1933.
+continued to sit on corporate boards till the Glass-Steagall act in 1933.
 
 By mid-century big companies funded 3/4 of their growth from earnings.
 But the early years of bank dependence, reinforced by the financial
@@ -50609,7 +50594,7 @@ someone else to lend to, so they made more margin loans.
 it\'s hard to get them to. One of the things I find hardest to get into
 the heads of would-be startup founders is how important it is to do
 certain kinds of menial work early in the life of a company. Doing
-[*things that don\'t scale*](ds.html) is to how Henry Ford got started
+[_things that don\'t scale_](ds.html) is to how Henry Ford got started
 as a high-fiber diet is to the traditional peasant\'s diet: they had no
 choice but to do the right thing, while we have to make a conscious
 effort.
@@ -50618,7 +50603,7 @@ effort.
 weren\'t celebrated in the press when I was a kid. \"Our founder\" meant
 a photograph of a severe-looking man with a walrus mustache and a wing
 collar who had died decades ago. The thing to be when I was a kid was an
-*executive*. If you weren\'t around then it\'s hard to grasp the cachet
+_executive_. If you weren\'t around then it\'s hard to grasp the cachet
 that term had. The fancy version of everything was called the
 \"executive\" model.
 
@@ -50699,51 +50684,49 @@ of this. Max also told me about several valuable sources.
 
 **Bibliography**
 
-Allen, Frederick Lewis. *The Big Change*. Harper, 1952.
+Allen, Frederick Lewis. _The Big Change_. Harper, 1952.
 
-Averitt, Robert. *The Dual Economy*. Norton, 1968.
+Averitt, Robert. _The Dual Economy_. Norton, 1968.
 
-Badger, Anthony. *The New Deal*. Hill and Wang, 1989.
+Badger, Anthony. _The New Deal_. Hill and Wang, 1989.
 
-Bainbridge, John. *The Super-Americans*. Doubleday, 1961.
+Bainbridge, John. _The Super-Americans_. Doubleday, 1961.
 
-Beatty, Jack. *Collossus*. Broadway, 2001.
+Beatty, Jack. _Collossus_. Broadway, 2001.
 
-Brinkley, Douglas. *Wheels for the World*. Viking, 2003.
+Brinkley, Douglas. _Wheels for the World_. Viking, 2003.
 
-Brownleee, W. Elliot. *Federal Taxation in America*. Cambridge, 1996.
+Brownleee, W. Elliot. _Federal Taxation in America_. Cambridge, 1996.
 
-Chandler, Alfred. *The Visible Hand*. Harvard, 1977.
+Chandler, Alfred. _The Visible Hand_. Harvard, 1977.
 
-Chernow, Ron. *The House of Morgan*. Simon & Schuster, 1990.
+Chernow, Ron. _The House of Morgan_. Simon & Schuster, 1990.
 
-Chernow, Ron. *Titan: The Life of John D. Rockefeller*. Random House,
-1998.
+Chernow, Ron. _Titan: The Life of John D. Rockefeller_. Random House, 1998.
 
-Galbraith, John. *The New Industrial State*. Houghton Mifflin, 1967.
+Galbraith, John. _The New Industrial State_. Houghton Mifflin, 1967.
 
 Goldin, Claudia and Robert A. Margo. \"The Great Compression: The Wage
 Structure in the United States at Mid-Century.\" NBER Working Paper
 3817, 1991.
 
-Gordon, John. *An Empire of Wealth*. HarperCollins, 2004.
+Gordon, John. _An Empire of Wealth_. HarperCollins, 2004.
 
-Klein, Maury. *The Genesis of Industrial America, 1870-1920*. Cambridge,
-2007.
+Klein, Maury. _The Genesis of Industrial America, 1870-1920_. Cambridge, 2007.
 
-Lind, Michael. *Land of Promise*. HarperCollins, 2012.
+Lind, Michael. _Land of Promise_. HarperCollins, 2012.
 
-Mickelthwaite, John, and Adrian Wooldridge. *The Company*. Modern
+Mickelthwaite, John, and Adrian Wooldridge. _The Company_. Modern
 Library, 2003.
 
-Nasaw, David. *Andrew Carnegie*. Penguin, 2006.
+Nasaw, David. _Andrew Carnegie_. Penguin, 2006.
 
-Sobel, Robert. *The Age of Giant Corporations*. Praeger, 1993.
+Sobel, Robert. _The Age of Giant Corporations_. Praeger, 1993.
 
-Thurow, Lester. *Generating Inequality: Mechanisms of Distribution*.
+Thurow, Lester. _Generating Inequality: Mechanisms of Distribution_.
 Basic Books, 1975.
 
-Witte, John. *The Politics and Development of the Federal Income Tax*.
+Witte, John. _The Politics and Development of the Federal Income Tax_.
 Wisconsin, 1985.
 
 **Related:**
@@ -50751,7 +50734,7 @@ Wisconsin, 1985.
 [Too Many Elite American Men Are Obsessed With Work and
 Wealth](http://www.theatlantic.com/business/archive/2016/04/too-many-elite-%20american-men-are-obsessed-with-work/479940/)
 
-------------------------------------------------------------------------
+---
 
 # 174 Economic Inequality
 
@@ -50791,7 +50774,7 @@ aspects of inequality, like the role of technology in wealth creation.
 Much of the time, perhaps most of the time, writing about economic
 inequality combines all three.
 
-------------------------------------------------------------------------
+---
 
 The most common mistake people make about economic inequality is to
 treat it as a single phenomenon. The most naive version of which is the
@@ -50809,7 +50792,7 @@ stated explicitly:
 
 Other times it\'s more unconscious. But the unconscious form is very
 widespread. I think because we grow up in a world where the pie fallacy
-is actually true. To kids, wealth *is* a fixed pie that\'s shared out,
+is actually true. To kids, wealth _is_ a fixed pie that\'s shared out,
 and if one person gets more, it\'s at the expense of another. It takes a
 conscious effort to remind oneself that the real world doesn\'t work
 that way.
@@ -50840,19 +50823,19 @@ means to understand economic inequality in a country, you have to go
 find individual people who are poor or rich and figure out why.
 [2](#economic_inequality_note2)
 
-If you want to understand *change* in economic inequality, you should
+If you want to understand _change_ in economic inequality, you should
 ask what those people would have done when it was different. This is one
 way I know the rich aren\'t all getting richer simply from some new
 system for transferring wealth to them from everyone else. When you use
 the would-have method with startup founders, you find what most would
-have done [*back in 1960*](re.html), when economic inequality was lower,
+have done [_back in 1960_](re.html), when economic inequality was lower,
 was to join big companies or become professors. Before Mark Zuckerberg
 started Facebook, his default expectation was that he\'d end up working
 at Microsoft. The reason he and most other startup founders are richer
 than they would have been in the mid 20th century is not because of some
 right turn the country took during the Reagan administration, but
 because progress in technology has made it much easier to start a new
-company that [*grows fast*](growth.html).
+company that [_grows fast_](growth.html).
 
 Traditional economists seem strangely averse to studying individual
 humans. It seems to be a rule with them that everything has to start
@@ -50871,7 +50854,7 @@ on the technology available to them, and that grows exponentially. The
 other reason creating wealth is such a tenacious source of inequality is
 that it can expand to accommodate a lot of people.
 
-------------------------------------------------------------------------
+---
 
 I\'m all for shutting down the crooked ways to get rich. But that won\'t
 eliminate great variations in wealth, because as long as you leave open
@@ -50921,7 +50904,7 @@ along with a lesson in being careful what you ask for.
 I think rising economic inequality is the inevitable fate of countries
 that don\'t choose something worse. We had a 40 year stretch in the
 middle of the 20th century that convinced some people otherwise. But as
-I explained in [*The Refragmentation*](re.html), that was an anomaly \--
+I explained in [_The Refragmentation_](re.html), that was an anomaly \--
 a unique combination of circumstances that compressed American society
 not just economically but culturally too.
 [5](#economic_inequality_note5)
@@ -50933,8 +50916,8 @@ wealth. Startups are almost entirely a product of this period. And even
 within the startup world, there has been a qualitative change in the
 last 10 years. Technology has decreased the cost of starting a startup
 so much that founders now have the upper hand over investors. Founders
-get less diluted, and it is now common for them to retain [*board
-control*](control.html) as well. Both further increase economic
+get less diluted, and it is now common for them to retain [_board
+control_](control.html) as well. Both further increase economic
 inequality, the former because founders own more stock, and the latter
 because, as investors have learned, founders tend to be better at
 running their companies than investors.
@@ -50959,7 +50942,7 @@ years, I\'ll bet on the curve. Ignoring any trend that has been
 operating for thousands of years is dangerous. But exponential growth,
 especially, tends to bite you.
 
-------------------------------------------------------------------------
+---
 
 If accelerating variation in productivity is always going to produce
 some baseline growth in economic inequality, it would be a good idea to
@@ -50989,7 +50972,7 @@ are merely being sloppy by speaking of decreasing economic inequality
 when what they mean is decreasing poverty. But this is a situation where
 it would be good to be precise about what we want. Poverty and economic
 inequality are not identical. When the city is turning off your
-[*water*](http://www.theatlantic.com/business/archive/2014/07/what-%20happens-when-detroit-shuts-off-the-water-of-100000-people/374548/)
+[_water_](http://www.theatlantic.com/business/archive/2014/07/what-%20happens-when-detroit-shuts-off-the-water-of-100000-people/374548/)
 because you can\'t pay the bill, it doesn\'t make any difference what
 Larry Page\'s net worth is compared to yours. He might only be a few
 times richer than you, and it would still be just as much of a problem
@@ -51040,7 +51023,7 @@ understand it, and focus our efforts where they\'ll do the most good.
 **Notes**
 
 `<a name=economic_inequality_note1>`{=html}\[1\]`</a>`{=html} Stiglitz,
-Joseph. *The Price of Inequality*. Norton, 2012. p. 32.
+Joseph. _The Price of Inequality_. Norton, 2012. p. 32.
 
 `<a name=economic_inequality_note2>`{=html}\[2\]`</a>`{=html}
 Particularly since economic inequality is a matter of outliers, and
@@ -51113,10 +51096,10 @@ people mistakenly think it is.
 Particularly since many causes of poverty are only partially driven by
 people trying to make money from them. For example, America\'s
 abnormally high incarceration rate is a major cause of poverty. But
-although [*for-profit prison
-companies*](https://www.washingtonpost.com/posteverything/wp/2015/04/28/how-%20for-profit-prisons-have-become-the-biggest-lobby-no-one-is-talking-about/)
-and [*prison guard
-unions*](http://mic.com/articles/41531/union-of-the-snake-how-%20california-s-prison-guards-subvert-democracy)
+although [_for-profit prison
+companies_](https://www.washingtonpost.com/posteverything/wp/2015/04/28/how-%20for-profit-prisons-have-become-the-biggest-lobby-no-one-is-talking-about/)
+and [_prison guard
+unions_](http://mic.com/articles/41531/union-of-the-snake-how-%20california-s-prison-guards-subvert-democracy)
 both spend a lot lobbying for harsh sentencing laws, they are not the
 original source of them.
 
@@ -51140,7 +51123,7 @@ of this.
 
 **Note:** This is a new version from which I removed a pair of metaphors
 that made a lot of people mad, essentially by macroexpanding them. If
-anyone wants to see the old version, I put it [*here*](ineqold.html).
+anyone wants to see the old version, I put it [_here_](ineqold.html).
 
 **Related:**
 
@@ -51149,7 +51132,7 @@ anyone wants to see the old version, I put it [*here*](ineqold.html).
 [A Reply to Russell Okung](okung.html) [French
 Translation](https://medium.com/@edouardtheron/les-inégalités-%20économiques-da70011717c6)
 
-------------------------------------------------------------------------
+---
 
 # 175 Life is Short
 
@@ -51231,8 +51214,8 @@ defend yourself. Otherwise these people are literally taking your life.
 
 Arguing online is only incidentally addictive. There are more dangerous
 things than that. As I\'ve written before, one byproduct of technical
-progress is that things we like tend to become [*more
-addictive*](addiction.html). Which means we will increasingly have to
+progress is that things we like tend to become [_more
+addictive_](addiction.html). Which means we will increasingly have to
 make a conscious effort to avoid addictions  to stand outside ourselves
 and ask \"is this how I want to be spending my time?\"
 
@@ -51298,7 +51281,7 @@ the time you have. It\'s easy to let the days rush by. The \"flow\" that
 imaginative people love so much has a darker cousin that prevents you
 from pausing to savor life amid the daily slurry of errands and alarms.
 One of the most striking things I\'ve read was not in a book, but the
-title of one: James Salter\'s *Burning the Days*.
+title of one: James Salter\'s _Burning the Days_.
 
 It is possible to slow time somewhat. I\'ve gotten better at it. Kids
 help. When you have small children, there are a lot of moments so
@@ -51336,16 +51319,16 @@ this.
 
 [Chinese Translation](https://www.jianshu.com/p/682429f8ac3f)
 
-------------------------------------------------------------------------
+---
 
 # 176 How to Make Pittsburgh a Startup Hub
 
 April 2016
 
-*(This is a talk I gave at an event called Opt412 in Pittsburgh. Much of
+_(This is a talk I gave at an event called Opt412 in Pittsburgh. Much of
 it will apply to other towns. But not all, because as I say in the talk,
 Pittsburgh has some important advantages over most would-be startup
-hubs.)*
+hubs.)_
 
 What would it take to make Pittsburgh into a startup hub, like Silicon
 Valley? I understand Pittsburgh pretty well, because I grew up here, in
@@ -51358,10 +51341,10 @@ optimistic talk. I thought I\'d be talking about what Pittsburgh could
 do to become a startup hub, very much in the subjunctive. Instead I\'m
 going to talk about what Pittsburgh can do.
 
-What changed my mind was an article I read in, of all places, the *New
-York Times* food section. The title was \"[*Pittsburgh\'s Youth-Driven
+What changed my mind was an article I read in, of all places, the _New
+York Times_ food section. The title was \"[_Pittsburgh\'s Youth-Driven
 Food
-Boom*](http://www.nytimes.com/2016/03/16/dining/pittsburgh-restaurants.html).\"
+Boom_](http://www.nytimes.com/2016/03/16/dining/pittsburgh-restaurants.html).\"
 To most people that might not even sound interesting, let alone
 something related to startups. But it was electrifying to me to read
 that title. I don\'t think I could pick a more promising one if I tried.
@@ -51505,8 +51488,8 @@ not. These kind of things almost always turn out to be disappointments.
 They\'re pursuing the wrong targets. The way to get innovation is not to
 aim for innovation but to aim for something more specific, like better
 batteries or better 3D printing. And the way to learn about
-entrepreneurship is to do it, which you [*can\'t in
-school*](before.html).
+entrepreneurship is to do it, which you [_can\'t in
+school_](before.html).
 
 I know it may disappoint some administrators to hear that the best thing
 a university can do to encourage startups is to be a great university.
@@ -51546,8 +51529,8 @@ because startups are so strange. And you can\'t choose to allow just the
 forms of strangeness that will turn into big startups, because they\'re
 all intermingled. You have to tolerate all strangeness.
 
-That immediately rules out [*big chunks of the
-US*](http://www.nytimes.com/2016/04/06/us/gay-rights-mississippi-north-%20carolina.html).
+That immediately rules out [_big chunks of the
+US_](http://www.nytimes.com/2016/04/06/us/gay-rights-mississippi-north-%20carolina.html).
 I\'m optimistic it doesn\'t rule out Pittsburgh. One of the things I
 remember from growing up here, though I didn\'t realize at the time that
 there was anything unusual about it, is how well people got along. I\'m
@@ -51613,7 +51596,7 @@ do it, Pittsburgh can.
 of this, and to Meg Cheever for organizing Opt412 and inviting me to
 speak.
 
-------------------------------------------------------------------------
+---
 
 # 177 The Risk of Discovery
 
@@ -51645,7 +51628,7 @@ Newton made three bets. One of them worked. But they were all risky.
 
 [Japanese Translation](https://note.com/tokyojack/n/n6f02daf57237)
 
-------------------------------------------------------------------------
+---
 
 # 178 Charisma / Power
 
@@ -51664,7 +51647,7 @@ understand that being a magnet for criticism is sometimes a sign not
 that someone is the wrong person for a job, but that they\'re the right
 one.
 
-------------------------------------------------------------------------
+---
 
 # 179 General and Surprising
 
@@ -51705,7 +51688,7 @@ something exactly the same way the second time, and that variation
 increases the chance you\'ll get that tiny but critical delta of
 novelty.
 
-And of course, ideas beget ideas. (That sounds [*familiar*](ecw.html).)
+And of course, ideas beget ideas. (That sounds [_familiar_](ecw.html).)
 An idea with a small amount of novelty could lead to one with more. But
 only if you keep going. So it\'s doubly important not to let yourself be
 discouraged by people who say there\'s not much new about something
@@ -51722,7 +51705,7 @@ reading drafts of this.
 
 [Japanese Translation](https://note.com/tokyojack/n/nbdc4bb355499)
 
-------------------------------------------------------------------------
+---
 
 # 180 The Bus Ticket Theory of Genius
 
@@ -51816,8 +51799,8 @@ But there are some heuristics you can use to guess whether an obsession
 might be one that matters. For example, it\'s more promising if you\'re
 creating something, rather than just consuming something someone else
 creates. It\'s more promising if something you\'re interested in is
-difficult, especially if it\'s [*more difficult for other
-people*](work.html) than it is for you. And the obsessions of talented
+difficult, especially if it\'s [_more difficult for other
+people_](work.html) than it is for you. And the obsessions of talented
 people are more likely to be promising. When talented people become
 interested in random things, they\'re not truly random.
 
@@ -51835,7 +51818,7 @@ difficult to waste your time so long as you\'re working hard on
 something interesting. So much of what you do ends up being useful. But
 on the other hand, the rule about the relationship between risk and
 reward is so powerful that it seems to hold wherever risk occurs.
-[*Newton\'s*](disc.html) case, at least, suggests that the risk/reward
+[_Newton\'s_](disc.html) case, at least, suggests that the risk/reward
 rule holds here. He\'s famous for one particular obsession of his that
 turned out to be unprecedentedly fruitful: using math to describe the
 world. But he had two other obsessions, alchemy and theology, that seem
@@ -51898,7 +51881,7 @@ promising line of research, maybe you should try doing something just
 for fun. And if you\'re stuck, that may be the vector along which to
 break out.
 
-I\'ve always liked [*Hamming\'s*](hamming.html) famous double-barrelled
+I\'ve always liked [_Hamming\'s_](hamming.html) famous double-barrelled
 question: what are the most important problems in your field, and why
 aren\'t you working on one of them? It\'s a great way to shake yourself
 up. But it may be overfitting a bit. It might be at least as useful to
@@ -51965,16 +51948,16 @@ On the other hand, anyone quoting the preceding paragraph to justify not
 getting a job is probably mistaken.
 
 [4](#the_bus_ticket_theory_of_genius_note4) 1709 Darwin is to time what
-the [*Milanese Leonardo*](cities.html) is to space.
+the [_Milanese Leonardo_](cities.html) is to space.
 
 [5](#the_bus_ticket_theory_of_genius_note5) \"An infinite capacity for
 taking pains\" is a paraphrase of what Carlyle wrote. What he wrote, in
-his *History of Frederick the Great* , was \"\... it is the fruit of
+his _History of Frederick the Great_ , was \"\... it is the fruit of
 \'genius\' (which means transcendent capacity of taking trouble, first
 of all)\....\" Since the paraphrase seems the name of the idea at this
 point, I kept it.
 
-Carlyle\'s *History* was published in 1858. In 1785 Hérault de Séchelles
+Carlyle\'s _History_ was published in 1858. In 1785 Hérault de Séchelles
 quoted Buffon as saying \"Le génie n\'est qu\'une plus grande aptitude à
 la patience.\" (Genius is only a greater aptitude for patience.)
 
@@ -52019,8 +52002,8 @@ drills they do in school. After that it\'s up to the child.
 
 **Thanks** to Marc Andreessen, Trevor Blackwell, Patrick Collison, Kevin
 Lacker, Jessica Livingston, Jackie McDonough, Robert Morris, Lisa
-Randall, Zak Stone, and [*my 7 year
-old*](https://twitter.com/paulg/status/1196537802621669376) for reading
+Randall, Zak Stone, and [_my 7 year
+old_](https://twitter.com/paulg/status/1196537802621669376) for reading
 drafts of this.
 
 [Spanish
@@ -52030,7 +52013,7 @@ Translation](https://www.isaacbelmar.com/posts/el-ticket-de-autobus/)
 [Korean Translation](https://yujonglee.com/genius/) [Armenian
 Translation](https://davidmayilian.com/blog/2022/genius/)
 
-------------------------------------------------------------------------
+---
 
 # 181 Novelty and Heresy
 
@@ -52061,8 +52044,8 @@ around it. And the more preposterous the assumption, the bigger the dead
 zone it creates.
 
 There is a positive side to this phenomenon though. If you\'re looking
-for new ideas, one way to find them is by [*looking for
-heresies*](say.html). When you look at the question this way, the
+for new ideas, one way to find them is by [_looking for
+heresies_](say.html). When you look at the question this way, the
 depressingly large dead zones around mistaken assumptions become
 excitingly large mines of new ideas.
 
@@ -52071,7 +52054,7 @@ excitingly large mines of new ideas.
 
 [Simplified Chinese Translation](https://www.douban.com/note/758984996/)
 
-------------------------------------------------------------------------
+---
 
 # 182 The Lesson to Unlearn
 
@@ -52264,7 +52247,7 @@ Oh, they\'d say, and then after a pause to digest this revelation,
 they\'d ask: What makes a startup a good investment?
 
 So I would explain that what makes a startup promising, not just in the
-eyes of investors but in fact, is [*growth*](growth.html). Ideally in
+eyes of investors but in fact, is [_growth_](growth.html). Ideally in
 revenue, but failing that in usage. What they needed to do was get lots
 of users.
 
@@ -52277,7 +52260,7 @@ attention.
 No, I would explain, that is not how to get lots of users. The way you
 get lots of users is to make the product really great. Then people will
 not only use it but recommend it to their friends, so your growth will
-be exponential once you [*get it started*](ds.html).
+be exponential once you [_get it started_](ds.html).
 
 At this point I\'ve told the founders something you\'d think would be
 completely obvious: that they should make a good company by making a
@@ -52395,7 +52378,7 @@ artisan.
 I suspect many people implicitly assume that working in a field with bad
 tests is the price of making lots of money. But that, I can tell you, is
 false. It used to be true. In the mid-twentieth century, when the
-economy was [*composed of oligopolies*](re.html), the only way to the
+economy was [_composed of oligopolies_](re.html), the only way to the
 top was by playing their game. But it\'s not true now. There are now
 ways to get rich by doing good work, and that\'s part of the reason
 people are so much more excited about getting rich than they used to be.
@@ -52445,7 +52428,7 @@ numbers of students.
 [3](#the_lesson_to_unlearn_note3) Learning is the naive algorithm for
 getting good grades.
 
-[4](#the_lesson_to_unlearn_note4) [*Hacking*](gba.html) has multiple
+[4](#the_lesson_to_unlearn_note4) [_Hacking_](gba.html) has multiple
 senses. There\'s a narrow sense in which it means to compromise
 something. That\'s the sense in which one hacks a bad test. But there\'s
 another, more general sense, meaning to find a surprising solution to a
@@ -52488,7 +52471,7 @@ measures are not unrelated. As Tara Ploughman said, the path from good
 to evil goes through bogus.
 
 [10](#the_lesson_to_unlearn_note10) People who think the recent increase
-in [*economic inequality*](ineq.html) is due to changes in tax policy
+in [_economic inequality_](ineq.html) is due to changes in tax policy
 seem very naive to anyone with experience in startups. Different people
 are getting rich now than used to, and they\'re getting much richer than
 mere tax savings could make them.
@@ -52507,7 +52490,7 @@ Translation](https://www.lintschool.com/post/the-lessons-to-unlearn)
 [Swedish
 Translation](http://www.jensbackbom.se/2020/09/25/kunskap-som-gor-%20mer-skada-an-nytta/)
 
-------------------------------------------------------------------------
+---
 
 # 183 Having Kids
 
@@ -52593,8 +52576,7 @@ don\'t just love them. They become your friends too. They\'re really
 interesting. And while I admit small children are disastrously fond of
 repetition (anything worth doing once is worth doing fifty times) it\'s
 often genuinely fun to play with them. That surprised me too. Playing
-with a 2 year old was fun when I was 2 and definitely not fun when I was
-6. Why would it become fun again later? But it does.
+with a 2 year old was fun when I was 2 and definitely not fun when I was 6. Why would it become fun again later? But it does.
 
 There are of course times that are pure drudgery. Or worse still,
 terror. Having kids is one of those intense types of experience that are
@@ -52627,13 +52609,13 @@ that sentence written down. I squirm to avoid it. But if there weren\'t
 something real there, why would I squirm? The fact is, once you have
 kids, you\'re probably going to care more about them than you do about
 yourself. And attention is a zero-sum game. Only one idea at a time can
-be the [*top idea in your mind*](top.html). Once you have kids, it will
+be the [_top idea in your mind_](top.html). Once you have kids, it will
 often be your kids, and that means it will less often be some project
 you\'re working on.
 
 I have some hacks for sailing close to this wind. For example, when I
 write essays, I think about what I\'d want my kids to know. That drives
-me to get things right. And when I was writing [*Bel*](bel.html), I told
+me to get things right. And when I was writing [_Bel_](bel.html), I told
 my kids that once I finished it I\'d take them to Africa. When you say
 that sort of thing to a little kid, they treat it as a promise. Which
 meant I had to finish or I\'d be taking away their trip to Africa. Maybe
@@ -52675,7 +52657,7 @@ for reading drafts of this.
 Translation](https://tldrarabiccontents.blogspot.com/2020/02/blog-%20post_3.html)
 [Slovak Translation](https://otcom.sk/paul-graham-mat-deti/)
 
-------------------------------------------------------------------------
+---
 
 # 184 Fashionable Problems
 
@@ -52696,10 +52678,10 @@ places to look is in fields that people think have already been fully
 explored: essays, Lisp, venture funding  you may notice a pattern here.
 If you can find a new approach into a big but apparently played out
 field, the value of whatever you discover will be
-[*multiplied*](sun.html) by its enormous surface area.
+[_multiplied_](sun.html) by its enormous surface area.
 
 The best protection against getting drawn into working on the same
-things as everyone else may be to [*genuinely love*](genius.html) what
+things as everyone else may be to [_genuinely love_](genius.html) what
 you\'re doing. Then you\'ll continue to work on it even if you make the
 same mistake as other people and think that it\'s too marginal to
 matter.
@@ -52711,7 +52693,7 @@ Translation](https://tldrarabiccontents.blogspot.com/2020/01/blog-%20post_73.htm
 [French
 Translation](https://corrigan2.blogspot.com/p/problemes-la-mode-paul-%20graham.html)
 
-------------------------------------------------------------------------
+---
 
 # 185 The Two Kinds of Moderate
 
@@ -52787,8 +52769,8 @@ the far left. Or perhaps that they are more confident, or more resigned,
 or simply more disorganized. I just don\'t know.
 
 [3](#the_two_kinds_of_moderate_note3) Having heretical opinions doesn\'t
-mean you have to express them openly. It may be [*easier to have
-them*](say.html) if you don\'t.
+mean you have to express them openly. It may be [_easier to have
+them_](say.html) if you don\'t.
 
 **Thanks** to Austen Allred, Trevor Blackwell, Patrick Collison, Jessica
 Livingston, Amjad Masad, Ryan Petersen, and Harj Taggar for reading
@@ -52796,15 +52778,15 @@ drafts of this.
 
 [Japanese Translation](https://note.com/tokyojack/n/n64147f0ff2f3)
 
-------------------------------------------------------------------------
+---
 
 # 186 Haters
 
 January 2020
 
-*(I originally intended this for startup founders, who are often
+_(I originally intended this for startup founders, who are often
 surprised by the attention they get as their companies grow, but it
-applies equally to anyone who becomes famous.)*
+applies equally to anyone who becomes famous.)_
 
 If you become sufficiently famous, you\'ll acquire some fans who like
 you too much. These people are sometimes called \"fanboys,\" and though
@@ -52856,7 +52838,7 @@ singer, but she\'s no good! She\'s a fraud!
 
 That word \"fraud\" is an important one. It\'s the spectral signature of
 a hater to regard the object of their hatred as a
-[*fraud*](https://twitter.com/search?q=Musk%20fraud&src=typed_query&f=live).
+[_fraud_](https://twitter.com/search?q=Musk%20fraud&src=typed_query&f=live).
 They can\'t deny their fame. Indeed, their fame is if anything
 exaggerated in the hater\'s mind. They notice every mention of the
 singer\'s name, because every mention makes them angrier. In their own
@@ -52880,7 +52862,7 @@ saying \"It\'s unfair that so- and-so is famous,\" but \"It\'s unfair
 that so-and-so is famous, and not me.\"
 
 Could a hater be cured if they achieved something impressive? My guess
-is that\'s a moot point, because they [*never will*](mean.html). I\'ve
+is that\'s a moot point, because they [_never will_](mean.html). I\'ve
 been able to observe for long enough that I\'m fairly confident the
 pattern works both ways: not only do people who do great work never
 become haters, haters never do great work. Although I dislike the word
@@ -52959,7 +52941,7 @@ Translation](https://tldrarabiccontents.blogspot.com/2020/01/blog-%20post_22.htm
 
 [Polish Translation](https://stronglyagainst.com/pgraham-fanboy-hater/)
 
-------------------------------------------------------------------------
+---
 
 # 187 Being a Noob
 
@@ -53021,7 +53003,7 @@ Translation](https://jelenadobric.com/writing-translations/biti-noob-%20paul-gra
 [French
 Translation](https://corrigan2.blogspot.com/2020/01/etre-un-noob-paul-%20graham.html)
 
-------------------------------------------------------------------------
+---
 
 # 188 How to Write Usefully
 
@@ -53075,7 +53057,7 @@ components are like numbers you can multiply together to get a score for
 usefulness. Which I realize is almost awkwardly reductive, but
 nonetheless true.
 
-------------------------------------------------------------------------
+---
 
 How can you ensure that the things you say are true and novel and
 important? Believe it or not, there is a trick for doing this. I learned
@@ -53129,7 +53111,7 @@ parent saying to a child \"we can sit here all night till you eat your
 vegetables.\" Except you\'re the child too.
 
 I\'m not saying no mistake gets through. For example, I added condition
-(c) in [*\"A Way to Detect Bias\"*](bias.html) after readers pointed out
+(c) in [_\"A Way to Detect Bias\"_](bias.html) after readers pointed out
 that I\'d omitted it. But in practice you can catch nearly all of them.
 
 There\'s a trick for getting importance too. It\'s like the trick I
@@ -53202,7 +53184,7 @@ seems inelegant, like a program that\'s too long.
 I realize florid writing works for some people. But unless you\'re sure
 you\'re one of them, the best advice is to write as simply as you can.
 
-------------------------------------------------------------------------
+---
 
 I believe the formula I\'ve given you, importance + novelty +
 correctness + strength, is the recipe for a good essay. But I should
@@ -53213,8 +53195,8 @@ didn\'t know, they don\'t always thank you for it. Sometimes the reason
 people don\'t know something is because they don\'t want to know it.
 Usually because it contradicts some cherished belief. And indeed, if
 you\'re looking for novel ideas, popular but mistaken beliefs are a good
-place to find them. Every popular mistaken belief creates a [*dead
-zone*](nov.html) of ideas around it that are relatively unexplored
+place to find them. Every popular mistaken belief creates a [_dead
+zone_](nov.html) of ideas around it that are relatively unexplored
 because they contradict it.
 
 The strength component just makes things worse. If there\'s anything
@@ -53284,7 +53266,7 @@ when you say something they don\'t want to hear as they are at coming up
 with rationalizations for things they want to do but know they
 shouldn\'t. I suspect it\'s the same skill.
 
-------------------------------------------------------------------------
+---
 
 As with most other things, the way to get better at writing essays is to
 practice. But how do you start? Now that we\'ve examined the structure
@@ -53305,19 +53287,19 @@ years. I never published any of them and never expected to. I wrote them
 as a way of figuring things out. But when the web came along I\'d had a
 lot of practice.
 
-Incidentally, [*Steve
-Wozniak*](http://www.foundersatwork.com/steve-%20wozniak.html) did the
+Incidentally, [_Steve
+Wozniak_](http://www.foundersatwork.com/steve-%20wozniak.html) did the
 same thing. In high school he designed computers on paper for fun. He
 couldn\'t build them because he couldn\'t afford the components. But
 when Intel launched 4K DRAMs in 1975, he was ready.
 
-------------------------------------------------------------------------
+---
 
 How many essays are there left to write though? The answer to that
 question is probably the most exciting thing I\'ve learned about essay
 writing. Nearly all of them are left to write.
 
-Although [*the essay*](essay.html) is an old form, it hasn\'t been
+Although [_the essay_](essay.html) is an old form, it hasn\'t been
 assiduously cultivated. In the print era, publication was expensive, and
 there wasn\'t enough demand for essays to publish that many. You could
 publish essays if you were already well known for writing something
@@ -53355,13 +53337,13 @@ Robert Morris for reading drafts of this.
 Translation](https://wordsbridge.co.uk/como-escribir-de-forma-util/)
 [Japanese Translation](https://note.com/tokyojack/n/n74e9ee344254)
 
-------------------------------------------------------------------------
+---
 
 # 189 Coronavirus and Credibility
 
 April 2020
 
-I recently saw a [*video*](https://www.youtube.com/watch?v=NAh4uS4f78o)
+I recently saw a [_video_](https://www.youtube.com/watch?v=NAh4uS4f78o)
 of TV journalists and politicians confidently saying that the
 coronavirus would be no worse than the flu. What struck me about it was
 not just how mistaken they seemed, but how daring. How could they feel
@@ -53399,7 +53381,7 @@ Translation](https://www.noahleidinger.com/unlisted/graham-%20coronavirus)
 [French
 Translation](https://corrigan2.blogspot.com/p/coronavirus-et-%20credibilite-paul-graham.html)
 
-------------------------------------------------------------------------
+---
 
 # 190 Orthodox Privilege
 
@@ -53418,15 +53400,15 @@ visible to someone whose life is very different from yours.
 
 But one of the most pervasive examples of this kind of blindness is one
 that I haven\'t seen mentioned explicitly. I\'m going to call it
-*orthodox privilege* : The more conventional-minded someone is, the more
+_orthodox privilege_ : The more conventional-minded someone is, the more
 it seems to them that it\'s safe for everyone to express their opinions.
 
-It\'s safe for *them* to express their opinions, because the source of
+It\'s safe for _them_ to express their opinions, because the source of
 their opinions is whatever it\'s currently acceptable to believe. So it
 seems to them that it must be safe for everyone. They literally can\'t
 imagine a true statement that would get you in trouble.
 
-And yet at every point in history, there [*were*](say.html) true things
+And yet at every point in history, there [_were_](say.html) true things
 that would get you in trouble to say. Is ours the first where this
 isn\'t so? What an amazing coincidence that would be.
 
@@ -53480,7 +53462,7 @@ their word, even if you can\'t think of any yourself.
 Garcia- Martinez, Jessica Livingston, Robert Morris, Michael Nielsen,
 Geoff Ralston, Max Roser, and Harj Taggar for reading drafts of this.
 
-------------------------------------------------------------------------
+---
 
 # 191 The Four Quadrants of Conformism
 
@@ -53724,7 +53706,7 @@ Translation](https://github.com/j30ng/translations/blob/main/paul-%20graham/%EC%
 [Serbian
 Translation](https://jelenadobric.com/writing-%20translations/konformizam-paul-graham)
 
-------------------------------------------------------------------------
+---
 
 # 192 Modeling a Wealth Tax
 
@@ -53744,7 +53726,7 @@ each year. After 60 years the proportion of stock you\'ll have left will
 be .99\^60, or .547. So a straight 1% wealth tax means the government
 will over the course of your life take 45% of your stock.
 
-(Losing shares does not, obviously, mean becoming *net* poorer unless
+(Losing shares does not, obviously, mean becoming _net_ poorer unless
 the value per share is increasing by less than the wealth tax rate.)
 
 Here\'s how much stock the government would take over 60 years at
@@ -53784,7 +53766,7 @@ practice, eventually some of this 8% would come in the form of
 dividends, which are taxed as income at issue, so this model actually
 represents the most optimistic case for the founder.
 
-------------------------------------------------------------------------
+---
 
 # 193 Early Work
 
@@ -53823,8 +53805,8 @@ automatically be dismissed the way they would back home. In Silicon
 Valley, people have learned how dangerous that is.
 
 The right way to deal with new ideas is to treat them as a challenge to
-your imagination  not just to have lower standards, but to [*switch
-polarity*](altair.html) entirely, from listing the reasons an idea
+your imagination  not just to have lower standards, but to [_switch
+polarity_](altair.html) entirely, from listing the reasons an idea
 won\'t work to trying to think of ways it could. That\'s what I do when
 I meet people with new ideas. I\'ve become quite good at it, but I\'ve
 had a lot of practice. Being a partner at Y Combinator means being
@@ -53843,7 +53825,7 @@ Of course, inexperience is not the only reason people are too harsh on
 early versions of ambitious projects. They also do it to seem clever.
 And in a field where the new ideas are risky, like startups, those who
 dismiss them are in fact more likely to be right. Just not when their
-predictions are [*weighted by outcome*](swan.html).
+predictions are [_weighted by outcome_](swan.html).
 
 But there is another more sinister reason people dismiss new ideas. If
 you try something ambitious, many of those around you will hope,
@@ -53880,7 +53862,7 @@ Silicon Valley shows how quickly customs can evolve to support new
 ideas. And that in turn proves that dismissing new ideas is not so
 deeply rooted in human nature that it can\'t be unlearnt.
 
-------------------------------------------------------------------------
+---
 
 Unfortunately, if you want to do new things, you\'ll face a force more
 powerful than other people\'s skepticism: your own skepticism. You too
@@ -53892,7 +53874,7 @@ toward doing good work. You just want to turn it off temporarily, the
 way a painkiller temporarily turns off pain.
 
 People have already discovered several techniques that work. Hardy
-mentions two in *A Mathematician\'s Apology* :
+mentions two in _A Mathematician\'s Apology_ :
 
 > Good work is not done by \"humble\" men. It is one of the first duties
 > of a \> professor, for example, in any subject, to exaggerate a little
@@ -53975,7 +53957,7 @@ learned something, even if it isn\'t what you wanted to learn.
 One motivation that works particularly well for me is curiosity. I like
 to try new things just to see how they\'ll turn out. We started Y
 Combinator in this spirit, and it was one of main things that kept me
-going while I was working on [*Bel*](bel.html). Having worked for so
+going while I was working on [_Bel_](bel.html). Having worked for so
 long with various dialects of Lisp, I was very curious to see what its
 inherent shape was: what you\'d end up with if you followed the
 axiomatic approach all the way.
@@ -54011,7 +53993,7 @@ how big the payoff will be.
 
 `<a name=early_work_note1>`{=html}\[1\]`</a>`{=html} This assumption may
 be too conservative. There is some evidence that historically the Bay
-Area has attracted a [*different sort of person*](cities.html) than,
+Area has attracted a [_different sort of person_](cities.html) than,
 say, New York City.
 
 `<a name=early_work_note2>`{=html}\[2\]`</a>`{=html} One of their great
@@ -54031,8 +54013,8 @@ sense of a prototype and onward to the sense of the word that means
 something closer to a practical joke:
 
 > I think there may be something related to being a hack that can be
-> powerful \>  the idea of making the tenuousness and implausibility *a
-> feature*. \"Yes, \> it\'s a bit ridiculous, right? I\'m just trying to
+> powerful \>  the idea of making the tenuousness and implausibility _a
+> feature_. \"Yes, \> it\'s a bit ridiculous, right? I\'m just trying to
 > see how far such a naive \> approach can get.\" YC seemed to me to
 > have this characteristic.
 
@@ -54047,7 +54029,7 @@ upfront commitment.
 > the \> final work is exemplified in game mods. The original Quake game
 > was a golden \> age for mods, because everything was very flexible,
 > but so crude due to \> technical limitations, that quick hacks to try
-> out a gameplay idea weren\'t \> all *that* far from the official game.
+> out a gameplay idea weren\'t \> all _that_ far from the official game.
 > Many careers were born from that, but \> as the commercial game
 > quality improved over the years, it became almost a \> full time job
 > to make a successful mod that would be appreciated by the \>
@@ -54074,7 +54056,7 @@ programmers\' first commits, musicians\' first videos, and so on.
 Livingston, Michael Nielsen, and Lisa Randall for reading drafts of
 this.
 
-------------------------------------------------------------------------
+---
 
 # 194 How to Think for Yourself
 
@@ -54101,7 +54083,7 @@ hobbyists, or starting a site to let people rent airbeds on strangers\'
 floors.
 
 Ditto for essayists. An essay that told people things they already knew
-would be boring. You have to tell them something [*new*](useful.html).
+would be boring. You have to tell them something [_new_](useful.html).
 
 But this pattern isn\'t universal. In fact, it doesn\'t hold for most
 kinds of work. In most kinds of work  to be an administrator, for
@@ -54150,7 +54132,7 @@ most conventional-minded people are confident that they\'re
 independent-minded, while the genuinely independent-minded worry they
 might not be independent- minded enough.
 
-------------------------------------------------------------------------
+---
 
 Can you make yourself more independent-minded? I think so. This quality
 may be largely inborn, but there seem to be ways to magnify it, or at
@@ -54176,7 +54158,7 @@ conventional-minded people, they tend to self-segregate once they have a
 chance to. The problem with high school is that they haven\'t yet had a
 chance to. Plus high school tends to be an inward-looking little world
 whose inhabitants lack confidence, both of which magnify the forces of
-conformism. So high school is often a [*bad time*](nerds.html) for the
+conformism. So high school is often a [_bad time_](nerds.html) for the
 independent-minded. But there is some advantage even here: it teaches
 you what to avoid. If you later find yourself in a situation that makes
 you think \"this is like high school,\" you know you should get out.
@@ -54258,12 +54240,12 @@ then more and more, until half the people around you are wearing the
 same shirt. You may not care much what you wear, but there are
 intellectual fashions too, and you definitely don\'t want to participate
 in those. Not just because you want sovereignty over your own thoughts,
-but because [*unfashionable*](nov.html) ideas are disproportionately
+but because [_unfashionable_](nov.html) ideas are disproportionately
 likely to lead somewhere interesting. The best place to find
 undiscovered ideas is where no one else is looking.
 [4](#how_to_think_for_yourself_note4)
 
-------------------------------------------------------------------------
+---
 
 To go beyond this general advice, we need to look at the internal
 structure of independent-mindedness  at the individual muscles we need
@@ -54310,10 +54292,10 @@ The second component of independent-mindedness, resistance to being told
 what to think, is the most visible of the three. But even this is often
 misunderstood. The big mistake people make about it is to think of it as
 a merely negative quality. The language we use reinforces that idea.
-You\'re *un* conventional. You *don\'t* care what other people think.
+You\'re _un_ conventional. You _don\'t_ care what other people think.
 But it\'s not just a kind of immunity. In the most independent-minded
 people, the desire not to be told what to think is a positive force.
-It\'s not mere skepticism, but an active [*delight*](gba.html) in ideas
+It\'s not mere skepticism, but an active [_delight_](gba.html) in ideas
 that subvert the conventional wisdom, the more counterintuitive the
 better.
 
@@ -54378,7 +54360,7 @@ The most important active step you can take to cultivate your curiosity
 is probably to seek out the topics that engage it. Few adults are
 equally curious about everything, and it doesn\'t seem as if you can
 choose which topics interest you. So it\'s up to you to
-[*find*](genius.html) them. Or invent them, if necessary.
+[_find_](genius.html) them. Or invent them, if necessary.
 
 Another way to increase your curiosity is to indulge it, by
 investigating things you\'re interested in. Curiosity is unlike most
@@ -54399,7 +54381,7 @@ curious about.\"
 convenient consequence of the fact that no one identifies as
 conventional-minded is that you can say what you like about
 conventional- minded people without getting in too much trouble. When I
-wrote [*\"The Four Quadrants of Conformism\"*](conformism.html) I
+wrote [_\"The Four Quadrants of Conformism\"_](conformism.html) I
 expected a firestorm of rage from the aggressively conventional-minded,
 but in fact it was quite muted. They sensed that there was something
 about the essay that they disliked intensely, but they had a hard time
@@ -54447,7 +54429,7 @@ for product companies.
 There are intellectual fashions in every field, but their influence
 varies. One of the reasons politics, for example, tends to be boring is
 that it\'s so extremely subject to them. The threshold for having
-opinions about politics is much [*lower*](identity.html) than the one
+opinions about politics is much [_lower_](identity.html) than the one
 for having opinions about set theory. So while there are some ideas in
 politics, in practice they tend to be swamped by waves of intellectual
 fashion.
@@ -54490,7 +54472,7 @@ drafts of this.
 [Italian
 Translation](https://www.bookconfidential.blog/pensare-con-la-%20propria-testa-paul-graham/)
 
-------------------------------------------------------------------------
+---
 
 # 195 The Airbnbs
 
@@ -54531,7 +54513,7 @@ They\'d try this Y Combinator thing, and if the company still didn\'t
 take off, they\'d give up.
 
 Any normal person would have given up already. They\'d been funding the
-company with credit cards. They had a *binder* full of credit cards
+company with credit cards. They had a _binder_ full of credit cards
 they\'d maxed out. Investors didn\'t think much of the idea. One
 investor they met in a cafe walked out in the middle of meeting with
 them. They thought he was going to the bathroom, but he never came back.
@@ -54609,7 +54591,7 @@ responded.
 
 Brian\'s reply was seven words: \"We are not going to slow down.\"
 
-------------------------------------------------------------------------
+---
 
 # 196 Billionaires Build
 
@@ -54681,7 +54663,7 @@ what the partners will be trying to figure out: is there a path to a
 huge market? [1](#billionaires_build_note1)
 
 Sometimes it\'s obvious there will be a huge market. If
-[*Boom*](https://boomsupersonic.com/) manages to ship an airliner at
+[_Boom_](https://boomsupersonic.com/) manages to ship an airliner at
 all, international airlines will have to buy it. But usually it\'s not
 obvious. Usually the path to a huge market is by growing a small market.
 This idea is important enough that it\'s worth coining a phrase for, so
@@ -54692,8 +54674,8 @@ they were founded in 1976. In 1976, not many people wanted their own
 computer. But more and more started to want one, till now every 10 year
 old on the planet wants a computer (but calls it a \"phone\").
 
-The ideal combination is the group of founders who are [*\"living in the
-future\"*](startupideas.html) in the sense of being at the leading edge
+The ideal combination is the group of founders who are [_\"living in the
+future\"_](startupideas.html) in the sense of being at the leading edge
 of some kind of change, and who are building something they themselves
 want. Most super-successful startups are of this type. Steve Wozniak
 wanted a computer. Mark Zuckerberg wanted to engage online with his
@@ -54848,8 +54830,8 @@ hard on this company was because it was their project. They had
 discovered an interesting new idea, and they just couldn\'t let it go.
 
 Mundane as it sounds, that\'s the most powerful motivator of all, not
-just in startups, but in most ambitious undertakings: to be [*genuinely
-interested*](genius.html) in what you\'re building. This is what really
+just in startups, but in most ambitious undertakings: to be [_genuinely
+interested_](genius.html) in what you\'re building. This is what really
 drives billionaires, or at least the ones who become billionaires from
 starting companies. The company is their project.
 
@@ -54869,7 +54851,7 @@ the desire to make money, the desire to seem cool, genuine interest in
 the problem, and unwillingness to work for someone else. The last two
 are more powerful motivators than the first two. It\'s ok for founders
 to want to make money or to seem cool. Most do. But if the founders seem
-like they\'re doing it *just* to make money or *just* to seem cool,
+like they\'re doing it _just_ to make money or _just_ to seem cool,
 they\'re not likely to succeed on a big scale. The founders who are
 doing it for the money will take the first sufficiently large
 acquisition offer, and the ones who are doing it to seem cool will
@@ -54925,7 +54907,7 @@ having watched the preceding generation do it, how it\'s really done?
 
 I\'ll tell you how it\'s really done, so you can at least tell your own
 kids the truth. It\'s all about users. The most reliable way to become a
-billionaire is to start a company that [*grows fast*](growth.html), and
+billionaire is to start a company that [_grows fast_](growth.html), and
 the way to grow fast is to make what users want. Newly started startups
 have no choice but to delight users, or they\'ll never even get rolling.
 But this never stops being the lodestar, and bigger companies take their
@@ -54968,7 +54950,7 @@ indeed some big IPOs.
 **Thanks** to Trevor Blackwell, Jessica Livingston, Robert Morris, Geoff
 Ralston, and Harj Taggar for reading drafts of this.
 
-------------------------------------------------------------------------
+---
 
 # 197 Earnestness
 
@@ -55006,14 +54988,14 @@ x for its own sake, and not because it\'s cool to be interested in x, or
 because of what they can get from it. They\'re saying they care so much
 about x that they\'re willing to sacrifice seeming cool for its sake.
 
-A [*genuine interest*](genius.html) in something is a very powerful
+A [_genuine interest_](genius.html) in something is a very powerful
 motivator  for some people, the most powerful motivator of all.
 [3](#earnestness_note3) Which is why it\'s what Jessica and I look for
 in founders. But as well as being a source of strength, it\'s also a
 source of vulnerability. Caring constrains you. The earnest can\'t
 easily reply in kind to mocking banter, or put on a cool facade of nihil
 admirari. They care too much. They are doomed to be the straight man.
-That\'s a real disadvantage in your [*teenage years*](nerds.html), when
+That\'s a real disadvantage in your [_teenage years_](nerds.html), when
 mocking banter and nihil admirari often have the upper hand. But it
 becomes an advantage later.
 
@@ -55029,7 +55011,7 @@ probably doesn\'t matter much in politics, or in crime, or in certain
 types of business that are similar to crime, like gambling, personal
 injury law, patent trolling, and so on. Nor does it matter in academic
 fields at the more
-[*bogus*](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=hermeneutic+dialectics+hegemonic+phenomenology+intersectionality)
+[_bogus_](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=hermeneutic+dialectics+hegemonic+phenomenology+intersectionality)
 end of the spectrum. And though I don\'t know enough to say for sure, it
 may not matter in some kinds of humor: it may be possible to be
 completely cynical and still be very funny. [4](#earnestness_note4)
@@ -55049,7 +55031,7 @@ that they do, but because they don\'t feel them, they forget about them.
 
 It works to be slightly naive not just about motives but also, believe
 it or not, about the problems you\'re working on. Naive optimism can
-compensate for the bit rot that [*rapid change*](ecw.html) causes in
+compensate for the bit rot that [_rapid change_](ecw.html) causes in
 established beliefs. You plunge into some problem saying \"How hard can
 it be?\", and then after solving it you learn that it was till recently
 insoluble.
@@ -55059,8 +55041,8 @@ this is one reason would-be intellectuals find it so difficult to
 understand Silicon Valley. It hasn\'t been safe for such people to use
 the word \"earnest\" outside scare quotes since Oscar Wilde wrote \"The
 Importance of Being Earnest\" in 1895. And yet when you zoom in on
-Silicon Valley, right into [*Jessica Livingston\'s
-brain*](jessica.html), that\'s what her x-ray vision is seeking out in
+Silicon Valley, right into [_Jessica Livingston\'s
+brain_](jessica.html), that\'s what her x-ray vision is seeking out in
 founders. Earnestness! Who\'d have guessed? Reporters literally can\'t
 believe it when founders making piles of money say that they started
 their companies to make the world better. The situation seems made for
@@ -55095,7 +55077,7 @@ interesting. Henry Ford got to spend much of his time working on
 interesting technical problems, and for the last several decades the
 trend in that direction has been accelerating. It\'s much easier now to
 make a lot of money by working on something you\'re interested in than
-it was [*50 years ago*](re.html). And that, rather than how fast they
+it was [_50 years ago_](re.html). And that, rather than how fast they
 grow, may be the most important change that startups represent. Though
 indeed, the fact that the work is genuinely interesting is a big part of
 why it gets done so fast. [6](#earnestness_note6)
@@ -55113,7 +55095,7 @@ example of an x nerd in the wild.
 **Notes**
 
 `<a name=earnestness_note1>`{=html}\[1\]`</a>`{=html} It\'s interesting
-how many different ways there are *not* to be earnest: to be cleverly
+how many different ways there are _not_ to be earnest: to be cleverly
 cynical, to be superficially brilliant, to be conspicuously virtuous, to
 be cool, to be sophisticated, to be orthodox, to be a snob, to bully, to
 pander, to be on the make. This pattern suggests that earnestness is not
@@ -55169,7 +55151,7 @@ than 30%.
 Livingston, Mattias Ljungman, Harj Taggar, and Kyle Vogt for reading
 drafts of this.
 
-------------------------------------------------------------------------
+---
 
 # 198 What I Worked On
 
@@ -55242,10 +55224,10 @@ time was that I kept taking philosophy courses and they kept being
 boring. So I decided to switch to AI.
 
 AI was in the air in the mid 1980s, but there were two things especially
-that made me want to work on it: a novel by Heinlein called *The Moon is
-a Harsh Mistress* , which featured an intelligent computer called Mike,
+that made me want to work on it: a novel by Heinlein called _The Moon is
+a Harsh Mistress_ , which featured an intelligent computer called Mike,
 and a PBS documentary that showed Terry Winograd using SHRDLU. I
-haven\'t tried rereading *The Moon is a Harsh Mistress* , so I don\'t
+haven\'t tried rereading _The Moon is a Harsh Mistress_ , so I don\'t
 know how well it has aged, but when I read it I was drawn entirely into
 its world. It seemed only a matter of time before we\'d have Mike, and
 when I saw Winograd using SHRDLU, it seemed like that time would be a
@@ -55308,7 +55290,7 @@ even though that was the main reason people cared about it at the time.
 So I decided to focus on Lisp. In fact, I decided to write a book about
 Lisp hacking. It\'s scary to think how little I knew about Lisp hacking
 when I started writing that book. But there\'s nothing like writing a
-book about something to help you learn it. The book, *On Lisp* , wasn\'t
+book about something to help you learn it. The book, _On Lisp_ , wasn\'t
 published till 1993, but I wrote much of it in grad school.
 
 Computer Science is an uneasy alliance between two halves, theory and
@@ -55352,7 +55334,7 @@ idea. I\'d never imagined it was even possible. I knew intellectually
 that people made art  that it didn\'t just appear spontaneously  but it
 was as if the people who made it were a different species. They either
 lived long ago or were mysterious geniuses doing strange things in
-profiles in *Life* magazine. The idea of actually being able to make
+profiles in _Life_ magazine. The idea of actually being able to make
 art, to put that verb before that noun, seemed almost miraculous.
 
 That fall I started taking art classes at Harvard. Grad students could
@@ -55362,7 +55344,7 @@ never said anything.
 
 So now I was in a PhD program in computer science, yet planning to be an
 artist, yet also genuinely in love with Lisp hacking and working away at
-*On Lisp*. In other words, like many a grad student, I was working
+_On Lisp_. In other words, like many a grad student, I was working
 energetically on multiple projects that were not my thesis.
 
 I didn\'t see a way out of this situation. I didn\'t want to drop out of
@@ -55376,7 +55358,7 @@ professor Cheatham and he asked if I was far enough along to graduate
 that June. I didn\'t have a word of my dissertation written, but in what
 must have been the quickest bit of thinking in my life, I decided to
 take a shot at writing one in the 5 weeks or so that remained before the
-deadline, reusing parts of *On Lisp* where I could, and I was able to
+deadline, reusing parts of _On Lisp_ where I could, and I was able to
 respond, with no perceptible delay \"Yes, I think so. I\'ll give you
 something to read in a few days.\"
 
@@ -55407,9 +55389,9 @@ from consulting work I\'d done in grad school; there was probably enough
 to last a year if I lived cheaply. Now all I had to do was learn
 Italian.
 
-Only *stranieri* (foreigners) had to take this entrance exam. In
+Only _stranieri_ (foreigners) had to take this entrance exam. In
 retrospect it may well have been a way of excluding them, because there
-were so many *stranieri* attracted by the idea of studying art in
+were so many _stranieri_ attracted by the idea of studying art in
 Florence that the Italian students would otherwise have been
 outnumbered. I was in decent shape at painting and drawing from the RISD
 foundation that summer, but I still don\'t know how I managed to pass
@@ -55502,7 +55484,7 @@ meant showing up every day during certain working hours. That seemed
 unnatural to me, and on this point the rest of the world is coming
 around to my way of thinking, but at the time it caused a lot of
 friction. Toward the end of the year I spent much of my time
-surreptitiously working on *On Lisp* , which I had by this time gotten a
+surreptitiously working on _On Lisp_ , which I had by this time gotten a
 contract to publish.
 
 The good part was that I got paid huge amounts of money, especially by
@@ -55580,8 +55562,7 @@ New York was supposed to be where the artists were. So yes, I wanted it!
 Asterix comics begin by zooming in on a tiny corner of Roman Gaul that
 turns out not to be controlled by the Romans. You can do something
 similar on a map of New York City: if you zoom in on the Upper East
-Side, there\'s a tiny corner that\'s not rich, or at least wasn\'t in
-1993. It\'s called Yorkville, and that was my new home. Now I was a New
+Side, there\'s a tiny corner that\'s not rich, or at least wasn\'t in 1993. It\'s called Yorkville, and that was my new home. Now I was a New
 York artist  in the strictly technical sense of making paintings and
 living in New York.
 
@@ -55592,8 +55573,8 @@ have meant C++ if I was lucky. So with my unerring nose for financial
 opportunity, I decided to write another book on Lisp. This would be a
 popular book, the sort of book that could be used as a textbook. I
 imagined myself living frugally off the royalties and spending all my
-time painting. (The painting on the cover of this book, *ANSI Common
-Lisp* , is one that I painted around this time.)
+time painting. (The painting on the cover of this book, _ANSI Common
+Lisp_ , is one that I painted around this time.)
 
 The best thing about New York for me was the presence of Idelle and
 Julian Weber. Idelle Weber was a painter, one of the early
@@ -55633,7 +55614,7 @@ generating for galleries. This impressive-sounding thing called an
 \"internet storefront\" was something we already knew how to build.
 
 So in the summer of 1995, after I submitted the camera-ready copy of
-*ANSI Common Lisp* to the publishers, we started trying to write
+_ANSI Common Lisp_ to the publishers, we started trying to write
 software to build online stores. At first this was going to be normal
 desktop software, which in those days meant Windows software. That was
 an alarming prospect, because neither of us knew how to write Windows
@@ -55710,7 +55691,7 @@ was right, as usual. Trevor turned out to be a frighteningly effective
 hacker.
 
 It was a lot of fun working with Robert and Trevor. They\'re the two
-most [*independent-minded*](think.html) people I know, and in completely
+most [_independent-minded_](think.html) people I know, and in completely
 different ways. If you could see inside Rtm\'s brain it would look like
 a colonial New England church, and if you could see inside Trevor\'s it
 would look like the worst excesses of Austrian Rococo.
@@ -55744,7 +55725,7 @@ no idea what businesses paid for things. \$300 a month seemed like a lot
 of money to us.
 
 We did a lot of things right by accident like that. For example, we did
-what\'s now called \"doing things that [*don\'t scale*](ds.html),\"
+what\'s now called \"doing things that [_don\'t scale_](ds.html),\"
 although at the time we would have described it as \"being so lame that
 we\'re driven to the most desperate measures to get users.\" The most
 common of which was building stores for them. This seemed particularly
@@ -55763,13 +55744,13 @@ Building stores for users taught us about retail, and about how it felt
 to use our software. I was initially both mystified and repelled by
 \"business\" and thought we needed a \"business person\" to be in charge
 of it, but once we started to get users, I was converted, in much the
-same way I was converted to [*fatherhood*](kids.html) once I had kids.
+same way I was converted to [_fatherhood_](kids.html) once I had kids.
 Whatever users wanted, I was all theirs. Maybe one day we\'d have so
 many users that I couldn\'t scan their images for them, but in the
 meantime there was nothing more important to do.
 
-Another thing I didn\'t get at the time is that [*growth
-rate*](growth.html) is the ultimate test of a startup. Our growth rate
+Another thing I didn\'t get at the time is that [_growth
+rate_](growth.html) is the ultimate test of a startup. Our growth rate
 was fine. We had about 70 stores at the end of 1996 and about 500 at the
 end of 1997. I mistakenly thought the thing that mattered was the
 absolute number of users. And that is the thing that matters in the
@@ -55806,7 +55787,7 @@ been the least productive of my life. I didn\'t realize it at the time,
 but I was worn out from the effort and stress of running Viaweb. For a
 while after I got to California I tried to continue my usual m.o. of
 programming till 3 in the morning, but fatigue combined with Yahoo\'s
-prematurely aged [*culture*](yahoo.html) and grim cube farm in Santa
+prematurely aged [_culture_](yahoo.html) and grim cube farm in Santa
 Clara gradually dragged me down. After a few months it felt
 disconcertingly like working at Interleaf.
 
@@ -55943,7 +55924,7 @@ realized it yet. I had been intimately involved with building the
 infrastructure of the web for most of that time, and a writer as well,
 and it had taken me 8 years to realize it. Even then it took me several
 years to understand the implications. It meant there would be a whole
-new generation of [*essays*](essay.html). [11](#what_i_worked_on_note11)
+new generation of [_essays_](essay.html). [11](#what_i_worked_on_note11)
 
 In the print era, the channel for publishing essays had been vanishingly
 small. Except for a few officially anointed thinkers who went to the
@@ -55958,10 +55939,10 @@ turning point where I figured out what to work on, it was when I started
 publishing essays online. From then on I knew that whatever else I did,
 I\'d always write essays too.
 
-I knew that online essays would be a [*marginal*](marginal.html) medium
+I knew that online essays would be a [_marginal_](marginal.html) medium
 at first. Socially they\'d seem more like rants posted by nutjobs on
 their GeoCities sites than the genteel and beautifully typeset
-compositions published in *The New Yorker*. But by this point I knew
+compositions published in _The New Yorker_. But by this point I knew
 enough to find that encouraging instead of discouraging.
 
 One of the most conspicuous patterns I\'ve noticed in my life is how
@@ -55985,7 +55966,7 @@ wrong one.
 
 Over the next several years I wrote lots of essays about all kinds of
 different topics. O\'Reilly reprinted a collection of them as a book,
-called *Hackers & Painters* after one of the essays in it. I also worked
+called _Hackers & Painters_ after one of the essays in it. I also worked
 on spam filters, and did some more painting. I used to have dinners for
 a group of friends every thursday night, which taught me how to cook for
 groups. And I bought another building in Cambridge, a former candy
@@ -56004,7 +55985,7 @@ bank thought it understood startups, but over the next year, as she met
 friends of mine from the startup world, she was surprised how different
 reality was. And how colorful their stories were. So she decided to
 compile a book of
-[*interviews*](https://www.amazon.com/Founders-Work-Stories-Startups-%20Early/dp/1430210788)
+[_interviews_](https://www.amazon.com/Founders-Work-Stories-Startups-%20Early/dp/1430210788)
 with startup founders.
 
 When the bank had financial problems and she had to fire half her staff,
@@ -56096,7 +56077,7 @@ bring in experts on startups to give talks.
 
 We knew undergrads were deciding then about summer jobs, so in a matter
 of days we cooked up something we called the Summer Founders Program,
-and I posted an [*announcement*](summerfounder.html) on my site,
+and I posted an [_announcement_](summerfounder.html) on my site,
 inviting undergrads to apply. I had never imagined that writing essays
 would be a way to get \"deal flow,\" as investors call it, but it turned
 out to be the perfect source. [15](#what_i_worked_on_note15) We got 225
@@ -56167,8 +56148,8 @@ to do with HN, and a 40% chance it had do with everything else combined.
 [17](#what_i_worked_on_note17)
 
 As well as HN, I wrote all of YC\'s internal software in Arc. But while
-I continued to work a good deal *in* Arc, I gradually stopped working
-*on* Arc, partly because I didn\'t have time to, and partly because it
+I continued to work a good deal _in_ Arc, I gradually stopped working
+_on_ Arc, partly because I didn\'t have time to, and partly because it
 was a lot less attractive to mess around with the language now that we
 had all this infrastructure depending on it. So now my three projects
 were reduced to two: writing essays and working on YC.
@@ -56263,7 +56244,7 @@ of another project that is. And at 50 there was some opportunity cost to
 screwing around.
 
 I started writing essays again, and wrote a bunch of new ones over the
-next few months. I even wrote a couple that [*weren\'t*](know.html)
+next few months. I even wrote a couple that [_weren\'t_](know.html)
 about startups. Then in March 2015 I started working on Lisp again.
 
 The distinctive thing about Lisp is that its core is a language defined
@@ -56304,7 +56285,7 @@ So I decided to take a shot at it. It took 4 years, from March 26, 2015
 to October 12, 2019. It was fortunate that I had a precisely defined
 goal, or it would have been hard to keep at it for so long.
 
-I wrote this new Lisp, called [*Bel*](bel.html), in itself in Arc. That
+I wrote this new Lisp, called [_Bel_](bel.html), in itself in Arc. That
 may sound like a contradiction, but it\'s an indication of the sort of
 trickery I had to engage in to make this work. By means of an egregious
 collection of hacks I managed to make something close enough to an
@@ -56365,7 +56346,7 @@ microcomputers, which made microcomputers seem all the more exciting.
 
 `<a name=what_i_worked_on_note2>`{=html}\[2\]`</a>`{=html} Italian words
 for abstract concepts can nearly always be predicted from their English
-cognates (except for occasional traps like *polluzione* ). It\'s the
+cognates (except for occasional traps like _polluzione_ ). It\'s the
 everyday words that differ. So if you string together a lot of abstract
 concepts with a few simple verbs, you can make a little Italian go a
 long way.
@@ -56423,7 +56404,7 @@ languages? Weren\'t they all Turing complete? People who see the
 responses to essays I write sometimes tell me how sorry they feel for
 me, but I\'m not exaggerating when I reply that it has always been like
 this, since the very beginning. It comes with the territory. An essay
-must tell readers things they [*don\'t already know*](useful.html), and
+must tell readers things they [_don\'t already know_](useful.html), and
 some people dislike being told such things.
 
 `<a name=what_i_worked_on_note11>`{=html}\[11\]`</a>`{=html} People put
@@ -56515,7 +56496,7 @@ out of McCarthy\'s Lisp along which discoveredness is preserved.
 Gackle, Ralph Hazell, Jessica Livingston, Robert Morris, and Harj Taggar
 for reading drafts of this.
 
-------------------------------------------------------------------------
+---
 
 # 199 Donate Unrestricted
 
@@ -56579,7 +56560,7 @@ as Y chooses,\" but also focuses more attention on X.
 **Thanks** to Chase Adam, Ingrid Bassett, Trevor Blackwell, and Edith
 Elliot for reading drafts of this.
 
-------------------------------------------------------------------------
+---
 
 # 200 Write Simply
 
@@ -56595,8 +56576,8 @@ And the further they\'ll read. Most readers\' energy tends to flag part
 way through an article or essay. If the friction of reading is low
 enough, more keep going till the end.
 
-There\'s an Italian dish called *saltimbocca* , which means \"leap into
-the mouth.\" My goal when writing might be called *saltintesta* : the
+There\'s an Italian dish called _saltimbocca_ , which means \"leap into
+the mouth.\" My goal when writing might be called _saltintesta_ : the
 ideas leap into your head and you barely notice the words that got them
 there.
 
@@ -56645,13 +56626,13 @@ write the first draft fast, then spend days editing it, trying to get
 everything just right. Much of this editing is cutting, and that makes
 simple writing even simpler.
 
-------------------------------------------------------------------------
+---
 
 # 201 How People Get Rich Now
 
 April 2021
 
-Every year since 1982, *Forbes* magazine has published a list of the
+Every year since 1982, _Forbes_ magazine has published a list of the
 richest Americans. If we compare the 100 richest people in 1982 to the
 100 richest in 2020, we notice some big differences.
 
@@ -56720,7 +56701,7 @@ rule, really driven and good at making deals.
 
 People who don\'t look any deeper than the Gini coefficient look back on
 the world of 1982 as the good old days, because those who got rich then
-didn\'t get as rich. But if you dig into *how* they got rich, the old
+didn\'t get as rich. But if you dig into _how_ they got rich, the old
 days don\'t look so good. In 1982, 84% of the richest 100 people got
 rich by inheritance, extracting natural resources, or doing real estate
 deals. Is that really better than a world in which the richest people
@@ -56732,7 +56713,7 @@ question, curiously enough, is that it\'s misphrased. We shouldn\'t be
 asking why people are starting companies, but why they\'re starting
 companies again. [3](#how_people_get_rich_now_note3)
 
-In 1892, the *New York Herald Tribune* compiled a list of all the
+In 1892, the _New York Herald Tribune_ compiled a list of all the
 millionaires in America. They found 4047 of them. How many had inherited
 their wealth then? Only about 20%, which is less than the proportion of
 heirs today. And when you investigate the sources of the new fortunes,
@@ -56742,8 +56723,8 @@ production.\" [4](#how_people_get_rich_now_note4)
 
 So it\'s not 2020 that\'s the anomaly here, but 1982. The real question
 is why so few people had gotten rich from starting companies in 1982.
-And the answer is that even as the *Herald Tribune* \'s list was being
-compiled, a wave of [*consolidation*](re.html) was sweeping through the
+And the answer is that even as the _Herald Tribune_ \'s list was being
+compiled, a wave of [_consolidation_](re.html) was sweeping through the
 American economy. In the late 19th and early 20th centuries, financiers
 like J. P. Morgan combined thousands of smaller companies into a few
 hundred giant ones with commanding economies of scale. By the end of
@@ -56855,8 +56836,7 @@ companies, how could it not be?
 `<a name=how_people_get_rich_now_note1>`{=html}\[1\]`</a>`{=html}
 Investment firms grew rapidly after a regulatory change by the Labor
 Department in 1978 allowed pension funds to invest in them, but the
-effects of this growth were not yet visible in the top 100 fortunes in
-1982.
+effects of this growth were not yet visible in the top 100 fortunes in 1982.
 
 `<a name=how_people_get_rich_now_note2>`{=html}\[2\]`</a>`{=html} George
 Mitchell deserves mention as an exception. Though really driven and good
@@ -56865,14 +56845,14 @@ to get natural gas out of shale.
 
 `<a name=how_people_get_rich_now_note3>`{=html}\[3\]`</a>`{=html} When I
 say people are starting more companies, I mean the type of company meant
-to [*grow*](growth.html) very big. There has actually been a decrease in
+to [_grow_](growth.html) very big. There has actually been a decrease in
 the last couple decades in the overall number of new companies. But the
 vast majority of companies are small retail and service businesses. So
 what the statistics about the decreasing number of new businesses mean
 is that people are starting fewer shoe stores and barber shops.
 
 People sometimes get
-[*confused*](https://www.inc.com/magazine/201505/leigh-%20buchanan/the-vanishing-startups-in-decline.html)
+[_confused_](https://www.inc.com/magazine/201505/leigh-%20buchanan/the-vanishing-startups-in-decline.html)
 when they see a graph labelled \"startups\" that\'s going down, because
 there are two senses of the word \"startup\": (1) the founding of a
 company, and (2) a particular type of company designed to grow big fast.
@@ -56883,12 +56863,12 @@ Rockoff, Hugh. \"Great Fortunes of the Gilded Age.\" NBER Working Paper
 14555, 2008.
 
 `<a name=how_people_get_rich_now_note5>`{=html}\[5\]`</a>`{=html} Lind,
-Michael. *Land of Promise.* HarperCollins, 2012.
+Michael. _Land of Promise._ HarperCollins, 2012.
 
 It\'s also likely that the high tax rates in the mid 20th century
 deterred people from starting their own companies. Starting one\'s own
 company is risky, and when risk isn\'t rewarded, people opt for
-[*safety*](inequality.html) instead.
+[_safety_](inequality.html) instead.
 
 But it wasn\'t simply cause and effect. The oligopolies and high tax
 rates of the mid 20th century were all of a piece. Lower taxes are not
@@ -56909,7 +56889,7 @@ pure tech companies used to be called \"high technology\" startups. But
 now that startups can punch through the middle of the ice crust, we
 don\'t need a separate name for the edges, and the term \"high-tech\"
 has a decidedly
-[*retro*](https://books.google.com/ngrams/graph?content=high+tech&year_start=1900&year_end=2019&corpus=en-2019&smoothing=3)
+[_retro_](https://books.google.com/ngrams/graph?content=high+tech&year_start=1900&year_end=2019&corpus=en-2019&smoothing=3)
 sound.
 
 `<a name=how_people_get_rich_now_note8>`{=html}\[8\]`</a>`{=html} Higher
@@ -56932,12 +56912,11 @@ needing money to make people offer it to you.
 You would think, after having been on the side of labor in its fight
 with capital for almost two centuries, that the far left would be happy
 that labor has finally prevailed. But none of them seem to be. You can
-almost hear them saying \"No, no, not *that* way.\"
+almost hear them saying \"No, no, not _that_ way.\"
 
 `<a name=how_people_get_rich_now_note9>`{=html}\[9\]`</a>`{=html} IBM
 was created in 1911 by merging three companies, the most important of
-which was Herman Hollerith\'s Tabulating Machine Company, founded in
-1896. In 1941 its revenues were \$60 million.
+which was Herman Hollerith\'s Tabulating Machine Company, founded in 1896. In 1941 its revenues were \$60 million.
 
 Hewlett-Packard\'s revenues in 1964 were \$125 million.
 
@@ -56947,7 +56926,7 @@ Microsoft\'s revenues in 1988 were \$590 million.
 Morris, Russ Roberts, and Alex Tabarrok for reading drafts of this, and
 to Jon Erlichman for growth data.
 
-------------------------------------------------------------------------
+---
 
 # 202 The Real Reason to End the Death Penalty
 
@@ -56960,13 +56939,13 @@ sentences are given to some groups than others. But in practice the
 debate about the death penalty is not about whether it\'s ok to kill
 murderers. It\'s about whether it\'s ok to kill innocent people, because
 at least 4% of people on death row are
-[*innocent*](https://www.pnas.org/content/111/20/7230).
+[_innocent_](https://www.pnas.org/content/111/20/7230).
 
 When I was a kid I imagined that it was unusual for people to be
 convicted of crimes they hadn\'t committed, and that in murder cases
 especially this must be very rare. Far from it. Now, thanks to
-organizations like the [*Innocence
-Project*](https://innocenceproject.org/all-cases), we see a constant
+organizations like the [_Innocence
+Project_](https://innocenceproject.org/all-cases), we see a constant
 stream of stories about murder convictions being overturned after new
 evidence emerges. Sometimes the police and prosecutors were just very
 sloppy. Sometimes they were crooked, and knew full well they were
@@ -57006,21 +56985,21 @@ has since been discredited. A re-examination of the case ordered by the
 state of Texas in 2009 concluded that \"a finding of arson could not be
 sustained.\"
 
-[*Rich Glossip*](https://saverichardglossip.com/facts) has spent 20
+[_Rich Glossip_](https://saverichardglossip.com/facts) has spent 20
 years on death row after being convicted of murder on the testimony of
 the actual killer, who escaped with a life sentence in return for
 implicating him. In 2015 he came within minutes of execution before it
 emerged that Oklahoma had been planning to kill him with an illegal
 combination of drugs. They still plan to go ahead with the execution,
-perhaps as soon as this summer, despite [*new
-evidence*](https://www.usnews.com/news/best-%20states/oklahoma/articles/2020-10-14/attorney-for-oklahoma-death-row-inmate-%20claims-new-evidence)
+perhaps as soon as this summer, despite [_new
+evidence_](https://www.usnews.com/news/best-%20states/oklahoma/articles/2020-10-14/attorney-for-oklahoma-death-row-inmate-%20claims-new-evidence)
 exonerating him.
 
 I could go on. There are hundreds of similar cases. In Florida alone, 29
 death row prisoners have been exonerated so far.
 
-Far from being rare, wrongful murder convictions are [*very
-common*](https://deathpenaltyinfo.org/policy-issues/innocence/description-of-%20innocence-cases).
+Far from being rare, wrongful murder convictions are [_very
+common_](https://deathpenaltyinfo.org/policy-issues/innocence/description-of-%20innocence-cases).
 Police are under pressure to solve a crime that has gotten a lot of
 attention. When they find a suspect, they want to believe he\'s guilty,
 and ignore or even destroy evidence suggesting otherwise. District
@@ -57054,7 +57033,7 @@ Murder?](https://www.nytimes.com/interactive/2018/05/17/opinion/sunday/kevin-%20
 [Did Texas execute an innocent
 man?](https://www.newyorker.com/magazine/2009/09/07/trial-by-fire)
 
-------------------------------------------------------------------------
+---
 
 # 203 An NFT That Saves Lives
 
@@ -57062,7 +57041,7 @@ May 2021
 
 [Noora Health](https://www.noorahealth.org/), a nonprofit I\'ve
 supported for years, just launched a new NFT. It has a dramatic name,
-[*Save Thousands of Lives*](http://bit.ly/NooraNFT), because that\'s
+[_Save Thousands of Lives_](http://bit.ly/NooraNFT), because that\'s
 what the proceeds will do.
 
 Noora has been saving lives for 7 years. They run programs in hospitals
@@ -57072,7 +57051,7 @@ numbers before and after they start at a new hospital, they can measure
 the impact they have. It is massive. For every 1000 live births, they
 save 9 babies.
 
-This number comes from a [*study*](http://bit.ly/NFT-research) of
+This number comes from a [_study_](http://bit.ly/NFT-research) of
 133,733 families at 28 different hospitals that Noora conducted in
 collaboration with the Better Birth team at Ariadne Labs, a joint center
 for health systems innovation at Brigham and Womens Hospital and Harvard
@@ -57097,7 +57076,7 @@ for the name to be accurate: that\'s what it costs to save 2000 lives.
 But the higher the price of this NFT goes, the more lives will be saved.
 What a sentence to be able to write.
 
-------------------------------------------------------------------------
+---
 
 # 204 Crazy New Ideas
 
@@ -57243,8 +57222,8 @@ elected and how to get legislation passed, but not in the world that
 policy acts upon. Perhaps no one could be.
 
 `<a name=crazy_new_ideas_note3>`{=html}\[3\]`</a>`{=html} This sense of
-\"paradigm\" was defined by Thomas Kuhn in his *Structure of Scientific
-Revolutions* , but I also recommend his *Copernican Revolution* , where
+\"paradigm\" was defined by Thomas Kuhn in his _Structure of Scientific
+Revolutions_ , but I also recommend his _Copernican Revolution_ , where
 you can see him at work developing the idea.
 
 `<a name=crazy_new_ideas_note4>`{=html}\[4\]`</a>`{=html} This is one
@@ -57252,14 +57231,14 @@ reason people with a touch of Asperger\'s may have an advantage in
 discovering new ideas. They\'re always flying on instruments.
 
 `<a name=crazy_new_ideas_note5>`{=html}\[5\]`</a>`{=html} Hall, Rupert.
-*From Galileo to Newton.* Collins, 1963. This book is particularly good
+_From Galileo to Newton._ Collins, 1963. This book is particularly good
 at getting into contemporaries\' heads.
 
 **Thanks** to Trevor Blackwell, Patrick Collison, Suhail Doshi, Daniel
 Gackle, Jessica Livingston, and Robert Morris for reading drafts of
 this.
 
-------------------------------------------------------------------------
+---
 
 # 205 Fierce Nerds
 
@@ -57291,13 +57270,13 @@ nerds are smart, but the fierce ones are always at least moderately so.
 If they weren\'t, they wouldn\'t have the confidence to be fierce.
 [1](#fierce_nerds_note1)
 
-There\'s also a natural connection between nerdiness and [*independent-
-mindedness*](think.html). It\'s hard to be independent-minded without
+There\'s also a natural connection between nerdiness and [_independent-
+mindedness_](think.html). It\'s hard to be independent-minded without
 being somewhat socially awkward, because conventional beliefs are so
 often mistaken, or at least arbitrary. No one who was both
 independent-minded and ambitious would want to waste the effort it takes
 to fit in. And the independent- mindedness of the fierce nerds will
-obviously be of the [*aggressive*](conformism.html) rather than the
+obviously be of the [_aggressive_](conformism.html) rather than the
 passive type: they\'ll be annoyed by rules, rather than dreamily unaware
 of them.
 
@@ -57310,7 +57289,7 @@ qualities, but two manifestations of a single underlying drivenness.
 
 When you combine all these qualities in sufficient quantities, the
 result is quite formidable. The most vivid example of fierce nerds in
-action may be James Watson\'s *The Double Helix*. The first sentence of
+action may be James Watson\'s _The Double Helix_. The first sentence of
 the book is \"I have never seen Francis Crick in a modest mood,\" and
 the portrait he goes on to paint of Crick is the quintessential fierce
 nerd: brilliant, socially awkward, competitive, independent-minded,
@@ -57339,8 +57318,8 @@ I have some good news, and some bad news. The good news is that your
 fierceness will be a great help in solving difficult problems. And not
 just the kind of scientific and technical problems that nerds have
 traditionally solved. As the world progresses, the number of things you
-can win at by getting the right answer increases. Recently [*getting
-rich*](richnow.html) became one of them: 7 of the 8 richest people in
+can win at by getting the right answer increases. Recently [_getting
+rich_](richnow.html) became one of them: 7 of the 8 richest people in
 America are now fierce nerds.
 
 Indeed, being a fierce nerd is probably even more helpful in business
@@ -57353,8 +57332,8 @@ successes.
 
 The bad news is that if it\'s not exercised, your fierceness will turn
 to bitterness, and you will become an intellectual playground bully: the
-grumpy sysadmin, the forum troll, the [*hater*](fh.html), the shooter
-down of [*new ideas*](newideas.html).
+grumpy sysadmin, the forum troll, the [_hater_](fh.html), the shooter
+down of [_new ideas_](newideas.html).
 
 How do you avoid this fate? Work on ambitious projects. If you succeed,
 it will bring you a kind of satisfaction that neutralizes bitterness.
@@ -57408,7 +57387,7 @@ Livingston, Amjad Masad, and Robert Morris for reading drafts of this.
 
 [Chinese Translation](https://xueqiu.com/6663886898/188768282)
 
-------------------------------------------------------------------------
+---
 
 # 206 A Project of One\'s Own
 
@@ -57481,7 +57460,7 @@ competition as bait, and away from skating.
 There are occasionally times when schoolwork becomes a project of one\'s
 own. Whenever I had to write a paper, that would become a project of my
 own \-- except in English classes, ironically, because the things one
-has to write in English classes are so [*bogus*](essay.html). And when I
+has to write in English classes are so [_bogus_](essay.html). And when I
 got to college and started taking CS classes, the programs I had to
 write became projects of my own. Whenever I was writing or programming,
 I was usually skating, and that has been true ever since.
@@ -57575,8 +57554,8 @@ Steve Jobs knew a thing or two about skaters from having watched Steve
 Wozniak. If you can find the right people, you only have to tell them
 what to do at the highest level. They\'ll handle the details. Indeed,
 they insist on it. For a project to feel like your own, you must have
-sufficient autonomy. You can\'t be working to order, or [*slowed
-down*](artistsship.html) by bureaucracy.
+sufficient autonomy. You can\'t be working to order, or [_slowed
+down_](artistsship.html) by bureaucracy.
 
 One way to ensure autonomy is not to have a boss at all. There are two
 ways to do that: to be the boss yourself, and to work on projects
@@ -57584,7 +57563,7 @@ outside of work. Though they\'re at opposite ends of the scale
 financially, startups and open source projects have a lot in common,
 including the fact that they\'re often run by skaters. And indeed,
 there\'s a wormhole from one end of the scale to the other: one of the
-best ways to discover [*startup ideas*](startupideas.html) is to work on
+best ways to discover [_startup ideas_](startupideas.html) is to work on
 a project just for fun.
 
 If your projects are the kind that make money, it\'s easy to work on
@@ -57620,7 +57599,7 @@ carelessly confident in starting new ones.
 **Notes**
 
 `<a name=a_project_of_ones_own_note1>`{=html}\[1\]`</a>`{=html}
-\"Hobby\" is a curious word. Now it means work that isn\'t *real* work
+\"Hobby\" is a curious word. Now it means work that isn\'t _real_ work
 \-- work that one is not to be judged by \-- but originally it just
 meant an obsession in a fairly general sense (even a political opinion,
 for example) that one metaphorically rode as a child rides a
@@ -57633,7 +57612,7 @@ provides valuable cover for projects in the early, ugly duckling phase.
 `<a name=a_project_of_ones_own_note2>`{=html}\[2\]`</a>`{=html} Tiger
 parents, as parents so often do, are fighting the last war. Grades
 mattered more in the old days when the route to success was to acquire
-[*credentials*](credentials.html) while ascending some predefined
+[_credentials_](credentials.html) while ascending some predefined
 ladder. But it\'s just as well that their tactics are focused on grades.
 How awful it would be if they invaded the territory of projects, and
 thereby gave their kids a distaste for this kind of work by forcing them
@@ -57669,7 +57648,7 @@ programmers could write their own players.
 **Thanks** to Trevor Blackwell, Paul Buchheit, Andy Hertzfeld, Jessica
 Livingston, and Peter Norvig for reading drafts of this.
 
-------------------------------------------------------------------------
+---
 
 # 207 How to Work Hard
 
@@ -57695,8 +57674,8 @@ was years of practice; they made it look easy.
 Of course, those famous adults usually had a lot of natural ability too.
 There are three ingredients in great work: natural ability, practice,
 and effort. You can do pretty well with just two, but to do the best
-work you need all three: you need great natural ability *and* to have
-practiced a lot *and* to be trying very hard.
+work you need all three: you need great natural ability _and_ to have
+practiced a lot _and_ to be trying very hard.
 [1](#how_to_work_hard_note1)
 
 Bill Gates, for example, was among the smartest people in business in
@@ -57771,9 +57750,9 @@ that my desire to do it slotted into it as if they\'d been made for each
 other.
 
 I suspect most people have to learn what work is before they can love
-it. Hardy wrote eloquently about this in *A Mathematician\'s Apology* :
+it. Hardy wrote eloquently about this in _A Mathematician\'s Apology_ :
 
-> I do not remember having felt, as a boy, any *passion* for
+> I do not remember having felt, as a boy, any _passion_ for
 > mathematics, and \> such notions as I may have had of the career of a
 > mathematician were far \> from noble. I thought of mathematics in
 > terms of examinations and \> scholarships: I wanted to beat other
@@ -57781,7 +57760,7 @@ it. Hardy wrote eloquently about this in *A Mathematician\'s Apology* :
 > decisively.
 
 He didn\'t learn what math was really about till part way through
-college, when he read Jordan\'s *Cours d\'analyse*.
+college, when he read Jordan\'s _Cours d\'analyse_.
 
 > I shall never forget the astonishment with which I read that
 > remarkable \> work, the first inspiration for so many mathematicians
@@ -57797,7 +57776,7 @@ other kind of fakeness is intrinsic to certain types of work. Some types
 of work are inherently bogus, or at best mere busywork.
 
 There\'s a kind of solidity to real work. It\'s not all writing the
-*Principia* , but it all feels necessary. That\'s a vague criterion, but
+_Principia_ , but it all feels necessary. That\'s a vague criterion, but
 it\'s deliberately vague, because it has to cover a lot of different
 types. [4](#how_to_work_hard_note4)
 
@@ -57882,7 +57861,7 @@ kind you\'re suited for. And that doesn\'t just mean figuring out which
 kind your natural abilities match the best; it doesn\'t mean that if
 you\'re 7 feet tall, you have to play basketball. What you\'re suited
 for depends not just on your talents but perhaps even more on your
-interests. A [*deep interest*](genius.html) in a topic makes people work
+interests. A [_deep interest_](genius.html) in a topic makes people work
 harder than any amount of discipline can.
 
 It can be harder to discover your interests than your talents. There are
@@ -57905,7 +57884,7 @@ people figure out what to do as children and just do it, like Mozart.
 But others, like Newton, turn restlessly from one kind of work to
 another. Maybe in retrospect we can identify one as their calling \-- we
 can wish Newton spent more time on math and physics and less on alchemy
-and theology \-- but this is an [*illusion*](disc.html) induced by
+and theology \-- but this is an [_illusion_](disc.html) induced by
 hindsight bias. There was no voice calling to him that he could have
 heard.
 
@@ -57962,7 +57941,7 @@ effort.
 `<a name=how_to_work_hard_note2>`{=html}\[2\]`</a>`{=html} I mean this
 at a resolution of days, not hours. You\'ll often get somewhere while
 not working in the sense that the solution to a problem comes to you
-while taking a [*shower*](top.html), or even in your sleep, but only
+while taking a [_shower_](top.html), or even in your sleep, but only
 because you were working hard on it the day before.
 
 It\'s good to go on vacation occasionally, but when I go on vacation, I
@@ -58005,7 +57984,7 @@ problem somehow, and there\'s nothing wrong with doing that efficiently
 by trying to make a lot at once. I suppose it would even be ok to be
 interested in money for its own sake; whatever floats your boat. Just so
 long as you\'re conscious of your motivations. The thing to avoid is
-*unconsciously* letting the need for money warp your ideas about what
+_unconsciously_ letting the need for money warp your ideas about what
 kind of work you find most interesting.
 
 `<a name=how_to_work_hard_note9>`{=html}\[9\]`</a>`{=html} Many people
@@ -58022,7 +58001,7 @@ drafts of this.
 
 [Arabic Translation](https://world.hey.com/amna/post-09ff9372)
 
-------------------------------------------------------------------------
+---
 
 # 208 Weird Languages
 
@@ -58071,7 +58050,7 @@ Masad, and Robert Morris for reading drafts of this.
 
 [Japanese Translation](https://practical-scheme.net/trans/weird-j.html)
 
-------------------------------------------------------------------------
+---
 
 # 209 Beyond Smart
 
@@ -58132,7 +58111,7 @@ care about, and it\'s clear that many of them can be cultivated.
 
 That means the truth is excitingly different from the story I got as a
 kid. If intelligence is what matters, and also mostly inborn, the
-natural consequence is a sort of *Brave New World* fatalism. The best
+natural consequence is a sort of _Brave New World_ fatalism. The best
 you can do is figure out what sort of work you have an \"aptitude\" for,
 so that whatever intelligence you were born with will at least be put to
 the best use, and then work as hard as you can at it. Whereas if
@@ -58151,25 +58130,25 @@ I\'m not going to try to provide a complete catalogue of the other
 ingredients here. This is the first time I\'ve posed the question to
 myself this way, and I think it may take a while to answer. But I wrote
 recently about one of the most important: an obsessive
-[*interest*](genius.html) in a particular topic. And this can definitely
+[_interest_](genius.html) in a particular topic. And this can definitely
 be cultivated.
 
 Another quality you need in order to discover new ideas is
-[*independent- mindedness*](think.html). I wouldn\'t want to claim that
+[_independent- mindedness_](think.html). I wouldn\'t want to claim that
 this is distinct from intelligence \-- I\'d be reluctant to call someone
 smart who wasn\'t independent- minded \-- but though largely inborn,
 this quality seems to be something that can be cultivated to some
 extent.
 
 There are general techniques for having new ideas \-- for example, for
-working on your own [*projects*](own.html) and for overcoming the
-obstacles you face with [*early*](early.html) work \-- and these can all
+working on your own [_projects_](own.html) and for overcoming the
+obstacles you face with [_early_](early.html) work \-- and these can all
 be learned. Some of them can be learned by societies. And there are also
 collections of techniques for generating specific types of new ideas,
 like [startup ideas](startupideas.html) and [essay topics](essay.html).
 
 And of course there are a lot of fairly mundane ingredients in
-discovering new ideas, like [*working hard*](hwh.html), getting enough
+discovering new ideas, like [_working hard_](hwh.html), getting enough
 sleep, avoiding certain kinds of stress, having the right colleagues,
 and finding tricks for working on what you want even when it\'s not what
 you\'re supposed to be working on. Anything that prevents people from
@@ -58234,13 +58213,13 @@ reworking is easier to contemplate once you\'ve had a lot of practice.
 Robert Morris, Michael Nielsen, and Lisa Randall for reading drafts of
 this.
 
-------------------------------------------------------------------------
+---
 
 # 210 Is There Such a Thing as Good Taste?
 
 November 2021
 
-*(This essay is derived from a talk at the Cambridge Union.)*
+_(This essay is derived from a talk at the Cambridge Union.)_
 
 When I was a kid, I\'d have said there wasn\'t. My father told me so.
 Some people like some things, and other people like other things, and
@@ -58261,7 +58240,7 @@ taste in art. You have better taste than me if the art you like is
 better than the art I like.
 
 If there\'s no such thing as good taste, then there\'s no such thing as
-[*good art*](goodart.html). Because if there is such a thing as good
+[_good art_](goodart.html). Because if there is such a thing as good
 art, it\'s easy to tell which of two people has better taste. Show them
 a lot of works by artists they\'ve never seen before and ask them to
 choose the best, and whoever chooses the better art has better taste.
@@ -58317,12 +58296,12 @@ work on its human audience, and humans have a lot in common. And to the
 extent the things an object acts upon respond in the same way, that\'s
 arguably what it means for the object to have the corresponding
 property. If everything a particle interacts with behaves as if the
-particle had a mass of *m* , then it has a mass of *m*. So the
+particle had a mass of _m_ , then it has a mass of _m_. So the
 distinction between \"objective\" and \"subjective\" is not binary, but
 a matter of degree, depending on how much the subjects have in common.
 Particles interacting with one another are at one pole, but people
 interacting with art are not all the way at the other; their reactions
-aren\'t *random*.
+aren\'t _random_.
 
 Because people\'s responses to art aren\'t random, art can be designed
 to operate on people, and be good or bad depending on how effectively it
@@ -58350,7 +58329,7 @@ taste, it is possible to have good taste.
 Blackwell, Jessica Livingston, and Robert Morris for reading drafts of
 this.
 
-------------------------------------------------------------------------
+---
 
 # 211 Putting Ideas into Words
 
@@ -58478,7 +58457,7 @@ reading drafts of this.
 
 [French Translation](https://dorianmarie.fr/paulgraham/mots.html)
 
-------------------------------------------------------------------------
+---
 
 # 212 Heresy
 
@@ -58570,7 +58549,7 @@ They exist in every sufficiently large society. That\'s why waves of
 intolerance can arise so suddenly; all they need is something to set
 them off.
 
-I\'ve already written an [*essay*](conformism.html) describing the
+I\'ve already written an [_essay_](conformism.html) describing the
 aggressively conventional-minded. The short version is that people can
 be classified in two dimensions according to (1) how independent- or
 conventional-minded they are, and (2) how aggressive they are about it.
@@ -58595,7 +58574,7 @@ hear. They went at it with the delight of dogs chasing squirrels.
 To unite the conventional-minded, an ideology must have many of the
 features of a religion. In particular it must have strict and arbitrary
 rules that adherents can demonstrate their
-[*purity*](https://www.youtube.com/watch?v=qaHLd8de6nM) by obeying, and
+[_purity_](https://www.youtube.com/watch?v=qaHLd8de6nM) by obeying, and
 its adherents must believe that anyone who obeys these rules is ipso
 facto morally superior to anyone who doesn\'t. [3](#heresy_note3)
 
@@ -58662,7 +58641,7 @@ been bad over the last decade, it\'s been good over the longer term. And
 there are signs that the current wave of intolerance is peaking.
 Independent-minded people I talk to seem more confident than they did a
 few years ago. On the other side, even some of the
-[*leaders*](https://www.nytimes.com/2022/03/18/opinion/cancel-culture-free-%20speech-poll.html)
+[_leaders_](https://www.nytimes.com/2022/03/18/opinion/cancel-culture-free-%20speech-poll.html)
 are starting to wonder if things have gone too far. And popular culture
 among the young has already moved on. All we have to do is keep pushing
 back, and the wave collapses. And then we\'ll be net ahead, because as
@@ -58673,7 +58652,7 @@ tactics for resisting the next one.
 
 `<a name=heresy_note1>`{=html}\[1\]`</a>`{=html} Or more accurately,
 biographies of Newton, since Westfall wrote two: a long version called
-*Never at Rest* , and a shorter one called *The Life of Isaac Newton*.
+_Never at Rest_ , and a shorter one called _The Life of Isaac Newton_.
 Both are great. The short version moves faster, but the long one is full
 of interesting and often very funny details. This passage is the same in
 both.
@@ -58726,7 +58705,7 @@ Christakis, Daniel Gackle, Jonathan Haidt, Claire Lehmann, Jessica
 Livingston, Greg Lukianoff, Robert Morris, and Garry Tan for reading
 drafts of this.
 
-------------------------------------------------------------------------
+---
 
 # 213 What I\'ve Learned from Users
 
@@ -58781,7 +58760,7 @@ through the batch they still didn\'t know all the companies yet.
 
 At first I was puzzled. How could things be fine at 60 startups and
 broken at 80? It was only a third more. Then I realized what had
-happened. We were using an *O(n 2)* algorithm. So of course it blew up.
+happened. We were using an _O(n 2)_ algorithm. So of course it blew up.
 
 The solution we adopted was the classic one in these situations. We
 sharded the batch into smaller groups of startups, each overseen by a
@@ -58827,7 +58806,7 @@ first I thought it was mere stubbornness. That\'s part of the reason,
 but another and probably more important reason is that so much about
 startups is [counterintuitive](before.html). And when you tell someone
 something counterintuitive, what it sounds to them is wrong. So the
-reason founders don\'t listen to us is that they don\'t *believe* us. At
+reason founders don\'t listen to us is that they don\'t _believe_ us. At
 least not till experience teaches them otherwise.
 [4](#what_ive_learned_from_users_note4)
 
@@ -58896,7 +58875,7 @@ The other big thing YC gives founders is colleagues, and this may be
 even more important than the advice of partners. If you look at history,
 great work clusters around certain places and institutions: Florence in
 the late 15th century, the University of Göttingen in the late 19th,
-*The New Yorker* under Ross, Bell Labs, Xerox PARC. However good you
+_The New Yorker_ under Ross, Bell Labs, Xerox PARC. However good you
 are, good colleagues make you better. Indeed, very ambitious people
 probably need colleagues more than anyone else, because they\'re so
 starved for them in everyday life.
@@ -58972,7 +58951,7 @@ if you\'re building hardware it could be months.
 **Thanks** to Trevor Blackwell, Jessica Livingston, Harj Taggar, and
 Garry Tan for reading drafts of this.
 
-------------------------------------------------------------------------
+---
 
 # 214 Alien Truth
 
@@ -59019,7 +58998,7 @@ What should we call the search for alien truth? The obvious choice is
 \"philosophy.\" Whatever else philosophy includes, it should probably
 include this. I\'m fairly sure Aristotle would have thought so. One
 could even make the case that the search for alien truth is, if not an
-accurate description *of* philosophy, a good definition *for* it. I.e.
+accurate description _of_ philosophy, a good definition _for_ it. I.e.
 that it\'s what people who call themselves philosophers should be doing,
 whether or not they currently are. But I\'m not wedded to that; doing it
 is what matters, not what we call it.
@@ -59048,7 +59027,7 @@ alien truth.
 **Thanks** to Trevor Blackwell, Greg Brockman, Patrick Collison, Robert
 Morris, and Michael Nielsen for reading drafts of this.
 
-------------------------------------------------------------------------
+---
 
 # 215 What You (Want to)\* Want
 
@@ -59116,7 +59095,7 @@ Michael Nielsen for reading drafts of this.
 [Irish
 Translation](https://oisinthomasmorrin.com/2022/11/28/na-rudai-ata-%20fonn-ort-fonn-a-bheith-ort-a-dheanamh/)
 
-------------------------------------------------------------------------
+---
 
 # 216 The Need to Read
 
@@ -59146,7 +59125,7 @@ substitute for this kind of discovery. Talking about your ideas with
 other people is a good way to develop them. But even after doing this,
 you\'ll find you still discover new things when you sit down to write.
 There is a kind of thinking that can only be done by
-[*writing*](words.html).
+[_writing_](words.html).
 
 There are of course kinds of thinking that can be done without writing.
 If you don\'t need to go too deeply into a problem, you can solve it
@@ -59183,7 +59162,7 @@ meaning from the words.
 [Italian Translation](https://marcotrombetti.com/leggere) [French
 Translation](https://dorianmarie.fr/paulgraham/lire.html)
 
-------------------------------------------------------------------------
+---
 
 # 217 How to Get New Ideas
 
@@ -59205,7 +59184,7 @@ gaps. These gaps will seem obvious; it will seem inexplicable that no
 one has tried x or wondered about y. In the best case, exploring such
 gaps yields whole new fractal buds.
 
-------------------------------------------------------------------------
+---
 
 # 218 How to Do Great Work
 
@@ -59345,7 +59324,7 @@ When in doubt, optimize for interestingness. Fields change as you learn
 more about them. What mathematicians do, for example, is very different
 from what you do in high school math classes. So you need to give
 different types of work a chance to show you what they\'re like. But a
-field should become *increasingly* interesting as you learn more about
+field should become _increasingly_ interesting as you learn more about
 it. If it doesn\'t, it\'s probably not for you.
 
 Don\'t worry if you find you\'re interested in different things than
@@ -59367,7 +59346,7 @@ want. Write the story you want to read; build the tool you want to use.
 Since your friends probably have similar interests, this will also get
 you your initial audience.
 
-This *should* follow from the excitingness rule. Obviously the most
+This _should_ follow from the excitingness rule. Obviously the most
 exciting story to write will be the one you want to read. The reason I
 mention this case explicitly is that so many people get it wrong.
 Instead of making what they want, they try to make what some imaginary,
@@ -59532,7 +59511,7 @@ Consciously cultivate your taste in the work done in your field. Until
 you know which is the best and what makes it so, you don\'t know what
 you\'re aiming for.
 
-And that *is* what you\'re aiming for, because if you don\'t try to be
+And that _is_ what you\'re aiming for, because if you don\'t try to be
 the best, you won\'t even be good. This observation has been made by so
 many people in so many different fields that it might be worth thinking
 about why it\'s true. It could be because ambition is a phenomenon where
@@ -59613,7 +59592,7 @@ pessimistic, but if you want to do great work it\'s an advantage to be
 optimistic, even though that means you\'ll risk looking like a fool
 sometimes. There\'s an old tradition of doing the opposite. The Old
 Testament says it\'s better to keep quiet lest you look like a fool. But
-that\'s advice for *seeming* smart. If you actually want to discover new
+that\'s advice for _seeming_ smart. If you actually want to discover new
 things, it\'s better to take the risk of telling people your ideas.
 
 Some people are naturally earnest, and with others it takes a conscious
@@ -59724,7 +59703,7 @@ you explore lots of different topics, partly because it gives the angle
 grinder more surface area to work on, and partly because analogies are
 an especially fruitful source of new ideas.
 
-Don\'t divide your attention *evenly* between many topics though, or
+Don\'t divide your attention _evenly_ between many topics though, or
 you\'ll spread yourself too thin. You want to distribute it according to
 something more like a power law. [17](#how_to_do_great_work_note17) Be
 professionally curious about a few topics and idly curious about many
@@ -59805,7 +59784,7 @@ helps them to have new ideas.
 Strictness plus rule-breaking sounds like a strange combination. In
 popular culture they\'re opposed. But popular culture has a broken model
 in this respect. It implicitly assumes that issues are trivial ones, and
-in trivial matters strictness and rule-breaking *are* opposed. But in
+in trivial matters strictness and rule-breaking _are_ opposed. But in
 questions that really matter, only rule-breakers can be truly strict.
 
 An overlooked idea often doesn\'t lose till the semifinals. You do see
@@ -59814,7 +59793,7 @@ down because it would be too weird, too risky, too much work, too
 controversial. This suggests an exciting possibility: if you could turn
 off such filters, you could see more new ideas.
 
-One way to do that is to ask what would be good ideas for *someone else*
+One way to do that is to ask what would be good ideas for _someone else_
 to explore. Then your subconscious won\'t shoot them down to protect
 you.
 
@@ -59975,7 +59954,7 @@ The alternative to starting with something small and evolving it is to
 plan in advance what you\'re going to do. And planning does usually seem
 the more responsible choice. It sounds more organized to say \"we\'re
 going to do x and then y and then z\" than \"we\'re going to try x and
-see what happens.\" And it is more *organized* ; it just doesn\'t work
+see what happens.\" And it is more _organized_ ; it just doesn\'t work
 as well.
 
 Planning per se isn\'t good. It\'s sometimes necessary, but it\'s a
@@ -60040,7 +60019,7 @@ they\'re still viable in the light of your present knowledge, they
 probably represent an undiscovered idea.
 
 One of the most valuable kinds of knowledge you get from experience is
-to know what you *don\'t* have to worry about. The young know all the
+to know what you _don\'t_ have to worry about. The young know all the
 things that could matter, but not their relative importance. So they
 worry equally about everything, when they should worry much more about a
 few things and hardly at all about the rest.
@@ -60122,7 +60101,7 @@ similar than they seem.
 Oddly enough, the very novelty of the most novel ideas sometimes makes
 them seem at first to be more derivative than they are. New discoveries
 often have to be conceived initially as variations of existing things,
-*even by their discoverers* , because there isn\'t yet the conceptual
+_even by their discoverers_ , because there isn\'t yet the conceptual
 vocabulary to express them.
 
 There are definitely some dangers to copying, though. One is that
@@ -60189,7 +60168,7 @@ How do you know when you have sufficiently good colleagues? In my
 experience, when you do, you know. Which means if you\'re unsure, you
 probably don\'t. But it may be possible to give a more concrete answer
 than that. Here\'s an attempt: sufficiently good colleagues offer
-*surprising* insights. They can see and do things that you can\'t. So if
+_surprising_ insights. They can see and do things that you can\'t. So if
 you have a handful of colleagues good enough to keep you on your toes in
 this sense, you\'re probably over the threshold.
 
@@ -60280,7 +60259,7 @@ they\'re good for thinking. [29](#how_to_do_great_work_note29)
 
 People who do great work are not necessarily happier than everyone else,
 but they\'re happier than they\'d be if they didn\'t. In fact, if
-you\'re smart and ambitious, it\'s dangerous *not* to be productive.
+you\'re smart and ambitious, it\'s dangerous _not_ to be productive.
 People who are smart and ambitious but don\'t achieve much tend to
 become bitter.
 
@@ -60411,7 +60390,7 @@ way, but it\'s not the route to great work. Not that anyone using this
 m.o. would care.
 
 `<a name=how_to_do_great_work_note7>`{=html}\[7\]`</a>`{=html} This idea
-I learned from Hardy\'s *A Mathematician\'s Apology* , which I recommend
+I learned from Hardy\'s _A Mathematician\'s Apology_ , which I recommend
 to anyone ambitious to do great work, in any field.
 
 `<a name=how_to_do_great_work_note8>`{=html}\[8\]`</a>`{=html} Just as
@@ -60441,7 +60420,7 @@ becomes: Don\'t try to be anything except the best.
 `<a name=how_to_do_great_work_note12>`{=html}\[12\]`</a>`{=html} This
 gets more complicated in work like acting, where the goal is to adopt a
 fake persona. But even here it\'s possible to be affected. Perhaps the
-rule in such fields should be to avoid *unintentional* affectation.
+rule in such fields should be to avoid _unintentional_ affectation.
 
 `<a name=how_to_do_great_work_note13>`{=html}\[13\]`</a>`{=html} It\'s
 safe to have beliefs that you treat as unquestionable if and only if
@@ -60511,6 +60490,7 @@ you won\'t be biased toward evidence that supports your earlier
 conclusions. With sufficient integrity you could achieve eternal youth
 in this respect, but few manage to. For most people, having previously
 published opinions has an effect similar to ideology, just in quantity
+
 1.
 
 `<a name=how_to_do_great_work_note25>`{=html}\[25\]`</a>`{=html} In the
@@ -60545,4 +60525,4 @@ Metcalfe, Ben Miller, Robert Morris, Michael Nielsen, Courtenay Pipkin,
 Joris Poort, Mieke Roos, Rajat Suri, Harj Taggar, Garry Tan, and my
 younger son for suggestions and for reading drafts.
 
-------------------------------------------------------------------------
+---
